@@ -10,14 +10,11 @@ module countup2bit (a,b,c,d,e,f,g, q, clk, reset);
 	output a,b,c,d,e,f,g;
 	output [1:0] q; // MSB [...] LSB
 	input clk, reset;
-	reg [3:0] qq;
+	wire q0;
 
 		T_FF tff0 (q[0], 1'b1, clk, reset);
 		T_FF tff1 (q[1], q[0], clk, reset);
-
-	assign qq = 4'b0000 + q;
-
-		BCD_to_7_segment bcds (a,b,c,d,e,f,g,qq);	
+		BCD_to_7_segment bcds (a,b,c,d,e,f,g,{2'b00,q});
 			
 endmodule
 
@@ -39,8 +36,8 @@ module T_FF (q, t, clk, reset);
 	output q;
 	input t,clk,reset;
 	wire d;
-		xor xor01(d,q,t);
-		D_FF  d01(q,d,clk,reset);
+		xor x1(d,q,t);
+		D_FF d1(q,d,clk,reset);
 endmodule
 
 module D_FF (q, d, clk, reset);
@@ -50,7 +47,7 @@ module D_FF (q, d, clk, reset);
 	
 	always @(posedge reset or negedge clk)
 		if (reset)
-  			q= 1'b0;
+  			q <= 1'b0;
 		else
-  			q=d;
+  			q <= d;
 endmodule
