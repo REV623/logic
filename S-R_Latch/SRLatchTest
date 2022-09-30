@@ -1,0 +1,94 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_00000210c0aca350 .scope module, "stimulus" "stimulus" 2 1;
+ .timescale 0 0;
+v00000210c0972610_0 .net "q", 0 0, L_00000210c0aca670;  1 drivers
+v00000210c09726b0_0 .net "qn", 0 0, L_00000210c09a8450;  1 drivers
+v00000210c0972750_0 .var "r", 0 0;
+v00000210c09727f0_0 .var "s", 0 0;
+S_00000210c0aca4e0 .scope module, "sr" "sr_latch" 2 5, 3 1 0, S_00000210c0aca350;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "q";
+    .port_info 1 /OUTPUT 1 "qn";
+    .port_info 2 /INPUT 1 "r";
+    .port_info 3 /INPUT 1 "s";
+L_00000210c0aca670 .functor NOR 1, v00000210c0972750_0, L_00000210c09a8450, C4<0>, C4<0>;
+L_00000210c09a8450 .functor NOR 1, L_00000210c0aca670, v00000210c09727f0_0, C4<0>, C4<0>;
+v00000210c0972f80_0 .net "q", 0 0, L_00000210c0aca670;  alias, 1 drivers
+v00000210c0ac83b0_0 .net "qn", 0 0, L_00000210c09a8450;  alias, 1 drivers
+v00000210c09724d0_0 .net "r", 0 0, v00000210c0972750_0;  1 drivers
+v00000210c0972570_0 .net "s", 0 0, v00000210c09727f0_0;  1 drivers
+    .scope S_00000210c0aca350;
+T_0 ;
+    %vpi_call 2 10 "$dumpfile", "SRLatchTimeDiagram.vcd" {0 0 0};
+    %vpi_call 2 11 "$dumpvars", 32'sb00000000000000000000000000000000, S_00000210c0aca350 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %end;
+    .thread T_0;
+    .scope S_00000210c0aca350;
+T_1 ;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c09727f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000210c0972750_0, 0, 1;
+    %delay 45, 0;
+    %vpi_call 2 49 "$finish" {0 0 0};
+    %end;
+    .thread T_1;
+    .scope S_00000210c0aca350;
+T_2 ;
+    %vpi_call 2 52 "$monitor", $time, " Output S=%d R=%d Q=%d QN=%d", v00000210c09727f0_0, v00000210c0972750_0, v00000210c0972610_0, v00000210c09726b0_0 {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "SRLatchStimulus.v";
+    "SRLatch.v";
