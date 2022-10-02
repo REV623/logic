@@ -1,0 +1,68 @@
+$date
+	Sun Oct 02 20:52:31 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$var wire 1 ! newclk $end
+$var reg 1 " clk $end
+$scope module dc $end
+$var wire 1 " clk $end
+$var reg 1 ! newclk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+0"
+#35
+1"
+#40
+0"
+#45
+1"
+#50
+0"
+#55
+1"
+#60
+0"
+#65
+1"
+#70
+0"
+#75
+1!
+1"
+#80
+0"
+#85
+1"
+#90
+0"
+#95
+1"
+#100
+0!
+0"
