@@ -1,8 +1,7 @@
-module BCD_to_7_segment (a,b,c,d,e,f,g,q3,q2,q1,q0);
+module BCD_to_7_segment (a,b,c,d,e,f,g,q);
 	output a,b,c,d,e,f,g;
-	input q3,q2,q1,q0;
-    reg [3:0] q = {q3,q2,q1,q0};
-	
+	input [3:0] q;
+
 	assign a = (q == 1 || q == 4) ? 1'b1 : 1'b0;
 	assign b = (q == 5 || q == 6) ? 1'b1 : 1'b0;
 	assign c = (q == 2) ? 1'b1 : 1'b0;
