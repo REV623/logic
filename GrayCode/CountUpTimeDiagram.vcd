@@ -1,0 +1,153 @@
+$date
+	Fri Oct 07 15:49:40 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$var wire 1 ! q1 $end
+$var wire 1 " q0 $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module g $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 1 % t0b $end
+$var wire 1 & t1b $end
+$var wire 1 ! q1 $end
+$var wire 1 " q0 $end
+$scope module t0 $end
+$var wire 1 # clk $end
+$var wire 1 ' d $end
+$var wire 1 $ reset $end
+$var wire 1 % t $end
+$var wire 1 " q $end
+$scope module d1 $end
+$var wire 1 # clk $end
+$var wire 1 ' d $end
+$var wire 1 $ reset $end
+$var reg 1 " q $end
+$upscope $end
+$upscope $end
+$scope module t1 $end
+$var wire 1 # clk $end
+$var wire 1 ( d $end
+$var wire 1 $ reset $end
+$var wire 1 & t $end
+$var wire 1 ! q $end
+$scope module d1 $end
+$var wire 1 # clk $end
+$var wire 1 ( d $end
+$var wire 1 $ reset $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0(
+1'
+0&
+1%
+1$
+1#
+0"
+0!
+$end
+#5
+0#
+#10
+1(
+0%
+1&
+1"
+1#
+0$
+#15
+0#
+#20
+0'
+1%
+0&
+1!
+1#
+#25
+0#
+#30
+0(
+0%
+1&
+0"
+1#
+#35
+0#
+#40
+1'
+1%
+0&
+0!
+1#
+#45
+0#
+#50
+1(
+0%
+1&
+1"
+1#
+#55
+0#
+#60
+0'
+1%
+0&
+1!
+1#
+#65
+0#
+#70
+0(
+0%
+1&
+0"
+1#
+#75
+0#
+#80
+1'
+1%
+0&
+0!
+1#
+#85
+0#
+#90
+1(
+0%
+1&
+1"
+1#
+#95
+0#
+#100
+0'
+1%
+0&
+1!
+1#
+#105
+0#
+#110
+0(
+0%
+1&
+0"
+1#
