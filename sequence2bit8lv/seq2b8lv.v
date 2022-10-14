@@ -10,24 +10,45 @@ module seq2b8lv (win,l,b,on,setzero,reset,start,clk);
     wire sc;
     T_FF startcircuit (sc,start,reset,clk_div);
 
+    decoder2bit DCdisplay (l,{B1,B0},displayEn);
+
+    wire displayEn;
+    xor xor0 (displayEn,stopout,do[0]);
+
     wire [15:0] di;
     decoder4bit DCIM (di,IM_q,stopin);
 
     wire stopin;
-    T_FF tffin (stopin,out_M4_OM,,clk_div);
+    T_FF tffin (stopin,out_M4_OM,reIM,clk_div);//re_tffin
+    /*
+    wire re_tffin,and123,NtoA123;
+    or tffinOR (re_tffin,reIM,);
+    and tffbeforeinAND (and123,NtoA123,press);
+    not tffbeforeinNOT (NtoA123,correct);*/
 
     wire [15:0] do;
     decoder4bit DCOM (do,OM_q,stopout);
 
-    wire stopout,re_tffout;
-    T_FF tffout (stopout,,re_tffout,clk_div);
-    or tffoutOR (re_tffout,reset,out_M4_OM);
+    wire Twin_NtoA,Twin_AtoN;
+    not TwinNOT (Twin_NtoA,Twin_AtoN);
+    and TwinAND (Twin_AtoN,out_M4_maxLV,out_M4_IM);
+
+    T_FF tffwin (win,Twin_AtoN,reset,clk_div);
+
+    wire stopout,re_tffout,T_tffout,tffout_OtoA;
+    T_FF tffout (stopout,T_tffout,re_tffout,clk_div);
+    or tffoutOR1 (re_tffout,reset,out_M4_OM);
+    and tffoutAND (T_tffout,Twin_NtoA,tffout_OtoA);
+    or tffoutOR2 (tffout_OtoA,out_M4_IM,reset);
 
     wire out_M4_OM;
     check4bit CHOM (out_M4_OM,OM_q,lv,sc);
 
     wire [3:0] OM_q;
-    C4B OM (OM_q,stopout,reset,clk_div);
+    C4B OM (OM_q,stopout,reOM,clk_div);
+
+    wire reOM;
+    or ORreOM (reOM,out_M4_OM,reset);
 
     wire [15:0] stop;
     DS datastop (stop,lv,DSen,reset,clk_div);
@@ -49,10 +70,15 @@ module seq2b8lv (win,l,b,on,setzero,reset,start,clk);
     check4bit CHIM (out_M4_IM,IM_q,lv,sc);
 
     wire [3:0] IM_q;
-    C4B IM (IM_q,correct,reset,clk_div);
+    C4B IM (IM_q,correct,reIM,clk_div);
+    wire reIM;
+    or ORreIM (reIM,reset,out_M4_IM);
+
+    wire press;
+    or16 or4input (press,{b,12'b0000_0000_0000});
 
     wire correct;
-    check2bit checkANS (correct,ans,{B1,B0},);
+    check2bit checkANS (correct,ans,{B1,B0},press);//p
     wire [1:0] ans;
     encoder2bit enc (ans,b);
 
@@ -117,12 +143,13 @@ endmodule
 
 module check4bit (out,a,b,en);
     output out;
-    input [3:0] a, [3:0] b;
+    input [3:0] a;
+    input [3:0] b;
     input en;
-    wire d0,d1,d2,d3,4AtoA;
+    wire d0,d1,d2,d3,A4toA;
 
-    and a0 (out,4AtoA,en);
-    and4 a1 (4AtoA,d0,d1,d2,d3);
+    and a0 (out,A4toA,en);
+    and4 a1 (A4toA,d0,d1,d2,d3);
     xnor x0 (d0,a[0],b[0]);
     xnor x1 (d1,a[1],b[1]);
     xnor x2 (d2,a[2],b[2]);
@@ -131,11 +158,12 @@ endmodule
 
 module check2bit (out,a,b,en);
     output out;
-    input [1:0] a, [1:0] b;
+    input [1:0] a;
+    input [1:0] b;
     input en;
     wire d0,d1,AtoA;
 
-    and a0 (out,4AtoA,en);
+    and a0 (out,AtoA,en);
     and a1 (AtoA,d0,d1);
     xnor x0 (d0,a[0],b[0]);
     xnor x1 (d1,a[1],b[1]);
@@ -311,7 +339,7 @@ endmodule
 
 module countup2bit (q, en, reset, clk);
 	output [1:0] q;
-	input clk, reset;
+	input en,clk,reset;
 	wire t0,t1;
 
     and a1 (t0,1'b1,en);
@@ -341,33 +369,33 @@ module D_FF (q, d, reset, clk);
   			q <= d;
 endmodule
 
-module or16 (out,in);
-    output out;
+module or16 (out0,in);
+    output out0;
     input [15:0] in;
-    reg out;
+    reg out0;
 
     always @(in)
         if(in==0)
-            out <= 1'b0;
+            out0 <= 1'b0;
         else
-            out <= 1'b1
+            out0 <= 1'b1;
 endmodule
 
-module and4 (out,a,b,c,d);
-    output out;
+module and4 (out1,a,b,c,d);
+    output out1;
     input a,b,c,d;
     wire an0,an1;
 
     and a0 (an0,a,b);
     and a1 (an1,c,d);
-    and a2 (out,an0,an1);
+    and a2 (out1,an0,an1);
 endmodule
 
-module and3 (out,a,b,c);
-    output out;
+module and3 (out2,a,b,c);
+    output out2;
     input a,b,c;
     wire an0;
 
     and a0 (an0,a,b);
-    and a1 (out,an0,c);
+    and a1 (out2,an0,c);
 endmodule
