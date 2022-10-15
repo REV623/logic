@@ -1,0 +1,98 @@
+NDB006
+The number of symbol table entries is: 8
+The length of the symbol table is: 161
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|c2b:5|
+6	|c2b:5|reg1b:1|
+F	|c2b:5|reg1b:1|d_latch:16|
+a	|c2b:5|reg1b:1|d_latch:17|
+|	|c2b:5|reg1b:2|
+".	|c2b:5|reg1b:2|d_latch:16|
+"I	|c2b:5|reg1b:2|d_latch:17|
+
+The number of name info structs is : 79
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:1	|
+#	IGdW	!	:2	{
+$	IGdW	!	:7	}
+%	Ky&|	!	10	;	E	H	\	]	[	f	i	&	'	CLK	q
+&	IGdq	!	q0	o
+'	IGdq	!	q1	p
+(	Ky&|	!	4	<	;	]	[	Re	s
+)	Ky&|	!	2	&	'	show	r
+*	Ky&|	!	4	<	;	\	[	stop	t
++	IGdW	.	:8	"6
+,	IGdW	.	:9	"7
+-	IGdW	6	:11	"O
+.	IGdW	6	:12	"N
+/	IGdW	6	:13	"K
+0	IGdW	6	:14	"P
+1	IGdW	6	:5	"J
+2	IGdW	6	:8	"L
+3	IGdW	6	:9	"M
+4	IGdW	F	:2	"Y
+5	IVOQ	F	9	:3	"Z
+6	IGdW	F	:5	"[
+7	IGdW	F	:6	"\
+8	IGdW	F	:7	"]
+9	INu}	F	5	q	"Z
+:	IFkI	F	~2~1	"Y
+;	P|nO	F	5	<	;	E	H	&	1	~3~1	"Z
+<	Kx(k	F	1	;	~3~1~2	&"
+=	IFkI	F	~5~1	"[
+>	IFkI	F	~6~1	"\
+?	IGdW	a	:2	"f
+@	IVOQ	a	D	:3	"g
+A	IGdW	a	:5	"h
+B	IGdW	a	:6	"i
+C	IGdW	a	:7	"j
+D	INu}	a	@	q	"g
+E	Kx.7	a	6	<	;	E	\	[	&	~2~1	"f
+F	IFkI	a	~3~1	"g
+G	IFkI	a	~5~1	"h
+H	Kx.7	a	5	<	;	E	\	[	~6~1	"i
+I	IFkI	6	~11~1	"O
+J	IFkI	6	~12~1	"N
+K	IFkI	6	~14~1	"P
+L	IFkI	6	~9~1	"M
+M	IGdW	|	:11	##
+N	IGdW	|	:12	#"
+O	IGdW	|	:13	"}
+P	IGdW	|	:14	#$
+Q	IGdW	|	:5	"|
+R	IGdW	|	:8	"~
+S	IGdW	|	:9	#!
+T	IGdW	".	:2	#,
+U	IVOQ	".	Y	:3	#-
+V	IGdW	".	:5	#.
+W	IGdW	".	:6	#/
+X	IGdW	".	:7	#0
+Y	INu}	".	U	q	#-
+Z	IFkI	".	~2~1	#,
+[	[(3!	".	5	\	]	f	i	'	1	1	1	~3~1	#-
+\	[(-U	".	1	]	1	1	1	~3~1~2	&+
+]	Kx(k	".	1	[	~3~1~3	&.
+^	IFkI	".	~5~1	#.
+_	IFkI	".	~6~1	#/
+`	IGdW	"I	:2	#8
+a	IVOQ	"I	e	:3	#9
+b	IGdW	"I	:5	#:
+c	IGdW	"I	:6	#;
+d	IGdW	"I	:7	#<
+e	INu}	"I	a	q	#9
+f	Kx.7	"I	4	\	[	f	'	~2~1	#8
+g	IFkI	"I	~3~1	#9
+h	IFkI	"I	~5~1	#:
+i	Kx.7	"I	3	\	[	f	~6~1	#;
+j	IFkI	|	~11~1	##
+k	IFkI	|	~12~1	#"
+l	IFkI	|	~14~1	#$
+m	IFkI	|	~9~1	#!
+n	IFkI	.	~9~1	"7
+o	IFkI	!	~1~1	|
+p	IFkI	!	~2~1	{

@@ -24,32 +24,24 @@ HIF003
 --
 FILES
 {
-	reg1b.gdf
-	{
-		reg1b [] [];
-	}
 	d_latch.gdf
 	{
-		d_latch [] [];
+		d_latch [] []
+		{
+		}
 	}
-	c2b.gdf
+	t_ff.gdf
 	{
-		c2b [] [];
+		t_ff [] []
+		{
+		}
 	}
 }
 TREE
 {
-	c2b::(0,0):(0): c2b.gdf
+	t_ff::(0,0):(0): t_ff.gdf
 	{
-		reg1b::(0,0):(1): reg1b.gdf
-		{
-			d_latch::(0,0):(17): d_latch.gdf;
-			d_latch::(0,0):(16): d_latch.gdf;
-		}
-		reg1b::(0,0):(2): reg1b.gdf
-		{
-			d_latch::(0,0):(17): d_latch.gdf;
-			d_latch::(0,0):(16): d_latch.gdf;
-		}
+		d_latch::(0,0):(2): d_latch.gdf;
+		d_latch::(0,0):(1): d_latch.gdf;
 	}
 }
