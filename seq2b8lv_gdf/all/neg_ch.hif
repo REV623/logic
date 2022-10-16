@@ -24,12 +24,38 @@ HIF003
 --
 FILES
 {
-	dc4.gdf
+	d_latch.gdf
 	{
-		dc4 [] [];
+		d_latch [] []
+		{
+		}
+	}
+	d_ff.gdf
+	{
+		d_ff [] []
+		{
+		}
+	}
+	neg_ch.gdf
+	{
+		neg_ch [] []
+		{
+		}
 	}
 }
 TREE
 {
-	dc4::(0,0):(0): dc4.gdf;
+	neg_ch::(0,0):(0): neg_ch.gdf
+	{
+		d_ff::(0,0):(2): d_ff.gdf
+		{
+			d_latch:0:(0,0):(1): d_latch.gdf;
+			d_latch:0:(0,0):(2): d_latch.gdf;
+		}
+		d_ff::(0,0):(1): d_ff.gdf
+		{
+			d_latch:0:(0,0):(1): d_latch.gdf;
+			d_latch:0:(0,0):(2): d_latch.gdf;
+		}
+	}
 }

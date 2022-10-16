@@ -24,12 +24,12 @@ HIF003
 --
 FILES
 {
-	dc4.gdf
+	only1_2b.gdf
 	{
-		dc4 [] [];
+		only1_2b [] [];
 	}
 }
 TREE
 {
-	dc4::(0,0):(0): dc4.gdf;
+	only1_2b::(0,0):(0): only1_2b.gdf;
 }
