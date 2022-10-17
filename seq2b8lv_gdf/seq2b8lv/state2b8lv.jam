@@ -18,7 +18,7 @@
 ' their respective licensors.  No other licenses, including any licenses
 ' needed under any third party's intellectual property, are provided herein.
 
-'Device #1: EPM7128S - c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\state2b8lv.pof Mon Oct 17 10:07:31 2022
+'Device #1: EPM7128S - c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\state2b8lv.pof Mon Oct 17 13:23:21 2022
 
 NOTE "CREATOR" "Altera Jam/STAPL Composer Version 10.2 06/28/2002";
 NOTE "DATE" "2022/10/17";
@@ -27,7 +27,7 @@ NOTE "FILE" "state2b8lv.pof";
 NOTE "TARGET" "1";
 NOTE "IDCODE" "071280DD";
 NOTE "UES" "FFFF";
-NOTE "CHECKSUM" "001D40F3";
+NOTE "CHECKSUM" "001BC7E5";
 NOTE "SAVE_DATA" "DEVICE_DATA";
 NOTE "SAVE_DATA_VARIABLES" "V0, A12, A13, A21, A22, A25, A43";
 NOTE "STAPL_VERSION" "JESD71";
@@ -53,108 +53,128 @@ INTEGER A13[1] = 5;
 INTEGER A25[1] = 10;
 INTEGER A43[1] = 0;
 BOOLEAN A21[104320] = @
-mB300u@@@@3q6aP8s0@@@_3Dmx@@l@@@V@@@FXVm@V@VXU4y3_l@@z@@@x@@@BU3
-y@x_x@@@t@@wx3Dm@FzV8Dm@@pViQfn9uel@lq9u@V@Vm9u@@@t@xl@sVuX9iJFa
-Y9u@@pF8Dm_@@j@@@V@z@by@@tz@@klc6uzp@V@8n@@Fzo_Wx@@V@zl__@@@v@@@
-dEI4Kju@@vt@@pl@@@N_@@@1r3rk4TD3_@z@NM66U9ScOmx@@@HwXku35B3y@@@w
-_@@t@zVll_@@F93y@@pzx@V7mIm@@dlJ@@Vx@h@fHOsCUSKDuXwXV@@V@zV@_t@@
-z@@@x@d@@cwnEX7@@@Vw@@txh9ux@@BFqo1iY6H2_@@R@iCClLnk@l@znWjV2XF6
-A0tm@t_VPL2JX9u@@Vs@tlV@t3NQFycPGyr3H2Fi0cW@V_Vlz@@vJF47iHvO8sz@
-xj@x@70QGTW4j4IyHzJR83ZO6qiGIbJ5_@x@z@ftt6rISo6_n@@z@@_ttaW@@@ZV
-Y7y@P@7iin7Q21e6KbnJpv6_@x@teym@@@k@@@R@z@l_ttzwgPmzVld@@@U@@t@c
-z@VhTPmj@@VQ96HJ6iPdW@tx@@R3y@e@lIRW@l@V@@@_zq6qEHICM2156ifpW@l@
-Rx@@@Lt9u@@FlAF4@@@dRxCikPmfK2_t@@@bOm@h@VUF6vvauz@@t@@Vk@@@Rx@@
-sDbKvto3x1b8y5352JO9O2jZU8as31bU8Gc1xZIORM2E@@@RLvnyF3yV@@xF@@t@
-u@@Wf7y@@Fx@@y@cO5P6nm@@Vl@@@T@V@tPzmOnN5_@zRJCEJr99sNnGNmD6TLX@
-@Vz05C4Co0y@@VxAX9yb1__@@z@u@tGxXZRdSZY1@@@QXqIm@@_lz@@tjdpu@@lt
-Ny@VgF3UecW@LtV@@@t_@F_FarY@@zU@@@xrKD8eA3_x@@TptxVbh2@@t@_@J@t4
-kHis7EdyGRs7MoOmMb4ErII6b76wPmqK6sicGIY4wLXX@l@V@U@k_Vt@rz@@hx@z
-r@@zl@@_Ulttzws@@r@xVp@@_tzz@VyG6Mpcmtj7gscWN@@FAzN@_sx@y@@_olz_
-ttq@l@@@V_l@@I@rVvZ_fxL2ztH@@VyuA2fPGuB9y@@@6_2Zrc5LdJYJdF4Q_ayq
-IK2aX5ZO4_A1V@t@_N@@NgYX@@@Tdk@@s@l@3qEZ@@@Rz@r@9iJOkR2U@@@z@@@w
-@@xr__Tlk@@V@@xxXmnmV@th@@_lGBCuVltlOj1XcD8mc1_@t@z@@_x@@Fr@@@Fq
-QzVHf@@XhhuDk1lzO8PA3l5DulS5HMVeWj1U@@@z@V@xt@z@pD3_@@l32QGG16_K
-yWV@Vldvput@@jXxC_@@@zh@@@jN2@@@y54c9s36_@z@z@V@V@qW@FXq0U3@@_@1
-QzG5U64KLEBtvnLV6KmM8P_bG9P6qIe1_@t@dxJ2d@@@_@d_9@t@@Ju9_@J@z@@x
-7S4618QmaAIqVu6N9AnSUFu@V@H@r@T0KL4IZ1w@_lMGi2@@y@1tOmYY6Cv69fgT
-YVz@I_@V_XnuHgWRy4u6d24oZa90@@@t@B_lnKwh18DmBY@Vn1gai53FTWnvZFSR
-73_t@@BYyXdAD8WC3y@@@7C231abmbUOuz@@L@@@TFcd4UL2_@xzz@y@7Qc1PPQG
-VFCul@_FOaPIfBX0PU805R6Ua1@t@@LZmW@@z@ZDV8qC3U25Z_GD8qY4Uey1@@_f
-_wF@kYa7@l@@fFQmWX6ide4zb_Gm8L4KA3E@@@3HrW0Fm8iGFMNK2@z@@7gcW@@_
-@e3nml@@V88F4ac1k@t@zz_@7WI2_@@lv@l@@Ag1_@z@zp@@NjvF7gQWt@@UxzV@
-_@V@FIRZx6b8Do4y@@qVHe1_F5@z@@@B5@ft@@@lJ@@V@@@@muFz7IibkPzG_B_@
-XesqBHEPeuX@@VngvgO4oM2AehzVPm@@@5_@V_G1MAyWF3K8g3Rv9u1jy@@BsKdA
-1Pyc@@@5_@@@BnaGG6lD7NK1PaJZs94Iz3RpaW@@VlviDmt@xl@@@Nt@@_hSRWV@
-tVx@_lkt@@AYn0z_@ts@@@xQbXWhPm@t@lz@@Vt@@V_@t@zzUlh@@ztV@@fxzUV@
-@xz_Vl@rxzVxltxrz_ldtxzUU@txV0OWxzUlG1sm@@lVe0Fu@llFK0a_QsWG1Cmz
-@ll@x@UV@@xwzV@j@xzwU@@pxzUl@@@TzUltV5OWtxy_A0CO1W2g0m0ltx@B0K0l
-t@TzUl@sx@Uz@t@x@k@d@@@kUltx05y8k1OIKVZb2C8eWA_0uXe0G9KWJyUl@px@
-_NdtxjzVlNtxzU1FWHy0H5Um6_txzER81xzVlktxzzUttNuW1s@z_TltxxzU@dt@
-@kUl@Vx@Ulkt@zzVlt@HX11Famc164yG2y_ltrx@UR@txtz_@l@@zVV@@@w_@@z@
-xzxVl@FaXq2Z8A@U@t_@zFT@t@x@@ltt@zk@l@xdzDOu03gerW0zJ8K0eYl0fm3c
-n@l@Vu16ux@VFy03IGmWm3OmxV_VLzCaOE6H68Ny0Zruw6X20LG17Mo@33zpmz@6
-q_V2deMX@@_@OTO8GXGYStW50AeqT32tmW_@Jmz@@d@@_VV@@@H1OGVu9CtF3nSi
-nY_F4ml1___@pmMYMzDOKV6AV5ZeuV8aV6Ext0@@z@_l@xByNYghVm@t@l@_l@S7
-nuW43ASjYxwIejy7Qo73V@@@d4zGK_CyyV21yiK1@6qNF35YiHWC6qtl7w@_lzt@
-Tx_l@RVU3kXqWs@JG@@@j@_lVt@zV1XwHX_F4MIrH6WS_faCpE6Hzmme@6S8l1L0
-aG3tC4GX1p@RGa6XiE@37_Rm4zC45W4b1KH8vIizX4LldW@@_@4eDOQv72Q1ZVyV
-8OV9Y7uX8tJ8i4Fko7Z8IOm@@@l@U@@hYJuYr7g_VZWV9nVl@VuGQ5jW1jsRmK@I
-aeD3Hu8HlxLux@@Ntt@TQ16u@@lt@@zUO_9Kja1XbaG8DCq@V21oOm4CC4g26nNK
-HM2Fa8y9_@l@VdXXu1UOV53y@xzlHF31Kinz_I43J2LypmQE9KoU2HR5IaBg4tW4
-JINHD8C4723nmyVmNew@txFs936LAXkqP8weJsOYX3xDGt@@TM@6CPY1rlWX@x__
-6rV80g4UaBXOdOOq@4gfnWl8Vmt@zVmDCiHI5Xh5x9CCi9F3vpRGq29iJF3HRvnY
-z94IJ5_@@@yV@tdE23_l@@hBnW0oa8R@4EN9X8mm8053kzoWrSO8olbojoWWWs88
-D92afY8h_Fi4HZopWO5h8Ef4Y@fYBrtGtt@@qPLKWH2niLnvUFabL2nJbmrQ9Sat
-3j_RGO9RyyF3;
+mB300u@@@@3q6aDm@@@b@VzNM@rQQz@hf@@@Fq0@@rwLDm@@@j@@@V@l@@_@@@z@
+z@dW0@@@@q@@@z@rOPz@@tr@@lF@@@LJm@@@UeIuVx@tt@@br@@Vz@@@_@@@zp@@
+@43y@@@wJ@@t_@UNeCmrQjk@@@wWw1y@@@W_W@z@@JRW@@x@VP0@@@tGjXx@@@mR
+3@@@x_@d_z@@@xz@lFzC8CD8eCmwq@jh_@@0b4@@@L1Q2bh1U@@zlt42l4y@@77o
+9ut@@t@l@l@@z@GM2@_@@_VhrNE3UE3y@@_En64AF4e9u@@lhwJm@VyVmpW@V@N@
+@@@UQz@ZHFSoCm@@_l@@t@GM5NG32ZFu_@tt@nVl@t@Bh@@tsx@@RJ9mt@lt@f@@
+Bp0Vld_1lJ2e6u@@lFWcmFAXmZ7XsDQd6uhL@@_Qm2r0@V_@3D62ULu@@xEaLX@_
+@V@@@NM@d@pqI4cD8qcWzt@wmz3_V_@3tFqgDm@Vjktz@V@@@@_@@FBj94GPm_@V
+DjMtUVVz@1UO6@6ulz@tu@@@Os0@@t@q@_@2UEPcoW059y@_@7ymWV@z@W7Ly@@@
+x@kMlYyXAl42Us88hYW232oImV@qVWd1_VVQ2yKnFM@L0A6_t@@RZI8WAaWnAO@@
+V7kbW@@@tWH325ye8WXWM3yrOj6qQm6h11PCOx@@FeZXmo4i_7@6goW@@l_mtAy@
+@@4_oW@FjV_@@@_@ll7LD8SJ5D_@r1o9u@eMlrCXXp4kQJmtw@Vuh1U@w@@RV8aM
+2@z@@_@z@3fJeK81@@V_tl948pmvG21tRul_@AebXBL6y@@@x@_rFas0@t@rXvUG
+z@lt@@@l_@tV@7rwUn@@z@Y@x@@ptq@@@Nq3_NdIzneGJhr@mVI@Vu16_QDM3LDm
+@@NR0l13CCSxaGWl1q@@_3pVm@t@l@@VS@@@pX_Fu@@ttxxVl@t@9h@@@s@@@RjP
+u2e1_@y@z_@wx@@@trQj6z@@w0KF4MIYeT64gAXGXFymp0xZ@@X_Um@@@upj42Km
+W@ttR@@@p_tx@zLwtx@@@t@@xTxa426PW@@rV@@bV11bm@V_l@@@R@@@j16bm@l@
+VuG3YbyGucGyV@@dhnWW2Cmx@_tt@xl@@ArmT6mx@@FK09FBDmv@@V8I9y@@@xh@
+@tNh@ll@@VJ@@tX2yGr@@@io4y@@xtnqWmcFu@j@t@x@br@@yHQL44S3@tz@_Vs@
+3zzW@t@TnU@@s@fr3zbW@xt@gCFuVzxt@tVTuhM26n0D@@V@@@@__l@zFJ@d2r0w
+y@@M@Qj2CYHGr7y@y@x@z@Aeg1_@@zj@@@t0r0t@t@w@@@z@R@x@xrFKg1_z@f3l
+wHu13qxz@x@dMFme1_@@@zFc_x@@Fr@Zfl@FzV@@VCy@@@el_@x@@lcMh@b@i_@f
+ICOy@@Fan3_@@lloQWlM@Vh@@@sz@@R2M1zt@ZmhL4eLYcX642o0@z@p1KK9SZ11
+VVWw@@l@@@VV@l@1VJWt@V@9u4U_QGmN3y@lJJhr@s@M@VOOFy@_Uxl@Vt@V@VG6
+32tiX@fMhG6RuNZ@Amu65PJmV@@l@@tV@@ls_@@n3bUY@@@Tl@@@X2a8ti1S@@@z
+@z@7GE4F_hr1fhmp@@V@v76dQ0z_@VxVjM15W9CY4_yz@3AOGu69yy@@x@v@Fyb4
+y_@@zy@@7gA1@@V@_@zxrxVxRtV@tlxxlxxzVt@xh_Nxzr@VNJhr@F8O21aJ8us3
+_V@@zt@@xVl@FGh1_@VlztVjwJ@@7wd_l@4QTd_h@_@@@G@V2HdI@t@IhbrhFAI@
+@@bca8OE3_z@_Tt@@wU@@owTVll@@U@_klbqbm@@hh@@@zGuL4Ww1w@@ty@@@rzr
+_P@lIdlw@c@VzU_l@@7tb8iqC_QzZ6WdmXC92DtIgR3iU_@7qgbmXR4qt0@@@h56
+n8el1qOz@3r@Wz@@VR@@@X@9X@@d@m@I8GXA2wx47h@@9IaGmNIaiJ212QWhrQD@
+V@r1unGWWOu@@@Fik7QCqW01Pm_@VDjMd@WqKnNZ@@w9FSi43q@@@zJrQ5I83r4o
+GOYUu@p@ltG32qA4@l@@X3b0h@Oj0tmeTF3y@@ldTO2_N@tzz@N7K0CLDQW@@@sW
+2a8mDO2Ya1@@Fw16QGJa68_@@r@@hF@@@@WWovDC6wdpWm@QfuI32JqWkBPm@xV@
+Ib9G@l@FSo728p3l@VLXOcGGa6u@x@Z@j@V0PI4if7q@@l2k1ZQzO8a1Ly@@UR@@
+@tz@@VmDLizP2q@yl2PWd0jgmnQjUeKs4WIE17YnXCFu@@@DKK3C_@@7W79XdcGG
+f64WNE1g_0rz@@Gksm@@JDjM@F@Tz@XiUYlI@c0tC8WCCyxqQ5U53_@n@3XJYGpC
+8SD32DpWmrO8nZ42PudZPJm@d@9@@lU@U@@1FOpwYF4me4MB_v35Da0BJ8KWG2Az
+aG1amY@@V9J6Gy@@@NN3yi_@7AGE154blu@@h4J8SZYE4E1@@@By@@@zF@@7eWDX
+89Ke0G56XP15aPW2M62YAX20LW7K5XT2_x@@z@t@tLw3HORWL@@VN@rw_t@_ptr0
+z_l@_@zVz@@xvzV@d@@@l@l@VxfVl_@@ffrwtxxf@ow@xVe0Fu@@xt@_ld@xzU_@
+dw_@V@TbMfwVldsJfUFlpxV@_l@s@zUTlt@xzU@dtxzU506uU@tZwzUFldI9fUlt
+cwhr35GY8iPm@_VTe06OzxzMV@@Re0Lm@zqNltxjfrQTtxzqX2GYL@t@G1Im@@@k
+UltV@@_l_@xzg0m0zU@@sJ@UzltJJhrldtJ@aKl@RvzUlktxzM0eWA0Cmlt@j@V@
+V@@z_qlt@z@rQPrx@tLVjk@zlVltxz1A4ICCduhq@FG6ISzJfwUlpBeW7_A8Xe5I
+WtJzKK0e4AW7wzV@TbMf6AG2wzU@3UmZu1g8G162A81hVltH6W1ltJ@W7I8yWGuz
+qAPrxztKFbgxzkFltxz__ltrxz_Rl@@rzVlltxzU_ltxwz@ljlwzwVldYIfUF@dw
+fW7CmzUlVF06e@xzEG16qx@@xQjMtz@VblIzV@t@xw@_@Ruk2g@@@_@Abaw@@xgd
+IDa1dY_0cm82ngt@j_V@@e0Enlt@j@@@Vt@zVU@@xB1cXG1WAo0O2FOc3iJO3R6e
+_@txxhqAy06yz@l7UG2hPdGG1Q5UGKnmeY@@k@ezPu3T62kE1VVzN1omGTsF4ZV2
+_@@hY2GYNvP8u1X250gW2OJ@@t@wUF4FF3kMhqZ2GYQCV8wZP2cp0@@z@_@@xNf_
+1@@l_w@@@Z7m0Fb_@RppGEvF49a4_@@tBvt0t@@@JcdGW78f@@@tV@@lx@@Vw@@z
+__QjYguXVsam@w@l@@_gmSseeU32Qn0Nfrwk@@hZ70ZeFCBKlD2RA1t@VV_@@xZ8
+nWrcCe203q@zVxFrxtz@VDjM@UVVzNH1Omh@9e@@@sVl@@7m6ux@rFc392BXvWrh
+8I33yLw@7ZW1_@z@tON2wt@@_@Aj2MoWe0C8obX3fno0FI8Mn7AedXOyJm@NzK8c
+64Ea11wBX_@@@OJOeUUCY3XXXJJ8i46_ltWuayeAD3YxdX8SgeGr4y@@@H@@lFyb
+7URtWK9Vm@g@l@@@QQb_znmymkEF4MI21UWHyAa42S5X_aGRsIu@@@tt@fVeKa4C
+23k_hrT@tz7rl1w@_lBxt0lt@@_@l@r@z@7Ro3vxRWt@@VV@@@w@@lxBtWe0O8e5
+62RAXGLy8AWJ2NJb83C8Ag7YrHY8mm8aBFolt0V@lwXMOWx@@wetC8QLCYwnWuQs
+8qY4YmnWmNgei73YxtWeAU88SF2WYXOTg86B2Zb8Xe0G9Z@4yt@@Nyl11UyW@xx@
+RaDOF93YO@1@VbMXDPGK0948ZnJSOm@y6u@x@FS83Yl0ZUFCuDW4YiYXOnCeNX4E
+g8XOOOm@VVLK0C4fckXqmG776ij53nELHys9ux@@lOY4YsgYkGI8CCCYzqWrSCG@
+t@VOTFuAjMt@VVTG6UG@@lF4f4Yn23@@@tnrOGy0C4jr6XmzGyU9KY33HaSY@ql@
+8Iy8kXYYLKeOnm8uGa2ShYm4d9i4FYCOieUGAYJ6AfpW8XO8egMi_@Vhl@@l3c4M
+ntWoyCmt@hVaLC4Gc4rwPG8@Cug@@70;
 
 BOOLEAN A22[65920] = @
-m0200u@@@@3q6aJm@t@l@V@@R6y@@lx@@@RR2NMOmAy@V@7u3dmW@@@U@@@@_z@@
-z@z@7G6y_@t@n4y@x@UG6y@@N7I9ox3_@V@zl@@7s4y@@z769i@@@tO3y@@@w@pT
-FC6SH6u@z@tt@@@1oWs@@Vx@@@783X03ff4PQ2nX1kl@@xL6_86223wg4Y66Qs4y
-@@dpz@@FeIml@tVGnW@@zU@t_@zD3kl@tNPCu@@@p@@@V7Jm@@_V_cW@@@lBc15b
-72URu@vhs@@@ED@@Vx_z@Nm4yl@@FkUm@@hVuW1@@@@ql@@76aSIJm@tl@FbXqf7
-Js4y@@xDZOOucGp9X@g4t2L_o9u@V@T3_WT@@@kn3ZZ4AoLK6UuMkHOpWmn3pT6Y
-fRiTJ8poW@@@x0n6_@_@pIUm@@ll@t@Vl@@@XO9Ox@@VSpW1k72sIOrmZ0X7YsUm
-@@_lV@@xhnDy@@xMFyGEf1TT9u@l@luuXcj7YzCeDnZeJ9_APuAB4@@@tcx@@l3s
-eNqWML6292PKyXcs42_CG@V@VRB311CyyQ0@@@N@@@Vjh6qJzWV@@Vx@@l78XymT
-Ine1jKXq8NX@@tBhy@@kukTz@@x56gY@@V@ks42ED8ap0@@@V_t@Vy@@@TDpG0c1
-zLCK@cGpj1_@x@@2Pu7nWhy4yrw@x@B@xxHYG08knnO6y1@x@z_@@thcJmV@@V2H
-2NxR4CWnel1_tVFNFVW@x@VxZ4@eL4Ig2@@v@t@a8Iq3j03fJd1_@V@z@@kJ@@@V
-K83_t@@@5QG86C2UmmQn7iV@@7OKYxU64up0@U@@1jO84W1_z@@FnbmjH6y@@tpw
-@@@m63XvCepr6HiE9Ga4rxIepX7H7bOnb11POmt@@tKF9AVnWz@@@G0CaZxX0RFK
-4x1@@zVbnUm@Vl@1ICQIAHF19knzGla42rLX@l_@GgCS7r0tlx@vLJml@@NeK36S
-QW@@zU@@@zzxU8qQ2_@@vn@@@vlB@FKg4_@z_3mcm873Yk_W@xx@KdOC3eYXh9u@
-_@tV@@V3f7Ab9ntq4kOAX@@t@XMLK8iYyh6iLT3@VxV_trlzxz@V@q0@@lRkzlfS
-tt@@1s0@@t_RIVmF@@lx@tVs@@@XXDm@xqaNk@VgAs@NWDmz@@@Ls7iJ@l74mWRf
-6u@VUtjtVDVDx@lnCu@VVxIi1XlI8Oy31AheXS2tSD8mQ21CVeGt9VEEv_S2fEV8
-Si1XcD8Ph1fFP8KB6y@g@z@@@x@@rDSS2HeDe3T2NhD8sK2_@@x@D_GbXG_RRW@V
-z@KtCu@t@w7z3e@l@t9dW@@@T@l@l_@@@z@VPv@@Vq_t@l@VVVO_@@xbJ80E3_l@
-@zV@lx@znCGE3U@@zRdPmgy4ylt@x@@_tt@_@TI9w6NHIN6S@@@tGtW9jFu@@zpQ
-@@lFkxU@@@@_Nd@tTuXr@@@GgFSN7Z09p4epZh0hS0@XWs6SFF1@l@xz@gOlY7_@
-@_@rpGs_7yl@@7KbX6FIe8C6S@@x7K5C@uzGIVIKe59t0QGOH6ew@@@kg4AuIYwV
-Um@@llw@@@I3hm@@k@SBa4mo31kmmKYLO@g@@ZG6oRAX@4J8aW7Ash2@FFrn_mGe
-9F4qN2sz@_3XxXhXym@@VUYZF4Iu3_@T@xVa1@@VxVkzG7WXul_@FGlPy@t@x@Tw
-FOI6y@zRh@d@FWI6iH@FVl83k@Z@pPa1@@@_R7oW@tz@IAhm@_@VfXI4Or3XS9X@
-_tBlz@@ku_@z@@@x@k@@uBCkWiY25nm@@xED@z@iAVm@@tVZbLS8P2y@@@JBCXWR
-am_@hhl@Nd2Ah8qH3y@_zx@r@l8D9M0Jb1BVmzz@VBeCCiv31JcmZcCGl@@lDK3y
-@_xw@l@lHK6ix@@lc83hKQWL@@@a8RPGK62NKYlEVOpp4yx@@lhW11Uam@O6alM2
-XBcGe8Cu@z@@KK6_aCX6JD8F39EGLYu5V89L9EBr0xJz@_tzDj@@lxz@@Eeq4u@l
-@xl@@koo7EErWGFDuyK9Mj4cGWOOGpAys@UN4R2_@_@vlzxN7g1FkQW_xlV@V_@Z
-ocWxxdVql@fX00HHSaytM2XhAnfe9SEn3BQ6IkYmiiv6@obm6iFK0w3bw5IiavCQ
-L8@tbGfhF4Qo3HWAH1iL4o03J5KKu1B5KWMX7iK058rHS2@6QG7nI4cv3DD@GJiU
-4aXGdHdm@Y6S8j4U@z@JSUZJdh8C2gsdmfWC_9WP3y@EzxzP@dgYjFC@zV@z@@kz
-kDmsWp8AG02K0yh@@xV@@xTsWj331W1tjHxESsgXAOm30W0000004G44PtEW_NLn
-2PZXQlD0000m103q0W1P0m0a240H12GW20062G2000200W0H0W42PO1L80100100
-8X8vskVc35eY0nVm@IBjhi_RRVlVX00HOuOGQfjYrUFjxzxVwx@@@JrIHvL44W7w
-@@@r@@@V3i1__@@AEt0@tV@w@xxz@TVh@U_tV@@t@v6u@@ztz@@j@@_lkpPmzVNV
-Ov6uk_@t@@@lh@@F@@ztzjQW@@lV@z@@k@V@B2_XujDW@@xl@@l@ToDGLLTdl_@V
-TLr@ZRhI6Cyul@@tzzVl_@@Vst@zH5OW@x@V@zV@_l@@h0mWwGDm@@@dl_x@KvCm
-@@tV4w6uxl@FeT3UQt0_@dTVObGSx6u@@yV_T9y@N@x@@@RWv4OTL_xEl@dtLzlx
-@@V@N@@k_@@z@@_x@@@BF06ytr@xx@@tNtptPx9ux@ztt@@lx@sVtz@@tfpG1I6u
-x@lN@@@@A8Kv@@vtTzVN9l64Sc1khR@rT@@xl@xNzz@llh@QV@@@kw@xrt@@xg@@
-NN@@VOwau@x_N@@Vl_xsV@@tVTxRW@k@V@@@Vg_V@rF@@x@@ht@r@VEe6e_l@Fy0
-3MvF1@zz@_@@lz@ttx@xlF15gy@@SxV@@d@@tTzz6u@l@t@r@l_@@V_tl@_@@@zz
-z@h@x_oN@@j@_@FVz@@ww@@T@@@3;
+m0200u@@@@3q6aPm@@@l@@t@U3qIO_x@y@t@_@l@z3lmCO@@@d@@@VG68@@xt@@@
+VG9ux@@t@_lkv@@@WDm@z@h@@@V@@_@_@z@z@_j4c1_@T@v7UlVf4q@@llH32d1_
+@@@3t3NL2z@@@1D1@_@@_lV@2g1pr0@_V@Xw1@w7UXF1@tlj_@@@Tr@@NM9SX94Q
+9uV@WxvCORImz@@VGHoTcGWoWz@@@0b1@@z@_@@@2F9y@_@x@@tt@@zVyOW@__V@
+@@@_@@txE32P3u@@ux@@@E8n8GPeOCm@wx@qBHvbGGwXNb1_@@zzV@@x@@@BazW@
+@_V@@@jgzZRz@__xZ@@lZ9HOC1VxV@Xn4i@@@@9Jm@j46@tF@Wd4HB32DLm@lpFy
+SocuXWd1_@t@z@l@7UUm@x@VmpW3i1_@@j3ULu@ltF9BX@@@z1i1XG34c@zBz@@F
+iAX@@@R@@@tXsAYl6u@h@lQdW_@@@Vf1XG92eC4eDm@f@VucX6V5__@_xr64uDm@
+T@V0z1@@x_1L9cmCm@x@l@@tVVi@@1X6ul@@tl@VVer3_t@_v6U@@5AHWdAXVCu@
+@@DOaX0D92HUmVzRRWd1FQ6u@t@FOY1@Z@@w@@_3UOm@z@F_@@@0F6yl@@7CkntM
+2XaIut@@@uZXmI9y@@Vp@@x@0aXyk42@m8SOZZsAy@@tx@z@@CrWmq4ylVev@@_l
+iqWEL322C8SB1_Xp@Zl9Ozl_@pYXJg4yz@j8C@VN_@FV0x3Fe64QXnTS5Hm64MQW
+t@@V@@dV1o6araGmC3_@N@3BJOjqWUK32bD838X0dD2eKvmn0@@x@_@z@3kDG_@@
+TWD37F64IB1i_@V@@@@_t_sz__@x@@@Nk@_@Wk1_tzzjx@@x@7VFCt0_@Fwst@@z
+@@80b@@lOt0_@l__@@@byh@7gRW@JVVx@@@_t7yAWDmzv@r4l4Xe94YdW@j3lxd4
+2Gtm@@@BRzzsPx4YLJm@V@lx@@VVlVBX_6u@@tFyBX7W6O@@lFyb11jI0S@@@JD3
+i@@@tYuXmPI4mpW8NCm@@@FS031tIWpFNld_@V_@r@5uCm@tlVel428aW@@tV@w7
+UnFOW@z_VGG92QPGGa4YYmGWE32dzGqC927AX@TwTn@y@PRO8S1615O8SH216bm@
+@@Tmm4yz@@x@@VlLe1_@t@33KHGW42OcWyt@@WAOO@@@t@x@Tum7az@@7oqW0X64
+4yX0U90l@@ptx@l@l5MUSxxFbU84v3_@_@zz@U5KCXue9ulltFqN5_V@l2BzW@Vz
+@bb64Ar0h@@z_dFy2ecW@7@Vd@VtXJPm@l@VWn4yx@@6pHYmcC8@@zt@rlF@Gx@C
+XF4Q91@@lV_@E@2iQW@l5UUS@xsT@VxloWx@_Vy@@xXNJm@dlfzvrlmK9u@@Ftcx
+ph@Vz@WgLup@@l9g1_@z@33QmdK3y_@@70a1@x6UtOD88031FOWUuz@8N3y@NFtD
+yXUa9u@zRHOk@V8a72HwX@z@T@@y@H8D84g1s@@@v@@t7a9Xmj90d@@xve4XSJm@
+_WNOO3yqtn7BrWBS6S3CXQS64yC1@x3QXDFvXi4_@@@y_@V72_1UXt@lmOmzV@VO
+O6y@@y5KsWwo6u@tlVyQ51Kn8WSB1TgmzyXNa06UGRGeb76NR0@@VV@@@@kl@@3A
+iX@V@@m364KeYGGCu@d@Nz@@VaM6i@@@xdx@nt@@VGd4y@tjxxtjB4K2_@V@zVzx
+7s81@d@@UVtzzBUu42t0_zy_UATTe_Dvwo@@pt@@@zp42XpWqrHTtW341oJm@lhZ
+zl9VV_@@XnJWV@VNOE3IcBXVz@VVz@@19IGOkteeUzV@@@@XmJm@ll@mx42XBX@V
+lKjDw@3mD8aq31xIm_@@VO43y@@@x@tVTwT21phm@@Vx4_7y_@l7CUZa7C4atW0m
+FaP_X25C4gt0n@@@1UKn@s@VK@7y@V@7GTZ2b9KatWGzLKSC1@l@@X79XVp@@mtO
+e9G62ypWW_yeZ6624C1@l@@1APGiJ94C83X3bmzW9u@rdF_966z8X0ZImx_xNWRC
+u@t@FeFL2Bv1@d@@_@l@3axXW0OG_@lV0A9KDK532QGOU946W11Q9HeUIKm86@xP
+G8YC44Z1__@@ZFqWrpC8a1Cy@_@Tg73_x@l3HY1@dt@XqOGG1vu@x@t@_tVGGCuz
+@TF8I6S@@@7893_@z@j@@_5wu6_x@@2WyaW8hedA9MMnWm4J8KI9wNqWm4bubH3q
+lz_7GM2_@R@3Ty1v@V@XrzW_@r@0B3vII3w3qWIzI88e7w5vXGChmZt@@SdL4_73
+X2nGwR94q7FXSAnVb64Ev3XIP0Fkz@G1E9KgJA2gYWIPmx@@VGfCSrf1s@@@355Z
+0yOu2k42kBX0yW9466c2D1@@xx1ALHrZ9S9e11o8X@@lMt@@@_@@VZeBXmPgm@_X
+M0eU4sa1_@VdySyFDPg1XVPGeP94u53_@V@333ZGMhm@lFVOiRu@@@tw@xNOiCu@
+rzFurGIcCXPfO84s4ylVGbOg41oKnhjFul@@DWAL2ej2@@@_fkcGe0642G21vQW@
+t@F_@dV1vome994eh1s@V@3j5ZW2AwOI6yt@@6Ov3o@@_3yzX0BV8KK9Q8vXWiam
+xtxN8mCy0M2XN9nS7L4omFX20LO4E5GHK15qLW2VEov3X20LO4x5me1_@@zz__fJ
+7rlHkN_k@_UVj4cRI4WL1C203400mx@zjz@@VldeHM5O40C81wmt@ptx@l@VVL6j
+Fuq0SOauXG0000WqUclvU7_msCu6x7yF000000O1W2g0G1000Q200G36m000000G
+QF500600000004e3100000000GH04KWOIGm42W0101X0000_kBVw3vsWG1U00@@V
+XuCu@@bEDS3ylqIxAh@F408s6N2@Bj@y@V@zlL@JQfjYr_@VNmaKMk1__@lz_@@v
+@l@@DA3yt@@zL26VcuX@x@Vz@@@_l@@r@@@cXE3y@xxy@@@h@_vVtm4m@ztlb_3w
+x_hz@t@h@@@t@Vzl_@@V@@z@yx_@Rq4ZRdDm@tTDh_sALH@rkx@@rb@Tt7g4XiZn
+Fv6u@_xp@_zl@@lF@tt@R9eIh0U4Hk1y@wxz@@@h@@z@bw4q@zNl3l1_xx@3ur0z
+@tz_@@_yV@@xV@ht@z@d@@xV_zt@jLdW@@xV@@@t_@x@z@@Vr0V2_@wxLzzyf_@@
+tz@xjkzl_LmIm@@VVHwCu@@xt@L@F@@@@pvDOUU3y@zVZ@xxlK13S@@@x@@xs@Vz
+d@@@V@p@@NKdmW19qKs6T9RW@@@B@ztz_@l_zzz@x@@wtVz@Vt4de_@kJL@@F@@@
+Fr@Vz_l@lzrVTx@@@sNV@Ljrau@@zt@TVNy36e@l@sz@@l@@tUV@@@_l@@ztrrp@
+@@x403y@T@h@@@t@z@zeQ6ux@ztV@@F@@x@z3Cm@@@d_@_@WvtOen7IxEX4hP8BV
+3Y2GY_@Vm@zNl@@d@D9Jmt@@bl_hVtzzt_@x@z@@tvl@@30;
 
 ENDDATA;
 DATA TEMP_DATA;
@@ -1743,4 +1763,4 @@ IF (j != 317) THEN V52 = j - 108;
 IF (j == 317) THEN V52 = -1;
 ENDPROC;
 ' END OF FILE
-CRC 8083;
+CRC 9BF8;

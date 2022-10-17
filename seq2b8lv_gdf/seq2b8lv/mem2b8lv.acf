@@ -21,6 +21,45 @@
 --
 CHIP mem2b8lv
 BEGIN
+	|btn3 :	INPUT_PIN = 70;
+	|btn2 :	INPUT_PIN = 73;
+	|btn1 :	INPUT_PIN = 74;
+	|btn0 :	INPUT_PIN = 75;
+	|DS1 :	OUTPUT_PIN = 81;
+	|DS2 :	OUTPUT_PIN = 40;
+	|DS3 :	OUTPUT_PIN = 39;
+	|DS4 :	OUTPUT_PIN = 37;
+	|CLK :	INPUT_PIN = 80;
+	|DCOM0 :	INPUT_PIN = 79;
+	|shAnsb0 :	INPUT_PIN = 77;
+	|shAnsb1 :	INPUT_PIN = 76;
+	|DS5 :	OUTPUT_PIN = 36;
+	|DS6 :	OUTPUT_PIN = 35;
+	|DS7 :	OUTPUT_PIN = 34;
+	|DS8 :	OUTPUT_PIN = 33;
+	|DCOMb3 :	OUTPUT_PIN = 69;
+	|DCOMb2 :	OUTPUT_PIN = 68;
+	|DCOMb1 :	OUTPUT_PIN = 67;
+	|DCOMb0 :	OUTPUT_PIN = 65;
+	|DCOMen :	OUTPUT_PIN = 64;
+	|DCIMb3 :	OUTPUT_PIN = 9;
+	|DCIMb2 :	OUTPUT_PIN = 8;
+	|DCIMb1 :	OUTPUT_PIN = 6;
+	|DCIMb0 :	OUTPUT_PIN = 5;
+	|DCIMen :	OUTPUT_PIN = 4;
+	|lose :	OUTPUT_PIN = 11;
+	|L3 :	OUTPUT_PIN = 17;
+	|L2 :	OUTPUT_PIN = 18;
+	|L1 :	OUTPUT_PIN = 20;
+	|L0 :	OUTPUT_PIN = 21;
+	|Reset :	INPUT_PIN = 51;
+	|set0 :	INPUT_PIN = 50;
+	|start :	INPUT_PIN = 49;
+	|lvb0 :	INPUT_PIN = 57;
+	|lvb2 :	INPUT_PIN = 55;
+	|lvb3 :	INPUT_PIN = 54;
+	|win :	OUTPUT_PIN = 12;
+	|lvb1 :	INPUT_PIN = 56;
 	DEVICE = EPM7128SLC84-6;
 END;
 

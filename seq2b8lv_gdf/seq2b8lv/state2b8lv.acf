@@ -21,6 +21,30 @@
 --
 CHIP state2b8lv
 BEGIN
+	|showb1 :	OUTPUT_PIN = 36;
+	|showb0 :	OUTPUT_PIN = 35;
+	|DC4_OM0 :	OUTPUT_PIN = 34;
+	|clkdiv :	OUTPUT_PIN = 33;
+	|Reset :	INPUT_PIN = 81;
+	|DS_8 :	INPUT_PIN = 80;
+	|DS_7 :	INPUT_PIN = 79;
+	|DS_6 :	INPUT_PIN = 77;
+	|DS_5 :	INPUT_PIN = 76;
+	|DS_4 :	INPUT_PIN = 75;
+	|DS_3 :	INPUT_PIN = 74;
+	|DS_2 :	INPUT_PIN = 73;
+	|DS_1 :	INPUT_PIN = 70;
+	|DCOM_b3 :	INPUT_PIN = 69;
+	|DCOM_b2 :	INPUT_PIN = 68;
+	|DCOM_b1 :	INPUT_PIN = 67;
+	|DCOM_b0 :	INPUT_PIN = 65;
+	|DCOM_en :	INPUT_PIN = 64;
+	|DCIM_b3 :	INPUT_PIN = 9;
+	|DCIM_b2 :	INPUT_PIN = 8;
+	|DCIM_b1 :	INPUT_PIN = 6;
+	|DCIM_b0 :	INPUT_PIN = 5;
+	|DCIM_en :	INPUT_PIN = 4;
+	|CLK :	INPUT_PIN = 83;
 	DEVICE = EPM7128SLC84-6;
 END;
 
