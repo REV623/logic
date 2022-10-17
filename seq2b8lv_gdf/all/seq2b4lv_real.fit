@@ -1,0 +1,318 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 10/17/2022 15:25:33      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "seq2b4lv_real"
+BEGIN
+
+    DEVICE = "EPM7128SLC84-6";
+    UNROUTED;
+
+    "btn0"                         : INPUT_PIN  = ANY    ;
+    "btn0"                         : UNROUTED ;
+    "btn1"                         : INPUT_PIN  = ANY    ;
+    "btn1"                         : UNROUTED ;
+    "btn3"                         : INPUT_PIN  = ANY    ;
+    "btn3"                         : UNROUTED ;
+    "GCLK"                         : INPUT_PIN  = ANY    ;
+    "GCLK"                         : UNROUTED ;
+    "reset"                        : INPUT_PIN  = ANY    ;
+    "reset"                        : UNROUTED ;
+    "start"                        : INPUT_PIN  = ANY    ;
+    "start"                        : UNROUTED ;
+    "lose"                         : OUTPUT_PIN = ANY    ;
+    "lose"                         : UNROUTED ;
+    "L0"                           : OUTPUT_PIN = ANY    ;
+    "L0"                           : UNROUTED ;
+    "L1"                           : OUTPUT_PIN = ANY    ;
+    "L1"                           : UNROUTED ;
+    "L2"                           : OUTPUT_PIN = ANY    ;
+    "L2"                           : UNROUTED ;
+    "L3"                           : OUTPUT_PIN = ANY    ;
+    "L3"                           : UNROUTED ;
+    "win"                          : OUTPUT_PIN = ANY    ;
+    "win"                          : UNROUTED ;
+    "|clkdiv18:19|:38"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:38"             : UNROUTED ;
+    "|clkdiv18:19|:40"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:40"             : UNROUTED ;
+    "|clkdiv18:19|:41"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:41"             : UNROUTED ;
+    "|clkdiv18:19|:50"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:50"             : UNROUTED ;
+    "|clkdiv18:19|:51"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:51"             : UNROUTED ;
+    "|clkdiv18:19|:52"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:52"             : UNROUTED ;
+    "|clkdiv18:19|:53"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:53"             : UNROUTED ;
+    "|clkdiv18:19|:54"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:54"             : UNROUTED ;
+    "|clkdiv18:19|:55"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:55"             : UNROUTED ;
+    "|clkdiv18:19|:56"             : LOCATION   = ANY    ;  -- |clkdiv18:19|clk_div
+    "|clkdiv18:19|:56"             : UNROUTED ;
+    "|clkdiv18:19|:57"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:57"             : UNROUTED ;
+    "|clkdiv18:19|:58"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:58"             : UNROUTED ;
+    "|clkdiv18:19|:59"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:59"             : UNROUTED ;
+    "|clkdiv18:19|:60"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:60"             : UNROUTED ;
+    "|clkdiv18:19|:61"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:61"             : UNROUTED ;
+    "|clkdiv18:19|:62"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:62"             : UNROUTED ;
+    "|clkdiv18:19|:63"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:63"             : UNROUTED ;
+    "|clkdiv18:19|:64"             : LOCATION   = ANY    ;
+    "|clkdiv18:19|:64"             : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~6~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~6~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~7~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~7~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~8~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~8~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~9~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|only1_2b:3|~9~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~9~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~9~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~18~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~18~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~19~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~19~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~20~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~20~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~21~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~21~1" : UNROUTED ;
+    "|seq2b6lv:2|ch_ans2b:44|~25~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ch_ans2b:44|~25~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:2|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:3|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|~7~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:4|~7~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|~7~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:32|t_ff:5|~7~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:2|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:2|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:3|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:4|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|c4b:33|t_ff:5|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|dc2:54|~12~1"     : LOCATION   = ANY    ;
+    "|seq2b6lv:2|dc2:54|~12~1"     : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:1|d_latch:17|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:1|d_latch:17|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:2|d_latch:17|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:2|d_latch:17|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:3|d_latch:17|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:3|d_latch:17|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:4|d_latch:17|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|reg4b:1|reg1b:4|d_latch:17|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|ds:27|~25~1"      : LOCATION   = ANY    ;
+    "|seq2b6lv:2|ds:27|~25~1"      : UNROUTED ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:1|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:1|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:1|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:1|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:2|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:2|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:2|d_latch:2|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|neg_ch:71|d_ff:2|d_latch:2|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|~14~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:1|~14~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:3|c2b:5|~9~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:3|c2b:5|~9~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|~11~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:1|~11~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:4|c2b:5|~9~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:4|c2b:5|~9~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:17|~6~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:1|d_latch:17|~6~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:37|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:37|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:37|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:37|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:37|~12~1~2"  : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:37|~12~1~2"  : UNROUTED ;
+    "|seq2b6lv:2|t_ff:49|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:49|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:49|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:49|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:49|~7~1"     : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:49|~7~1"     : UNROUTED ;
+    "|seq2b6lv:2|t_ff:52|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:52|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:52|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:52|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:53|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:53|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:53|d_latch:1|~3~1~2" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:53|d_latch:1|~3~1~2" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:53|d_latch:2|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:53|d_latch:2|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|t_ff:69|d_latch:1|~3~1" : LOCATION   = ANY    ;
+    "|seq2b6lv:2|t_ff:69|d_latch:1|~3~1" : UNROUTED ;
+    "|seq2b6lv:2|~11~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~11~1"            : UNROUTED ;
+    "|seq2b6lv:2|~12~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~12~1"            : UNROUTED ;
+    "|seq2b6lv:2|~13~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~13~1"            : UNROUTED ;
+    "|seq2b6lv:2|~14~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~14~1"            : UNROUTED ;
+    "|seq2b6lv:2|~18~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~18~1"            : UNROUTED ;
+    "|seq2b6lv:2|~19~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~19~1"            : UNROUTED ;
+    "|seq2b6lv:2|~55~1"            : LOCATION   = ANY    ;
+    "|seq2b6lv:2|~55~1"            : UNROUTED ;
+
+END;

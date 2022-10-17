@@ -1,6 +1,6 @@
-module seq2b8lv (win,l,b,on,setzero,reset,start,clk);
+module seq2b8lv (win,lose,l,b,on,setzero,reset,start,clk);
     output [3:0] l;
-    output win;
+    output win,lose;
     input [3:0] b;
     input on,reset,setzero,start,clk;
     wire clk_div;
@@ -75,7 +75,7 @@ module seq2b8lv (win,l,b,on,setzero,reset,start,clk);
     or ORreIM (reIM,reset,out_M4_IM);
 
     wire press;
-    or16 or4input (press,{b,12'b0000_0000_0000});
+    //or16 or4input (press,{b,12'b0000_0000_0000});
 
     wire correct;
     check2bit checkANS (correct,ans,{B1,B0},press);//p
@@ -84,8 +84,8 @@ module seq2b8lv (win,l,b,on,setzero,reset,start,clk);
 
     wire [1:0] sq1,sq2,sq3,sq4,sq5,sq6,sq7,sq8;
     wire B0,B1;
-    or16 or16_b0 (B0,{sq1[0],sq2[0],sq3[0],sq4[0],sq5[0],sq6[0],sq7[0],sq8[0],8'b0000_0000});
-    or16 or16_b1 (B1,{sq1[1],sq2[1],sq3[1],sq4[1],sq5[1],sq6[1],sq7[1],sq8[1],8'b0000_0000});
+    or8 or8_b0 (B0,sq1[0],sq2[0],sq3[0],sq4[0],sq5[0],sq6[0],sq7[0],sq8[0]);
+    or8 or8_b1 (B1,sq1[1],sq2[1],sq3[1],sq4[1],sq5[1],sq6[1],sq7[1],sq8[1]);
 
     wire [7:0] show;
     or ors1 (show[0],di[0],do[1]);
@@ -113,24 +113,43 @@ module freq_div (clk_out,clk);
 	output clk_out;
 	input clk;
 	wire [16:0] c;
-		T_FF tff01(c[0], 1'b1,  clk, 1'b0);
-		T_FF tff02(c[1], 1'b1, c[0], 1'b0);
-		T_FF tff03(c[2], 1'b1, c[1], 1'b0);
-		T_FF tff04(c[3], 1'b1, c[2], 1'b0);
-		T_FF tff05(c[4], 1'b1, c[3], 1'b0);
-		T_FF tff06(c[5], 1'b1, c[4], 1'b0);
-		T_FF tff07(c[6], 1'b1, c[5], 1'b0);
-		T_FF tff08(c[7], 1'b1, c[6], 1'b0);
-		T_FF tff09(c[8], 1'b1, c[7], 1'b0);
-		T_FF tff10(c[9], 1'b1, c[8], 1'b0);
-		T_FF tff11(c[10], 1'b1,	c[9], 1'b0);
-		T_FF tff12(c[11], 1'b1, c[10], 1'b0);
-		T_FF tff13(c[12], 1'b1,  c[11], 1'b0);
-		T_FF tff14(c[13], 1'b1, c[12], 1'b0);
-		T_FF tff15(c[14], 1'b1,  c[13], 1'b0);
-		T_FF tff16(c[15], 1'b1, c[14], 1'b0);
-		T_FF tff17(c[16], 1'b1, c[15], 1'b0);
-		T_FF tff18(clk_out, 1'b1, c[16], 1'b0);
+		T_FF tff01(c[0], 1'b1, 1'b0,  clk);
+		T_FF tff02(c[1], 1'b1, 1'b0, c[0]);
+		T_FF tff03(c[2], 1'b1, 1'b0, c[1]);
+		T_FF tff04(c[3], 1'b1, 1'b0, c[2]);
+		T_FF tff05(c[4], 1'b1, 1'b0, c[3]);
+		T_FF tff06(c[5], 1'b1, 1'b0, c[4]);
+		T_FF tff07(c[6], 1'b1, 1'b0, c[5]);
+		T_FF tff08(c[7], 1'b1, 1'b0, c[6]);
+		T_FF tff09(c[8], 1'b1, 1'b0, c[7]);
+		T_FF tff10(c[9], 1'b1, 1'b0, c[8]);
+		T_FF tff11(c[10], 1'b1, 1'b0, c[9]);
+		T_FF tff12(c[11], 1'b1, 1'b0, c[10]);
+		T_FF tff13(c[12], 1'b1, 1'b0, c[11]);
+		T_FF tff14(c[13], 1'b1, 1'b0, c[12]);
+		T_FF tff15(c[14], 1'b1, 1'b0, c[13]);
+		T_FF tff16(c[15], 1'b1, 1'b0, c[14]);
+		T_FF tff17(c[16], 1'b1, 1'b0, c[15]);
+		T_FF tff18(clk_out, 1'b1, 1'b0, c[16]);
+endmodule
+
+module neg_ch (out,signal,reset,clk);
+    output out;
+    input signal,reset,clk;
+    wire d2,q2,NtoA;
+
+    D_FF dff1 (d2,signal,reset,clk);
+    D_FF dff2 (q2,d2,reset,clk);
+    not not2 (NtoA,d2);
+    and and2 (out,NtoA,q2);
+endmodule
+
+module only_2bit (out,b);
+    output out;
+    input [3:0] b;
+
+    
+
 endmodule
 
 module encoder2bit (b,d);
@@ -336,7 +355,7 @@ module C4B (q,en,reset,clk);
     T_FF tff2 (q[2],t2,reset,clk);
     T_FF tff3 (q[3],t3,reset,clk);
 endmodule
-
+/*
 module countup2bit (q, en, reset, clk);
 	output [1:0] q;
 	input en,clk,reset;
@@ -346,6 +365,29 @@ module countup2bit (q, en, reset, clk);
     and a2 (t1,q[0],en);
 	T_FF tff0 (q[0], t0, reset, clk);
 	T_FF tff1 (q[1], t1, reset, clk);
+endmodule*/
+
+module countup2bit (q,en,reset,clk);
+	output [1:0] q;
+	input en,reset,clk;
+	wire d1,d0;
+
+    reg1bit reg1 (q[1],d1,en,reset,clk);
+    reg1bit reg0 (q[0],d0,en,reset,clk);
+    xor xor1 (d1,q[1],q[0]);
+    not not0 (d0,q[0]);
+endmodule
+
+module reg1bit (q,d,en,reset,clk);
+    output q;
+    input d,en,reset,clk;
+    wire dlast,AtoO1,AtoO2,NtoA;
+
+    D_FF dff (q,dlast,reset,clk);
+    or or1 (dlast,AtoO1,AtoO2);
+    and and1 (AtoO1,q,NtoA);
+    and and2 (AtoO2,d,en);
+    not not1 (NtoA,en);
 endmodule
 
 module T_FF (q, t, reset, clk);
@@ -368,7 +410,7 @@ module D_FF (q, d, reset, clk);
 		else
   			q <= d;
 endmodule
-
+/*
 module or16 (out0,in);
     output out0;
     input [15:0] in;
@@ -379,23 +421,48 @@ module or16 (out0,in);
             out0 <= 1'b0;
         else
             out0 <= 1'b1;
+endmodule*/
+
+module or16 (out,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p);
+    output out;
+    input a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p;
+    wire one,two;
+
+    or8 or1 (one,a,b,c,d,e,f,g,h);
+    or8 or2 (two,i,j,k,l,m,n,o,p);
+    or or3 (out,one,two);
 endmodule
 
-module and4 (out1,a,b,c,d);
-    output out1;
+module or8 (out,a,b,c,d,e,f,g,h);
+    output out;
+    input a,b,c,d,e,f,g,h;
+    wire ab,cd,ef,gh,abcd,efgh;
+
+    or or11 (ab,a,b);
+    or or12 (cd,c,d);
+    or or13 (ef,e,f);
+    or or14 (gh,g,h);
+
+    or or21 (abcd,ab,cd);
+    or or22 (efgh,ef,gh);
+    or or31 (out,abcd,efgh);
+endmodule
+
+module and4 (out,a,b,c,d);
+    output out;
     input a,b,c,d;
     wire an0,an1;
 
     and a0 (an0,a,b);
     and a1 (an1,c,d);
-    and a2 (out1,an0,an1);
+    and a2 (out,an0,an1);
 endmodule
 
-module and3 (out2,a,b,c);
-    output out2;
+module and3 (out,a,b,c);
+    output out;
     input a,b,c;
     wire an0;
 
     and a0 (an0,a,b);
-    and a1 (out2,an0,c);
+    and a1 (out,an0,c);
 endmodule

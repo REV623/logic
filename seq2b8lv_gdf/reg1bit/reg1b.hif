@@ -43,7 +43,7 @@ TREE
 {
 	reg1b::(0,0):(0): reg1b.gdf
 	{
-		d_latch::(0,0):(16): d_latch.gdf;
 		d_latch::(0,0):(17): d_latch.gdf;
+		d_latch::(0,0):(16): d_latch.gdf;
 	}
 }

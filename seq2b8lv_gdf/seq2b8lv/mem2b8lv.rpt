@@ -1,0 +1,2423 @@
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 10/17/2022 17:47:10
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+mem2b8lv  EPM7128SLC84-6   18       24       0      126     73          98 %
+
+User Pins:                 18       24       0  
+
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Ignored unnecessary INPUT pin 'btn2'
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+
+** FILE HIERARCHY **
+
+
+
+|mem4:25|
+|mem4:25|t_ff:3|
+|mem4:25|t_ff:3|d_latch:1|
+|mem4:25|t_ff:3|d_latch:2|
+|mem4:25|t_ff:5|
+|mem4:25|t_ff:5|d_latch:1|
+|mem4:25|t_ff:5|d_latch:2|
+|mem4:25|t_ff:2|
+|mem4:25|t_ff:2|d_latch:1|
+|mem4:25|t_ff:2|d_latch:2|
+|mem4:25|t_ff:4|
+|mem4:25|t_ff:4|d_latch:1|
+|mem4:25|t_ff:4|d_latch:2|
+|ds:27|
+|ds:27|reg4b:1|
+|ds:27|reg4b:1|reg1b:4|
+|ds:27|reg4b:1|reg1b:4|d_latch:16|
+|ds:27|reg4b:1|reg1b:4|d_latch:17|
+|ds:27|reg4b:1|reg1b:3|
+|ds:27|reg4b:1|reg1b:3|d_latch:16|
+|ds:27|reg4b:1|reg1b:3|d_latch:17|
+|ds:27|reg4b:1|reg1b:2|
+|ds:27|reg4b:1|reg1b:2|d_latch:16|
+|ds:27|reg4b:1|reg1b:2|d_latch:17|
+|ds:27|reg4b:1|reg1b:1|
+|ds:27|reg4b:1|reg1b:1|d_latch:16|
+|ds:27|reg4b:1|reg1b:1|d_latch:17|
+|c4b:32|
+|c4b:32|t_ff:2|
+|c4b:32|t_ff:2|d_latch:1|
+|c4b:32|t_ff:2|d_latch:2|
+|c4b:32|t_ff:3|
+|c4b:32|t_ff:3|d_latch:1|
+|c4b:32|t_ff:3|d_latch:2|
+|c4b:32|t_ff:4|
+|c4b:32|t_ff:4|d_latch:1|
+|c4b:32|t_ff:4|d_latch:2|
+|c4b:32|t_ff:5|
+|c4b:32|t_ff:5|d_latch:1|
+|c4b:32|t_ff:5|d_latch:2|
+|c4b:33|
+|c4b:33|t_ff:2|
+|c4b:33|t_ff:2|d_latch:1|
+|c4b:33|t_ff:2|d_latch:2|
+|c4b:33|t_ff:3|
+|c4b:33|t_ff:3|d_latch:1|
+|c4b:33|t_ff:3|d_latch:2|
+|c4b:33|t_ff:4|
+|c4b:33|t_ff:4|d_latch:1|
+|c4b:33|t_ff:4|d_latch:2|
+|c4b:33|t_ff:5|
+|c4b:33|t_ff:5|d_latch:1|
+|c4b:33|t_ff:5|d_latch:2|
+|ch4:34|
+|ch4:36|
+|ch4:35|
+|t_ff:37|
+|t_ff:37|d_latch:1|
+|t_ff:37|d_latch:2|
+|t_ff:69|
+|t_ff:69|d_latch:1|
+|t_ff:69|d_latch:2|
+|t_ff:53|
+|t_ff:53|d_latch:1|
+|t_ff:53|d_latch:2|
+|t_ff:52|
+|t_ff:52|d_latch:1|
+|t_ff:52|d_latch:2|
+|t_ff:49|
+|t_ff:49|d_latch:1|
+|t_ff:49|d_latch:2|
+|ch_ans2b:44|
+|ch_ans2b:44|only1_2b:3|
+|ch_ans2b:44|ec2:4|
+|ch_ans2b:44|neg_ch:8|
+|ch_ans2b:44|neg_ch:8|d_ff:1|
+|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|
+|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|
+|ch_ans2b:44|neg_ch:8|d_ff:2|
+|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|
+|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|
+|ch_ans2b:44|neg_ch:7|
+|ch_ans2b:44|neg_ch:7|d_ff:1|
+|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|
+|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|
+|ch_ans2b:44|neg_ch:7|d_ff:2|
+|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|
+|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|
+|ch_ans2b:44|neg_ch:6|
+|ch_ans2b:44|neg_ch:6|d_ff:1|
+|ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:1|
+|ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|
+|ch_ans2b:44|neg_ch:6|d_ff:2|
+|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|
+|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|
+|ch_ans2b:44|neg_ch:5|
+|ch_ans2b:44|neg_ch:5|d_ff:1|
+|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|
+|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|
+|ch_ans2b:44|neg_ch:5|d_ff:2|
+|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|
+|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|
+|dc2:54|
+|neg_ch:71|
+|neg_ch:71|d_ff:1|
+|neg_ch:71|d_ff:1|d_latch:1|
+|neg_ch:71|d_ff:1|d_latch:2|
+|neg_ch:71|d_ff:2|
+|neg_ch:71|d_ff:2|d_latch:1|
+|neg_ch:71|d_ff:2|d_latch:2|
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+***** Logic for device 'mem2b8lv' compiled without errors.
+
+
+
+
+Device: EPM7128SLC84-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    Enable JTAG Support                        = ON
+    User Code                                  = ffff
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** ERROR SUMMARY **
+
+Info: Chip 'mem2b8lv' in device 'EPM7128SLC84-6' has less than 10% of logic cells available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                        R  R  R     R  R  R  
+                                                        E  E  E     E  E  E  
+              D                       V                 S  S  S     S  S  S  
+              C                       C                 E  E  E  V  E  E  E  
+              I                 s     C                 R  R  R  C  R  R  R  
+              M           G     e     I  G  G  G  G  G  V  V  V  C  V  V  V  
+              e  L  L  L  N  L  t  o  N  N  N  N  N  N  E  E  E  I  E  E  E  
+              n  1  0  3  D  2  0  n  T  D  D  D  D  D  D  D  D  O  D  D  D  
+            -----------------------------------------------------------------_ 
+          /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+     win | 12                                                              74 | DCIMb0 
+   VCCIO | 13                                                              73 | DCIMb1 
+    #TDI | 14                                                              72 | GND 
+     DS5 | 15                                                              71 | #TDO 
+     DS4 | 16                                                              70 | RESERVED 
+     DS7 | 17                                                              69 | RESERVED 
+     DS1 | 18                                                              68 | RESERVED 
+     GND | 19                                                              67 | RESERVED 
+     DS3 | 20                                                              66 | VCCIO 
+     DS2 | 21                                                              65 | RESERVED 
+     DS6 | 22                        EPM7128SLC84-6                        64 | RESERVED 
+    #TMS | 23                                                              63 | RESERVED 
+    ans0 | 24                                                              62 | #TCK 
+   Reset | 25                                                              61 | RESERVED 
+   VCCIO | 26                                                              60 | RESERVED 
+    btn3 | 27                                                              59 | GND 
+     DS8 | 28                                                              58 | DCIMb2 
+    btn0 | 29                                                              57 | RESERVED 
+  DCIMb3 | 30                                                              56 | lvb1 
+    ans1 | 31                                                              55 | lvb3 
+     GND | 32                                                              54 | lose 
+         |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+           ------------------------------------------------------------------ 
+              D  s  D  D  D  V  s  D  b  G  V  C  R  D  G  l  s  s  l  R  V  
+              C  h  C  C  C  C  h  C  t  N  C  L  E  C  N  v  h  t  v  E  C  
+              O  o  O  O  O  C  b  O  n  D  C  K  S  O  D  b  b  a  b  S  C  
+              M  w  M  M  M  I  0  M  1     I     E  M     2  1  r  0  E  I  
+              b  C  0  b  b  O     b        N     R  e           t     R  O  
+              2  L     0  3        1        T     V  n                 V     
+                 K                                E                    E     
+                                                  D                    D     
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16    16/16(100%)   8/ 8(100%)  14/16( 87%)  32/36( 88%) 
+B:    LC17 - LC32    16/16(100%)   8/ 8(100%)  15/16( 93%)  33/36( 91%) 
+C:    LC33 - LC48    16/16(100%)   8/ 8(100%)  16/16(100%)  30/36( 83%) 
+D:    LC49 - LC64    14/16( 87%)   8/ 8(100%)  16/16(100%)  29/36( 80%) 
+E:    LC65 - LC80    16/16(100%)   6/ 8( 75%)  16/16(100%)  34/36( 94%) 
+F:    LC81 - LC96    16/16(100%)   5/ 8( 62%)  15/16( 93%)  33/36( 91%) 
+G:   LC97 - LC112    16/16(100%)   1/ 8( 12%)  16/16(100%)  36/36(100%) 
+H:  LC113 - LC128    16/16(100%)   2/ 8( 25%)  15/16( 93%)  35/36( 97%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            46/64     ( 71%)
+Total logic cells used:                        126/128    ( 98%)
+Total shareable expanders used:                 73/128    ( 57%)
+Total Turbo logic cells used:                  126/128    ( 98%)
+Total shareable expanders not available (n/a):  50/128    ( 39%)
+Average fan-in:                                  7.21
+Total fan-in:                                   909
+
+Total input pins required:                      18
+Total fast input logic cells required:           0
+Total output pins required:                     24
+Total bidirectional pins required:               0
+Total reserved pins required                     4
+Total logic cells required:                    126
+Total flipflops required:                        0
+Total product terms required:                  514
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          72
+
+Synthesized logic cells:                       115/ 128   ( 89%)
+
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  24   (46)  (C)      INPUT               0      0   0    0    0    0    2  ans0
+  31   (35)  (C)      INPUT               0      0   0    0    0    0    2  ans1
+  29   (38)  (C)      INPUT               0      0   0    0    0    0    1  btn0
+  41   (49)  (D)      INPUT               0      0   0    0    0    0    1  btn1
+  27   (43)  (C)      INPUT               0      0   0    0    0    0    1  btn3
+  44   (65)  (E)      INPUT               0      0   0    0    0    9   75  CLK
+  35   (59)  (D)      INPUT               0      0   0    0    0    4    0  DCOM0
+  51   (77)  (E)      INPUT               0      0   0    0    0    0   22  lvb0
+  56   (86)  (F)      INPUT               0      0   0    0    0    0   25  lvb1
+  48   (72)  (E)      INPUT               0      0   0    0    0    0   24  lvb2
+  55   (85)  (F)      INPUT               0      0   0    0    0    0   26  lvb3
+   4   (16)  (A)      INPUT               0      0   0    0    0    0    8  on
+  25   (45)  (C)      INPUT               0      0   0    0    0    0   60  Reset
+   5   (14)  (A)      INPUT               0      0   0    0    0    0    5  set0
+  39   (53)  (D)      INPUT               0      0   0    0    0    4    0  shb0
+  49   (73)  (E)      INPUT               0      0   0    0    0    4    0  shb1
+  34   (61)  (D)      INPUT               0      0   0    0    0    4    5  showCLK
+  50   (75)  (E)      INPUT               0      0   0    0    0    0    1  start
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  74    117    H     OUTPUT    s t        0      0   0    1    2    1   14  DCIMb0
+  73    115    H     OUTPUT    s t        0      0   0    1    2    1   14  DCIMb1
+  58     91    F     OUTPUT    s t        0      0   0    1    2    1   12  DCIMb2
+  30     37    C     OUTPUT    s t        0      0   0    1    2    1   11  DCIMb3
+  11      5    A     OUTPUT    s t        0      0   0    1    2    1    1  DCIMen
+  36     57    D     OUTPUT    s t        0      0   0    1    2    1    8  DCOMb0
+  40     51    D     OUTPUT    s t        0      0   0    1    2    1    7  DCOMb1
+  33     64    D     OUTPUT    s t        0      0   0    1    2    1    5  DCOMb2
+  37     56    D     OUTPUT    s t        0      0   0    1    2    1    3  DCOMb3
+  46     69    E     OUTPUT    s t        0      0   0    1    2    5   19  DCOMen
+  18     24    B     OUTPUT      t        0      0   0    0    7    0    0  DS1
+  21     19    B     OUTPUT      t        0      0   0    0    5    0    0  DS2
+  20     21    B     OUTPUT      t        0      0   0    0    7    0    0  DS3
+  16     27    B     OUTPUT      t        0      0   0    0    3    0    0  DS4
+  15     29    B     OUTPUT      t        0      0   0    0    7    0    0  DS5
+  22     17    B     OUTPUT      t        0      0   0    0    5    0    0  DS6
+  17     25    B     OUTPUT      t        0      0   0    0    7    0    0  DS7
+  28     40    C     OUTPUT    s t        0      0   0    1    2    8    2  DS8
+  54     83    F     OUTPUT    s t        0      0   0    1    2    1   11  lose
+   9      8    A     OUTPUT      t        0      0   0    3    1    0    0  L0
+  10      6    A     OUTPUT      t        0      0   0    3    1    0    0  L1
+   6     13    A     OUTPUT      t        0      0   0    3    1    0    0  L2
+   8     11    A     OUTPUT      t        0      0   0    3    1    0    0  L3
+  12      3    A     OUTPUT    s t        0      0   0    1    2    1    4  win
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (61)    94    F      LCELL    s t        0      0   0    3    2    0    3  |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1
+   -     95    F       SOFT    s t        0      0   0    1    2    0    1  |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1
+   -     82    F      LCELL    s t        1      0   0    1    2    0   12  |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1
+ (65)   101    G      LCELL    s t        0      0   0    2    3    0    2  |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1
+   -    111    G      LCELL    s t        0      0   0    1    2    0   10  |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1
+   -     30    B      LCELL    s t        0      0   0    1    1    0   12  |ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1
+   -    100    G      LCELL    s t        0      0   0    2    3    0    8  |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1
+   -    102    G      LCELL    s t        0      0   0    1    2    0   11  |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1
+ (70)   109    G       SOFT    s t        0      0   0    1    3    0    2  |ch_ans2b:44|neg_ch:6|~4~1
+   -     84    F      LCELL    s t        0      0   0    3    2    0    2  |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1
+   -     92    F      LCELL    s t        0      0   0    1    2    0    3  |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1
+   -     90    F      LCELL    s t        0      0   0    2    3    0    3  |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1
+   -     87    F      LCELL    s t        0      0   0    1    2    0    2  |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1
+   -     81    F       SOFT    s t        0      0   0    1    3    0   10  |ch_ans2b:44|neg_ch:7|~4~1
+  (4)    16    A      LCELL    s t        0      0   0    3    2    0    2  |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1
+ (63)    97    G      LCELL    s t        0      0   0    1    2    0   12  |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1
+ (81)   128    H      LCELL    s t        0      0   0    2    3    0    8  |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1
+   -    119    H      LCELL    s t        0      0   0    1    2    0   11  |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1
+ (75)   118    H       SOFT    s t        0      0   0    1    3    0    2  |ch_ans2b:44|neg_ch:8|~4~1
+ (60)    93    F       SOFT    s t        2      0   0    1    9    0    2  |ch_ans2b:44|only1_2b:3|~2~1
+   -    103    G       SOFT    s t        1      0   1    1    9    0    1  |ch_ans2b:44|only1_2b:3|~6~1
+ (56)    86    F       SOFT    s t        1      0   1    1    9    0    2  |ch_ans2b:44|only1_2b:3|~7~1
+ (64)    99    G       SOFT    s t        2      0   1    1    9    0    2  |ch_ans2b:44|only1_2b:3|~8~1
+ (71)   112    G       SOFT    s t        1      0   1    1    9    0    2  |ch_ans2b:44|only1_2b:3|~9~1
+ (68)   105    G       SOFT    s t        8      0   1    2   11    0   10  |ch_ans2b:44|~22~1
+ (67)   104    G       SOFT    s t        1      0   1    2    7    0    1  |ch_ans2b:44|T~2 (|ch_ans2b:44|~22~2)
+   -     33    C       SOFT    s t        5      0   1    0    9    0   26  |ch4:35|~6~1
+   -     22    B       SOFT    s t        5      0   1    0    9    0   15  |ch4:36|~6~1
+   -    124    H      LCELL    s t        0      0   0    2    3    1    1  |c4b:32|t_ff:2|d_latch:1|~3~1
+   -    116    H       SOFT    s t        0      0   0    0    2    0    1  |c4b:32|t_ff:2|~7~1
+   -    114    H      LCELL    s t        0      0   0    1    5    0    1  |c4b:32|t_ff:3|d_latch:1|~3~1~2
+ (29)    38    C      LCELL    s t        1      0   1    2    6    1    2  |c4b:32|t_ff:3|d_latch:1|~3~1
+ (24)    46    C      LCELL    s t        1      0   1    2    6    0    1  |c4b:32|t_ff:4|d_latch:1|~3~1~2
+ (31)    35    C      LCELL    s t        1      0   1    2    6    1    1  |c4b:32|t_ff:4|d_latch:1|~3~1
+   -     47    C      LCELL    s t        1      1   0    1    7    0    1  |c4b:32|t_ff:5|d_latch:1|~3~1~2
+ (23)    48    C      LCELL    s t        2      1   1    2    8    1    2  |c4b:32|t_ff:5|d_latch:1|~3~1
+   -     50    D      LCELL    s t        1      0   1    2    4    1    1  |c4b:33|t_ff:2|d_latch:1|~3~1
+   -     54    D      LCELL    s t        0      0   0    1    5    0    1  |c4b:33|t_ff:3|d_latch:1|~3~1~2
+   -     62    D      LCELL    s t        1      0   1    2    6    1    2  |c4b:33|t_ff:3|d_latch:1|~3~1
+ (35)    59    D      LCELL    s t        1      0   1    2    6    0    1  |c4b:33|t_ff:4|d_latch:1|~3~1~2
+   -     52    D      LCELL    s t        1      0   1    2    6    1    1  |c4b:33|t_ff:4|d_latch:1|~3~1
+   -     60    D      LCELL    s t        1      1   0    1    7    0    1  |c4b:33|t_ff:5|d_latch:1|~3~1~2
+   -     58    D      LCELL    s t        2      1   1    2    8    1    2  |c4b:33|t_ff:5|d_latch:1|~3~1
+ (27)    43    C      LCELL    s t        0      0   0    1    4    0    1  |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1~2
+   -     44    C      LCELL    s t        1      0   1    2    5    1    2  |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1
+   -     12    A      LCELL    s t        0      0   0    1    5    0    1  |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+   -    108    G      LCELL    s t        1      0   1    2    6    0    4  |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1
+ (69)   107    G      LCELL    s t        0      0   0    1    3    7    3  |ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1
+ (79)   125    H      LCELL    s t        0      0   0    1    1    7    3  |ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1
+   -     15    A      LCELL    s t        0      0   0    1    5    0    1  |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+   -     89    F      LCELL    s t        1      0   1    2    6    0    4  |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1
+   -      9    A      LCELL    s t        0      0   0    1    3    6    3  |ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1
+   -     20    B      LCELL    s t        0      0   0    1    1    6    3  |ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1
+   -     23    B      LCELL    s t        0      0   0    1    5    0    1  |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+   -    110    G      LCELL    s t        1      0   1    2    6    0    4  |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1
+   -     18    B      LCELL    s t        0      0   0    1    3    4    3  |ds:27|reg4b:1|reg1b:4|d_latch:17|~2~1
+   -     26    B      LCELL    s t        0      0   0    1    1    4    3  |ds:27|reg4b:1|reg1b:4|d_latch:17|~6~1
+ (77)   123    H      LCELL    s t        9      1   1    8   17    0    2  |mem4:25|t_ff:2|d_latch:1|~3~1
+ (80)   126    H       SOFT    s t        1      0   1    7    8    0    1  |mem4:25|t_ff:2|d_latch:1|q~2 (|mem4:25|t_ff:2|d_latch:1|~3~2)
+   -    127    H       SOFT    s t        1      0   1    6    8    0    1  |mem4:25|t_ff:2|d_latch:1|q~3 (|mem4:25|t_ff:2|d_latch:1|~3~3)
+   -    113    H       SOFT    s t        1      0   1    7    8    0    1  |mem4:25|t_ff:2|d_latch:1|q~4 (|mem4:25|t_ff:2|d_latch:1|~3~4)
+ (76)   120    H       SOFT    s t        1      0   1    7    8    0    1  |mem4:25|t_ff:2|d_latch:1|q~5 (|mem4:25|t_ff:2|d_latch:1|~3~5)
+   -    121    H       SOFT    s t        1      0   1    7    9    0    1  |mem4:25|t_ff:2|d_latch:1|q~6 (|mem4:25|t_ff:2|d_latch:1|~3~6)
+ (14)    32    B       SOFT    s t        1      0   1    7    4    0    1  |mem4:25|t_ff:2|d_latch:1|q~7 (|mem4:25|t_ff:2|d_latch:1|~3~7)
+   -    122    H       SOFT    s t        1      0   1    7    6    0    1  |mem4:25|t_ff:2|d_latch:1|q~8 (|mem4:25|t_ff:2|d_latch:1|~3~8)
+   -     63    D      LCELL    s t        0      0   0    1    2    0   23  |mem4:25|t_ff:2|d_latch:2|~3~1
+   -      4    A      LCELL    s t        9      0   0    7    7    0    2  |mem4:25|t_ff:3|d_latch:1|~3~1
+   -     42    C       SOFT    s t        1      0   1    7    7    0    1  |mem4:25|t_ff:3|d_latch:1|q~2 (|mem4:25|t_ff:3|d_latch:1|~3~2)
+   -     41    C      LCELL    s t        0      0   0    1    2    0   30  |mem4:25|t_ff:3|d_latch:2|~3~1
+ (34)    61    D      LCELL    s t        9      1   1    7    7    0    2  |mem4:25|t_ff:4|d_latch:1|~3~1
+   -    106    G      LCELL    s t        0      0   0    1    2    0   29  |mem4:25|t_ff:4|d_latch:2|~3~1
+ (25)    45    C      LCELL    s t        2      0   1    7    7    0    2  |mem4:25|t_ff:5|d_latch:1|~3~1
+   -     34    C      LCELL    s t        0      0   0    1    2    0   30  |mem4:25|t_ff:5|d_latch:2|~3~1
+ (48)    72    E      LCELL    s t        0      0   0    3    1    0    2  |neg_ch:71|d_ff:1|d_latch:1|~3~1
+   -     76    E      LCELL    s t        0      0   0    1    2    0    8  |neg_ch:71|d_ff:1|d_latch:2|~3~1
+   -     66    E      LCELL    s t        0      0   0    2    2    0    6  |neg_ch:71|d_ff:2|d_latch:1|~3~1
+ (45)    67    E      LCELL    s t        0      0   0    1    2    0    7  |neg_ch:71|d_ff:2|d_latch:2|~2~1
+   -     71    E      LCELL    s t        0      0   0    1    4    0    1  |t_ff:37|d_latch:1|~3~1~2
+ (51)    77    E      LCELL    s t        1      0   1    2    5    0    3  |t_ff:37|d_latch:1|~3~1
+   -     70    E      LCELL    s t        0      0   0    1    2    0   35  |t_ff:37|d_latch:2|~3~1
+ (62)    96    F      LCELL    s t        8      0   0    2   11    1    1  |t_ff:49|d_latch:1|~3~1
+   -     98    G       SOFT    s t        1      0   1    2    8    0    1  |t_ff:49|d_latch:1|q~2 (|t_ff:49|d_latch:1|~3~2)
+ (57)    88    F       SOFT    s t        1      0   1    2    9    0    1  |t_ff:49|d_latch:1|q~3 (|t_ff:49|d_latch:1|~3~3)
+ (55)    85    F       SOFT    s t        1      0   1    2    9    0    1  |t_ff:49|d_latch:1|q~4 (|t_ff:49|d_latch:1|~3~4)
+   -      1    A      LCELL    s t        1      0   1    2    4    1    1  |t_ff:52|d_latch:1|~3~1
+ (50)    75    E      LCELL    s t        0      0   0    2    4    1    1  |t_ff:53|d_latch:1|~3~1
+   -     68    E       SOFT    s t        5      0   0    3   13    0    1  |t_ff:53|~6~1
+   -     74    E       SOFT    s t        1      0   1    5    8    0    1  |t_ff:53|~6~2
+ (52)    80    E       SOFT    s t        1      0   1    5    8    0    1  |t_ff:53|~6~3
+   -     78    E       SOFT    s t        1      0   1    5    8    0    1  |t_ff:53|~6~4
+ (49)    73    E       SOFT    s t        1      0   1    6   11    0    1  |t_ff:53|~6~5
+   -      2    A       SOFT    s t        1      0   1    4    6    0    1  |t_ff:53|~6~6
+   -     79    E       SOFT    s t        5      0   0    2   12    0    1  |t_ff:53|~7~1
+   -      7    A       SOFT    s t        1      0   1    4    7    0    1  |t_ff:53|~7~2
+   -     10    A       SOFT    s t        1      0   1    4    7    0    1  |t_ff:53|~7~3
+  (5)    14    A       SOFT    s t        1      0   1    4    7    0    1  |t_ff:53|~7~4
+ (44)    65    E       SOFT    s t        1      0   1    5   10    0    1  |t_ff:53|~7~5
+ (41)    49    D       SOFT    s t        1      0   1    3    5    0    1  |t_ff:53|~7~6
+   -     31    B      LCELL    s t        8      0   0    4    9    1    1  |t_ff:69|d_latch:1|~3~1
+   -     28    B       SOFT    s t        1      0   1    5    4    0    1  |t_ff:69|d_latch:1|q~2 (|t_ff:69|d_latch:1|~3~2)
+   -     39    C       SOFT    s t        1      0   1    4    5    0    1  |t_ff:69|d_latch:1|q~3 (|t_ff:69|d_latch:1|~3~3)
+   -     36    C       SOFT    s t        1      0   1    4    4    0    1  |t_ff:69|d_latch:1|q~4 (|t_ff:69|d_latch:1|~3~4)
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                                         Logic cells placed in LAB 'A'
+        +------------------------------- LC16 |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1
+        | +----------------------------- LC5 DCIMen
+        | | +--------------------------- LC12 |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+        | | | +------------------------- LC15 |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+        | | | | +----------------------- LC9 |ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1
+        | | | | | +--------------------- LC8 L0
+        | | | | | | +------------------- LC6 L1
+        | | | | | | | +----------------- LC13 L2
+        | | | | | | | | +--------------- LC11 L3
+        | | | | | | | | | +------------- LC4 |mem4:25|t_ff:3|d_latch:1|~3~1
+        | | | | | | | | | | +----------- LC1 |t_ff:52|d_latch:1|~3~1
+        | | | | | | | | | | | +--------- LC2 |t_ff:53|~6~6
+        | | | | | | | | | | | | +------- LC7 |t_ff:53|~7~2
+        | | | | | | | | | | | | | +----- LC10 |t_ff:53|~7~3
+        | | | | | | | | | | | | | | +--- LC14 |t_ff:53|~7~4
+        | | | | | | | | | | | | | | | +- LC3 win
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'A'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'A':
+LC16 -> * - - - - - - - - - - - - - - - | * - - - - - * - | <-- |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1
+LC5  -> - * - - - - - - - - * - - - - - | * - - - - - - - | <-- DCIMen
+LC9  -> - - - * * - - - - - - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC1  -> - * - - - - - - - - * - - - - - | * - - - - - - - | <-- |t_ff:52|d_latch:1|~3~1
+LC3  -> - - - - - - - - - - - - - - - * | * * * - - - - - | <-- win
+
+Pin
+29   -> * - - - - - - - - - - - - - - - | * - - - - - - - | <-- btn0
+44   -> * * - - * - - - - * * - - - - * | * * * * * * * * | <-- CLK
+35   -> - - - - - * * * * - - - - - - - | * - - - - - - - | <-- DCOM0
+51   -> - - - - - - - - - * - - * * * - | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - * - * * * * - | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - * - * * * * - | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - * - * * * * - | * * * * * - - * | <-- lvb3
+25   -> * - * * - - - - - * * * - - - - | * * * * * * * * | <-- Reset
+5    -> - - - - - - - - - * - - - - - - | * - * * - - - * | <-- set0
+39   -> - - - - - * * * * - - - - - - - | * - - - - - - - | <-- shb0
+49   -> - - - - - * * * * - - - - - - - | * - - - - - - - | <-- shb1
+LC33 -> - - - - - - - - - * * * * * * - | * * * * * - - * | <-- |ch4:35|~6~1
+LC22 -> - - - - - - - - - - * * - - - - | * - - * * - - - | <-- |ch4:36|~6~1
+LC69 -> - - - - - * * * * - - * * * * - | * - - * * - - - | <-- DCOMen
+LC108-> - - * - - - - - - - - - - - - - | * - - - - - * * | <-- |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1
+LC107-> - - * - - - - - - - - - - - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC125-> - - * - - - - - - - - - - - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC89 -> - - - * * - - - - - - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1
+LC20 -> - - - * * - - - - - - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC83 -> * - - - - - - - - - - - - - - - | * - - - - * * * | <-- lose
+LC63 -> - - - - - - - - - * - - * * * - | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC42 -> - - - - - - - - - * - - - - - - | * - - - - - - - | <-- |mem4:25|t_ff:3|d_latch:1|q~2
+LC41 -> - - - * - - - - - * - * * * * - | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC106-> - - * - - - - - - * - * * * * - | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC34 -> - - - - - - - - - * - * * * * - | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+LC70 -> - - * * - - - - - * - - * * * - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+LC31 -> - - - - - - - - - - - - - - - * | * * - - - - - - | <-- |t_ff:69|d_latch:1|~3~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC30 |ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1
+        | +----------------------------- LC22 |ch4:36|~6~1
+        | | +--------------------------- LC24 DS1
+        | | | +------------------------- LC19 DS2
+        | | | | +----------------------- LC21 DS3
+        | | | | | +--------------------- LC27 DS4
+        | | | | | | +------------------- LC29 DS5
+        | | | | | | | +----------------- LC17 DS6
+        | | | | | | | | +--------------- LC25 DS7
+        | | | | | | | | | +------------- LC20 |ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1
+        | | | | | | | | | | +----------- LC23 |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+        | | | | | | | | | | | +--------- LC18 |ds:27|reg4b:1|reg1b:4|d_latch:17|~2~1
+        | | | | | | | | | | | | +------- LC26 |ds:27|reg4b:1|reg1b:4|d_latch:17|~6~1
+        | | | | | | | | | | | | | +----- LC32 |mem4:25|t_ff:2|d_latch:1|q~7
+        | | | | | | | | | | | | | | +--- LC31 |t_ff:69|d_latch:1|~3~1
+        | | | | | | | | | | | | | | | +- LC28 |t_ff:69|d_latch:1|q~2
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'B':
+LC30 -> * - - - - - - - - - - - - - - - | - * - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1
+LC20 -> - - * * * - * * * - - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC18 -> - - * - * - * - * - * * - - - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC26 -> - - * - * - * - * - * * - - - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC31 -> - - - - - - - - - - - - - - * - | * * - - - - - - | <-- |t_ff:69|d_latch:1|~3~1
+LC28 -> - - - - - - - - - - - - - - * - | - * - - - - - - | <-- |t_ff:69|d_latch:1|q~2
+
+Pin
+44   -> * - - - - - - - - * - * * * * * | * * * * * * * * | <-- CLK
+51   -> - - - - - - - - - - - - - * * - | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - - - - - * - * | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - - - - - * - * | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - - - - - * * * | * * * * * - - * | <-- lvb3
+4    -> - - - - - - - - - - - - - * - - | - * - - - - - * | <-- on
+25   -> - - - - - - - - - - * - - * * * | * * * * * * * * | <-- Reset
+LC33 -> - - - - - - - - - - - - - - * - | * * * * * - - * | <-- |ch4:35|~6~1
+LC37 -> - - - - - - - - - - - - - * - - | - * * - - - - * | <-- DCIMb3
+LC57 -> - * - - - - - - - - - - - - - - | - * - * - - - - | <-- DCOMb0
+LC51 -> - * - - - - - - - - - - - - - - | - * - * - - - - | <-- DCOMb1
+LC64 -> - * - - - - - - - - - - - - - - | - * - * - - - - | <-- DCOMb2
+LC56 -> - * - - - - - - - - - - - - - - | - * - * - - - - | <-- DCOMb3
+LC40 -> - - * * * * * * * - - - - - - - | - * * - - - - - | <-- DS8
+LC107-> - - * * * * * * * - - - - - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC125-> - - * * * * * * * - - - - - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC89 -> - - - - - - - - - * - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1
+LC9  -> - - * * * - * * * - - - - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC110-> - - - - - - - - - - * * * - - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1
+LC63 -> - * - - - - - - - - * - - * * - | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC41 -> - * - - - - - - - - - - - * - * | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC106-> - * - - - - - - - - - - - * - * | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC34 -> - * - - - - - - - - - - - - * * | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+LC70 -> - * - - - - - - - - * - - - * - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+LC39 -> - - - - - - - - - - - - - - * - | - * - - - - - - | <-- |t_ff:69|d_latch:1|q~3
+LC36 -> - - - - - - - - - - - - - - * - | - * - - - - - - | <-- |t_ff:69|d_latch:1|q~4
+LC3  -> - - - - - - - - - - - - - - * * | * * * - - - - - | <-- win
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                         Logic cells placed in LAB 'C'
+        +------------------------------- LC33 |ch4:35|~6~1
+        | +----------------------------- LC38 |c4b:32|t_ff:3|d_latch:1|~3~1
+        | | +--------------------------- LC46 |c4b:32|t_ff:4|d_latch:1|~3~1~2
+        | | | +------------------------- LC35 |c4b:32|t_ff:4|d_latch:1|~3~1
+        | | | | +----------------------- LC47 |c4b:32|t_ff:5|d_latch:1|~3~1~2
+        | | | | | +--------------------- LC48 |c4b:32|t_ff:5|d_latch:1|~3~1
+        | | | | | | +------------------- LC37 DCIMb3
+        | | | | | | | +----------------- LC40 DS8
+        | | | | | | | | +--------------- LC43 |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1~2
+        | | | | | | | | | +------------- LC44 |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | | +----------- LC42 |mem4:25|t_ff:3|d_latch:1|q~2
+        | | | | | | | | | | | +--------- LC41 |mem4:25|t_ff:3|d_latch:2|~3~1
+        | | | | | | | | | | | | +------- LC45 |mem4:25|t_ff:5|d_latch:1|~3~1
+        | | | | | | | | | | | | | +----- LC34 |mem4:25|t_ff:5|d_latch:2|~3~1
+        | | | | | | | | | | | | | | +--- LC39 |t_ff:69|d_latch:1|q~3
+        | | | | | | | | | | | | | | | +- LC36 |t_ff:69|d_latch:1|q~4
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'C':
+LC33 -> - * * * * * - - - - * - * - * - | * * * * * - - * | <-- |ch4:35|~6~1
+LC38 -> - * - - - - - - - - - - - - - - | - - * - - - - * | <-- |c4b:32|t_ff:3|d_latch:1|~3~1
+LC46 -> - - - * - - - - - - - - - - - - | - - * - - - - - | <-- |c4b:32|t_ff:4|d_latch:1|~3~1~2
+LC35 -> - - * - - - - - - - - - - - - - | - - * - - * - - | <-- |c4b:32|t_ff:4|d_latch:1|~3~1
+LC47 -> - - - - - * - - - - - - - - - - | - - * - - - - - | <-- |c4b:32|t_ff:5|d_latch:1|~3~1~2
+LC48 -> - - - - * * * - - - - - - - - - | - - * - - - - - | <-- |c4b:32|t_ff:5|d_latch:1|~3~1
+LC37 -> * - - - * * * - - - - - - - - - | - * * - - - - * | <-- DCIMb3
+LC40 -> - - - - - - - * * * - - - - - - | - * * - - - - - | <-- DS8
+LC43 -> - - - - - - - - - * - - - - - - | - - * - - - - - | <-- |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1~2
+LC44 -> - - - - - - - * * * - - - - - - | - - * - - - - - | <-- |ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1
+LC41 -> * - - - - - - - - - * * * - * * | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC45 -> - - - - - - - - - - - - * * - - | - - * - - - - - | <-- |mem4:25|t_ff:5|d_latch:1|~3~1
+LC34 -> * - - - - - - - * * * - * * - * | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+
+Pin
+44   -> - * * * - * * * - * * * * * * * | * * * * * * * * | <-- CLK
+51   -> - - - - - - - - - - * - * - * - | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - - * - * - * * | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - - * - * - - * | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - - * - * - - * | * * * * * - - * | <-- lvb3
+25   -> - * * * * * - - * * * - * - * - | * * * * * * * * | <-- Reset
+5    -> - - - - - - - - - - * - * - - - | * - * * - - - * | <-- set0
+LC105-> - * * * * * - - - - - - - - - - | - - * - - * - * | <-- |ch_ans2b:44|~22~1
+LC114-> - * - - - - - - - - - - - - - - | - - * - - - - - | <-- |c4b:32|t_ff:3|d_latch:1|~3~1~2
+LC117-> * * * * * * - - - - - - - - - - | - - * - - - - * | <-- DCIMb0
+LC115-> * * * * * * - - - - - - - - - - | - - * - - - - * | <-- DCIMb1
+LC91 -> * - * * * * - - - - - - - - - - | - - * - - * - * | <-- DCIMb2
+LC63 -> * - - - - - - - - - * - * - * - | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC4  -> - - - - - - - - - - * * - - - - | - - * - - - - - | <-- |mem4:25|t_ff:3|d_latch:1|~3~1
+LC106-> * - - - - - - - - - * - * - - * | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC70 -> * - - - - - - - * * * - * - * - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+LC3  -> - - - - - - - - - - - - - - * * | * * * - - - - - | <-- win
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                     Logic cells placed in LAB 'D'
+        +--------------------------- LC50 |c4b:33|t_ff:2|d_latch:1|~3~1
+        | +------------------------- LC54 |c4b:33|t_ff:3|d_latch:1|~3~1~2
+        | | +----------------------- LC62 |c4b:33|t_ff:3|d_latch:1|~3~1
+        | | | +--------------------- LC59 |c4b:33|t_ff:4|d_latch:1|~3~1~2
+        | | | | +------------------- LC52 |c4b:33|t_ff:4|d_latch:1|~3~1
+        | | | | | +----------------- LC60 |c4b:33|t_ff:5|d_latch:1|~3~1~2
+        | | | | | | +--------------- LC58 |c4b:33|t_ff:5|d_latch:1|~3~1
+        | | | | | | | +------------- LC57 DCOMb0
+        | | | | | | | | +----------- LC51 DCOMb1
+        | | | | | | | | | +--------- LC64 DCOMb2
+        | | | | | | | | | | +------- LC56 DCOMb3
+        | | | | | | | | | | | +----- LC63 |mem4:25|t_ff:2|d_latch:2|~3~1
+        | | | | | | | | | | | | +--- LC61 |mem4:25|t_ff:4|d_latch:1|~3~1
+        | | | | | | | | | | | | | +- LC49 |t_ff:53|~7~6
+        | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'D':
+LC50 -> * - - - - - - * - - - - - - | - - - * - - - - | <-- |c4b:33|t_ff:2|d_latch:1|~3~1
+LC54 -> - - * - - - - - - - - - - - | - - - * - - - - | <-- |c4b:33|t_ff:3|d_latch:1|~3~1~2
+LC62 -> - * * - - - - - * - - - - - | - - - * - - - - | <-- |c4b:33|t_ff:3|d_latch:1|~3~1
+LC59 -> - - - - * - - - - - - - - - | - - - * - - - - | <-- |c4b:33|t_ff:4|d_latch:1|~3~1~2
+LC52 -> - - - * - - - - - * - - - - | - - - * - - - - | <-- |c4b:33|t_ff:4|d_latch:1|~3~1
+LC60 -> - - - - - - * - - - - - - - | - - - * - - - - | <-- |c4b:33|t_ff:5|d_latch:1|~3~1~2
+LC58 -> - - - - - * * - - - * - - - | - - - * - - - - | <-- |c4b:33|t_ff:5|d_latch:1|~3~1
+LC57 -> * * * * * * * * - - - - - - | - * - * - - - - | <-- DCOMb0
+LC51 -> - * * * * * * - * - - - - - | - * - * - - - - | <-- DCOMb1
+LC64 -> - - - * * * * - - * - - - - | - * - * - - - - | <-- DCOMb2
+LC56 -> - - - - - * * - - - * - - - | - * - * - - - - | <-- DCOMb3
+LC63 -> - - - - - - - - - - - * * - | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC61 -> - - - - - - - - - - - - * - | - - - * - - * - | <-- |mem4:25|t_ff:4|d_latch:1|~3~1
+
+Pin
+44   -> - - - - - - - - - - - * * - | * * * * * * * * | <-- CLK
+51   -> - - - - - - - - - - - - * - | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - - - - * * | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - - - - * * | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - - - - * * | * * * * * - - * | <-- lvb3
+25   -> * * * * * * * - - - - - * - | * * * * * * * * | <-- Reset
+5    -> - - - - - - - - - - - - * - | * - * * - - - * | <-- set0
+34   -> * - * * * - * * * * * - - - | - - - * - - - - | <-- showCLK
+LC33 -> - - - - - - - - - - - - * * | * * * * * - - * | <-- |ch4:35|~6~1
+LC22 -> * * * * * * * - - - - - - - | * - - * * - - - | <-- |ch4:36|~6~1
+LC69 -> * * * * * * * - - - - - - * | * - - * * - - - | <-- DCOMen
+LC123-> - - - - - - - - - - - * - - | - - - * - - - * | <-- |mem4:25|t_ff:2|d_latch:1|~3~1
+LC41 -> - - - - - - - - - - - - * * | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC106-> - - - - - - - - - - - - * * | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC34 -> - - - - - - - - - - - - * * | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+LC70 -> - - - - - - - - - - - - * - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                                         Logic cells placed in LAB 'E'
+        +------------------------------- LC69 DCOMen
+        | +----------------------------- LC72 |neg_ch:71|d_ff:1|d_latch:1|~3~1
+        | | +--------------------------- LC76 |neg_ch:71|d_ff:1|d_latch:2|~3~1
+        | | | +------------------------- LC66 |neg_ch:71|d_ff:2|d_latch:1|~3~1
+        | | | | +----------------------- LC67 |neg_ch:71|d_ff:2|d_latch:2|~2~1
+        | | | | | +--------------------- LC71 |t_ff:37|d_latch:1|~3~1~2
+        | | | | | | +------------------- LC77 |t_ff:37|d_latch:1|~3~1
+        | | | | | | | +----------------- LC70 |t_ff:37|d_latch:2|~3~1
+        | | | | | | | | +--------------- LC75 |t_ff:53|d_latch:1|~3~1
+        | | | | | | | | | +------------- LC68 |t_ff:53|~6~1
+        | | | | | | | | | | +----------- LC74 |t_ff:53|~6~2
+        | | | | | | | | | | | +--------- LC80 |t_ff:53|~6~3
+        | | | | | | | | | | | | +------- LC78 |t_ff:53|~6~4
+        | | | | | | | | | | | | | +----- LC73 |t_ff:53|~6~5
+        | | | | | | | | | | | | | | +--- LC79 |t_ff:53|~7~1
+        | | | | | | | | | | | | | | | +- LC65 |t_ff:53|~7~5
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'E'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'E':
+LC69 -> * - - - - - - - - * * * * * * * | * - - * * - - - | <-- DCOMen
+LC72 -> - * * - - - - - - - - - - - - - | - - - - * - - - | <-- |neg_ch:71|d_ff:1|d_latch:1|~3~1
+LC76 -> - - * * - * * - - * - - - * * * | - - - - * - - - | <-- |neg_ch:71|d_ff:1|d_latch:2|~3~1
+LC66 -> - - - * * - - - - * - - - * * * | - - - - * - - - | <-- |neg_ch:71|d_ff:2|d_latch:1|~3~1
+LC67 -> - - - - * * * - - * - - - * * * | - - - - * - - - | <-- |neg_ch:71|d_ff:2|d_latch:2|~2~1
+LC71 -> - - - - - - * - - - - - - - - - | - - - - * - - - | <-- |t_ff:37|d_latch:1|~3~1~2
+LC77 -> - - - - - * * * - - - - - - - - | - - - - * - - - | <-- |t_ff:37|d_latch:1|~3~1
+LC70 -> - - - - - * * * - * * * * * * * | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+LC75 -> * - - - - - - - * - - - - - - - | - - - - * - - - | <-- |t_ff:53|d_latch:1|~3~1
+LC68 -> - - - - - - - - * - - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~1
+LC74 -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~2
+LC80 -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~3
+LC78 -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~4
+LC73 -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~5
+LC79 -> - - - - - - - - * - - - - - - - | - - - - * - - - | <-- |t_ff:53|~7~1
+LC65 -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |t_ff:53|~7~5
+
+Pin
+44   -> * * * * * - * * * * - - - * * * | * * * * * * * * | <-- CLK
+51   -> - - - - - - - - - - * * * * - * | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - - * * * * - * | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - - * * * * - * | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- lvb3
+25   -> - * - * - * * - * * * * * * - - | * * * * * * * * | <-- Reset
+50   -> - * - - - - - - - - - - - - - - | - - - - * - - - | <-- start
+LC33 -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- |ch4:35|~6~1
+LC22 -> - - - - - - - - * * * * * * - - | * - - * * - - - | <-- |ch4:36|~6~1
+LC63 -> - - - - - - - - - - * * * * - * | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC41 -> - - - - - - - - - - * * * * - * | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC106-> - - - - - - - - - - * * * * - * | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC34 -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+LC2  -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |t_ff:53|~6~6
+LC7  -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |t_ff:53|~7~2
+LC10 -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |t_ff:53|~7~3
+LC14 -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |t_ff:53|~7~4
+LC49 -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |t_ff:53|~7~6
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                                         Logic cells placed in LAB 'F'
+        +------------------------------- LC94 |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1
+        | +----------------------------- LC95 |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1
+        | | +--------------------------- LC82 |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1
+        | | | +------------------------- LC84 |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1
+        | | | | +----------------------- LC92 |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1
+        | | | | | +--------------------- LC90 |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1
+        | | | | | | +------------------- LC87 |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1
+        | | | | | | | +----------------- LC81 |ch_ans2b:44|neg_ch:7|~4~1
+        | | | | | | | | +--------------- LC93 |ch_ans2b:44|only1_2b:3|~2~1
+        | | | | | | | | | +------------- LC86 |ch_ans2b:44|only1_2b:3|~7~1
+        | | | | | | | | | | +----------- LC91 DCIMb2
+        | | | | | | | | | | | +--------- LC89 |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1
+        | | | | | | | | | | | | +------- LC83 lose
+        | | | | | | | | | | | | | +----- LC96 |t_ff:49|d_latch:1|~3~1
+        | | | | | | | | | | | | | | +--- LC88 |t_ff:49|d_latch:1|q~3
+        | | | | | | | | | | | | | | | +- LC85 |t_ff:49|d_latch:1|q~4
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'F':
+LC94 -> * * * - - - - - - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1
+LC95 -> - - * - - - - - - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1
+LC82 -> - * - - - - - - * * - - - - * * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1
+LC84 -> - - - * * - - - - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1
+LC92 -> - - - - * * - * - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1
+LC90 -> - - - - - * * * - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1
+LC87 -> - - - - - - * * - - - - - - - - | - - - - - * - - | <-- |ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1
+LC81 -> - - - - - - - - * * - - - * * * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:7|~4~1
+LC91 -> - - - - - - - - - - * - - - - - | - - * - - * - * | <-- DCIMb2
+LC89 -> - - - - - - - - - - - * - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1
+LC83 -> * - - * - * - - - - - - * * * * | * - - - - * * * | <-- lose
+LC96 -> - - - - - - - - - - - - * * - - | - - - - - * - - | <-- |t_ff:49|d_latch:1|~3~1
+LC88 -> - - - - - - - - - - - - - * - - | - - - - - * - - | <-- |t_ff:49|d_latch:1|q~3
+LC85 -> - - - - - - - - - - - - - * - - | - - - - - * - - | <-- |t_ff:49|d_latch:1|q~4
+
+Pin
+41   -> - - - * - - - - - - - - - - - - | - - - - - * - - | <-- btn1
+27   -> * - - - - - - - - - - - - - - - | - - - - - * - - | <-- btn3
+44   -> * * * * * * * * * * * * * * * * | * * * * * * * * | <-- CLK
+25   -> * - - * - * - - - - - * - * * * | * * * * * * * * | <-- Reset
+LC111-> - - - - - - - - * * - - - - * * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1
+LC30 -> - - - - - - - - * * - - - * * * | - * - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1
+LC100-> - - - - - - - - * * - - - - - - | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1
+LC102-> - - - - - - - - * * - - - * * * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1
+LC97 -> - - - - - - - - * * - - - * * * | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1
+LC128-> - - - - - - - - * * - - - - - - | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1
+LC119-> - - - - - - - - * * - - - * * * | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1
+LC105-> - - - - - - - - - - - - - * * * | - - * - - * - * | <-- |ch_ans2b:44|~22~1
+LC35 -> - - - - - - - - - - * - - - - - | - - * - - * - - | <-- |c4b:32|t_ff:4|d_latch:1|~3~1
+LC15 -> - - - - - - - - - - - * - - - - | - - - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+LC9  -> - - - - - - - - - - - * - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC20 -> - - - - - - - - - - - * - - - - | * * - - - * - - | <-- |ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC41 -> - - - - - - - - - - - * - - - - | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC70 -> - - - - - - - - - - - * - - - - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+LC98 -> - - - - - - - - - - - - - * - - | - - - - - * - - | <-- |t_ff:49|d_latch:1|q~2
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'G':
+
+                                         Logic cells placed in LAB 'G'
+        +------------------------------- LC101 |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1
+        | +----------------------------- LC111 |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1
+        | | +--------------------------- LC100 |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1
+        | | | +------------------------- LC102 |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1
+        | | | | +----------------------- LC109 |ch_ans2b:44|neg_ch:6|~4~1
+        | | | | | +--------------------- LC97 |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1
+        | | | | | | +------------------- LC103 |ch_ans2b:44|only1_2b:3|~6~1
+        | | | | | | | +----------------- LC99 |ch_ans2b:44|only1_2b:3|~8~1
+        | | | | | | | | +--------------- LC112 |ch_ans2b:44|only1_2b:3|~9~1
+        | | | | | | | | | +------------- LC105 |ch_ans2b:44|~22~1
+        | | | | | | | | | | +----------- LC104 |ch_ans2b:44|T~2
+        | | | | | | | | | | | +--------- LC108 |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | | | +------- LC107 |ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1
+        | | | | | | | | | | | | | +----- LC110 |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1
+        | | | | | | | | | | | | | | +--- LC106 |mem4:25|t_ff:4|d_latch:2|~3~1
+        | | | | | | | | | | | | | | | +- LC98 |t_ff:49|d_latch:1|q~2
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'G'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'G':
+LC101-> * * - - - - - - - - - - - - - - | - - - - - - * - | <-- |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1
+LC111-> - * - - - - * * * * - - - - - * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1
+LC100-> - - * * * - * * * - - - - - - - | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1
+LC102-> - - - * * - * * * - - - - - - * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1
+LC109-> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|neg_ch:6|~4~1
+LC97 -> - - - - - * * * * - - - - - - * | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1
+LC103-> - - - - - - - - - * - - - - - - | - - - - - - * - | <-- |ch_ans2b:44|only1_2b:3|~6~1
+LC99 -> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|only1_2b:3|~8~1
+LC112-> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|only1_2b:3|~9~1
+LC104-> - - - - - - - - - * - - - - - - | - - - - - - * - | <-- |ch_ans2b:44|T~2
+LC108-> - - - - - - - - - - - * * - - - | * - - - - - * * | <-- |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1
+LC107-> - - - - - - - - - - - * * - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC110-> - - - - - - - - - - - - - * - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1
+LC106-> - - - - - - - - - - - * - - * - | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+
+Pin
+24   -> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- ans0
+31   -> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- ans1
+44   -> * * * * * * * * * - - * * * * * | * * * * * * * * | <-- CLK
+25   -> * - * - - - - - - - - * - * - * | * * * * * * * * | <-- Reset
+LC82 -> * - - - - - * * * * * - - - - * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1
+LC30 -> - - * - * - * * * - - - - - - * | - * - - - * * - | <-- |ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1
+LC81 -> - - - - - - * * * * - - - - - * | - - - - - * * - | <-- |ch_ans2b:44|neg_ch:7|~4~1
+LC16 -> - - - - - * - - - - - - - - - - | * - - - - - * - | <-- |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1
+LC128-> - - - - - - * * * - - - - - - - | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1
+LC119-> - - - - - - * * * - - - - - - * | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1
+LC118-> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|neg_ch:8|~4~1
+LC93 -> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|only1_2b:3|~2~1
+LC86 -> - - - - - - - - - * * - - - - - | - - - - - - * - | <-- |ch_ans2b:44|only1_2b:3|~7~1
+LC12 -> - - - - - - - - - - - * - - - - | - - - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+LC125-> - - - - - - - - - - - * * - - - | * * - - - - * - | <-- |ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC23 -> - - - - - - - - - - - - - * - - | - - - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+LC18 -> - - - - - - - - - - - - - * - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC26 -> - - - - - - - - - - - - - * - - | - * - - - - * - | <-- |ds:27|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC83 -> * - * - - - - - - - - - - - - * | * - - - - * * * | <-- lose
+LC63 -> - - - - - - - - - - - - - * - - | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC61 -> - - - - - - - - - - - - - - * - | - - - * - - * - | <-- |mem4:25|t_ff:4|d_latch:1|~3~1
+LC70 -> - - - - - - - - - - - * - * - - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'H':
+
+                                         Logic cells placed in LAB 'H'
+        +------------------------------- LC128 |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1
+        | +----------------------------- LC119 |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1
+        | | +--------------------------- LC118 |ch_ans2b:44|neg_ch:8|~4~1
+        | | | +------------------------- LC124 |c4b:32|t_ff:2|d_latch:1|~3~1
+        | | | | +----------------------- LC116 |c4b:32|t_ff:2|~7~1
+        | | | | | +--------------------- LC114 |c4b:32|t_ff:3|d_latch:1|~3~1~2
+        | | | | | | +------------------- LC117 DCIMb0
+        | | | | | | | +----------------- LC115 DCIMb1
+        | | | | | | | | +--------------- LC125 |ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1
+        | | | | | | | | | +------------- LC123 |mem4:25|t_ff:2|d_latch:1|~3~1
+        | | | | | | | | | | +----------- LC126 |mem4:25|t_ff:2|d_latch:1|q~2
+        | | | | | | | | | | | +--------- LC127 |mem4:25|t_ff:2|d_latch:1|q~3
+        | | | | | | | | | | | | +------- LC113 |mem4:25|t_ff:2|d_latch:1|q~4
+        | | | | | | | | | | | | | +----- LC120 |mem4:25|t_ff:2|d_latch:1|q~5
+        | | | | | | | | | | | | | | +--- LC121 |mem4:25|t_ff:2|d_latch:1|q~6
+        | | | | | | | | | | | | | | | +- LC122 |mem4:25|t_ff:2|d_latch:1|q~8
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'H'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'H':
+LC128-> * * * - - - - - - - - - - - - - | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1
+LC119-> - * * - - - - - - - - - - - - - | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1
+LC124-> - - - * - - * - - - - - - - - - | - - - - - - - * | <-- |c4b:32|t_ff:2|d_latch:1|~3~1
+LC116-> - - - * - - - - - - - - - - - - | - - - - - - - * | <-- |c4b:32|t_ff:2|~7~1
+LC117-> - - - - * * * - - * * * * * * - | - - * - - - - * | <-- DCIMb0
+LC115-> - - - - - * - * - * * * * * * * | - - * - - - - * | <-- DCIMb1
+LC123-> - - - - - - - - - * - - - - - - | - - - * - - - * | <-- |mem4:25|t_ff:2|d_latch:1|~3~1
+LC126-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~2
+LC127-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~3
+LC113-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~4
+LC120-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~5
+LC121-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~6
+LC122-> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~8
+
+Pin
+44   -> * * * * - - * * * * * * * * * * | * * * * * * * * | <-- CLK
+51   -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- lvb0
+56   -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- lvb1
+48   -> - - - - - - - - - * * * * * * * | * * * * * - - * | <-- lvb2
+55   -> - - - - - - - - - * * - * * * * | * * * * * - - * | <-- lvb3
+4    -> - - - - - - - - - * * * * * * * | - * - - - - - * | <-- on
+25   -> * - - * - * - - - * * * * * * * | * * * * * * * * | <-- Reset
+5    -> - - - - - - - - - * - - - - - - | * - * * - - - * | <-- set0
+LC97 -> * - * - - - - - - - - - - - - - | - - - - - * * * | <-- |ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1
+LC105-> - - - - * * - - - - - - - - - - | - - * - - * - * | <-- |ch_ans2b:44|~22~1
+LC33 -> - - - * - * - - - - - - - - - - | * * * * * - - * | <-- |ch4:35|~6~1
+LC38 -> - - - - - * - * - - - - - - - - | - - * - - - - * | <-- |c4b:32|t_ff:3|d_latch:1|~3~1
+LC91 -> - - - - - - - - - * * * * * * * | - - * - - * - * | <-- DCIMb2
+LC37 -> - - - - - - - - - * * * * * * * | - * * - - - - * | <-- DCIMb3
+LC108-> - - - - - - - - * - - - - - - - | * - - - - - * * | <-- |ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1
+LC83 -> * - - - - - - - - - - - - - - - | * - - - - * * * | <-- lose
+LC32 -> - - - - - - - - - * - - - - - - | - - - - - - - * | <-- |mem4:25|t_ff:2|d_latch:1|q~7
+LC63 -> - - - - - - - - - * - - - - * * | * * * * * - * * | <-- |mem4:25|t_ff:2|d_latch:2|~3~1
+LC41 -> - - - - - - - - - * * * * * * * | * * * * * * - * | <-- |mem4:25|t_ff:3|d_latch:2|~3~1
+LC106-> - - - - - - - - - * * * * * * * | * * * * * - * * | <-- |mem4:25|t_ff:4|d_latch:2|~3~1
+LC34 -> - - - - - - - - - * * * * * * - | * * * * * - - * | <-- |mem4:25|t_ff:5|d_latch:2|~3~1
+LC70 -> - - - - - - - - - * * * * * * - | * * * * * * * * | <-- |t_ff:37|d_latch:2|~3~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+mem2b8lv
+
+** EQUATIONS **
+
+ans0     : INPUT;
+ans1     : INPUT;
+btn0     : INPUT;
+btn1     : INPUT;
+btn3     : INPUT;
+CLK      : INPUT;
+DCOM0    : INPUT;
+lvb0     : INPUT;
+lvb1     : INPUT;
+lvb2     : INPUT;
+lvb3     : INPUT;
+on       : INPUT;
+Reset    : INPUT;
+set0     : INPUT;
+shb0     : INPUT;
+shb1     : INPUT;
+showCLK  : INPUT;
+start    : INPUT;
+
+-- Node name is 'DCIMb0' = '|c4b:32|t_ff:2|d_latch:2|~3~1' 
+-- Equation name is 'DCIMb0', type is output 
+ DCIMb0  = LCELL( _EQ001 $  GND);
+  _EQ001 =  CLK &  _LC124
+         # !CLK &  DCIMb0
+         #  DCIMb0 &  _LC124;
+
+-- Node name is 'DCIMb1' = '|c4b:32|t_ff:3|d_latch:2|~3~1' 
+-- Equation name is 'DCIMb1', type is output 
+ DCIMb1  = LCELL( _EQ002 $  GND);
+  _EQ002 =  CLK &  _LC038
+         # !CLK &  DCIMb1
+         #  DCIMb1 &  _LC038;
+
+-- Node name is 'DCIMb2' = '|c4b:32|t_ff:4|d_latch:2|~3~1' 
+-- Equation name is 'DCIMb2', type is output 
+ DCIMb2  = LCELL( _EQ003 $  GND);
+  _EQ003 =  CLK &  _LC035
+         # !CLK &  DCIMb2
+         #  DCIMb2 &  _LC035;
+
+-- Node name is 'DCIMb3' = '|c4b:32|t_ff:5|d_latch:2|~3~1' 
+-- Equation name is 'DCIMb3', type is output 
+ DCIMb3  = LCELL( _EQ004 $  GND);
+  _EQ004 =  CLK &  _LC048
+         # !CLK &  DCIMb3
+         #  DCIMb3 &  _LC048;
+
+-- Node name is 'DCIMen' = '|t_ff:52|d_latch:2|~3~1' 
+-- Equation name is 'DCIMen', type is output 
+ DCIMen  = LCELL( _EQ005 $  GND);
+  _EQ005 =  CLK &  _LC001
+         # !CLK &  DCIMen
+         #  DCIMen &  _LC001;
+
+-- Node name is 'DCOMb0' = '|c4b:33|t_ff:2|d_latch:2|~3~1' 
+-- Equation name is 'DCOMb0', type is output 
+ DCOMb0  = LCELL( _EQ006 $  GND);
+  _EQ006 =  _LC050 &  showCLK
+         #  DCOMb0 & !showCLK
+         #  DCOMb0 &  _LC050;
+
+-- Node name is 'DCOMb1' = '|c4b:33|t_ff:3|d_latch:2|~3~1' 
+-- Equation name is 'DCOMb1', type is output 
+ DCOMb1  = LCELL( _EQ007 $  GND);
+  _EQ007 =  _LC062 &  showCLK
+         #  DCOMb1 & !showCLK
+         #  DCOMb1 &  _LC062;
+
+-- Node name is 'DCOMb2' = '|c4b:33|t_ff:4|d_latch:2|~3~1' 
+-- Equation name is 'DCOMb2', type is output 
+ DCOMb2  = LCELL( _EQ008 $  GND);
+  _EQ008 =  _LC052 &  showCLK
+         #  DCOMb2 & !showCLK
+         #  DCOMb2 &  _LC052;
+
+-- Node name is 'DCOMb3' = '|c4b:33|t_ff:5|d_latch:2|~3~1' 
+-- Equation name is 'DCOMb3', type is output 
+ DCOMb3  = LCELL( _EQ009 $  GND);
+  _EQ009 =  _LC058 &  showCLK
+         #  DCOMb3 & !showCLK
+         #  DCOMb3 &  _LC058;
+
+-- Node name is 'DCOMen' = '|t_ff:53|d_latch:2|~3~1' 
+-- Equation name is 'DCOMen', type is output 
+ DCOMen  = LCELL( _EQ010 $  GND);
+  _EQ010 =  CLK &  _LC075
+         # !CLK &  DCOMen
+         #  DCOMen &  _LC075;
+
+-- Node name is 'DS1' 
+-- Equation name is 'DS1', location is LC024, type is output.
+ DS1     = LCELL( _EQ011 $  DS8);
+  _EQ011 = !DS8 & !_LC107 & !_LC125
+         # !DS8 & !_LC009 & !_LC020
+         # !DS8 & !_LC018 & !_LC026;
+
+-- Node name is 'DS2' 
+-- Equation name is 'DS2', location is LC019, type is output.
+ DS2     = LCELL( _EQ012 $  DS8);
+  _EQ012 = !DS8 & !_LC107 & !_LC125
+         # !DS8 & !_LC009 & !_LC020;
+
+-- Node name is 'DS3' 
+-- Equation name is 'DS3', location is LC021, type is output.
+ DS3     = LCELL( _EQ013 $  DS8);
+  _EQ013 = !DS8 & !_LC009 & !_LC018 & !_LC020 & !_LC026
+         # !DS8 & !_LC107 & !_LC125;
+
+-- Node name is 'DS4' 
+-- Equation name is 'DS4', location is LC027, type is output.
+ DS4     = LCELL( _EQ014 $  DS8);
+  _EQ014 = !DS8 & !_LC107 & !_LC125;
+
+-- Node name is 'DS5' 
+-- Equation name is 'DS5', location is LC029, type is output.
+ DS5     = LCELL( _EQ015 $  DS8);
+  _EQ015 = !DS8 & !_LC018 & !_LC026 & !_LC107 & !_LC125
+         # !DS8 & !_LC009 & !_LC020 & !_LC107 & !_LC125;
+
+-- Node name is 'DS6' 
+-- Equation name is 'DS6', location is LC017, type is output.
+ DS6     = LCELL( _EQ016 $  DS8);
+  _EQ016 = !DS8 & !_LC009 & !_LC020 & !_LC107 & !_LC125;
+
+-- Node name is 'DS7' 
+-- Equation name is 'DS7', location is LC025, type is output.
+ DS7     = LCELL( _EQ017 $  DS8);
+  _EQ017 = !DS8 & !_LC009 & !_LC018 & !_LC020 & !_LC026 & !_LC107 & !_LC125;
+
+-- Node name is 'DS8' = '|ds:27|reg4b:1|reg1b:1|d_latch:17|~3~1' 
+-- Equation name is 'DS8', type is output 
+ DS8     = LCELL( _EQ018 $  GND);
+  _EQ018 =  CLK &  _LC044
+         # !CLK &  DS8
+         #  DS8 &  _LC044;
+
+-- Node name is 'lose' = '|t_ff:49|d_latch:2|~3~1' 
+-- Equation name is 'lose', type is output 
+ lose    = LCELL( _EQ019 $  GND);
+  _EQ019 =  CLK &  _LC096
+         # !CLK &  lose
+         #  _LC096 &  lose;
+
+-- Node name is 'L0' 
+-- Equation name is 'L0', location is LC008, type is output.
+ L0      = LCELL( _EQ020 $  GND);
+  _EQ020 =  DCOMen & !DCOM0 & !shb0 & !shb1
+         # !DCOMen &  DCOM0 & !shb0 & !shb1;
+
+-- Node name is 'L1' 
+-- Equation name is 'L1', location is LC006, type is output.
+ L1      = LCELL( _EQ021 $  GND);
+  _EQ021 =  DCOMen & !DCOM0 &  shb0 & !shb1
+         # !DCOMen &  DCOM0 &  shb0 & !shb1;
+
+-- Node name is 'L2' 
+-- Equation name is 'L2', location is LC013, type is output.
+ L2      = LCELL( _EQ022 $  GND);
+  _EQ022 =  DCOMen & !DCOM0 & !shb0 &  shb1
+         # !DCOMen &  DCOM0 & !shb0 &  shb1;
+
+-- Node name is 'L3' 
+-- Equation name is 'L3', location is LC011, type is output.
+ L3      = LCELL( _EQ023 $  GND);
+  _EQ023 =  DCOMen & !DCOM0 &  shb0 &  shb1
+         # !DCOMen &  DCOM0 &  shb0 &  shb1;
+
+-- Node name is 'win' = '|t_ff:69|d_latch:2|~3~1' 
+-- Equation name is 'win', type is output 
+ win     = LCELL( _EQ024 $  GND);
+  _EQ024 =  CLK &  _LC031
+         # !CLK &  win
+         #  _LC031 &  win;
+
+-- Node name is '|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:1|~2~1' 
+-- Equation name is '_LC094', type is buried 
+-- synthesized logic cell 
+_LC094   = LCELL( _EQ025 $  VCC);
+  _EQ025 =  btn3 & !CLK & !lose & !Reset
+         #  CLK & !_LC094
+         #  btn3 & !_LC094 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~2~1' 
+-- Equation name is '_LC095', type is buried 
+-- synthesized logic cell 
+_LC095   = LCELL( _EQ026 $ !_LC082);
+  _EQ026 =  CLK & !_LC082 & !_LC094;
+
+-- Node name is '|ch_ans2b:44|neg_ch:5|d_ff:1|d_latch:2|~3~1' 
+-- Equation name is '_LC082', type is buried 
+-- synthesized logic cell 
+_LC082   = LCELL( _EQ027 $  GND);
+  _EQ027 = !_LC095 &  _X001;
+  _X001  = EXP( CLK &  _LC094);
+
+-- Node name is '|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC101', type is buried 
+-- synthesized logic cell 
+_LC101   = LCELL( _EQ028 $  GND);
+  _EQ028 = !CLK &  _LC082 & !lose & !Reset
+         #  CLK &  _LC101
+         #  _LC082 &  _LC101 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:5|d_ff:2|d_latch:2|~3~1' 
+-- Equation name is '_LC111', type is buried 
+-- synthesized logic cell 
+_LC111   = LCELL( _EQ029 $  GND);
+  _EQ029 =  CLK &  _LC101
+         # !CLK &  _LC111
+         #  _LC101 &  _LC111;
+
+-- Node name is '|ch_ans2b:44|neg_ch:6|d_ff:1|d_latch:2|~3~1' 
+-- Equation name is '_LC030', type is buried 
+-- synthesized logic cell 
+_LC030   = LCELL( _EQ030 $  GND);
+  _EQ030 = !CLK &  _LC030;
+
+-- Node name is '|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC100', type is buried 
+-- synthesized logic cell 
+_LC100   = LCELL( _EQ031 $  GND);
+  _EQ031 = !CLK &  _LC030 & !lose & !Reset
+         #  CLK &  _LC100
+         #  _LC030 &  _LC100 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:6|d_ff:2|d_latch:2|~2~1' 
+-- Equation name is '_LC102', type is buried 
+-- synthesized logic cell 
+_LC102   = LCELL( _EQ032 $  GND);
+  _EQ032 =  CLK & !_LC100
+         # !CLK &  _LC102
+         # !_LC100 &  _LC102;
+
+-- Node name is '|ch_ans2b:44|neg_ch:6|~4~1' 
+-- Equation name is '_LC109', type is buried 
+-- synthesized logic cell 
+_LC109   = LCELL( _EQ033 $  GND);
+  _EQ033 = !_LC030 &  _LC100 & !_LC102
+         # !CLK & !_LC030 & !_LC102;
+
+-- Node name is '|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:1|~3~1' 
+-- Equation name is '_LC084', type is buried 
+-- synthesized logic cell 
+_LC084   = LCELL( _EQ034 $  GND);
+  _EQ034 =  btn1 & !CLK & !lose & !Reset
+         #  CLK &  _LC084
+         #  btn1 &  _LC084 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:7|d_ff:1|d_latch:2|~3~1' 
+-- Equation name is '_LC092', type is buried 
+-- synthesized logic cell 
+_LC092   = LCELL( _EQ035 $  GND);
+  _EQ035 =  CLK &  _LC084
+         # !CLK &  _LC092
+         #  _LC084 &  _LC092;
+
+-- Node name is '|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC090', type is buried 
+-- synthesized logic cell 
+_LC090   = LCELL( _EQ036 $  GND);
+  _EQ036 = !CLK &  _LC092 & !lose & !Reset
+         #  CLK &  _LC090
+         #  _LC090 &  _LC092 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:7|d_ff:2|d_latch:2|~2~1' 
+-- Equation name is '_LC087', type is buried 
+-- synthesized logic cell 
+_LC087   = LCELL( _EQ037 $  GND);
+  _EQ037 =  CLK & !_LC090
+         # !CLK &  _LC087
+         #  _LC087 & !_LC090;
+
+-- Node name is '|ch_ans2b:44|neg_ch:7|~4~1' 
+-- Equation name is '_LC081', type is buried 
+-- synthesized logic cell 
+_LC081   = LCELL( _EQ038 $  GND);
+  _EQ038 = !_LC087 &  _LC090 & !_LC092
+         # !CLK & !_LC087 & !_LC092;
+
+-- Node name is '|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:1|~3~1' 
+-- Equation name is '_LC016', type is buried 
+-- synthesized logic cell 
+_LC016   = LCELL( _EQ039 $  GND);
+  _EQ039 =  btn0 & !CLK & !lose & !Reset
+         #  CLK &  _LC016
+         #  btn0 &  _LC016 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:8|d_ff:1|d_latch:2|~3~1' 
+-- Equation name is '_LC097', type is buried 
+-- synthesized logic cell 
+_LC097   = LCELL( _EQ040 $  GND);
+  _EQ040 =  CLK &  _LC016
+         # !CLK &  _LC097
+         #  _LC016 &  _LC097;
+
+-- Node name is '|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC128', type is buried 
+-- synthesized logic cell 
+_LC128   = LCELL( _EQ041 $  GND);
+  _EQ041 = !CLK &  _LC097 & !lose & !Reset
+         #  CLK &  _LC128
+         #  _LC097 &  _LC128 & !lose & !Reset;
+
+-- Node name is '|ch_ans2b:44|neg_ch:8|d_ff:2|d_latch:2|~2~1' 
+-- Equation name is '_LC119', type is buried 
+-- synthesized logic cell 
+_LC119   = LCELL( _EQ042 $  GND);
+  _EQ042 =  CLK & !_LC128
+         # !CLK &  _LC119
+         #  _LC119 & !_LC128;
+
+-- Node name is '|ch_ans2b:44|neg_ch:8|~4~1' 
+-- Equation name is '_LC118', type is buried 
+-- synthesized logic cell 
+_LC118   = LCELL( _EQ043 $  GND);
+  _EQ043 = !_LC097 & !_LC119 &  _LC128
+         # !CLK & !_LC097 & !_LC119;
+
+-- Node name is '|ch_ans2b:44|only1_2b:3|~2~1' 
+-- Equation name is '_LC093', type is buried 
+-- synthesized logic cell 
+_LC093   = LCELL( _EQ044 $  _LC081);
+  _EQ044 = !_LC081 & !_LC097 & !_LC119 &  _X002
+         # !_LC030 & !_LC081 & !_LC102 &  _X003
+         # !_LC081 & !_LC082 &  _LC111;
+  _X002  = EXP( CLK & !_LC128);
+  _X003  = EXP( CLK & !_LC100);
+
+-- Node name is '|ch_ans2b:44|only1_2b:3|~6~1' 
+-- Equation name is '_LC103', type is buried 
+-- synthesized logic cell 
+_LC103   = LCELL( _EQ045 $  _EQ046);
+  _EQ045 = !_LC030 & !_LC081 & !_LC082 &  _LC100 & !_LC102 &  _LC111
+         # !_LC081 & !_LC082 & !_LC097 &  _LC111 & !_LC119 &  _LC128
+         # !CLK & !_LC030 & !_LC081 & !_LC082 & !_LC102 &  _LC111
+         # !CLK & !_LC081 & !_LC082 & !_LC097 &  _LC111 & !_LC119;
+  _EQ046 = !_LC081 & !_LC082 &  _LC111;
+
+-- Node name is '|ch_ans2b:44|only1_2b:3|~7~1' 
+-- Equation name is '_LC086', type is buried 
+-- synthesized logic cell 
+_LC086   = LCELL( _EQ047 $  _EQ048);
+  _EQ047 = !_LC030 & !_LC081 & !_LC097 & !_LC102 & !_LC119 &  _LC128
+         # !CLK & !_LC030 & !_LC081 & !_LC097 & !_LC102 & !_LC119
+         # !_LC030 & !_LC081 & !_LC082 & !_LC102 &  _LC111
+         #  CLK & !_LC030 & !_LC081 & !_LC100 & !_LC102;
+  _EQ048 = !_LC030 & !_LC081 & !_LC102;
+
+-- Node name is '|ch_ans2b:44|only1_2b:3|~8~1' 
+-- Equation name is '_LC099', type is buried 
+-- synthesized logic cell 
+_LC099   = LCELL( _EQ049 $  _EQ050);
+  _EQ049 = !_LC030 &  _LC081 &  _LC100 & !_LC102 &  _X004
+         #  _LC081 & !_LC097 & !_LC119 &  _LC128 &  _X004
+         # !CLK & !_LC030 &  _LC081 & !_LC102 &  _X004
+         # !CLK &  _LC081 & !_LC097 & !_LC119 &  _X004;
+  _X004  = EXP(!_LC082 &  _LC111);
+  _EQ050 =  _LC081 &  _X004;
+  _X004  = EXP(!_LC082 &  _LC111);
+
+-- Node name is '|ch_ans2b:44|only1_2b:3|~9~1' 
+-- Equation name is '_LC112', type is buried 
+-- synthesized logic cell 
+_LC112   = LCELL( _EQ051 $  _EQ052);
+  _EQ051 = !_LC030 & !_LC081 & !_LC097 &  _LC100 & !_LC102 & !_LC119
+         # !CLK & !_LC030 & !_LC081 & !_LC097 & !_LC102 & !_LC119
+         # !_LC081 & !_LC082 & !_LC097 &  _LC111 & !_LC119
+         #  CLK & !_LC081 & !_LC097 & !_LC119 & !_LC128;
+  _EQ052 = !_LC081 & !_LC097 & !_LC119;
+
+-- Node name is '|ch_ans2b:44|~22~2' = '|ch_ans2b:44|T~2' 
+-- Equation name is '_LC104', type is buried 
+-- synthesized logic cell 
+_LC104   = LCELL( _EQ053 $  GND);
+  _EQ053 = !ans0 & !ans1 &  _LC086 & !_LC118
+         # !ans0 & !ans1 &  _LC099 & !_LC118
+         # !ans0 & !ans1 &  _LC112 & !_LC118
+         # !ans0 & !ans1 & !_LC093 & !_LC118
+         #  ans1 &  _LC082 & !_LC109;
+
+-- Node name is '|ch_ans2b:44|~22~1' 
+-- Equation name is '_LC105', type is buried 
+-- synthesized logic cell 
+_LC105   = LCELL( _EQ054 $  _EQ055);
+  _EQ054 =  ans0 & !_LC086 &  _LC093 & !_LC099 & !_LC103 & !_LC104 & !_LC112 & 
+              _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011
+         #  ans1 & !_LC086 &  _LC093 & !_LC099 & !_LC103 & !_LC104 & !_LC112 & 
+              _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011
+         # !_LC086 &  _LC093 & !_LC099 & !_LC103 & !_LC104 & !_LC112 & 
+              _LC118 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 & 
+              _X011
+         # !ans0 & !ans1 &  _LC103 & !_LC104 & !_LC118 &  _X005 &  _X006 & 
+              _X007 &  _X008 &  _X009 &  _X010 &  _X011;
+  _X005  = EXP(!ans1 &  _LC109);
+  _X006  = EXP( ans0 & !_LC081 &  _LC082);
+  _X007  = EXP(!ans1 & !_LC082 &  _LC111);
+  _X008  = EXP( ans1 & !_LC109 & !_LC111);
+  _X009  = EXP( ans0 & !_LC081 & !_LC111);
+  _X010  = EXP(!ans0 & !_LC082 &  _LC111);
+  _X011  = EXP(!ans0 &  _LC081);
+  _EQ055 = !_LC104 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 & 
+              _X011;
+  _X005  = EXP(!ans1 &  _LC109);
+  _X006  = EXP( ans0 & !_LC081 &  _LC082);
+  _X007  = EXP(!ans1 & !_LC082 &  _LC111);
+  _X008  = EXP( ans1 & !_LC109 & !_LC111);
+  _X009  = EXP( ans0 & !_LC081 & !_LC111);
+  _X010  = EXP(!ans0 & !_LC082 &  _LC111);
+  _X011  = EXP(!ans0 &  _LC081);
+
+-- Node name is '|ch4:35|~6~1' 
+-- Equation name is '_LC033', type is buried 
+-- synthesized logic cell 
+_LC033   = LCELL( _EQ056 $  _EQ057);
+  _EQ056 =  DCIMb3 & !_LC034 &  _LC070 &  _X012 &  _X013 &  _X014 &  _X015
+         # !DCIMb3 &  _LC034 &  _LC070 &  _X012 &  _X013 &  _X014 &  _X015
+         #  DCIMb2 &  _LC070 & !_LC106 &  _X012 &  _X013 &  _X014 &  _X015
+         # !DCIMb2 &  _LC070 &  _LC106 &  _X012 &  _X013 &  _X014 &  _X015;
+  _X012  = EXP(!DCIMb1 &  _LC041);
+  _X013  = EXP( DCIMb1 & !_LC041);
+  _X014  = EXP( DCIMb0 & !_LC063);
+  _X015  = EXP(!DCIMb0 &  _LC063);
+  _EQ057 =  _LC070 &  _X012 &  _X013 &  _X014 &  _X015;
+  _X012  = EXP(!DCIMb1 &  _LC041);
+  _X013  = EXP( DCIMb1 & !_LC041);
+  _X014  = EXP( DCIMb0 & !_LC063);
+  _X015  = EXP(!DCIMb0 &  _LC063);
+
+-- Node name is '|ch4:36|~6~1' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ058 $  _EQ059);
+  _EQ058 =  DCOMb3 & !_LC034 &  _LC070 &  _X016 &  _X017 &  _X018 &  _X019
+         # !DCOMb3 &  _LC034 &  _LC070 &  _X016 &  _X017 &  _X018 &  _X019
+         #  DCOMb2 &  _LC070 & !_LC106 &  _X016 &  _X017 &  _X018 &  _X019
+         # !DCOMb2 &  _LC070 &  _LC106 &  _X016 &  _X017 &  _X018 &  _X019;
+  _X016  = EXP(!DCOMb1 &  _LC041);
+  _X017  = EXP( DCOMb1 & !_LC041);
+  _X018  = EXP( DCOMb0 & !_LC063);
+  _X019  = EXP(!DCOMb0 &  _LC063);
+  _EQ059 =  _LC070 &  _X016 &  _X017 &  _X018 &  _X019;
+  _X016  = EXP(!DCOMb1 &  _LC041);
+  _X017  = EXP( DCOMb1 & !_LC041);
+  _X018  = EXP( DCOMb0 & !_LC063);
+  _X019  = EXP(!DCOMb0 &  _LC063);
+
+-- Node name is '|c4b:32|t_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC124', type is buried 
+-- synthesized logic cell 
+_LC124   = LCELL( _EQ060 $  GND);
+  _EQ060 = !CLK & !_LC033 &  _LC116 & !Reset
+         #  CLK &  _LC124
+         # !_LC033 &  _LC116 &  _LC124 & !Reset;
+
+-- Node name is '|c4b:32|t_ff:2|~7~1' 
+-- Equation name is '_LC116', type is buried 
+-- synthesized logic cell 
+_LC116   = LCELL( _LC105 $  DCIMb0);
+
+-- Node name is '|c4b:32|t_ff:3|d_latch:1|~3~1~2' 
+-- Equation name is '_LC114', type is buried 
+-- synthesized logic cell 
+_LC114   = LCELL( _EQ061 $  GND);
+  _EQ061 =  DCIMb0 & !DCIMb1 & !_LC033 &  _LC038 &  _LC105 & !Reset
+         #  DCIMb1 & !_LC033 &  _LC038 & !_LC105 & !Reset
+         # !DCIMb0 &  DCIMb1 & !_LC033 &  _LC038 & !Reset;
+
+-- Node name is '|c4b:32|t_ff:3|d_latch:1|~3~1' 
+-- Equation name is '_LC038', type is buried 
+-- synthesized logic cell 
+_LC038   = LCELL( _EQ062 $  GND);
+  _EQ062 = !CLK &  DCIMb0 & !DCIMb1 & !_LC033 &  _LC105 & !Reset
+         # !CLK &  DCIMb1 & !_LC033 & !_LC105 & !Reset
+         # !CLK & !DCIMb0 &  DCIMb1 & !_LC033 & !Reset
+         #  CLK &  _LC038
+         #  _LC114;
+
+-- Node name is '|c4b:32|t_ff:4|d_latch:1|~3~1~2' 
+-- Equation name is '_LC046', type is buried 
+-- synthesized logic cell 
+_LC046   = LCELL( _EQ063 $  GND);
+  _EQ063 =  DCIMb0 &  DCIMb1 & !DCIMb2 & !_LC033 &  _LC035 &  _LC105 & !Reset
+         #  DCIMb2 & !_LC033 &  _LC035 & !_LC105 & !Reset
+         # !DCIMb0 &  DCIMb2 & !_LC033 &  _LC035 & !Reset
+         # !DCIMb1 &  DCIMb2 & !_LC033 &  _LC035 & !Reset
+         #  CLK &  _LC035;
+
+-- Node name is '|c4b:32|t_ff:4|d_latch:1|~3~1' 
+-- Equation name is '_LC035', type is buried 
+-- synthesized logic cell 
+_LC035   = LCELL( _EQ064 $  GND);
+  _EQ064 = !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 & !_LC033 &  _LC105 & !Reset
+         # !CLK &  DCIMb2 & !_LC033 & !_LC105 & !Reset
+         # !CLK & !DCIMb0 &  DCIMb2 & !_LC033 & !Reset
+         # !CLK & !DCIMb1 &  DCIMb2 & !_LC033 & !Reset
+         #  _LC046;
+
+-- Node name is '|c4b:32|t_ff:5|d_latch:1|~3~1~2' 
+-- Equation name is '_LC047', type is buried 
+-- synthesized logic cell 
+_LC047   = LCELL( _EQ065 $  GND);
+  _EQ065 =  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC033 &  _LC048 & 
+              _LC105 & !Reset
+         #  DCIMb3 & !_LC033 &  _LC048 & !Reset &  _X020;
+  _X020  = EXP( DCIMb0 &  DCIMb1 &  DCIMb2 &  _LC105);
+
+-- Node name is '|c4b:32|t_ff:5|d_latch:1|~3~1' 
+-- Equation name is '_LC048', type is buried 
+-- synthesized logic cell 
+_LC048   = LCELL( _EQ066 $  GND);
+  _EQ066 = !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC033 &  _LC105 & 
+             !Reset
+         # !CLK &  DCIMb3 & !_LC033 & !Reset &  _X020
+         #  CLK &  _LC048
+         # !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !_LC033 &  _LC105 & !Reset & 
+              _X020
+         #  _LC047;
+  _X020  = EXP( DCIMb0 &  DCIMb1 &  DCIMb2 &  _LC105);
+
+-- Node name is '|c4b:33|t_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC050', type is buried 
+-- synthesized logic cell 
+_LC050   = LCELL( _EQ067 $  GND);
+  _EQ067 =  DCOMb0 & !DCOMen & !_LC022 & !Reset & !showCLK
+         # !DCOMb0 &  DCOMen & !_LC022 & !Reset & !showCLK
+         #  _LC050 &  showCLK
+         #  DCOMb0 & !DCOMen & !_LC022 &  _LC050 & !Reset
+         # !DCOMb0 &  DCOMen & !_LC022 &  _LC050 & !Reset;
+
+-- Node name is '|c4b:33|t_ff:3|d_latch:1|~3~1~2' 
+-- Equation name is '_LC054', type is buried 
+-- synthesized logic cell 
+_LC054   = LCELL( _EQ068 $  GND);
+  _EQ068 =  DCOMb0 & !DCOMb1 &  DCOMen & !_LC022 &  _LC062 & !Reset
+         #  DCOMb1 & !DCOMen & !_LC022 &  _LC062 & !Reset
+         # !DCOMb0 &  DCOMb1 & !_LC022 &  _LC062 & !Reset;
+
+-- Node name is '|c4b:33|t_ff:3|d_latch:1|~3~1' 
+-- Equation name is '_LC062', type is buried 
+-- synthesized logic cell 
+_LC062   = LCELL( _EQ069 $  GND);
+  _EQ069 =  DCOMb0 & !DCOMb1 &  DCOMen & !_LC022 & !Reset & !showCLK
+         #  DCOMb1 & !DCOMen & !_LC022 & !Reset & !showCLK
+         # !DCOMb0 &  DCOMb1 & !_LC022 & !Reset & !showCLK
+         #  _LC062 &  showCLK
+         #  _LC054;
+
+-- Node name is '|c4b:33|t_ff:4|d_latch:1|~3~1~2' 
+-- Equation name is '_LC059', type is buried 
+-- synthesized logic cell 
+_LC059   = LCELL( _EQ070 $  GND);
+  _EQ070 =  DCOMb0 &  DCOMb1 & !DCOMb2 &  DCOMen & !_LC022 &  _LC052 & !Reset
+         #  DCOMb2 & !DCOMen & !_LC022 &  _LC052 & !Reset
+         # !DCOMb0 &  DCOMb2 & !_LC022 &  _LC052 & !Reset
+         # !DCOMb1 &  DCOMb2 & !_LC022 &  _LC052 & !Reset
+         #  _LC052 &  showCLK;
+
+-- Node name is '|c4b:33|t_ff:4|d_latch:1|~3~1' 
+-- Equation name is '_LC052', type is buried 
+-- synthesized logic cell 
+_LC052   = LCELL( _EQ071 $  GND);
+  _EQ071 =  DCOMb0 &  DCOMb1 & !DCOMb2 &  DCOMen & !_LC022 & !Reset & 
+             !showCLK
+         #  DCOMb2 & !DCOMen & !_LC022 & !Reset & !showCLK
+         # !DCOMb0 &  DCOMb2 & !_LC022 & !Reset & !showCLK
+         # !DCOMb1 &  DCOMb2 & !_LC022 & !Reset & !showCLK
+         #  _LC059;
+
+-- Node name is '|c4b:33|t_ff:5|d_latch:1|~3~1~2' 
+-- Equation name is '_LC060', type is buried 
+-- synthesized logic cell 
+_LC060   = LCELL( _EQ072 $  GND);
+  _EQ072 =  DCOMb0 &  DCOMb1 &  DCOMb2 & !DCOMb3 &  DCOMen & !_LC022 & 
+              _LC058 & !Reset
+         #  DCOMb3 & !_LC022 &  _LC058 & !Reset &  _X021;
+  _X021  = EXP( DCOMb0 &  DCOMb1 &  DCOMb2 &  DCOMen);
+
+-- Node name is '|c4b:33|t_ff:5|d_latch:1|~3~1' 
+-- Equation name is '_LC058', type is buried 
+-- synthesized logic cell 
+_LC058   = LCELL( _EQ073 $  GND);
+  _EQ073 =  DCOMb0 &  DCOMb1 &  DCOMb2 & !DCOMb3 &  DCOMen & !_LC022 & !Reset & 
+             !showCLK
+         #  DCOMb3 & !_LC022 & !Reset & !showCLK &  _X021
+         #  _LC058 &  showCLK
+         #  DCOMb0 &  DCOMb1 &  DCOMb2 &  DCOMen & !_LC022 & !Reset & 
+             !showCLK &  _X021
+         #  _LC060;
+  _X021  = EXP( DCOMb0 &  DCOMb1 &  DCOMb2 &  DCOMen);
+
+-- Node name is '|ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1~2' 
+-- Equation name is '_LC043', type is buried 
+-- synthesized logic cell 
+_LC043   = LCELL( _EQ074 $  GND);
+  _EQ074 =  _LC034 &  _LC044 &  _LC070 & !Reset
+         #  DS8 &  _LC044 & !_LC070 & !Reset;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:1|d_latch:16|~3~1' 
+-- Equation name is '_LC044', type is buried 
+-- synthesized logic cell 
+_LC044   = LCELL( _EQ075 $  GND);
+  _EQ075 = !CLK &  _LC034 &  _LC070 & !Reset
+         # !CLK &  DS8 & !_LC070 & !Reset
+         #  CLK &  _LC044
+         # !CLK &  DS8 &  _LC034 & !Reset
+         #  _LC043;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1~2' 
+-- Equation name is '_LC012', type is buried 
+-- synthesized logic cell 
+_LC012   = LCELL( _EQ076 $  GND);
+  _EQ076 = !_LC070 & !_LC107 &  _LC108 & !_LC125 & !Reset
+         #  _LC070 &  _LC106 &  _LC108 & !Reset;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:2|d_latch:16|~3~1' 
+-- Equation name is '_LC108', type is buried 
+-- synthesized logic cell 
+_LC108   = LCELL( _EQ077 $  GND);
+  _EQ077 = !CLK & !_LC070 & !_LC107 & !_LC125 & !Reset
+         # !CLK &  _LC070 &  _LC106 & !Reset
+         #  CLK &  _LC108
+         # !CLK &  _LC106 & !_LC107 & !_LC125 & !Reset
+         #  _LC012;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:2|d_latch:17|~2~1' 
+-- Equation name is '_LC107', type is buried 
+-- synthesized logic cell 
+_LC107   = LCELL( _EQ078 $  VCC);
+  _EQ078 =  CLK &  _LC108
+         # !_LC107 & !_LC125;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:2|d_latch:17|~6~1' 
+-- Equation name is '_LC125', type is buried 
+-- synthesized logic cell 
+_LC125   = LCELL( _EQ079 $  GND);
+  _EQ079 =  CLK & !_LC108;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1~2' 
+-- Equation name is '_LC015', type is buried 
+-- synthesized logic cell 
+_LC015   = LCELL( _EQ080 $  GND);
+  _EQ080 = !_LC009 & !_LC020 & !_LC070 &  _LC089 & !Reset
+         #  _LC041 &  _LC070 &  _LC089 & !Reset;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:3|d_latch:16|~3~1' 
+-- Equation name is '_LC089', type is buried 
+-- synthesized logic cell 
+_LC089   = LCELL( _EQ081 $  GND);
+  _EQ081 = !CLK & !_LC009 & !_LC020 & !_LC070 & !Reset
+         # !CLK &  _LC041 &  _LC070 & !Reset
+         #  CLK &  _LC089
+         # !CLK & !_LC009 & !_LC020 &  _LC041 & !Reset
+         #  _LC015;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:3|d_latch:17|~2~1' 
+-- Equation name is '_LC009', type is buried 
+-- synthesized logic cell 
+_LC009   = LCELL( _EQ082 $  VCC);
+  _EQ082 =  CLK &  _LC089
+         # !_LC009 & !_LC020;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:3|d_latch:17|~6~1' 
+-- Equation name is '_LC020', type is buried 
+-- synthesized logic cell 
+_LC020   = LCELL( _EQ083 $  GND);
+  _EQ083 =  CLK & !_LC089;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1~2' 
+-- Equation name is '_LC023', type is buried 
+-- synthesized logic cell 
+_LC023   = LCELL( _EQ084 $  GND);
+  _EQ084 = !_LC018 & !_LC026 & !_LC070 &  _LC110 & !Reset
+         #  _LC063 &  _LC070 &  _LC110 & !Reset;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:4|d_latch:16|~3~1' 
+-- Equation name is '_LC110', type is buried 
+-- synthesized logic cell 
+_LC110   = LCELL( _EQ085 $  GND);
+  _EQ085 = !CLK & !_LC018 & !_LC026 & !_LC070 & !Reset
+         # !CLK &  _LC063 &  _LC070 & !Reset
+         #  CLK &  _LC110
+         # !CLK & !_LC018 & !_LC026 &  _LC063 & !Reset
+         #  _LC023;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:4|d_latch:17|~2~1' 
+-- Equation name is '_LC018', type is buried 
+-- synthesized logic cell 
+_LC018   = LCELL( _EQ086 $  VCC);
+  _EQ086 =  CLK &  _LC110
+         # !_LC018 & !_LC026;
+
+-- Node name is '|ds:27|reg4b:1|reg1b:4|d_latch:17|~6~1' 
+-- Equation name is '_LC026', type is buried 
+-- synthesized logic cell 
+_LC026   = LCELL( _EQ087 $  GND);
+  _EQ087 =  CLK & !_LC110;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~2' = '|mem4:25|t_ff:2|d_latch:1|q~2' 
+-- Equation name is '_LC126', type is buried 
+-- synthesized logic cell 
+_LC126   = LCELL( _EQ088 $  GND);
+  _EQ088 = !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 &  _LC106 & !lvb2 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 &  _LC106 & !lvb3 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 &  _LC041 & 
+              _LC070 & !_LC106 & !lvb0 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 &  _LC041 & 
+              _LC070 & !_LC106 & !lvb1 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 &  _LC041 & 
+              _LC070 & !_LC106 & !lvb3 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~3' = '|mem4:25|t_ff:2|d_latch:1|q~3' 
+-- Equation name is '_LC127', type is buried 
+-- synthesized logic cell 
+_LC127   = LCELL( _EQ089 $  GND);
+  _EQ089 = !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 &  _LC106 & !lvb0 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 &  _LC106 & !lvb1 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 &  _LC106 & !lvb2 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 & !_LC106 &  lvb1 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 & !_LC106 &  lvb2 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~4' = '|mem4:25|t_ff:2|d_latch:1|q~4' 
+-- Equation name is '_LC113', type is buried 
+-- synthesized logic cell 
+_LC113   = LCELL( _EQ090 $  GND);
+  _EQ090 = !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 &  _LC106 &  lvb1 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 &  _LC106 &  lvb3 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 & !_LC106 &  lvb2 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 & !_LC106 &  lvb3 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 & !_LC106 & !lvb0 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~5' = '|mem4:25|t_ff:2|d_latch:1|q~5' 
+-- Equation name is '_LC120', type is buried 
+-- synthesized logic cell 
+_LC120   = LCELL( _EQ091 $  GND);
+  _EQ091 = !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 &  DCIMb3 &  _LC034 & !_LC041 & 
+              _LC070 & !_LC106 & !lvb3 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 &  _LC106 & !lvb0 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 &  _LC106 & !lvb2 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 & !_LC106 & !lvb0 & !on & !Reset
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 &  _LC041 & 
+              _LC070 & !_LC106 & !lvb1 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~6' = '|mem4:25|t_ff:2|d_latch:1|q~6' 
+-- Equation name is '_LC121', type is buried 
+-- synthesized logic cell 
+_LC121   = LCELL( _EQ092 $  GND);
+  _EQ092 = !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 & !_LC106 &  lvb1 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 & !_LC106 &  lvb2 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 & !_LC106 &  lvb3 & !on & !Reset
+         # !CLK &  DCIMb0 & !DCIMb1 & !DCIMb2 & !DCIMb3 & !_LC034 & !_LC041 & 
+              _LC070 & !_LC106 & !lvb0 & !on & !Reset
+         # !CLK &  DCIMb3 &  _LC041 & !_LC063 &  _LC106 & !lvb0 &  lvb1 & 
+              lvb2 &  lvb3 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~7' = '|mem4:25|t_ff:2|d_latch:1|q~7' 
+-- Equation name is '_LC032', type is buried 
+-- synthesized logic cell 
+_LC032   = LCELL( _EQ093 $  GND);
+  _EQ093 = !CLK & !DCIMb3 &  _LC041 & !_LC063 &  _LC106 & !lvb0 &  lvb1 & 
+              lvb2 & !lvb3 & !on & !Reset
+         # !CLK &  DCIMb3 & !_LC041 & !_LC063 &  _LC106 & !lvb0 & !lvb1 & 
+              lvb2 &  lvb3 & !on & !Reset
+         # !CLK &  DCIMb3 &  _LC041 & !_LC063 & !_LC106 & !lvb0 &  lvb1 & 
+             !lvb2 &  lvb3 & !on & !Reset
+         # !CLK & !DCIMb3 & !_LC041 & !_LC063 &  _LC106 & !lvb0 & !lvb1 & 
+              lvb2 & !lvb3 & !on & !Reset
+         # !CLK & !DCIMb3 &  _LC041 & !_LC063 & !_LC106 & !lvb0 &  lvb1 & 
+             !lvb2 & !lvb3 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~8' = '|mem4:25|t_ff:2|d_latch:1|q~8' 
+-- Equation name is '_LC122', type is buried 
+-- synthesized logic cell 
+_LC122   = LCELL( _EQ094 $  GND);
+  _EQ094 = !CLK &  DCIMb3 & !_LC041 & !_LC063 & !_LC106 & !lvb0 & !lvb1 & 
+             !lvb2 &  lvb3 & !on & !Reset
+         # !CLK & !DCIMb3 & !_LC041 & !_LC063 & !_LC106 & !lvb0 & !lvb1 & 
+             !lvb2 & !lvb3 & !on & !Reset
+         # !CLK &  DCIMb1 & !_LC041 & !_LC063 & !on & !Reset
+         # !CLK & !DCIMb1 &  _LC041 & !_LC063 & !on & !Reset
+         # !CLK &  DCIMb2 & !_LC063 & !_LC106 & !on & !Reset;
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC123', type is buried 
+-- synthesized logic cell 
+_LC123   = LCELL( _EQ095 $  _EQ096);
+  _EQ095 = !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 &  DCIMb3 & !_LC032 &  _LC034 & 
+             !_LC041 &  _LC070 &  _LC106 & !_LC113 & !_LC120 & !_LC121 & 
+             !_LC122 & !_LC126 & !_LC127 &  lvb1 & !on & !Reset &  _X022 & 
+              _X023 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 &  _X029
+         # !CLK &  DCIMb0 &  DCIMb1 & !DCIMb2 &  DCIMb3 & !_LC032 &  _LC034 & 
+              _LC041 &  _LC070 & !_LC106 & !_LC113 & !_LC120 & !_LC121 & 
+             !_LC122 & !_LC126 & !_LC127 &  lvb2 & !on & !Reset &  _X022 & 
+              _X023 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 &  _X029
+         # !CLK &  DCIMb0 &  DCIMb1 &  DCIMb2 & !DCIMb3 & !_LC032 & !_LC034 & 
+              _LC041 &  _LC070 &  _LC106 & !_LC113 & !_LC120 & !_LC121 & 
+             !_LC122 & !_LC126 & !_LC127 &  lvb3 & !on & !Reset &  _X022 & 
+              _X023 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 &  _X029
+         # !CLK &  DCIMb0 & !DCIMb1 &  DCIMb2 &  DCIMb3 & !_LC032 &  _LC034 & 
+             !_LC041 &  _LC070 &  _LC106 & !_LC113 & !_LC120 & !_LC121 & 
+             !_LC122 & !_LC126 & !_LC127 & !lvb0 & !on & !Reset &  _X022 & 
+              _X023 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 &  _X029;
+  _X022  = EXP(!CLK &  set0);
+  _X023  = EXP(!CLK & !DCIMb2 & !_LC063 &  _LC106 & !on & !Reset);
+  _X024  = EXP(!CLK &  DCIMb3 & !_LC034 & !_LC063 & !on & !Reset);
+  _X025  = EXP(!CLK & !DCIMb3 &  _LC034 & !_LC063 & !on & !Reset);
+  _X026  = EXP(!CLK &  DCIMb0 & !_LC063 & !on & !Reset);
+  _X027  = EXP(!CLK & !_LC063 & !_LC070 & !on & !Reset);
+  _X028  = EXP(!CLK &  _LC063 &  on);
+  _X029  = EXP( CLK & !_LC123);
+  _EQ096 = !_LC032 & !_LC113 & !_LC120 & !_LC121 & !_LC122 & !_LC126 & 
+             !_LC127 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026 &  _X027 & 
+              _X028 &  _X029;
+  _X022  = EXP(!CLK &  set0);
+  _X023  = EXP(!CLK & !DCIMb2 & !_LC063 &  _LC106 & !on & !Reset);
+  _X024  = EXP(!CLK &  DCIMb3 & !_LC034 & !_LC063 & !on & !Reset);
+  _X025  = EXP(!CLK & !DCIMb3 &  _LC034 & !_LC063 & !on & !Reset);
+  _X026  = EXP(!CLK &  DCIMb0 & !_LC063 & !on & !Reset);
+  _X027  = EXP(!CLK & !_LC063 & !_LC070 & !on & !Reset);
+  _X028  = EXP(!CLK &  _LC063 &  on);
+  _X029  = EXP( CLK & !_LC123);
+
+-- Node name is '|mem4:25|t_ff:2|d_latch:2|~3~1' 
+-- Equation name is '_LC063', type is buried 
+-- synthesized logic cell 
+_LC063   = LCELL( _EQ097 $  GND);
+  _EQ097 =  CLK &  _LC123
+         # !CLK &  _LC063
+         #  _LC063 &  _LC123;
+
+-- Node name is '|mem4:25|t_ff:3|d_latch:1|~3~2' = '|mem4:25|t_ff:3|d_latch:1|q~2' 
+-- Equation name is '_LC042', type is buried 
+-- synthesized logic cell 
+_LC042   = LCELL( _EQ098 $  GND);
+  _EQ098 =  CLK &  _LC004
+         # !CLK & !_LC034 &  _LC041 &  _LC070 & !_LC106 &  lvb0 &  lvb1 & 
+             !lvb2 & !lvb3 & !Reset & !set0
+         # !CLK &  _LC041 &  _LC070 &  _LC106 &  lvb0 &  lvb1 &  lvb2 & !lvb3 & 
+             !Reset & !set0
+         # !CLK &  _LC034 &  _LC041 &  _LC070 &  lvb0 &  lvb1 & !lvb2 &  lvb3 & 
+             !Reset & !set0
+         # !CLK &  _LC033 & !_LC041 &  _LC063 &  _LC106 & !lvb2 & !Reset & 
+             !set0;
+
+-- Node name is '|mem4:25|t_ff:3|d_latch:1|~3~1' 
+-- Equation name is '_LC004', type is buried 
+-- synthesized logic cell 
+_LC004   = LCELL( _EQ099 $  VCC);
+  _EQ099 = !_LC042 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 &  _X035 & 
+              _X036 &  _X037 &  _X038;
+  _X030  = EXP(!CLK &  _LC033 &  _LC034 & !_LC041 &  _LC063 & !lvb3 & !Reset & 
+             !set0);
+  _X031  = EXP(!CLK &  _LC033 & !_LC041 &  _LC063 & !_LC106 &  lvb2 & !Reset & 
+             !set0);
+  _X032  = EXP(!CLK &  _LC033 & !_LC034 & !_LC041 &  _LC063 &  lvb3 & !Reset & 
+             !set0);
+  _X033  = EXP(!CLK &  _LC033 & !_LC041 &  _LC063 &  lvb1 & !Reset & !set0);
+  _X034  = EXP(!CLK &  _LC033 & !_LC041 &  _LC063 & !_LC070 & !Reset & !set0);
+  _X035  = EXP(!CLK &  _LC033 & !_LC041 &  _LC063 & !lvb0 & !Reset & !set0);
+  _X036  = EXP(!CLK &  _LC034 &  _LC041 &  _LC106 & !Reset & !set0);
+  _X037  = EXP(!CLK &  _LC041 & !_LC063 & !Reset & !set0);
+  _X038  = EXP(!CLK & !_LC033 &  _LC041 & !Reset & !set0);
+
+-- Node name is '|mem4:25|t_ff:3|d_latch:2|~3~1' 
+-- Equation name is '_LC041', type is buried 
+-- synthesized logic cell 
+_LC041   = LCELL( _EQ100 $  GND);
+  _EQ100 =  CLK &  _LC004
+         # !CLK &  _LC041
+         #  _LC004 &  _LC041;
+
+-- Node name is '|mem4:25|t_ff:4|d_latch:1|~3~1' 
+-- Equation name is '_LC061', type is buried 
+-- synthesized logic cell 
+_LC061   = LCELL( _EQ101 $  _EQ102);
+  _EQ101 = !CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC070 &  lvb0 & 
+              lvb1 & !lvb2 & !lvb3 &  _X022 &  _X039 &  _X040 &  _X041 & 
+              _X042 &  _X043 &  _X044 &  _X045
+         # !CLK &  _LC034 &  _LC070 & !_LC106 &  lvb0 &  lvb1 & !lvb2 &  lvb3 & 
+              _X022 &  _X039 &  _X040 &  _X041 &  _X042 &  _X043 &  _X044 & 
+              _X045
+         # !CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC106 &  lvb3 & 
+              _X022 &  _X039 &  _X040 &  _X041 &  _X042 &  _X043 &  _X044 & 
+              _X045
+         # !CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC106 & !lvb1 & 
+              _X022 &  _X039 &  _X040 &  _X041 &  _X042 &  _X043 &  _X044 & 
+              _X045;
+  _X022  = EXP(!CLK &  set0);
+  _X039  = EXP(!CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC106 & !lvb0);
+  _X040  = EXP(!CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 & !_LC070 &  _LC106);
+  _X041  = EXP(!CLK & !_LC063 & !_LC106);
+  _X042  = EXP(!CLK & !_LC041 & !_LC106);
+  _X043  = EXP(!CLK & !_LC033 & !_LC106);
+  _X044  = EXP(!CLK &  Reset);
+  _X045  = EXP( CLK & !_LC061);
+  _EQ102 =  _X022 &  _X039 &  _X040 &  _X041 &  _X042 &  _X043 &  _X044 & 
+              _X045;
+  _X022  = EXP(!CLK &  set0);
+  _X039  = EXP(!CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC106 & !lvb0);
+  _X040  = EXP(!CLK &  _LC033 & !_LC034 &  _LC041 &  _LC063 & !_LC070 &  _LC106);
+  _X041  = EXP(!CLK & !_LC063 & !_LC106);
+  _X042  = EXP(!CLK & !_LC041 & !_LC106);
+  _X043  = EXP(!CLK & !_LC033 & !_LC106);
+  _X044  = EXP(!CLK &  Reset);
+  _X045  = EXP( CLK & !_LC061);
+
+-- Node name is '|mem4:25|t_ff:4|d_latch:2|~3~1' 
+-- Equation name is '_LC106', type is buried 
+-- synthesized logic cell 
+_LC106   = LCELL( _EQ103 $  GND);
+  _EQ103 =  CLK &  _LC061
+         # !CLK &  _LC106
+         #  _LC061 &  _LC106;
+
+-- Node name is '|mem4:25|t_ff:5|d_latch:1|~3~1' 
+-- Equation name is '_LC045', type is buried 
+-- synthesized logic cell 
+_LC045   = LCELL( _EQ104 $  GND);
+  _EQ104 = !CLK &  _LC033 &  _LC041 &  _LC063 &  _LC106 & !Reset & !set0 & 
+              _X046
+         # !CLK &  _LC034 & !Reset & !set0
+         #  CLK &  _LC045
+         #  _LC033 &  _LC041 &  _LC045 &  _LC063 &  _LC106 & !Reset & !set0 & 
+              _X046
+         #  _LC034 &  _LC045 & !Reset & !set0;
+  _X046  = EXP( _LC070 &  lvb0 &  lvb1 &  lvb2 & !lvb3);
+
+-- Node name is '|mem4:25|t_ff:5|d_latch:2|~3~1' 
+-- Equation name is '_LC034', type is buried 
+-- synthesized logic cell 
+_LC034   = LCELL( _EQ105 $  GND);
+  _EQ105 =  CLK &  _LC045
+         # !CLK &  _LC034
+         #  _LC034 &  _LC045;
+
+-- Node name is '|neg_ch:71|d_ff:1|d_latch:1|~3~1' 
+-- Equation name is '_LC072', type is buried 
+-- synthesized logic cell 
+_LC072   = LCELL( _EQ106 $  GND);
+  _EQ106 = !CLK & !Reset &  start
+         #  CLK &  _LC072
+         #  _LC072 & !Reset &  start;
+
+-- Node name is '|neg_ch:71|d_ff:1|d_latch:2|~3~1' 
+-- Equation name is '_LC076', type is buried 
+-- synthesized logic cell 
+_LC076   = LCELL( _EQ107 $  GND);
+  _EQ107 =  CLK &  _LC072
+         # !CLK &  _LC076
+         #  _LC072 &  _LC076;
+
+-- Node name is '|neg_ch:71|d_ff:2|d_latch:1|~3~1' 
+-- Equation name is '_LC066', type is buried 
+-- synthesized logic cell 
+_LC066   = LCELL( _EQ108 $  GND);
+  _EQ108 = !CLK &  _LC076 & !Reset
+         #  CLK &  _LC066
+         #  _LC066 &  _LC076 & !Reset;
+
+-- Node name is '|neg_ch:71|d_ff:2|d_latch:2|~2~1' 
+-- Equation name is '_LC067', type is buried 
+-- synthesized logic cell 
+_LC067   = LCELL( _EQ109 $  GND);
+  _EQ109 =  CLK & !_LC066
+         # !CLK &  _LC067
+         # !_LC066 &  _LC067;
+
+-- Node name is '|t_ff:37|d_latch:1|~3~1~2' 
+-- Equation name is '_LC071', type is buried 
+-- synthesized logic cell 
+_LC071   = LCELL( _EQ110 $  GND);
+  _EQ110 = !_LC067 & !_LC070 & !_LC076 &  _LC077 & !Reset
+         #  _LC070 &  _LC076 &  _LC077 & !Reset
+         #  _LC067 &  _LC070 &  _LC077 & !Reset;
+
+-- Node name is '|t_ff:37|d_latch:1|~3~1' 
+-- Equation name is '_LC077', type is buried 
+-- synthesized logic cell 
+_LC077   = LCELL( _EQ111 $  GND);
+  _EQ111 = !CLK & !_LC067 & !_LC070 & !_LC076 & !Reset
+         # !CLK &  _LC070 &  _LC076 & !Reset
+         # !CLK &  _LC067 &  _LC070 & !Reset
+         #  CLK &  _LC077
+         #  _LC071;
+
+-- Node name is '|t_ff:37|d_latch:2|~3~1' 
+-- Equation name is '_LC070', type is buried 
+-- synthesized logic cell 
+_LC070   = LCELL( _EQ112 $  GND);
+  _EQ112 =  CLK &  _LC077
+         # !CLK &  _LC070
+         #  _LC070 &  _LC077;
+
+-- Node name is '|t_ff:49|d_latch:1|~3~2' = '|t_ff:49|d_latch:1|q~2' 
+-- Equation name is '_LC098', type is buried 
+-- synthesized logic cell 
+_LC098   = LCELL( _EQ113 $  GND);
+  _EQ113 = !CLK & !_LC082 & !_LC097 &  _LC111 & !_LC119 & !lose & !Reset
+         # !CLK & !_LC030 & !_LC082 & !_LC102 &  _LC111 & !lose & !Reset
+         # !CLK & !_LC030 & !_LC097 & !_LC102 & !_LC119 & !lose & !Reset
+         # !CLK &  _LC081 & !_LC082 &  _LC111 & !lose & !Reset
+         # !CLK & !_LC082 & !_LC097 &  _LC111 & !_LC119 &  lose;
+
+-- Node name is '|t_ff:49|d_latch:1|~3~3' = '|t_ff:49|d_latch:1|q~3' 
+-- Equation name is '_LC088', type is buried 
+-- synthesized logic cell 
+_LC088   = LCELL( _EQ114 $  GND);
+  _EQ114 = !CLK & !_LC030 & !_LC082 & !_LC102 &  _LC111 &  lose
+         # !CLK & !_LC082 & !_LC105 &  _LC111 & !lose & !Reset
+         # !CLK & !_LC030 &  _LC081 & !_LC102 & !lose & !Reset
+         # !CLK &  _LC081 & !_LC097 & !_LC119 & !lose & !Reset
+         # !CLK & !_LC030 & !_LC097 & !_LC102 & !_LC119 &  lose;
+
+-- Node name is '|t_ff:49|d_latch:1|~3~4' = '|t_ff:49|d_latch:1|q~4' 
+-- Equation name is '_LC085', type is buried 
+-- synthesized logic cell 
+_LC085   = LCELL( _EQ115 $  GND);
+  _EQ115 = !CLK & !_LC030 & !_LC102 & !_LC105 & !lose & !Reset
+         # !CLK & !_LC097 & !_LC105 & !_LC119 & !lose & !Reset
+         # !CLK &  _LC081 & !_LC082 &  _LC111 &  lose
+         # !CLK & !_LC082 & !_LC105 &  _LC111 &  lose
+         # !CLK & !_LC030 &  _LC081 & !_LC102 &  lose;
+
+-- Node name is '|t_ff:49|d_latch:1|~3~1' 
+-- Equation name is '_LC096', type is buried 
+-- synthesized logic cell 
+_LC096   = LCELL( _EQ116 $ !lose);
+  _EQ116 = !_LC085 & !_LC088 & !_LC098 &  _X047 &  _X048 &  _X049 &  _X050 & 
+              _X051 &  _X052 &  _X053 &  _X054;
+  _X047  = EXP( CLK & !_LC096 &  lose);
+  _X048  = EXP(!CLK & !_LC030 & !_LC102 & !_LC105 &  lose);
+  _X049  = EXP(!CLK &  _LC081 & !_LC097 & !_LC119 &  lose);
+  _X050  = EXP(!CLK &  lose &  Reset);
+  _X051  = EXP( CLK &  _LC096 & !lose);
+  _X052  = EXP(!CLK &  _LC081 & !_LC105 &  lose);
+  _X053  = EXP(!CLK & !_LC097 & !_LC105 & !_LC119 &  lose);
+  _X054  = EXP(!CLK &  _LC081 & !_LC105 & !lose & !Reset);
+
+-- Node name is '|t_ff:52|d_latch:1|~3~1' 
+-- Equation name is '_LC001', type is buried 
+-- synthesized logic cell 
+_LC001   = LCELL( _EQ117 $  GND);
+  _EQ117 = !CLK &  DCIMen & !_LC022 & !_LC033 & !Reset
+         # !CLK & !DCIMen &  _LC022 & !_LC033 & !Reset
+         #  CLK &  _LC001
+         #  DCIMen &  _LC001 & !_LC022 & !_LC033 & !Reset
+         # !DCIMen &  _LC001 &  _LC022 & !_LC033 & !Reset;
+
+-- Node name is '|t_ff:53|d_latch:1|~3~1' 
+-- Equation name is '_LC075', type is buried 
+-- synthesized logic cell 
+_LC075   = LCELL( _EQ118 $  GND);
+  _EQ118 = !CLK & !_LC022 &  _LC068 &  _LC079 & !Reset
+         # !_LC022 &  _LC075 &  _LC079 & !Reset
+         #  CLK &  _LC075;
+
+-- Node name is '|t_ff:53|~6~1' 
+-- Equation name is '_LC068', type is buried 
+-- synthesized logic cell 
+_LC068   = LCELL( _EQ119 $  VCC);
+  _EQ119 = !_LC002 & !_LC073 & !_LC074 & !_LC078 & !_LC080 &  _X055 &  _X056 & 
+              _X057 &  _X058 &  _X059;
+  _X055  = EXP(!DCOMen & !_LC022 &  _LC033 &  _LC034 & !lvb3 & !Reset);
+  _X056  = EXP( CLK &  DCOMen & !_LC022 & !_LC033 & !_LC066 & !Reset);
+  _X057  = EXP( DCOMen & !_LC022 & !_LC033 &  _LC076 & !Reset);
+  _X058  = EXP( DCOMen & !_LC022 & !_LC033 &  _LC067 & !Reset);
+  _X059  = EXP(!DCOMen & !_LC022 &  _LC033 & !_LC070 & !Reset);
+
+-- Node name is '|t_ff:53|~6~2' 
+-- Equation name is '_LC074', type is buried 
+-- synthesized logic cell 
+_LC074   = LCELL( _EQ120 $  GND);
+  _EQ120 =  DCOMen & !_LC022 &  _LC033 &  _LC034 &  _LC041 &  _LC063 & 
+              _LC070 &  _LC106 &  lvb0 &  lvb1 &  lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 &  _LC041 & !_LC063 & 
+              _LC070 &  _LC106 & !lvb0 &  lvb1 &  lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 & !_LC041 &  _LC063 & 
+              _LC070 &  _LC106 &  lvb0 & !lvb1 &  lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 &  _LC041 &  _LC063 & 
+              _LC070 & !_LC106 &  lvb0 &  lvb1 & !lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 &  _LC041 &  _LC063 & 
+              _LC070 &  _LC106 &  lvb0 &  lvb1 &  lvb2 & !lvb3 & !Reset;
+
+-- Node name is '|t_ff:53|~6~3' 
+-- Equation name is '_LC080', type is buried 
+-- synthesized logic cell 
+_LC080   = LCELL( _EQ121 $  GND);
+  _EQ121 =  DCOMen & !_LC022 &  _LC033 &  _LC034 & !_LC041 & !_LC063 & 
+              _LC070 &  _LC106 & !lvb0 & !lvb1 &  lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 &  _LC041 & !_LC063 & 
+              _LC070 & !_LC106 & !lvb0 &  lvb1 & !lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 & !_LC041 &  _LC063 & 
+              _LC070 & !_LC106 &  lvb0 & !lvb1 & !lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 &  _LC041 & !_LC063 & 
+              _LC070 &  _LC106 & !lvb0 &  lvb1 &  lvb2 & !lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 & !_LC041 &  _LC063 & 
+              _LC070 &  _LC106 &  lvb0 & !lvb1 &  lvb2 & !lvb3 & !Reset;
+
+-- Node name is '|t_ff:53|~6~4' 
+-- Equation name is '_LC078', type is buried 
+-- synthesized logic cell 
+_LC078   = LCELL( _EQ122 $  GND);
+  _EQ122 =  DCOMen & !_LC022 &  _LC033 & !_LC034 &  _LC041 &  _LC063 & 
+              _LC070 & !_LC106 &  lvb0 &  lvb1 & !lvb2 & !lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 &  _LC034 & !_LC041 & !_LC063 & 
+              _LC070 & !_LC106 & !lvb0 & !lvb1 & !lvb2 &  lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 & !_LC041 & !_LC063 & 
+              _LC070 &  _LC106 & !lvb0 & !lvb1 &  lvb2 & !lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 &  _LC041 & !_LC063 & 
+              _LC070 & !_LC106 & !lvb0 &  lvb1 & !lvb2 & !lvb3 & !Reset
+         #  DCOMen & !_LC022 &  _LC033 & !_LC034 & !_LC041 &  _LC063 & 
+              _LC070 & !_LC106 &  lvb0 & !lvb1 & !lvb2 & !lvb3 & !Reset;
+
+-- Node name is '|t_ff:53|~6~5' 
+-- Equation name is '_LC073', type is buried 
+-- synthesized logic cell 
+_LC073   = LCELL( _EQ123 $  GND);
+  _EQ123 =  DCOMen & !_LC022 &  _LC033 & !_LC034 & !_LC041 & !_LC063 & 
+              _LC070 & !_LC106 & !lvb0 & !lvb1 & !lvb2 & !lvb3 & !Reset
+         # !DCOMen & !_LC022 & !_LC033 &  _LC066 & !_LC067 & !_LC076 & !Reset
+         # !CLK & !DCOMen & !_LC022 & !_LC033 & !_LC067 & !_LC076 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 & !_LC063 &  lvb0 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 &  _LC063 & !lvb0 & !Reset;
+
+-- Node name is '|t_ff:53|~6~6' 
+-- Equation name is '_LC002', type is buried 
+-- synthesized logic cell 
+_LC002   = LCELL( _EQ124 $  GND);
+  _EQ124 = !DCOMen & !_LC022 &  _LC033 & !_LC041 &  lvb1 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 &  _LC041 & !lvb1 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 & !_LC106 &  lvb2 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 &  _LC106 & !lvb2 & !Reset
+         # !DCOMen & !_LC022 &  _LC033 & !_LC034 &  lvb3 & !Reset;
+
+-- Node name is '|t_ff:53|~7~1' 
+-- Equation name is '_LC079', type is buried 
+-- synthesized logic cell 
+_LC079   = LCELL( _EQ125 $  VCC);
+  _EQ125 = !_LC007 & !_LC010 & !_LC014 & !_LC049 & !_LC065 &  _X060 &  _X061 & 
+              _X062 &  _X063 &  _X064;
+  _X060  = EXP(!DCOMen &  _LC033 &  _LC034 & !lvb3);
+  _X061  = EXP( CLK &  DCOMen & !_LC033 & !_LC066);
+  _X062  = EXP( DCOMen & !_LC033 &  _LC076);
+  _X063  = EXP( DCOMen & !_LC033 &  _LC067);
+  _X064  = EXP(!DCOMen &  _LC033 & !_LC070);
+
+-- Node name is '|t_ff:53|~7~2' 
+-- Equation name is '_LC007', type is buried 
+-- synthesized logic cell 
+_LC007   = LCELL( _EQ126 $  GND);
+  _EQ126 =  DCOMen &  _LC033 &  _LC034 &  _LC041 &  _LC063 &  _LC070 & 
+              _LC106 &  lvb0 &  lvb1 &  lvb2 &  lvb3
+         #  DCOMen &  _LC033 &  _LC034 &  _LC041 & !_LC063 &  _LC070 & 
+              _LC106 & !lvb0 &  lvb1 &  lvb2 &  lvb3
+         #  DCOMen &  _LC033 &  _LC034 & !_LC041 &  _LC063 &  _LC070 & 
+              _LC106 &  lvb0 & !lvb1 &  lvb2 &  lvb3
+         #  DCOMen &  _LC033 &  _LC034 &  _LC041 &  _LC063 &  _LC070 & 
+             !_LC106 &  lvb0 &  lvb1 & !lvb2 &  lvb3
+         #  DCOMen &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC070 & 
+              _LC106 &  lvb0 &  lvb1 &  lvb2 & !lvb3;
+
+-- Node name is '|t_ff:53|~7~3' 
+-- Equation name is '_LC010', type is buried 
+-- synthesized logic cell 
+_LC010   = LCELL( _EQ127 $  GND);
+  _EQ127 =  DCOMen &  _LC033 &  _LC034 & !_LC041 & !_LC063 &  _LC070 & 
+              _LC106 & !lvb0 & !lvb1 &  lvb2 &  lvb3
+         #  DCOMen &  _LC033 &  _LC034 &  _LC041 & !_LC063 &  _LC070 & 
+             !_LC106 & !lvb0 &  lvb1 & !lvb2 &  lvb3
+         #  DCOMen &  _LC033 &  _LC034 & !_LC041 &  _LC063 &  _LC070 & 
+             !_LC106 &  lvb0 & !lvb1 & !lvb2 &  lvb3
+         #  DCOMen &  _LC033 & !_LC034 &  _LC041 & !_LC063 &  _LC070 & 
+              _LC106 & !lvb0 &  lvb1 &  lvb2 & !lvb3
+         #  DCOMen &  _LC033 & !_LC034 & !_LC041 &  _LC063 &  _LC070 & 
+              _LC106 &  lvb0 & !lvb1 &  lvb2 & !lvb3;
+
+-- Node name is '|t_ff:53|~7~4' 
+-- Equation name is '_LC014', type is buried 
+-- synthesized logic cell 
+_LC014   = LCELL( _EQ128 $  GND);
+  _EQ128 =  DCOMen &  _LC033 & !_LC034 &  _LC041 &  _LC063 &  _LC070 & 
+             !_LC106 &  lvb0 &  lvb1 & !lvb2 & !lvb3
+         #  DCOMen &  _LC033 &  _LC034 & !_LC041 & !_LC063 &  _LC070 & 
+             !_LC106 & !lvb0 & !lvb1 & !lvb2 &  lvb3
+         #  DCOMen &  _LC033 & !_LC034 & !_LC041 & !_LC063 &  _LC070 & 
+              _LC106 & !lvb0 & !lvb1 &  lvb2 & !lvb3
+         #  DCOMen &  _LC033 & !_LC034 &  _LC041 & !_LC063 &  _LC070 & 
+             !_LC106 & !lvb0 &  lvb1 & !lvb2 & !lvb3
+         #  DCOMen &  _LC033 & !_LC034 & !_LC041 &  _LC063 &  _LC070 & 
+             !_LC106 &  lvb0 & !lvb1 & !lvb2 & !lvb3;
+
+-- Node name is '|t_ff:53|~7~5' 
+-- Equation name is '_LC065', type is buried 
+-- synthesized logic cell 
+_LC065   = LCELL( _EQ129 $  GND);
+  _EQ129 =  DCOMen &  _LC033 & !_LC034 & !_LC041 & !_LC063 &  _LC070 & 
+             !_LC106 & !lvb0 & !lvb1 & !lvb2 & !lvb3
+         # !DCOMen & !_LC033 &  _LC066 & !_LC067 & !_LC076
+         # !CLK & !DCOMen & !_LC033 & !_LC067 & !_LC076
+         # !DCOMen &  _LC033 & !_LC063 &  lvb0
+         # !DCOMen &  _LC033 &  _LC063 & !lvb0;
+
+-- Node name is '|t_ff:53|~7~6' 
+-- Equation name is '_LC049', type is buried 
+-- synthesized logic cell 
+_LC049   = LCELL( _EQ130 $  GND);
+  _EQ130 = !DCOMen &  _LC033 & !_LC041 &  lvb1
+         # !DCOMen &  _LC033 &  _LC041 & !lvb1
+         # !DCOMen &  _LC033 & !_LC106 &  lvb2
+         # !DCOMen &  _LC033 &  _LC106 & !lvb2
+         # !DCOMen &  _LC033 & !_LC034 &  lvb3;
+
+-- Node name is '|t_ff:69|d_latch:1|~3~2' = '|t_ff:69|d_latch:1|q~2' 
+-- Equation name is '_LC028', type is buried 
+-- synthesized logic cell 
+_LC028   = LCELL( _EQ131 $  GND);
+  _EQ131 = !CLK & !_LC034 &  lvb3 & !Reset &  win
+         # !CLK &  _LC034 & !lvb3 & !Reset &  win
+         # !CLK & !_LC106 &  lvb2 & !Reset &  win
+         # !CLK &  _LC106 & !lvb2 & !Reset &  win
+         # !CLK & !_LC041 &  lvb1 & !Reset &  win;
+
+-- Node name is '|t_ff:69|d_latch:1|~3~3' = '|t_ff:69|d_latch:1|q~3' 
+-- Equation name is '_LC039', type is buried 
+-- synthesized logic cell 
+_LC039   = LCELL( _EQ132 $  GND);
+  _EQ132 = !CLK &  _LC041 & !lvb1 & !Reset &  win
+         # !CLK & !_LC063 &  lvb0 & !Reset &  win
+         # !CLK &  _LC063 & !lvb0 & !Reset &  win
+         # !CLK & !_LC070 & !Reset &  win
+         # !CLK & !_LC033 & !Reset &  win;
+
+-- Node name is '|t_ff:69|d_latch:1|~3~4' = '|t_ff:69|d_latch:1|q~4' 
+-- Equation name is '_LC036', type is buried 
+-- synthesized logic cell 
+_LC036   = LCELL( _EQ133 $  GND);
+  _EQ133 = !CLK & !_LC034 &  lvb3 & !win
+         # !CLK & !_LC106 &  lvb2 & !win
+         # !CLK &  _LC106 & !lvb2 & !win
+         # !CLK & !_LC041 &  lvb1 & !win
+         # !CLK &  _LC041 & !lvb1 & !win;
+
+-- Node name is '|t_ff:69|d_latch:1|~3~1' 
+-- Equation name is '_LC031', type is buried 
+-- synthesized logic cell 
+_LC031   = LCELL( _EQ134 $  win);
+  _EQ134 = !_LC028 & !_LC036 & !_LC039 &  _X065 &  _X066 &  _X067 &  _X068 & 
+              _X069 &  _X070 &  _X071 &  _X072;
+  _X065  = EXP(!CLK & !_LC033 & !win);
+  _X066  = EXP(!CLK &  _LC034 & !lvb3 & !win);
+  _X067  = EXP(!CLK & !_LC063 &  lvb0 & !win);
+  _X068  = EXP(!CLK & !_LC070 & !win);
+  _X069  = EXP( CLK & !_LC031 & !win);
+  _X070  = EXP(!CLK &  Reset & !win);
+  _X071  = EXP( CLK &  _LC031 &  win);
+  _X072  = EXP(!CLK &  _LC063 & !lvb0 & !win);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X022 occurs in LABs D, H
+
+
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\mem2b8lv.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000S' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,769K

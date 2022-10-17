@@ -2,9 +2,9 @@ module stimulus;
 	reg on,reset,setzero,start,clk;
     reg [3:0] b;
 	wire [3:0] l;
-    wire win;
+    wire win,lose;
 
-    seq2b8lv seq (win,l,b,on,setzero,reset,start,clk);
+    seq2b8lv seq (win,lose,l,b,on,setzero,reset,start,clk);
 	
 	initial
 		begin

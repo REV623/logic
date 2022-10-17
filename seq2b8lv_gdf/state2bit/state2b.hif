@@ -24,29 +24,21 @@ HIF003
 --
 FILES
 {
-	d_latch.gdf
+	c2b.gdf
 	{
-		d_latch [] []
-		{
-		}
+		c2b [] [];
 	}
 	reg1b.gdf
 	{
-		reg1b [] []
-		{
-		}
+		reg1b [] [];
 	}
-	c2b.gdf
+	d_latch.gdf
 	{
-		c2b [] []
-		{
-		}
+		d_latch [] [];
 	}
 	state2b.gdf
 	{
-		state2b [] []
-		{
-		}
+		state2b [] [];
 	}
 }
 TREE
@@ -55,15 +47,15 @@ TREE
 	{
 		c2b::(0,0):(5): c2b.gdf
 		{
-			reg1b:0:(0,0):(1): reg1b.gdf
+			reg1b::(0,0):(2): reg1b.gdf
 			{
-				d_latch:0:(0,0):(16): d_latch.gdf;
-				d_latch:0:(0,0):(17): d_latch.gdf;
+				d_latch::(0,0):(17): d_latch.gdf;
+				d_latch::(0,0):(16): d_latch.gdf;
 			}
-			reg1b:0:(0,0):(2): reg1b.gdf
+			reg1b::(0,0):(1): reg1b.gdf
 			{
-				d_latch:0:(0,0):(16): d_latch.gdf;
-				d_latch:0:(0,0):(17): d_latch.gdf;
+				d_latch::(0,0):(17): d_latch.gdf;
+				d_latch::(0,0):(16): d_latch.gdf;
 			}
 		}
 	}

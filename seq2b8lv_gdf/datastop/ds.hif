@@ -24,11 +24,11 @@ HIF003
 --
 FILES
 {
-	reg4b.gdf
+	d_latch.gdf
 	{
-		reg4b [] []
+		d_latch [] []
 		{
-			1 [] [];
+			3 [] [];
 		}
 	}
 	reg1b.gdf
@@ -38,11 +38,11 @@ FILES
 			2 [] [];
 		}
 	}
-	d_latch.gdf
+	reg4b.gdf
 	{
-		d_latch [] []
+		reg4b [] []
 		{
-			3 [] [];
+			1 [] [];
 		}
 	}
 	ds.gdf
@@ -59,25 +59,25 @@ TREE
 	{
 		reg4b::(0,0):(1): reg4b.gdf
 		{
-			reg1b:2:(0,0):(1): reg1b.gdf
+			reg1b:2:(0,0):(4): reg1b.gdf
 			{
-				d_latch:3:(0,0):(17): d_latch.gdf;
 				d_latch:3:(0,0):(16): d_latch.gdf;
-			}
-			reg1b:2:(0,0):(2): reg1b.gdf
-			{
 				d_latch:3:(0,0):(17): d_latch.gdf;
-				d_latch:3:(0,0):(16): d_latch.gdf;
 			}
 			reg1b:2:(0,0):(3): reg1b.gdf
 			{
-				d_latch:3:(0,0):(17): d_latch.gdf;
 				d_latch:3:(0,0):(16): d_latch.gdf;
+				d_latch:3:(0,0):(17): d_latch.gdf;
 			}
-			reg1b:2:(0,0):(4): reg1b.gdf
+			reg1b:2:(0,0):(2): reg1b.gdf
 			{
-				d_latch:3:(0,0):(17): d_latch.gdf;
 				d_latch:3:(0,0):(16): d_latch.gdf;
+				d_latch:3:(0,0):(17): d_latch.gdf;
+			}
+			reg1b:2:(0,0):(1): reg1b.gdf
+			{
+				d_latch:3:(0,0):(16): d_latch.gdf;
+				d_latch:3:(0,0):(17): d_latch.gdf;
 			}
 		}
 	}

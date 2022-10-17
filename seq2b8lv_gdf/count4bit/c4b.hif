@@ -24,48 +24,42 @@ HIF003
 --
 FILES
 {
-	d_latch.gdf
-	{
-		d_latch [] []
-		{
-		}
-	}
 	t_ff.gdf
 	{
-		t_ff [] []
-		{
-		}
+		t_ff [] [];
+	}
+	d_latch.gdf
+	{
+		d_latch [] [];
 	}
 	c4b.gdf
 	{
-		c4b [] []
-		{
-		}
+		c4b [] [];
 	}
 }
 TREE
 {
 	c4b::(0,0):(0): c4b.gdf
 	{
-		t_ff::(0,0):(5): t_ff.gdf
+		t_ff::(0,0):(2): t_ff.gdf
 		{
-			d_latch:0:(0,0):(1): d_latch.gdf;
-			d_latch:0:(0,0):(2): d_latch.gdf;
-		}
-		t_ff::(0,0):(4): t_ff.gdf
-		{
-			d_latch:0:(0,0):(1): d_latch.gdf;
-			d_latch:0:(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(1): d_latch.gdf;
 		}
 		t_ff::(0,0):(3): t_ff.gdf
 		{
-			d_latch:0:(0,0):(1): d_latch.gdf;
-			d_latch:0:(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(1): d_latch.gdf;
 		}
-		t_ff::(0,0):(2): t_ff.gdf
+		t_ff::(0,0):(4): t_ff.gdf
 		{
-			d_latch:0:(0,0):(1): d_latch.gdf;
-			d_latch:0:(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(1): d_latch.gdf;
+		}
+		t_ff::(0,0):(5): t_ff.gdf
+		{
+			d_latch::(0,0):(2): d_latch.gdf;
+			d_latch::(0,0):(1): d_latch.gdf;
 		}
 	}
 }
