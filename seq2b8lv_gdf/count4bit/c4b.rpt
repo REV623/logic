@@ -2,7 +2,7 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\co
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 10/15/2022 22:33:26
+Compiled: 10/18/2022 11:43:06
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -48,18 +48,18 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\co
 
 
 
-|t_ff:2|
-|t_ff:2|d_latch:1|
-|t_ff:2|d_latch:2|
-|t_ff:3|
-|t_ff:3|d_latch:1|
-|t_ff:3|d_latch:2|
-|t_ff:4|
-|t_ff:4|d_latch:1|
-|t_ff:4|d_latch:2|
-|t_ff:5|
-|t_ff:5|d_latch:1|
-|t_ff:5|d_latch:2|
+|t_ff:16|
+|t_ff:16|d_latch:1|
+|t_ff:16|d_latch:2|
+|t_ff:19|
+|t_ff:19|d_latch:1|
+|t_ff:19|d_latch:2|
+|t_ff:18|
+|t_ff:18|d_latch:1|
+|t_ff:18|d_latch:2|
+|t_ff:17|
+|t_ff:17|d_latch:1|
+|t_ff:17|d_latch:2|
 
 
 Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\count4bit\c4b.rpt
@@ -234,13 +234,13 @@ c4b
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
- (77)   123    H      LCELL    s t        1      0   1    3    2    1    1  |t_ff:2|d_latch:1|~3~1
-   -    122    H      LCELL    s t        0      0   0    2    3    0    1  |t_ff:3|d_latch:1|~3~1~2
-   -    121    H      LCELL    s t        1      0   1    3    4    1    2  |t_ff:3|d_latch:1|~3~1
-   -    119    H      LCELL    s t        1      0   1    3    4    0    1  |t_ff:4|d_latch:1|~3~1~2
-   -    116    H      LCELL    s t        1      0   1    3    4    1    1  |t_ff:4|d_latch:1|~3~1
-   -    114    H      LCELL    s t        1      1   0    2    5    0    1  |t_ff:5|d_latch:1|~3~1~2
-   -    113    H      LCELL    s t        2      1   1    3    6    1    2  |t_ff:5|d_latch:1|~3~1
+ (77)   123    H      LCELL    s t        1      0   1    3    2    1    1  |t_ff:16|d_latch:1|~3~1
+   -    122    H      LCELL    s t        0      0   0    2    3    0    1  |t_ff:17|d_latch:1|~3~1~2
+   -    121    H      LCELL    s t        1      0   1    3    4    1    2  |t_ff:17|d_latch:1|~3~1
+   -    119    H      LCELL    s t        1      0   1    3    4    0    1  |t_ff:18|d_latch:1|~3~1~2
+   -    116    H      LCELL    s t        1      0   1    3    4    1    1  |t_ff:18|d_latch:1|~3~1
+   -    114    H      LCELL    s t        1      1   0    2    5    0    1  |t_ff:19|d_latch:1|~3~1~2
+   -    113    H      LCELL    s t        2      1   1    3    6    1    2  |t_ff:19|d_latch:1|~3~1
 
 
 Code:
@@ -265,13 +265,13 @@ Logic Array Block 'H':
         | +------------------- LC120 q1
         | | +----------------- LC117 q2
         | | | +--------------- LC115 q3
-        | | | | +------------- LC123 |t_ff:2|d_latch:1|~3~1
-        | | | | | +----------- LC122 |t_ff:3|d_latch:1|~3~1~2
-        | | | | | | +--------- LC121 |t_ff:3|d_latch:1|~3~1
-        | | | | | | | +------- LC119 |t_ff:4|d_latch:1|~3~1~2
-        | | | | | | | | +----- LC116 |t_ff:4|d_latch:1|~3~1
-        | | | | | | | | | +--- LC114 |t_ff:5|d_latch:1|~3~1~2
-        | | | | | | | | | | +- LC113 |t_ff:5|d_latch:1|~3~1
+        | | | | +------------- LC123 |t_ff:16|d_latch:1|~3~1
+        | | | | | +----------- LC122 |t_ff:17|d_latch:1|~3~1~2
+        | | | | | | +--------- LC121 |t_ff:17|d_latch:1|~3~1
+        | | | | | | | +------- LC119 |t_ff:18|d_latch:1|~3~1~2
+        | | | | | | | | +----- LC116 |t_ff:18|d_latch:1|~3~1
+        | | | | | | | | | +--- LC114 |t_ff:19|d_latch:1|~3~1~2
+        | | | | | | | | | | +- LC113 |t_ff:19|d_latch:1|~3~1
         | | | | | | | | | | | 
         | | | | | | | | | | |   Other LABs fed by signals
         | | | | | | | | | | |   that feed LAB 'H'
@@ -280,13 +280,13 @@ LC118-> * - - - * * * * * * * | - - - - - - - * | <-- q0
 LC120-> - * - - - * * * * * * | - - - - - - - * | <-- q1
 LC117-> - - * - - - - * * * * | - - - - - - - * | <-- q2
 LC115-> - - - * - - - - - * * | - - - - - - - * | <-- q3
-LC123-> * - - - * - - - - - - | - - - - - - - * | <-- |t_ff:2|d_latch:1|~3~1
-LC122-> - - - - - - * - - - - | - - - - - - - * | <-- |t_ff:3|d_latch:1|~3~1~2
-LC121-> - * - - - * * - - - - | - - - - - - - * | <-- |t_ff:3|d_latch:1|~3~1
-LC119-> - - - - - - - - * - - | - - - - - - - * | <-- |t_ff:4|d_latch:1|~3~1~2
-LC116-> - - * - - - - * - - - | - - - - - - - * | <-- |t_ff:4|d_latch:1|~3~1
-LC114-> - - - - - - - - - - * | - - - - - - - * | <-- |t_ff:5|d_latch:1|~3~1~2
-LC113-> - - - * - - - - - * * | - - - - - - - * | <-- |t_ff:5|d_latch:1|~3~1
+LC123-> * - - - * - - - - - - | - - - - - - - * | <-- |t_ff:16|d_latch:1|~3~1
+LC122-> - - - - - - * - - - - | - - - - - - - * | <-- |t_ff:17|d_latch:1|~3~1~2
+LC121-> - * - - - * * - - - - | - - - - - - - * | <-- |t_ff:17|d_latch:1|~3~1
+LC119-> - - - - - - - - * - - | - - - - - - - * | <-- |t_ff:18|d_latch:1|~3~1~2
+LC116-> - - * - - - - * - - - | - - - - - - - * | <-- |t_ff:18|d_latch:1|~3~1
+LC114-> - - - - - - - - - - * | - - - - - - - * | <-- |t_ff:19|d_latch:1|~3~1~2
+LC113-> - - - * - - - - - * * | - - - - - - - * | <-- |t_ff:19|d_latch:1|~3~1
 
 Pin
 11   -> * * * * * - * * * - * | - - - - - - - * | <-- CLK
@@ -307,35 +307,35 @@ CLK      : INPUT;
 En       : INPUT;
 Re       : INPUT;
 
--- Node name is 'q0' = '|t_ff:2|d_latch:2|~3~1' 
+-- Node name is 'q0' = '|t_ff:16|d_latch:2|~3~1' 
 -- Equation name is 'q0', type is output 
  q0      = LCELL( _EQ001 $  GND);
   _EQ001 =  CLK &  _LC123
          # !CLK &  q0
          #  _LC123 &  q0;
 
--- Node name is 'q1' = '|t_ff:3|d_latch:2|~3~1' 
+-- Node name is 'q1' = '|t_ff:17|d_latch:2|~3~1' 
 -- Equation name is 'q1', type is output 
  q1      = LCELL( _EQ002 $  GND);
   _EQ002 =  CLK &  _LC121
          # !CLK &  q1
          #  _LC121 &  q1;
 
--- Node name is 'q2' = '|t_ff:4|d_latch:2|~3~1' 
+-- Node name is 'q2' = '|t_ff:18|d_latch:2|~3~1' 
 -- Equation name is 'q2', type is output 
  q2      = LCELL( _EQ003 $  GND);
   _EQ003 =  CLK &  _LC116
          # !CLK &  q2
          #  _LC116 &  q2;
 
--- Node name is 'q3' = '|t_ff:5|d_latch:2|~3~1' 
+-- Node name is 'q3' = '|t_ff:19|d_latch:2|~3~1' 
 -- Equation name is 'q3', type is output 
  q3      = LCELL( _EQ004 $  GND);
   _EQ004 =  CLK &  _LC113
          # !CLK &  q3
          #  _LC113 &  q3;
 
--- Node name is '|t_ff:2|d_latch:1|~3~1' 
+-- Node name is '|t_ff:16|d_latch:1|~3~1' 
 -- Equation name is '_LC123', type is buried 
 -- synthesized logic cell 
 _LC123   = LCELL( _EQ005 $  GND);
@@ -345,7 +345,7 @@ _LC123   = LCELL( _EQ005 $  GND);
          # !En &  _LC123 &  q0 & !Re
          #  En &  _LC123 & !q0 & !Re;
 
--- Node name is '|t_ff:3|d_latch:1|~3~1~2' 
+-- Node name is '|t_ff:17|d_latch:1|~3~1~2' 
 -- Equation name is '_LC122', type is buried 
 -- synthesized logic cell 
 _LC122   = LCELL( _EQ006 $  GND);
@@ -353,7 +353,7 @@ _LC122   = LCELL( _EQ006 $  GND);
          # !En &  _LC121 &  q1 & !Re
          #  _LC121 & !q0 &  q1 & !Re;
 
--- Node name is '|t_ff:3|d_latch:1|~3~1' 
+-- Node name is '|t_ff:17|d_latch:1|~3~1' 
 -- Equation name is '_LC121', type is buried 
 -- synthesized logic cell 
 _LC121   = LCELL( _EQ007 $  GND);
@@ -363,7 +363,7 @@ _LC121   = LCELL( _EQ007 $  GND);
          #  CLK &  _LC121
          #  _LC122;
 
--- Node name is '|t_ff:4|d_latch:1|~3~1~2' 
+-- Node name is '|t_ff:18|d_latch:1|~3~1~2' 
 -- Equation name is '_LC119', type is buried 
 -- synthesized logic cell 
 _LC119   = LCELL( _EQ008 $  GND);
@@ -373,7 +373,7 @@ _LC119   = LCELL( _EQ008 $  GND);
          #  _LC116 & !q1 &  q2 & !Re
          #  CLK &  _LC116;
 
--- Node name is '|t_ff:4|d_latch:1|~3~1' 
+-- Node name is '|t_ff:18|d_latch:1|~3~1' 
 -- Equation name is '_LC116', type is buried 
 -- synthesized logic cell 
 _LC116   = LCELL( _EQ009 $  GND);
@@ -383,7 +383,7 @@ _LC116   = LCELL( _EQ009 $  GND);
          # !CLK & !q1 &  q2 & !Re
          #  _LC119;
 
--- Node name is '|t_ff:5|d_latch:1|~3~1~2' 
+-- Node name is '|t_ff:19|d_latch:1|~3~1~2' 
 -- Equation name is '_LC114', type is buried 
 -- synthesized logic cell 
 _LC114   = LCELL( _EQ010 $  GND);
@@ -391,7 +391,7 @@ _LC114   = LCELL( _EQ010 $  GND);
          #  _LC113 &  q3 & !Re &  _X001;
   _X001  = EXP( En &  q0 &  q1 &  q2);
 
--- Node name is '|t_ff:5|d_latch:1|~3~1' 
+-- Node name is '|t_ff:19|d_latch:1|~3~1' 
 -- Equation name is '_LC113', type is buried 
 -- synthesized logic cell 
 _LC113   = LCELL( _EQ011 $  GND);
@@ -491,12 +491,12 @@ Compilation Times
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
-   Assembler                              00:00:00
+   Assembler                              00:00:01
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,213K
+Peak memory allocated during compilation  = 3,455K

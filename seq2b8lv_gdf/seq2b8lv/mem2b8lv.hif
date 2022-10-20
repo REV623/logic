@@ -24,95 +24,11 @@ HIF003
 --
 FILES
 {
-	d_ff.gdf
+	7447.gdf
 	{
-		d_ff [] []
+		7447 [] []
 		{
-			13 [] [];
-		}
-	}
-	ec2.gdf
-	{
-		ec2 [] []
-		{
-			11 [] [];
-		}
-	}
-	only1_2b.gdf
-	{
-		only1_2b [] []
-		{
-			10 [] [];
-		}
-	}
-	reg1b.gdf
-	{
-		reg1b [] []
-		{
-			6 [] [];
-		}
-	}
-	reg4b.gdf
-	{
-		reg4b [] []
-		{
-			5 [] [];
-		}
-	}
-	d_latch.gdf
-	{
-		d_latch [] []
-		{
-			3 [] [];
-		}
-	}
-	mem4.gdf
-	{
-		mem4 [] []
-		{
-			1 [] [];
-		}
-	}
-	ds.gdf
-	{
-		ds [] []
-		{
-			4 [] [];
-		}
-	}
-	c4b.gdf
-	{
-		c4b [] []
-		{
-			7 [] [];
-		}
-	}
-	ch4.gdf
-	{
-		ch4 [] []
-		{
-			8 [] [];
-		}
-	}
-	ch_ans2b.gdf
-	{
-		ch_ans2b [] []
-		{
-			9 [] [];
-		}
-	}
-	dc2.gdf
-	{
-		dc2 [] []
-		{
-			14 [] [];
-		}
-	}
-	t_ff.gdf
-	{
-		t_ff [] []
-		{
-			2 [] [];
+			15 [] [];
 		}
 	}
 	neg_ch.gdf
@@ -122,11 +38,95 @@ FILES
 			12 [] [];
 		}
 	}
-	7447.gdf
+	t_ff.gdf
 	{
-		7447 [] []
+		t_ff [] []
 		{
-			15 [] [];
+			2 [] [];
+		}
+	}
+	dc2.gdf
+	{
+		dc2 [] []
+		{
+			14 [] [];
+		}
+	}
+	ch_ans2b.gdf
+	{
+		ch_ans2b [] []
+		{
+			9 [] [];
+		}
+	}
+	ch4.gdf
+	{
+		ch4 [] []
+		{
+			8 [] [];
+		}
+	}
+	c4b.gdf
+	{
+		c4b [] []
+		{
+			7 [] [];
+		}
+	}
+	ds.gdf
+	{
+		ds [] []
+		{
+			4 [] [];
+		}
+	}
+	mem4.gdf
+	{
+		mem4 [] []
+		{
+			1 [] [];
+		}
+	}
+	d_latch.gdf
+	{
+		d_latch [] []
+		{
+			3 [] [];
+		}
+	}
+	reg4b.gdf
+	{
+		reg4b [] []
+		{
+			5 [] [];
+		}
+	}
+	reg1b.gdf
+	{
+		reg1b [] []
+		{
+			6 [] [];
+		}
+	}
+	only1_2b.gdf
+	{
+		only1_2b [] []
+		{
+			10 [] [];
+		}
+	}
+	ec2.gdf
+	{
+		ec2 [] []
+		{
+			11 [] [];
+		}
+	}
+	d_ff.gdf
+	{
+		d_ff [] []
+		{
+			13 [] [];
 		}
 	}
 	mem2b8lv.gdf
@@ -141,40 +141,48 @@ TREE
 {
 	mem2b8lv::(0,0):(0): mem2b8lv.gdf
 	{
-		neg_ch::(0,0):(71): neg_ch.gdf
+		mem4::(0,0):(147): mem4.gdf
 		{
-			d_ff:13:(0,0):(1): d_ff.gdf
+			t_ff:2:(0,0):(39): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			d_ff:13:(0,0):(2): d_ff.gdf
+			t_ff:2:(0,0):(42): t_ff.gdf
+			{
+				d_latch:3:(0,0):(1): d_latch.gdf;
+				d_latch:3:(0,0):(2): d_latch.gdf;
+			}
+			t_ff:2:(0,0):(41): t_ff.gdf
+			{
+				d_latch:3:(0,0):(1): d_latch.gdf;
+				d_latch:3:(0,0):(2): d_latch.gdf;
+			}
+			t_ff:2:(0,0):(40): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
 		}
-		t_ff::(0,0):(69): t_ff.gdf
+		t_ff::(0,0):(144): t_ff.gdf
 		{
 			d_latch:3:(0,0):(1): d_latch.gdf;
 			d_latch:3:(0,0):(2): d_latch.gdf;
 		}
-		dc2::(0,0):(54): dc2.gdf;
-		t_ff::(0,0):(53): t_ff.gdf
+		t_ff::(0,0):(143): t_ff.gdf
 		{
 			d_latch:3:(0,0):(1): d_latch.gdf;
 			d_latch:3:(0,0):(2): d_latch.gdf;
 		}
-		t_ff::(0,0):(52): t_ff.gdf
+		t_ff::(0,0):(142): t_ff.gdf
 		{
 			d_latch:3:(0,0):(1): d_latch.gdf;
 			d_latch:3:(0,0):(2): d_latch.gdf;
 		}
-		t_ff::(0,0):(49): t_ff.gdf
-		{
-			d_latch:3:(0,0):(1): d_latch.gdf;
-			d_latch:3:(0,0):(2): d_latch.gdf;
-		}
+		7447::(0,0):(131): 7447.gdf;
+		ch4::(0,0):(34): ch4.gdf;
+		ch4::(0,0):(35): ch4.gdf;
+		ch4::(0,0):(36): ch4.gdf;
 		ch_ans2b::(0,0):(44): ch_ans2b.gdf
 		{
 			only1_2b:10:(0,0):(3): only1_2b.gdf;
@@ -232,83 +240,75 @@ TREE
 				}
 			}
 		}
-		t_ff::(0,0):(37): t_ff.gdf
+		dc2::(0,0):(54): dc2.gdf;
+		neg_ch::(0,0):(71): neg_ch.gdf
+		{
+			d_ff:13:(0,0):(1): d_ff.gdf
+			{
+				d_latch:3:(0,0):(1): d_latch.gdf;
+				d_latch:3:(0,0):(2): d_latch.gdf;
+			}
+			d_ff:13:(0,0):(2): d_ff.gdf
+			{
+				d_latch:3:(0,0):(1): d_latch.gdf;
+				d_latch:3:(0,0):(2): d_latch.gdf;
+			}
+		}
+		t_ff::(0,0):(145): t_ff.gdf
 		{
 			d_latch:3:(0,0):(1): d_latch.gdf;
 			d_latch:3:(0,0):(2): d_latch.gdf;
 		}
-		ch4::(0,0):(36): ch4.gdf;
-		ch4::(0,0):(35): ch4.gdf;
-		ch4::(0,0):(34): ch4.gdf;
-		c4b::(0,0):(33): c4b.gdf
+		t_ff::(0,0):(146): t_ff.gdf
 		{
-			t_ff:2:(0,0):(2): t_ff.gdf
+			d_latch:3:(0,0):(1): d_latch.gdf;
+			d_latch:3:(0,0):(2): d_latch.gdf;
+		}
+		c4b::(0,0):(148): c4b.gdf
+		{
+			t_ff:2:(0,0):(16): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(3): t_ff.gdf
+			t_ff:2:(0,0):(19): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(4): t_ff.gdf
+			t_ff:2:(0,0):(18): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(5): t_ff.gdf
+			t_ff:2:(0,0):(17): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
 		}
-		c4b::(0,0):(32): c4b.gdf
+		c4b::(0,0):(149): c4b.gdf
 		{
-			t_ff:2:(0,0):(2): t_ff.gdf
+			t_ff:2:(0,0):(16): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(3): t_ff.gdf
+			t_ff:2:(0,0):(19): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(4): t_ff.gdf
+			t_ff:2:(0,0):(18): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
-			t_ff:2:(0,0):(5): t_ff.gdf
+			t_ff:2:(0,0):(17): t_ff.gdf
 			{
 				d_latch:3:(0,0):(1): d_latch.gdf;
 				d_latch:3:(0,0):(2): d_latch.gdf;
 			}
 		}
-		mem4::(0,0):(25): mem4.gdf
-		{
-			t_ff:2:(0,0):(3): t_ff.gdf
-			{
-				d_latch:3:(0,0):(1): d_latch.gdf;
-				d_latch:3:(0,0):(2): d_latch.gdf;
-			}
-			t_ff:2:(0,0):(5): t_ff.gdf
-			{
-				d_latch:3:(0,0):(1): d_latch.gdf;
-				d_latch:3:(0,0):(2): d_latch.gdf;
-			}
-			t_ff:2:(0,0):(2): t_ff.gdf
-			{
-				d_latch:3:(0,0):(1): d_latch.gdf;
-				d_latch:3:(0,0):(2): d_latch.gdf;
-			}
-			t_ff:2:(0,0):(4): t_ff.gdf
-			{
-				d_latch:3:(0,0):(1): d_latch.gdf;
-				d_latch:3:(0,0):(2): d_latch.gdf;
-			}
-		}
-		7447::(0,0):(131): 7447.gdf;
 	}
 }

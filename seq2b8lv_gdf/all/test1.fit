@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.2 07/10/2002            
--- Compiled: 10/17/2022 15:14:25      
+-- Compiled: 10/18/2022 11:33:43      
 
 -- Copyright (C) 1988-2002 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -29,13 +29,15 @@ BEGIN
 
     "CLK"                          : INPUT_PIN  = 83     ;
     "T"                            : INPUT_PIN  = 12     ; -- LC3
-    "Q"                            : OUTPUT_PIN = 73     ; -- LC115
+    "h"                            : OUTPUT_PIN = 73     ; -- LC115
+    "Q"                            : OUTPUT_PIN = 74     ; -- LC117
 
 END;
 
 INTERNAL_INFO "test1"
 BEGIN
 	DEVICE = EPM7128SLC84-6;
+	LC117   : LORAX = "G110R0";
 	LC115   : LORAX = "G55R0";
 	OH2R0P12 : LORAX = "G148R0,PA19R0C7";
 END;

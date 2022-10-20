@@ -1,22 +1,22 @@
 NDB006
 The number of symbol table entries is: 13
-The length of the symbol table is: 201
+The length of the symbol table is: 213
 
 Index Hierarchy Path
 ----- --------------
 !	&null_hpath&
-.	|t_ff:2|
-7	|t_ff:2|d_latch:1|
-J	|t_ff:2|d_latch:2|
-]	|t_ff:3|
-f	|t_ff:3|d_latch:1|
-y	|t_ff:3|d_latch:2|
-".	|t_ff:4|
-"7	|t_ff:4|d_latch:1|
-"J	|t_ff:4|d_latch:2|
-"]	|t_ff:5|
-"f	|t_ff:5|d_latch:1|
-"y	|t_ff:5|d_latch:2|
+.	|t_ff:16|
+8	|t_ff:16|d_latch:1|
+L	|t_ff:16|d_latch:2|
+`	|t_ff:19|
+j	|t_ff:19|d_latch:1|
+~	|t_ff:19|d_latch:2|
+"4	|t_ff:18|
+">	|t_ff:18|d_latch:1|
+"R	|t_ff:18|d_latch:2|
+"f	|t_ff:17|
+"p	|t_ff:17|d_latch:1|
+#&	|t_ff:17|d_latch:2|
 
 The number of name info structs is : 120
 
@@ -36,109 +36,109 @@ $	IGdW	!	:15	".
 -	IGdW	.	:5	"@
 .	IGdW	.	:6	"B
 /	IGdW	.	:7	"C
-0	IGdW	7	:2	"L
-1	IVOQ	7	5	:3	"M
-2	IGdW	7	:5	"N
-3	IGdW	7	:6	"O
-4	IGdW	7	:7	"P
-5	INu}	7	1	q	"M
-6	IFkI	7	~2~1	"L
-7	P|nO	7	2	'	7	1	~3~1	"M
-8	IFkI	7	~5~1	"N
-9	IFkI	7	~6~1	"O
-:	IGdW	J	:2	"Y
-;	IVOQ	J	?	:3	"Z
-<	IGdW	J	:5	"[
-=	IGdW	J	:6	"\
->	IGdW	J	:7	"]
-?	INu}	J	;	q	"Z
-@	IFkI	J	~2~1	"Y
-A	IFkI	J	~3~1	"Z
-B	IFkI	J	~5~1	"[
-C	IFkI	J	~6~1	"\
+0	IGdW	8	:2	"L
+1	IVOQ	8	5	:3	"M
+2	IGdW	8	:5	"N
+3	IGdW	8	:6	"O
+4	IGdW	8	:7	"P
+5	INu}	8	1	q	"M
+6	IFkI	8	~2~1	"L
+7	P|nO	8	2	'	7	1	~3~1	"M
+8	IFkI	8	~5~1	"N
+9	IFkI	8	~6~1	"O
+:	IGdW	L	:2	"Y
+;	IVOQ	L	?	:3	"Z
+<	IGdW	L	:5	"[
+=	IGdW	L	:6	"\
+>	IGdW	L	:7	"]
+?	INu}	L	;	q	"Z
+@	IFkI	L	~2~1	"Y
+A	IFkI	L	~3~1	"Z
+B	IFkI	L	~5~1	"[
+C	IFkI	L	~6~1	"\
 D	IFkI	.	~6~1	"B
 E	IFkI	.	~7~1	"C
-F	IGdW	]	:4	"o
-G	IGdW	]	:5	"n
-H	IGdW	]	:6	"p
-I	IGdW	]	:7	"q
-J	IGdW	f	:2	"y
-K	IVOQ	f	O	:3	"z
-L	IGdW	f	:5	"{
-M	IGdW	f	:6	"|
-N	IGdW	f	:7	"}
-O	INu}	f	K	q	"z
-P	IFkI	f	~2~1	"y
-Q	P|nO	f	3	(	R	Q	1	~3~1	"z
-R	Kx(k	f	1	Q	~3~1~2	(5
-S	IFkI	f	~5~1	"{
-T	IFkI	f	~6~1	"|
-U	IGdW	y	:2	#'
-V	IVOQ	y	Z	:3	#(
-W	IGdW	y	:5	#)
-X	IGdW	y	:6	#*
-Y	IGdW	y	:7	#+
-Z	INu}	y	V	q	#(
-[	IFkI	y	~2~1	#'
-\	IFkI	y	~3~1	#(
-]	IFkI	y	~5~1	#)
-^	IFkI	y	~6~1	#*
-_	IFkI	]	~6~1	"p
-`	IFkI	]	~7~1	"q
-a	IGdW	".	:4	#=
-b	IGdW	".	:5	#<
-c	IGdW	".	:6	#>
-d	IGdW	".	:7	#?
-e	IGdW	"7	:2	#G
-f	IVOQ	"7	j	:3	#H
-g	IGdW	"7	:5	#I
-h	IGdW	"7	:6	#J
-i	IGdW	"7	:7	#K
-j	INu}	"7	f	q	#H
-k	IFkI	"7	~2~1	#G
-l	P|nO	"7	2	)	m	1	~3~1	#H
-m	P|i%	"7	1	l	1	~3~1~2	(<
-n	IFkI	"7	~5~1	#I
-o	IFkI	"7	~6~1	#J
-p	IGdW	"J	:2	#S
-q	IVOQ	"J	u	:3	#T
-r	IGdW	"J	:5	#U
-s	IGdW	"J	:6	#V
-t	IGdW	"J	:7	#W
-u	INu}	"J	q	q	#T
-v	IFkI	"J	~2~1	#S
-w	IFkI	"J	~3~1	#T
-x	IFkI	"J	~5~1	#U
-y	IFkI	"J	~6~1	#V
-z	IFkI	".	~6~1	#>
-{	IFkI	".	~7~1	#?
-|	IGdW	"]	:4	#i
-}	IGdW	"]	:5	#h
-~	IGdW	"]	:6	#j
-"!	IGdW	"]	:7	#k
-""	IGdW	"f	:2	#s
-"#	IVOQ	"f	"'	:3	#t
-"$	IGdW	"f	:5	#u
-"%	IGdW	"f	:6	#v
-"&	IGdW	"f	:7	#w
-"'	INu}	"f	"#	q	#t
-"(	IFkI	"f	~2~1	#s
-")	[(3!	"f	3	*	"*	")	1	1	1	~3~1	#t
-"*	V#K=	"f	1	")	1	1	~3~1~2	(C
-"+	IFkI	"f	~5~1	#u
-",	IFkI	"f	~6~1	#v
-"-	IGdW	"y	:2	$!
-".	IVOQ	"y	"2	:3	$"
-"/	IGdW	"y	:5	$#
-"0	IGdW	"y	:6	$$
-"1	IGdW	"y	:7	$%
-"2	INu}	"y	".	q	$"
-"3	IFkI	"y	~2~1	$!
-"4	IFkI	"y	~3~1	$"
-"5	IFkI	"y	~5~1	$#
-"6	IFkI	"y	~6~1	$$
-"7	IFkI	"]	~6~1	#j
-"8	IFkI	"]	~7~1	#k
+F	IGdW	"f	:4	#i
+G	IGdW	"f	:5	#h
+H	IGdW	"f	:6	#j
+I	IGdW	"f	:7	#k
+J	IGdW	"p	:2	#s
+K	IVOQ	"p	O	:3	#t
+L	IGdW	"p	:5	#u
+M	IGdW	"p	:6	#v
+N	IGdW	"p	:7	#w
+O	INu}	"p	K	q	#t
+P	IFkI	"p	~2~1	#s
+Q	P|nO	"p	3	(	R	Q	1	~3~1	#t
+R	Kx(k	"p	1	Q	~3~1~2	(5
+S	IFkI	"p	~5~1	#u
+T	IFkI	"p	~6~1	#v
+U	IGdW	#&	:2	$!
+V	IVOQ	#&	Z	:3	$"
+W	IGdW	#&	:5	$#
+X	IGdW	#&	:6	$$
+Y	IGdW	#&	:7	$%
+Z	INu}	#&	V	q	$"
+[	IFkI	#&	~2~1	$!
+\	IFkI	#&	~3~1	$"
+]	IFkI	#&	~5~1	$#
+^	IFkI	#&	~6~1	$$
+_	IFkI	"f	~6~1	#j
+`	IFkI	"f	~7~1	#k
+a	IGdW	"4	:4	#=
+b	IGdW	"4	:5	#<
+c	IGdW	"4	:6	#>
+d	IGdW	"4	:7	#?
+e	IGdW	">	:2	#G
+f	IVOQ	">	j	:3	#H
+g	IGdW	">	:5	#I
+h	IGdW	">	:6	#J
+i	IGdW	">	:7	#K
+j	INu}	">	f	q	#H
+k	IFkI	">	~2~1	#G
+l	P|nO	">	2	)	m	1	~3~1	#H
+m	P|i%	">	1	l	1	~3~1~2	(<
+n	IFkI	">	~5~1	#I
+o	IFkI	">	~6~1	#J
+p	IGdW	"R	:2	#S
+q	IVOQ	"R	u	:3	#T
+r	IGdW	"R	:5	#U
+s	IGdW	"R	:6	#V
+t	IGdW	"R	:7	#W
+u	INu}	"R	q	q	#T
+v	IFkI	"R	~2~1	#S
+w	IFkI	"R	~3~1	#T
+x	IFkI	"R	~5~1	#U
+y	IFkI	"R	~6~1	#V
+z	IFkI	"4	~6~1	#>
+{	IFkI	"4	~7~1	#?
+|	IGdW	`	:4	"o
+}	IGdW	`	:5	"n
+~	IGdW	`	:6	"p
+"!	IGdW	`	:7	"q
+""	IGdW	j	:2	"y
+"#	IVOQ	j	"'	:3	"z
+"$	IGdW	j	:5	"{
+"%	IGdW	j	:6	"|
+"&	IGdW	j	:7	"}
+"'	INu}	j	"#	q	"z
+"(	IFkI	j	~2~1	"y
+")	[(3!	j	3	*	"*	")	1	1	1	~3~1	"z
+"*	V#K=	j	1	")	1	1	~3~1~2	(C
+"+	IFkI	j	~5~1	"{
+",	IFkI	j	~6~1	"|
+"-	IGdW	~	:2	#'
+".	IVOQ	~	"2	:3	#(
+"/	IGdW	~	:5	#)
+"0	IGdW	~	:6	#*
+"1	IGdW	~	:7	#+
+"2	INu}	~	".	q	#(
+"3	IFkI	~	~2~1	#'
+"4	IFkI	~	~3~1	#(
+"5	IFkI	~	~5~1	#)
+"6	IFkI	~	~6~1	#*
+"7	IFkI	`	~6~1	"p
+"8	IFkI	`	~7~1	"q
 "9	IFkI	!	~13~1	",
 ":	IFkI	!	~14~1	"-
 ";	IFkI	!	~15~1	".

@@ -18,16 +18,16 @@
 ' their respective licensors.  No other licenses, including any licenses
 ' needed under any third party's intellectual property, are provided herein.
 
-'Device #1: EPM7128S - c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test1.pof Mon Oct 17 08:14:25 2022
+'Device #1: EPM7128S - c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test1.pof Tue Oct 18 04:33:43 2022
 
 NOTE "CREATOR" "Altera Jam/STAPL Composer Version 10.2 06/28/2002";
-NOTE "DATE" "2022/10/17";
+NOTE "DATE" "2022/10/18";
 NOTE "DEVICE" "EPM7128S";
 NOTE "FILE" "test1.pof";
 NOTE "TARGET" "1";
 NOTE "IDCODE" "071280DD";
 NOTE "UES" "FFFF";
-NOTE "CHECKSUM" "001DDB72";
+NOTE "CHECKSUM" "001DC535";
 NOTE "SAVE_DATA" "DEVICE_DATA";
 NOTE "SAVE_DATA_VARIABLES" "V0, A12, A13, A21, A22, A25, A43";
 NOTE "STAPL_VERSION" "JESD71";
@@ -53,21 +53,22 @@ INTEGER A13[1] = 5;
 INTEGER A25[1] = 10;
 INTEGER A43[1] = 0;
 BOOLEAN A21[104320] = @
-mB300u@@@@3q6aP863r@@@dX9Ke2Ae1w@Xn@3o@72_V0w@1o@7c@VGm@3H_V0q@3
-qQi@B@@Wl@7Q_@Gu@7W@@m@_Fum@3Ty@0B@F0q@3Fz@WN@Fqs@3yz@0a@Fyv@3kc
-me0G9K0eyVr@7PGl_@zUTltxvzUl7rxzU506y1W1L0eGA0FW_zUFAWDuzU@7eWJ1
-50JK0e4A0K1AWKa1e6o0IXH0JC7u5znd_@@gz@x@dwH2H1WIyAw63pCy@@@350gW
-20DG1Ez@@x7BXn1POSuGff@x@sV@tlxh_lA0CG@t@T50Aa2W4H14IO4@7an@XXfb
-@x@@8I_FUb@3B16@V@tXbyVKF@7Oq@X3bf@@@V@@@zg@@tBTn0t@@@L0eGA0I45W
-7_@@@Z_m0@NzVL0OW_@@xA0K8509Y28amh_Fuh@ZFx@et_Fi4Q1;
+mB300u@@@@3q6aP8k2@@N@g@@@FtIeG5KG3q@3Z@7a@F4y@0q@3a@FC@@WW@7Yy@
+0e@7eDPvN_@1V@Fqy@Xm@F0@@X@zVmX@7wu@1M_V0e@7Uw@1l_Vej@7ux@18@Vup
+@7STWnQhIe0GvlwhEoWUz@@lhtxzsUltZwfUlA0CO1W2g0GXK0UGFzJVK0UOl@@F
+G1d2Aeb83K9K0e2K0f83GDa1a2Z0c0zFnVzNTe0G5Modg_@tx@FXA0I8iaAY2Wau
+L_C6cPy@@_7A0K150QW2Vw@z@FWYsZC0vmX_H@t@j@_lFrNzVL0OW_l@xA0K85W7
+Y2Wam8_F8Z@33JB@t@@HayVyA@7M2C_@_l3Bv@eU_Fme@37Ape6DGz@@k_@@V@@@
+@k@@@h0GXK0U8AWGy@@@7zX1wlw@g0m0z@@tL0eGA0F4509XNzVmN@7Vs@HlzVO9
+q2;
 
 BOOLEAN A22[65920] = @
-m0200u@@@@3q6aP8_1@@@t11foJ25gW2QW_VOy@Wy@XW@7g_VWy@Xv@74y@Ga@7A
+m0200u@@@@3q6aP8_1@@@r11foJ25gW2QW_VOy@Wy@XW@7g_VWy@Xv@74y@Ga@7A
 z@0jY6wzXWl@7Q_@0t@7W@@m@_Fum@3Ty@0B@F0q@3Fz@WN@Fqs@3yz@mY@Fyv@3
-wprdknm@0000000000000400000000_Fix7228X90Ie40924WXm0EvTW4Y5K8_@l
-@H0WmXuju@t@F408220a01yml@@VYvjy5mBLhR0ggYALHLLD0O0ggYALz@@j3Cso
-xIu@_@lU0p2Fm0KLbLX7utj3vW@xvtzyVV306W@xvtzNrbhwwg4088203qr@@NQW
-hX7840;
+wprdknm@0000000000000500000000_Fix7228X90Ie40924WXm0EvTW424@1@@@
+tX00HnuUu@lzt@_@l@@@VNx@@y@@@N4N5@@@xX00HG0W48W7_@t@FClbk0S9QT3y
+@@KfAggA102Y0m0KLr@h3CMoxIu@@xVU0p2F81ML5LX7iNj3vuV_l7@tpV20441W
+1k@gkSLNNb001H0OWk_@@I3SDy0X00;
 
 ENDDATA;
 DATA TEMP_DATA;
@@ -1656,4 +1657,4 @@ IF (j != 317) THEN V52 = j - 108;
 IF (j == 317) THEN V52 = -1;
 ENDPROC;
 ' END OF FILE
-CRC 7739;
+CRC 7DAB;

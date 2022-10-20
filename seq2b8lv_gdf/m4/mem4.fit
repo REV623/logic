@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.2 07/10/2002            
--- Compiled: 10/15/2022 21:01:04      
+-- Compiled: 10/18/2022 11:38:55      
 
 -- Copyright (C) 1988-2002 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -36,20 +36,20 @@ BEGIN
     "1"                            : OUTPUT_PIN = 79     ; -- LC125
     "2"                            : OUTPUT_PIN = 73     ; -- LC115
     "3"                            : OUTPUT_PIN = 77     ; -- LC123
-    "|t_ff:2|d_latch:1|~3~1"       : LOCATION   = LC113  ;
-    "|t_ff:2|d_latch:1|~3~1~2"     : LOCATION   = LC124  ;
-    "|t_ff:2|d_latch:1|~3~1~3"     : LOCATION   = LC104  ; -- PIN 67
-    "|t_ff:2|d_latch:2|~2~1"       : LOCATION   = LC122  ;
-    "|t_ff:2|d_latch:2|~6~1"       : LOCATION   = LC100  ;
-    "|t_ff:3|d_latch:1|~3~1"       : LOCATION   = LC119  ;
-    "|t_ff:3|d_latch:1|~3~1~2"     : LOCATION   = LC120  ; -- PIN 76
-    "|t_ff:3|d_latch:2|~2~1"       : LOCATION   = LC118  ; -- PIN 75
-    "|t_ff:3|d_latch:2|~6~1"       : LOCATION   = LC117  ; -- PIN 74
-    "|t_ff:4|d_latch:1|~3~1"       : LOCATION   = LC114  ;
-    "|t_ff:4|d_latch:1|~3~1~2"     : LOCATION   = LC116  ;
-    "|t_ff:5|d_latch:1|~3~1"       : LOCATION   = LC121  ;
-    "|t_ff:5|d_latch:2|~2~1"       : LOCATION   = LC127  ;
-    "|t_ff:5|d_latch:2|~6~1"       : LOCATION   = LC128  ; -- PIN 81
+    "|t_ff:39|d_latch:1|~3~1"      : LOCATION   = LC113  ;
+    "|t_ff:39|d_latch:1|~3~1~2"    : LOCATION   = LC124  ;
+    "|t_ff:39|d_latch:1|~3~1~3"    : LOCATION   = LC104  ; -- PIN 67
+    "|t_ff:39|d_latch:2|~2~1"      : LOCATION   = LC122  ;
+    "|t_ff:39|d_latch:2|~6~1"      : LOCATION   = LC100  ;
+    "|t_ff:40|d_latch:1|~3~1"      : LOCATION   = LC119  ;
+    "|t_ff:40|d_latch:1|~3~1~2"    : LOCATION   = LC120  ; -- PIN 76
+    "|t_ff:40|d_latch:2|~2~1"      : LOCATION   = LC118  ; -- PIN 75
+    "|t_ff:40|d_latch:2|~6~1"      : LOCATION   = LC117  ; -- PIN 74
+    "|t_ff:41|d_latch:1|~3~1"      : LOCATION   = LC114  ;
+    "|t_ff:41|d_latch:1|~3~1~2"    : LOCATION   = LC116  ;
+    "|t_ff:42|d_latch:1|~3~1"      : LOCATION   = LC121  ;
+    "|t_ff:42|d_latch:2|~2~1"      : LOCATION   = LC127  ;
+    "|t_ff:42|d_latch:2|~6~1"      : LOCATION   = LC128  ; -- PIN 81
 
 END;
 
@@ -65,18 +65,18 @@ BEGIN
 	OH10R0P8 : LORAX = "G1R0,PA3R0C7";
 	OH7R0P9 : LORAX = "G206R0,PA32R0C7";
 	OH5R0P10 : LORAX = "G205R0,PA28R0C7";
-	LC118   : LORAX = "G111R0,PA14R0C7";
-	LC119   : LORAX = "G112R0,PA12R0C7";
-	LC117   : LORAX = "G110R0,PA16R0C7";
-	LC127   : LORAX = "G201R0,PA27R0C7";
-	LC121   : LORAX = "G142R0,PA25R0C7";
 	LC122   : LORAX = "G143R0,PA23R0C7";
 	LC113   : LORAX = "G53R0,PA7R0C6,PA7R0C7";
 	OH4R0P11 : LORAX = "G204R0,PA29R0C7";
-	LC128   : LORAX = "G202R0,PA33R0C7";
+	LC127   : LORAX = "G201R0,PA27R0C7";
+	LC121   : LORAX = "G142R0,PA25R0C7";
 	LC100   : LORAX = "G109R0,PA9R0C7";
+	LC118   : LORAX = "G111R0,PA14R0C7";
+	LC119   : LORAX = "G112R0,PA12R0C7";
+	LC128   : LORAX = "G202R0,PA33R0C7";
+	LC117   : LORAX = "G110R0,PA16R0C7";
 	LC116   : LORAX = "G56R0,PA1R0C7";
-	LC120   : LORAX = "G113R0,PA10R0C7";
 	LC124   : LORAX = "G145R0,PA24R0C6";
 	LC104   : LORAX = "G52R0,PA0R0C7";
+	LC120   : LORAX = "G113R0,PA10R0C7";
 END;

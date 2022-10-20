@@ -39,7 +39,7 @@ GND                              : 7
 DCIM_b2                          : 8
 clkdiv                           : 9
 RESERVED                         : 10
-RESERVED                         : 11
+clkL                             : 11
 RESERVED                         : 12
 VCCIO                            : 13
 TDI                              : 14

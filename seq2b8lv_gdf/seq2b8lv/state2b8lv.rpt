@@ -2,7 +2,7 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\se
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 10/18/2022 01:32:23
+Compiled: 10/18/2022 12:47:45
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -37,9 +37,9 @@ Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
 state2b8lv
-      EPM7128SLC84-6       14       5        0      93      59          72 %
+      EPM7128SLC84-6       14       6        0      95      64          74 %
 
-User Pins:                 14       5        0  
+User Pins:                 14       6        0  
 
 
 
@@ -62,6 +62,7 @@ Assignments   (if different)     Node Name
 
 state2b8lv@83                     CLK
 state2b8lv@9                      clkdiv
+state2b8lv@11                     clkL
 state2b8lv@5                      DCIM_b0
 state2b8lv@6                      DCIM_b1
 state2b8lv@8                      DCIM_b2
@@ -145,7 +146,6 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\se
 |state2b:8|c2b:5|reg1b:2|d_latch:17|
 |dc4:30|
 |dc4:31|
-|clkdiv18:107|
 |ds:112|
 |ds:112|reg4b:1|
 |ds:112|reg4b:1|reg1b:4|
@@ -160,6 +160,7 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\se
 |ds:112|reg4b:1|reg1b:1|
 |ds:112|reg4b:1|reg1b:1|d_latch:16|
 |ds:112|reg4b:1|reg1b:1|d_latch:17|
+|clkdiv18:119|
 
 
 Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\seq2b8lv\state2b8lv.rpt
@@ -179,14 +180,14 @@ Device Options:
     User Code                                  = ffff
     MultiVolt I/O                              = OFF
 
-              R  R                                      R  R                 
-              E  E     D     D  D  D                    E  E                 
-              S  S  c  C     C  C  C  V                 S  S                 
-              E  E  l  I     I  I  I  C                 E  E  d  V  d  d  d  
-              R  R  k  M     M  M  M  C                 R  R  s  C  s  s  s  
-              V  V  d  _  G  _  _  _  I  G  G  G  C  G  V  V  _  C  _  _  _  
-              E  E  i  b  N  b  b  e  N  N  N  N  L  N  E  E  b  I  b  b  e  
-              D  D  v  2  D  1  0  n  T  D  D  D  K  D  D  D  2  O  1  0  n  
+                 R                                      R  R                 
+                 E     D     D  D  D                    E  E                 
+                 S  c  C     C  C  C  V                 S  S                 
+                 E  l  I     I  I  I  C                 E  E  d  V  d  d  d  
+              c  R  k  M     M  M  M  C                 R  R  s  C  s  s  s  
+              l  V  d  _  G  _  _  _  I  G  G  G  C  G  V  V  _  C  _  _  _  
+              k  E  i  b  N  b  b  e  N  N  N  N  L  N  E  E  b  I  b  b  e  
+              L  D  v  2  D  1  0  n  T  D  D  D  K  D  D  D  2  O  1  0  n  
             -----------------------------------------------------------------_ 
           /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
 RESERVED | 12                                                              74 | showb1 
@@ -245,35 +246,35 @@ state2b8lv
                                                 Shareable     External
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
-A:     LC1 - LC16     7/16( 43%)   5/ 8( 62%)   2/16( 12%)  26/36( 72%) 
-B:    LC17 - LC32    16/16(100%)   2/ 8( 25%)   9/16( 56%)  26/36( 72%) 
-C:    LC33 - LC48     9/16( 56%)   1/ 8( 12%)   9/16( 56%)  20/36( 55%) 
-D:    LC49 - LC64     5/16( 31%)   0/ 8(  0%)  13/16( 81%)  18/36( 50%) 
-E:    LC65 - LC80    16/16(100%)   1/ 8( 12%)  16/16(100%)  28/36( 77%) 
-F:    LC81 - LC96    15/16( 93%)   1/ 8( 12%)  16/16(100%)  27/36( 75%) 
-G:   LC97 - LC112    15/16( 93%)   6/ 8( 75%)  14/16( 87%)  32/36( 88%) 
-H:  LC113 - LC128    10/16( 62%)   6/ 8( 75%)  15/16( 93%)  32/36( 88%) 
+A:     LC1 - LC16     3/16( 18%)   6/ 8( 75%)  11/16( 68%)  20/36( 55%) 
+B:    LC17 - LC32    16/16(100%)   2/ 8( 25%)  15/16( 93%)  23/36( 63%) 
+C:    LC33 - LC48     5/16( 31%)   1/ 8( 12%)  13/16( 81%)  18/36( 50%) 
+D:    LC49 - LC64    14/16( 87%)   0/ 8(  0%)  14/16( 87%)  26/36( 72%) 
+E:    LC65 - LC80    16/16(100%)   1/ 8( 12%)  13/16( 81%)  29/36( 80%) 
+F:    LC81 - LC96    16/16(100%)   1/ 8( 12%)  16/16(100%)  29/36( 80%) 
+G:   LC97 - LC112    12/16( 75%)   6/ 8( 75%)   5/16( 31%)  31/36( 86%) 
+H:  LC113 - LC128    13/16( 81%)   6/ 8( 75%)  11/16( 68%)  32/36( 88%) 
 
 
 Total dedicated input pins used:                 1/4      ( 25%)
-Total I/O pins used:                            22/64     ( 34%)
-Total logic cells used:                         93/128    ( 72%)
-Total shareable expanders used:                 59/128    ( 46%)
-Total Turbo logic cells used:                   93/128    ( 72%)
-Total shareable expanders not available (n/a):  35/128    ( 27%)
-Average fan-in:                                  6.82
-Total fan-in:                                   635
+Total I/O pins used:                            23/64     ( 35%)
+Total logic cells used:                         95/128    ( 74%)
+Total shareable expanders used:                 64/128    ( 50%)
+Total Turbo logic cells used:                   95/128    ( 74%)
+Total shareable expanders not available (n/a):  34/128    ( 26%)
+Average fan-in:                                  6.60
+Total fan-in:                                   627
 
 Total input pins required:                      14
 Total fast input logic cells required:           0
-Total output pins required:                      5
+Total output pins required:                      6
 Total bidirectional pins required:               0
 Total reserved pins required                     4
-Total logic cells required:                     93
-Total flipflops required:                       18
-Total product terms required:                  361
+Total logic cells required:                     95
+Total flipflops required:                       20
+Total product terms required:                  366
 Total logic cells lending parallel expanders:    0
-Total shareable expanders in database:          54
+Total shareable expanders in database:          59
 
 Synthesized logic cells:                        71/ 128   ( 55%)
 
@@ -288,14 +289,14 @@ state2b8lv
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
   83      -   -       INPUT  G            0      0   0    0    0    0    0  CLK
-   5   (14)  (A)      INPUT               0      0   0    0    0    2    7  DCIM_b0
-   6   (13)  (A)      INPUT               0      0   0    0    0    2    7  DCIM_b1
-   8   (11)  (A)      INPUT               0      0   0    0    0    2    7  DCIM_b2
-   4   (16)  (A)      INPUT               0      0   0    0    0    2    7  DCIM_en
-  65  (101)  (G)      INPUT               0      0   0    0    0    3    7  DCOM_b0
-  67  (104)  (G)      INPUT               0      0   0    0    0    3    7  DCOM_b1
-  68  (105)  (G)      INPUT               0      0   0    0    0    3    7  DCOM_b2
-  64   (99)  (G)      INPUT               0      0   0    0    0    3    7  DCOM_en
+   5   (14)  (A)      INPUT               0      0   0    0    0    1    7  DCIM_b0
+   6   (13)  (A)      INPUT               0      0   0    0    0    1    7  DCIM_b1
+   8   (11)  (A)      INPUT               0      0   0    0    0    1    7  DCIM_b2
+   4   (16)  (A)      INPUT               0      0   0    0    0    1    7  DCIM_en
+  65  (101)  (G)      INPUT               0      0   0    0    0    2    7  DCOM_b0
+  67  (104)  (G)      INPUT               0      0   0    0    0    2    7  DCOM_b1
+  68  (105)  (G)      INPUT               0      0   0    0    0    2    7  DCOM_b2
+  64   (99)  (G)      INPUT               0      0   0    0    0    2    7  DCOM_en
   76  (120)  (H)      INPUT               0      0   0    0    0    0    2  ds_b0
   77  (123)  (H)      INPUT               0      0   0    0    0    0    2  ds_b1
   79  (125)  (H)      INPUT               0      0   0    0    0    0    2  ds_b2
@@ -326,10 +327,11 @@ state2b8lv
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-   9      8    A         FF      t        0      0   0    0    1    2   66  clkdiv (|clkdiv18:107|:56)
+   9      8    A         FF      t        0      0   0    0    1    0    0  clkdiv (|clkdiv18:119|~65~1)
+  11      5    A         FF      t        0      0   0    0    1    1   66  clkL (|clkdiv18:119|:65)
   69    107    G     OUTPUT      t        0      0   0    4    0    0    0  DC4_OM0
   15     29    B     OUTPUT      t        0      0   0    1    0    0    0  ReL
-  73    115    H     OUTPUT      t        6      0   0    8    9    0    0  showb0
+  73    115    H     OUTPUT      t        0      0   0    0    1    0    0  showb0
   74    117    H     OUTPUT      t        7      0   0    8    9    0    0  showb1
 
 
@@ -351,94 +353,95 @@ state2b8lv
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
- (79)   125    H       TFFE   +  t        0      0   0    0    0    0    1  |clkdiv18:107|:38
- (57)    88    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:40
-   -     82    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:41
- (54)    83    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:50
- (55)    85    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:51
-   -     92    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:52
- (60)    93    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:53
- (61)    94    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:54
- (62)    96    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:55
- (50)    75    E       TFFE      t        0      0   0    0    1    1    0  |clkdiv18:107|:57
- (51)    77    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:58
-   -     79    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:59
- (45)    67    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:60
- (46)    69    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:61
- (48)    72    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:62
-   -     55    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:63
- (40)    51    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:107|:64
- (21)    19    B      LCELL    s t        0      0   0    2    3    0    2  |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
- (20)    21    B      LCELL    s t        0      0   0    0    3    0   33  |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-   -     20    B      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
- (16)    27    B      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
-   -     26    B      LCELL    s t        0      0   0    0    4    0   31  |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-   -     22    B      LCELL    s t        0      0   0    0    2    0   31  |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-   -     30    B      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
-   -     28    B      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
- (18)    24    B      LCELL    s t        0      0   0    0    4    0   27  |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-   -     23    B      LCELL    s t        0      0   0    0    2    0   27  |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-   -     52    D      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
- (36)    57    D      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
-   -     89    F      LCELL    s t        0      0   0    0    4    0   17  |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-   -     90    F      LCELL    s t        0      0   0    0    2    0   17  |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
- (58)    91    F      LCELL    s t       11      1   1    1   10    1    3  |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
-   -    121    H      LCELL    s t        0      0   0    0    3    1    4  |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-   -     58    D      LCELL    s t       12      1   1    1   11    1    3  |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
-   -    114    H      LCELL    s t        0      0   0    0    3    1    3  |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
-   -     34    C      LCELL    s t        3      2   1    1    8    0    1  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
- (23)    48    C      LCELL    s t        0      0   0    1    5    0    1  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
- (31)    35    C      LCELL    s t        3      2   1    1    8    0    4  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
-   -    106    G      LCELL    s t        0      0   0    0    3    1    8  |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
- (25)    45    C      LCELL    s t        4      3   1    1    9    0    1  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
-   -     44    C      LCELL    s t        1      1   0    1    8    0    1  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
- (27)    43    C      LCELL    s t        4      3   1    1    9    0    4  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
+ (75)   118    H       TFFE   +  t        0      0   0    0    0    0    1  |clkdiv18:119|:38
+ (33)    64    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:40
+ (62)    96    F       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:41
+ (30)    37    C       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:50
+   -     79    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:51
+ (51)    77    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:52
+   -     70    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:53
+ (49)    73    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:54
+   -     68    E       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:55
+ (41)    49    D       TFFE      t        0      0   0    0    1    2    0  |clkdiv18:119|:56
+   -     63    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:57
+ (36)    57    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:58
+ (35)    59    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:59
+   -     58    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:60
+ (34)    61    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:61
+   -     60    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:62
+   -     54    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:63
+   -     55    D       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:119|:64
+ (61)    94    F      LCELL    s t        0      0   0    2    3    0    2  |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
+   -     81    F      LCELL    s t        0      0   0    0    3    0   33  |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+   -     34    C      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+   -     33    C      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
+   -     23    B      LCELL    s t        0      0   0    0    4    0   31  |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+ (18)    24    B      LCELL    s t        0      0   0    0    2    0   31  |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+   -     87    F      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+ (54)    83    F      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
+ (20)    21    B      LCELL    s t        0      0   0    0    4    0   27  |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+   -     22    B      LCELL    s t        0      0   0    0    2    0   27  |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+ (55)    85    F      LCELL    s t        0      0   0    3    3    0    1  |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+   -     84    F      LCELL    s t        1      0   1    3    5    0    4  |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
+   -     26    B      LCELL    s t        0      0   0    0    4    0   17  |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+ (16)    27    B      LCELL    s t        0      0   0    0    2    0   17  |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+   -      2    A     OUTPUT    s t  r    11      0   0    8   11    1    0  showb0~fit~in1
+   -     62    D      LCELL    s t       11      1   1    1   10    0    3  |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
+   -     42    C      LCELL    s t        0      0   0    0    3    0    4  |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
+ (24)    46    C      LCELL    s t       12      1   1    1   11    1    3  |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
+ (77)   123    H      LCELL    s t        0      0   0    0    3    1    3  |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
+   -     71    E      LCELL    s t        3      2   1    1    8    0    1  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
+ (63)    97    G      LCELL    s t        0      0   0    1    5    0    1  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
+ (52)    80    E      LCELL    s t        3      2   1    1    8    0    4  |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
+ (70)   109    G      LCELL    s t        0      0   0    0    3    0    8  |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
+   -     76    E      LCELL    s t        4      3   1    1    9    0    1  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
+   -     78    E      LCELL    s t        1      1   0    1    8    0    1  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
+   -     74    E      LCELL    s t        4      3   1    1    9    0    4  |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
    -    124    H      LCELL    s t        0      0   0    0    3    1    5  |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
-   -    111    G      LCELL    s t        1      0   1    1    6    0    1  |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
-   -     41    C      LCELL    s t        1      0   1    1    6    0    4  |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
-   -     98    G      LCELL    s t        0      0   0    0    3    0    8  |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
-   -     36    C      LCELL    s t        0      0   0    1    7    0    1  |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
-   -     33    C      LCELL    s t        2      1   1    1    7    0    4  |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
-   -    113    H      LCELL    s t        0      0   0    0    3    1    5  |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
- (49)    73    E      LCELL    s t        3      2   1    1   10    0    1  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
- (52)    80    E      LCELL    s t        0      0   0    1    5    0    1  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
-   -     74    E      LCELL    s t        3      2   1    1   10    0    5  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
- (64)    99    G      LCELL    s t        0      0   0    0    3    1    9  |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
-   -     78    E      LCELL    s t        4      3   1    1   11    0    1  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
-   -     76    E      LCELL    s t        1      1   0    1    8    0    1  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
-   -     66    E      LCELL    s t        4      3   1    1   11    0    5  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
-   -    122    H      LCELL    s t        0      0   0    0    3    1    7  |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
-   -     31    B      LCELL    s t        2      1   1    1   11    0    1  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
-   -    103    G      LCELL    s t        0      0   0    1    6    0    1  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
- (17)    25    B      LCELL    s t        2      1   1    1   11    0    4  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
- (70)   109    G      LCELL    s t        0      0   0    0    4    0    9  |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
- (65)   101    G      LCELL    s t        0      0   0    0    2    0    9  |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
- (14)    32    B      LCELL    s t        3      2   1    1   13    0    1  |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
+ (71)   112    G      LCELL    s t        1      0   1    1    6    0    1  |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
+ (40)    51    D      LCELL    s t        1      0   1    1    6    0    4  |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
+   -    121    H      LCELL    s t        0      0   0    0    3    0    8  |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+   -     52    D      LCELL    s t        0      0   0    1    7    0    1  |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
+ (39)    53    D      LCELL    s t        2      1   1    1    7    0    4  |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
+   -    114    H      LCELL    s t        0      0   0    0    3    1    5  |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
+ (44)    65    E      LCELL    s t        3      2   1    1   10    0    1  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
+ (48)    72    E      LCELL    s t        0      0   0    1    5    0    1  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
+ (45)    67    E      LCELL    s t        3      2   1    1   10    0    5  |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
+   -    122    H      LCELL    s t        0      0   0    0    3    0   10  |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+ (46)    69    E      LCELL    s t        4      3   1    1   11    0    1  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
+   -     66    E      LCELL    s t        1      1   0    1    8    0    1  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
+ (50)    75    E      LCELL    s t        4      3   1    1   11    0    5  |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
+   -    113    H      LCELL    s t        0      0   0    0    3    1    7  |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
+   -     20    B      LCELL    s t        2      1   1    1   11    0    1  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
+   -     98    G      LCELL    s t        0      0   0    1    6    0    1  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
+   -     30    B      LCELL    s t        2      1   1    1   11    0    4  |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
+ (65)   101    G      LCELL    s t        0      0   0    0    4    0    9  |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
+ (68)   105    G      LCELL    s t        0      0   0    0    2    0    9  |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
+ (21)    19    B      LCELL    s t        3      2   1    1   13    0    1  |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
    -     18    B      LCELL    s t        3      2   1    1   14    0    1  |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3
- (22)    17    B      LCELL    s t        3      2   1    1   13    0    4  |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
-   -      9    A      LCELL    s t        0      0   0    0    4    0    5  |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
-   -     15    A      LCELL    s t        0      0   0    0    2    0    5  |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
-   -     95    F      LCELL    s t        1      1   0    1    8    0    1  |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
-   -    102    G      LCELL    s t        2      1   1    1    9    0    4  |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
- (68)   105    G      LCELL    s t        0      0   0    0    3    0    8  |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
- (56)    86    F      LCELL    s t        3      2   1    1   10    0    1  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
-   -     87    F      LCELL    s t        3      2   1    1   11    0    1  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
-   -     81    F      LCELL    s t        3      2   1    1   10    0    4  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
-  (6)    13    A      LCELL    s t        0      0   0    0    4    0    6  |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
-   -      1    A      LCELL    s t        0      0   0    0    2    0    6  |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
-   -    110    G      LCELL    s t        8      1   1    1   10    0    4  |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
- (63)    97    G      LCELL    s t        0      0   0    0    3    0    7  |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
-   -     71    E      LCELL    s t        8      1   1    1   12    0    3  |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
-   -     70    E      LCELL    s t        0      0   0    0    4    0    5  |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
- (44)    65    E      LCELL    s t        0      0   0    0    2    0    5  |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
-   -     68    E       SOFT    s t        1      0   1    0   10    0    1  |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
-   -    100    G       SOFT    s t        1      0   1    8    8    1    0  ~11~2
- (71)   112    G       SOFT    s t        1      0   1    8    8    1    0  ~11~3
-   -    108    G       SOFT    s t        1      0   1    8    6    1    0  ~11~4
- (12)     3    A       SOFT    s t        1      0   1    8    7    1    0  ~11~5
-   -      2    A       SOFT    s t        1      0   1    8    8    1    0  ~12~2
- (77)   123    H       SOFT    s t        1      0   1    8    9    1    0  ~12~3
-   -    116    H       SOFT    s t        1      0   1    8    8    1    0  ~12~4
+   -     31    B      LCELL    s t        3      2   1    1   13    0    4  |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
+ (22)    17    B      LCELL    s t        0      0   0    0    4    0    5  |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
+ (14)    32    B      LCELL    s t        0      0   0    0    2    0    5  |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
+   -    103    G      LCELL    s t        1      1   0    1    8    0    1  |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
+   -    108    G      LCELL    s t        2      1   1    1    9    0    4  |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
+   -    106    G      LCELL    s t        0      0   0    0    3    0    8  |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
+   -     90    F      LCELL    s t        3      2   1    1   10    0    1  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
+ (57)    88    F      LCELL    s t        3      2   1    1   11    0    1  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
+   -     92    F      LCELL    s t        3      2   1    1   10    0    4  |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
+ (60)    93    F      LCELL    s t        0      0   0    0    4    0    6  |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
+ (56)    86    F      LCELL    s t        0      0   0    0    2    0    6  |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+ (17)    25    B      LCELL    s t        8      1   1    1   10    0    4  |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
+   -     28    B      LCELL    s t        0      0   0    0    3    0    7  |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+   -     82    F      LCELL    s t        8      1   1    1   12    0    3  |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
+   -     89    F      LCELL    s t        0      0   0    0    4    0    5  |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
+ (58)    91    F      LCELL    s t        0      0   0    0    2    0    5  |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
+   -     95    F       SOFT    s t        1      0   1    0   10    0    1  |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
+   -    110    G       SOFT    s t        1      0   1    8    8    0    1  ~11~2
+   -    102    G       SOFT    s t        1      0   1    8    8    0    1  ~11~3
+ (76)   120    H       SOFT    s t        1      0   1    8    6    0    1  ~11~4
+ (81)   128    H       SOFT    s t        1      0   1    8    8    1    0  ~12~2
+   -    127    H       SOFT    s t        1      0   1    8    9    1    0  ~12~3
+ (79)   125    H       SOFT    s t        1      0   1    8    8    1    0  ~12~4
 
 
 Code:
@@ -458,47 +461,37 @@ state2b8lv
 
 Logic Array Block 'A':
 
-                       Logic cells placed in LAB 'A'
-        +------------- LC8 clkdiv
-        | +----------- LC9 |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | +--------- LC15 |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
-        | | | +------- LC13 |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | +----- LC1 |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
-        | | | | | +--- LC3 ~11~5
-        | | | | | | +- LC2 ~12~2
-        | | | | | | | 
-        | | | | | | |   Other LABs fed by signals
-        | | | | | | |   that feed LAB 'A'
-LC      | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'A':
-LC8  -> * * * * * * - | * * * * * * * * | <-- clkdiv
-LC9  -> - * - - - - * | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
-LC15 -> - * - - - - * | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
-LC13 -> - - - * - - * | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
-LC1  -> - - - * - - * | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+               Logic cells placed in LAB 'A'
+        +----- LC8 clkdiv
+        | +--- LC5 clkL
+        | | +- LC2 showb0~fit~in1
+        | | | 
+        | | |   Other LABs fed by signals
+        | | |   that feed LAB 'A'
+LC      | | | | A B C D E F G H |     Logic cells that feed LAB 'A':
+LC5  -> - * * | * * * * * * * * | <-- clkL
 
 Pin
-83   -> - - - - - - - | - - - - - - - - | <-- CLK
-5    -> - - - - - * * | * - - - - - * * | <-- DCIM_b0
-6    -> - - - - - * * | * - - - - - * * | <-- DCIM_b1
-8    -> - - - - - * * | * - - - - - * * | <-- DCIM_b2
-4    -> - - - - - * * | * - - - - - * * | <-- DCIM_en
-65   -> - - - - - * * | * - - - - - * * | <-- DCOM_b0
-67   -> - - - - - * * | * - - - - - * * | <-- DCOM_b1
-68   -> - - - - - * * | * - - - - - * * | <-- DCOM_b2
-64   -> - - - - - * * | * - - - - - * * | <-- DCOM_en
-LC75 -> * - - - - - - | * - - - - - - - | <-- |clkdiv18:107|:57
-LC91 -> - - - - - * - | * - - - - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
-LC121-> - - - - - * - | * - - * - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-LC35 -> - - - - - * - | * - * - - - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
-LC106-> - - - - - * - | * - * - - - * * | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
-LC98 -> - - - - - * - | * - * - - - * - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
-LC33 -> - - - - - - * | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
-LC113-> - - - - - - * | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
-LC66 -> - - - - - - * | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
-LC122-> - - - - - - * | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
-LC17 -> - * * - - - - | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
-LC81 -> - - - * * - - | * - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
-LC97 -> - - - - - * - | * - - - * - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+83   -> - - - | - - - - - - - - | <-- CLK
+5    -> - - * | * - - - - - * * | <-- DCIM_b0
+6    -> - - * | * - - - - - * * | <-- DCIM_b1
+8    -> - - * | * - - - - - * * | <-- DCIM_b2
+4    -> - - * | * - - - - - * * | <-- DCIM_en
+65   -> - - * | * - - - - - * * | <-- DCOM_b0
+67   -> - - * | * - - - - - * * | <-- DCOM_b1
+68   -> - - * | * - - - - - * * | <-- DCOM_b2
+64   -> - - * | * - - - - - * * | <-- DCOM_en
+LC49 -> * * - | * - - - - - - - | <-- |clkdiv18:119|:56
+LC62 -> - - * | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
+LC42 -> - - * | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
+LC80 -> - - * | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
+LC109-> - - * | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
+LC121-> - - * | * - - * - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+LC122-> - - * | * - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+LC28 -> - - * | * * - - - * * * | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+LC110-> - - * | * - - - - - - - | <-- ~11~2
+LC102-> - - * | * - - - - - - - | <-- ~11~3
+LC120-> - - * | * - - - - - - - | <-- ~11~4
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -513,55 +506,52 @@ state2b8lv
 Logic Array Block 'B':
 
                                          Logic cells placed in LAB 'B'
-        +------------------------------- LC19 |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
-        | +----------------------------- LC21 |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-        | | +--------------------------- LC20 |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
-        | | | +------------------------- LC27 |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
-        | | | | +----------------------- LC26 |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-        | | | | | +--------------------- LC22 |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-        | | | | | | +------------------- LC30 |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
-        | | | | | | | +----------------- LC28 |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
-        | | | | | | | | +--------------- LC24 |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-        | | | | | | | | | +------------- LC23 |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-        | | | | | | | | | | +----------- LC29 ReL
-        | | | | | | | | | | | +--------- LC31 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
-        | | | | | | | | | | | | +------- LC25 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | | | | | | | +----- LC32 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
-        | | | | | | | | | | | | | | +--- LC18 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3
-        | | | | | | | | | | | | | | | +- LC17 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
+        +------------------------------- LC23 |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+        | +----------------------------- LC24 |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+        | | +--------------------------- LC21 |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+        | | | +------------------------- LC22 |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+        | | | | +----------------------- LC26 |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+        | | | | | +--------------------- LC27 |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+        | | | | | | +------------------- LC29 ReL
+        | | | | | | | +----------------- LC20 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
+        | | | | | | | | +--------------- LC30 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | +------------- LC19 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
+        | | | | | | | | | | +----------- LC18 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3
+        | | | | | | | | | | | +--------- LC31 |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | | | +------- LC17 |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | | | | | | | | | +----- LC32 |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
+        | | | | | | | | | | | | | | +--- LC25 |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | | | | | | | +- LC28 |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
         | | | | | | | | | | | | | | | | 
         | | | | | | | | | | | | | | | |   Other LABs fed by signals
         | | | | | | | | | | | | | | | |   that feed LAB 'B'
 LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'B':
-LC19 -> * * - - - - - - - - - - - - - - | - * - - - - - - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
-LC21 -> * * - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC20 -> - - - * - - - - - - - - - - - - | - * - - - - - - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
-LC27 -> - - * * * * - - - - - - - - - - | - * - - - - - - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
-LC26 -> - - * * * - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> - - * * * - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC30 -> - - - - - - - * - - - - - - - - | - * - - - - - - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
-LC28 -> - - - - - - * * * * - - - - - - | - * - - - - - - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
-LC24 -> - - - - - - * * * - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> - - - - - - * * * - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC25 -> - - - - - - - - - - - * - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
-LC32 -> - - - - - - - - - - - - - - * - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
-LC18 -> - - - - - - - - - - - - - - - * | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3
-LC17 -> - - - - - - - - - - - - - * * - | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
+LC23 -> * - - - - - - * * * * * - - * - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> * - - - - - - * * * * * - - * - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - * - - - - * * * * * - - * - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - * - - - - * * * * * - - * - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC26 -> - - - - * - - * * * * * - - * - | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC27 -> - - - - * - - * * * * * - - * - | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC30 -> - - - - - - - * - - - - - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
+LC19 -> - - - - - - - - - - * - - - - - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2
+LC18 -> - - - - - - - - - - - * - - - - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3
+LC31 -> - - - - - - - - - * * - * * - - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1
+LC17 -> - - - - - - - - - * * * * - - - | - * - - - - - * | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
+LC32 -> - - - - - - - - - * * * * - - - | - * - - - - - * | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
+LC25 -> - - - - - - - - - - - - - - * * | - * - - - - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
+LC28 -> - - - - - - - - - - - - - - * * | * * - - - * * * | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
 
 Pin
 83   -> - - - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
-77   -> - - - - - - * * - - - - - - - - | - * - - - - - - | <-- ds_b1
-79   -> - - * * - - - - - - - - - - - - | - * - - - - - - | <-- ds_b2
-75   -> * - * * - - * * - - - - - - - - | - * - * - - - - | <-- ds_en
-49   -> * - * * - - * * - - * * * * * * | - * * * * * * - | <-- Reset
-LC8  -> * * - * * * - * * * - * * * * * | * * * * * * * * | <-- clkdiv
-LC89 -> - - - - - - - - - - - * * * * * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-LC90 -> - - - - - - - - - - - * * * * * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-LC103-> - - - - - - - - - - - - * - - - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
-LC109-> - - - - - - - - - - - * * * * * | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
-LC101-> - - - - - - - - - - - * * * * * | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
-LC9  -> - - - - - - - - - - - - - * * * | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
-LC15 -> - - - - - - - - - - - - - * * * | * * - - - - - - | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
+49   -> - - - - - - * * * * * * - - * - | - * * * * * * - | <-- Reset
+LC5  -> * * * * * * - * * * * * * * * * | * * * * * * * * | <-- clkL
+LC81 -> - - - - - - - * * * * * - - * - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC33 -> * * - - - - - - - - - - - - - - | - * * - - - - - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
+LC83 -> - - * * - - - - - - - - - - - - | - * - - - * - - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
+LC84 -> - - - - * * - - - - - - - - - - | - * - - - * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
+LC98 -> - - - - - - - - * - - - - - - - | - * - - - - - - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
+LC101-> - - - - - - - * * * * * - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
+LC105-> - - - - - - - * * * * * - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -575,43 +565,37 @@ state2b8lv
 
 Logic Array Block 'C':
 
-                           Logic cells placed in LAB 'C'
-        +----------------- LC34 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
-        | +--------------- LC48 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
-        | | +------------- LC35 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | +----------- LC45 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
-        | | | | +--------- LC44 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
-        | | | | | +------- LC43 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | | +----- LC41 |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | +--- LC36 |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
-        | | | | | | | | +- LC33 |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | | | | | 
-        | | | | | | | | |   Other LABs fed by signals
-        | | | | | | | | |   that feed LAB 'C'
-LC      | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'C':
-LC34 -> - * - - - - - - - | - - * - - - - - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
-LC48 -> - - * - - - - - - | - - * - - - - - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
-LC35 -> * * - - - - - - - | * - * - - - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
-LC45 -> - - - - * - - - - | - - * - - - - - | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
-LC44 -> - - - - - * - - - | - - * - - - - - | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
-LC43 -> - - - * * - - - - | - - * - - - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
-LC36 -> - - - - - - - - * | - - * - - - - - | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
-LC33 -> - - - - - - - * - | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
+                   Logic cells placed in LAB 'C'
+        +--------- LC37 |clkdiv18:119|:50
+        | +------- LC34 |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+        | | +----- LC33 |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
+        | | | +--- LC42 |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | | +- LC46 |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | 
+        | | | | |   Other LABs fed by signals
+        | | | | |   that feed LAB 'C'
+LC      | | | | | | A B C D E F G H |     Logic cells that feed LAB 'C':
+LC34 -> - - * - - | - - * - - - - - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2
+LC33 -> - * * - - | - * * - - - - - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1
+LC42 -> - - - * * | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
+LC46 -> - - - - * | - - * - - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
 
 Pin
-83   -> - - - - - - - - - | - - - - - - - - | <-- CLK
-49   -> * * * * * * * * * | - * * * * * * - | <-- Reset
-LC8  -> * * * * * * * * * | * * * * * * * * | <-- clkdiv
-LC21 -> * * * * * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC26 -> * - * * - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> * - * * - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC24 -> * - * * * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> * - * * * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC106-> * * * * * * - - - | * - * - - - * * | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
-LC124-> - - - * * * - - - | - - * - - - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
-LC111-> - - - - - - * - - | - - * - - - - - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
-LC98 -> - - - - - - * * * | * - * - - - * - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
-LC113-> - - - - - - - * * | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
+83   -> - - - - - | - - - - - - - - | <-- CLK
+79   -> - * * - - | - - * - - - - - | <-- ds_b2
+75   -> - * * - - | - - * - - * - - | <-- ds_en
+49   -> - * * - * | - * * * * * * - | <-- Reset
+LC79 -> * - - - - | - - * - - - - - | <-- |clkdiv18:119|:51
+LC5  -> - - * * * | * * * * * * * * | <-- clkL
+LC81 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC23 -> - * * - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> - * * - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC26 -> - - - - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC27 -> - - - - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC62 -> - - - * - | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
+LC123-> - - - - * | - - * - - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -625,37 +609,54 @@ state2b8lv
 
 Logic Array Block 'D':
 
-                   Logic cells placed in LAB 'D'
-        +--------- LC55 |clkdiv18:107|:63
-        | +------- LC51 |clkdiv18:107|:64
-        | | +----- LC52 |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
-        | | | +--- LC57 |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
-        | | | | +- LC58 |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | 
-        | | | | |   Other LABs fed by signals
-        | | | | |   that feed LAB 'D'
-LC      | | | | | | A B C D E F G H |     Logic cells that feed LAB 'D':
-LC51 -> * * - - - | - - - * - - - - | <-- |clkdiv18:107|:64
-LC52 -> - - - * - | - - - * - - - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
-LC57 -> - - * * - | - - - * - * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
-LC58 -> - - - - * | - - - * - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
+                                     Logic cells placed in LAB 'D'
+        +--------------------------- LC64 |clkdiv18:119|:40
+        | +------------------------- LC49 |clkdiv18:119|:56
+        | | +----------------------- LC63 |clkdiv18:119|:57
+        | | | +--------------------- LC57 |clkdiv18:119|:58
+        | | | | +------------------- LC59 |clkdiv18:119|:59
+        | | | | | +----------------- LC58 |clkdiv18:119|:60
+        | | | | | | +--------------- LC61 |clkdiv18:119|:61
+        | | | | | | | +------------- LC60 |clkdiv18:119|:62
+        | | | | | | | | +----------- LC54 |clkdiv18:119|:63
+        | | | | | | | | | +--------- LC55 |clkdiv18:119|:64
+        | | | | | | | | | | +------- LC62 |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | | | +----- LC51 |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | | | | +--- LC52 |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
+        | | | | | | | | | | | | | +- LC53 |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'D':
+LC63 -> - * * - - - - - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:57
+LC57 -> - - * * - - - - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:58
+LC59 -> - - - * * - - - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:59
+LC58 -> - - - - * * - - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:60
+LC61 -> - - - - - * * - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:61
+LC60 -> - - - - - - * * - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:62
+LC54 -> - - - - - - - * * - - - - - | - - - * - - - - | <-- |clkdiv18:119|:63
+LC55 -> - - - - - - - - * * - - - - | - - - * - - - - | <-- |clkdiv18:119|:64
+LC62 -> - - - - - - - - - - * - - - | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
+LC52 -> - - - - - - - - - - - - - * | - - - * - - - - | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2
+LC53 -> - - - - - - - - - - - - * - | - - - * - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
 
 Pin
-83   -> - - - - - | - - - - - - - - | <-- CLK
-76   -> - - * * - | - - - * - - - - | <-- ds_b0
-75   -> - - * * - | - * - * - - - - | <-- ds_en
-49   -> - - * * * | - * * * * * * - | <-- Reset
-LC8  -> - - - * * | * * * * * * * * | <-- clkdiv
-LC94 -> - * - - - | - - - * - - - - | <-- |clkdiv18:107|:54
-LC21 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC26 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC24 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> - - - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC89 -> - - * * * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-LC90 -> - - * * * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-LC121-> - - - - * | * - - * - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-LC114-> - - - - * | - - - * - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
+83   -> - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
+49   -> - - - - - - - - - - * * * * | - * * * * * * - | <-- Reset
+LC118-> * - - - - - - - - - - - - - | - - - * - - - - | <-- |clkdiv18:119|:38
+LC73 -> - - - - - - - - - * - - - - | - - - * - - - - | <-- |clkdiv18:119|:54
+LC5  -> - - - - - - - - - - * * * * | * * * * * * * * | <-- clkL
+LC81 -> - - - - - - - - - - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC23 -> - - - - - - - - - - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> - - - - - - - - - - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - - - - - - - - - * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - - - - - - - - - * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC26 -> - - - - - - - - - - * - - - | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC27 -> - - - - - - - - - - * - - - | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC42 -> - - - - - - - - - - * - - - | * - * * - - - - | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
+LC112-> - - - - - - - - - - - * - - | - - - * - - - - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
+LC121-> - - - - - - - - - - - * * * | * - - * - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+LC114-> - - - - - - - - - - - - * * | - - - * - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -670,57 +671,58 @@ state2b8lv
 Logic Array Block 'E':
 
                                          Logic cells placed in LAB 'E'
-        +------------------------------- LC75 |clkdiv18:107|:57
-        | +----------------------------- LC77 |clkdiv18:107|:58
-        | | +--------------------------- LC79 |clkdiv18:107|:59
-        | | | +------------------------- LC67 |clkdiv18:107|:60
-        | | | | +----------------------- LC69 |clkdiv18:107|:61
-        | | | | | +--------------------- LC72 |clkdiv18:107|:62
-        | | | | | | +------------------- LC73 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
-        | | | | | | | +----------------- LC80 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
-        | | | | | | | | +--------------- LC74 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | | | +------------- LC78 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
-        | | | | | | | | | | +----------- LC76 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
-        | | | | | | | | | | | +--------- LC66 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | | | | | | | | +------- LC71 |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | | | | | | | | | +----- LC70 |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | | | | | | | | | | | +--- LC65 |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
-        | | | | | | | | | | | | | | | +- LC68 |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
+        +------------------------------- LC79 |clkdiv18:119|:51
+        | +----------------------------- LC77 |clkdiv18:119|:52
+        | | +--------------------------- LC70 |clkdiv18:119|:53
+        | | | +------------------------- LC73 |clkdiv18:119|:54
+        | | | | +----------------------- LC68 |clkdiv18:119|:55
+        | | | | | +--------------------- LC71 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
+        | | | | | | +------------------- LC80 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | +----------------- LC76 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
+        | | | | | | | | +--------------- LC78 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
+        | | | | | | | | | +------------- LC74 |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | +----------- LC65 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
+        | | | | | | | | | | | +--------- LC72 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
+        | | | | | | | | | | | | +------- LC67 |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | | | | | +----- LC69 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
+        | | | | | | | | | | | | | | +--- LC66 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
+        | | | | | | | | | | | | | | | +- LC75 |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
         | | | | | | | | | | | | | | | | 
         | | | | | | | | | | | | | | | |   Other LABs fed by signals
         | | | | | | | | | | | | | | | |   that feed LAB 'E'
 LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'E':
-LC77 -> * * - - - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:58
-LC79 -> - * * - - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:59
-LC67 -> - - * * - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:60
-LC69 -> - - - * * - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:61
-LC72 -> - - - - * * - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:62
-LC73 -> - - - - - - - * - - - - - - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
-LC80 -> - - - - - - - - * - - - - - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
-LC74 -> - - - - - - * * - - - - - - - - | - - - - * - * - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
-LC78 -> - - - - - - - - - - * - - - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
-LC76 -> - - - - - - - - - - - * - - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
-LC66 -> - - - - - - - - - * * - - - - - | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
-LC71 -> - - - - - - - - - - - - - * * * | - - - - * - - - | <-- |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
-LC70 -> - - - - - - - - - - - - * * - * | - - - - * - - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
-LC65 -> - - - - - - - - - - - - * * - * | - - - - * - - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
-LC68 -> - - - - - - - - - - - - * - - - | - - - - * - - - | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
+LC77 -> - * - - * - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:119|:52
+LC70 -> - * * - - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:119|:53
+LC68 -> - - - * * - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:119|:55
+LC80 -> - - - - - * - - - - - - - - - - | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
+LC76 -> - - - - - - - - * - - - - - - - | - - - - * - - - | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2
+LC78 -> - - - - - - - - - * - - - - - - | - - - - * - - - | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3
+LC74 -> - - - - - - - * * - - - - - - - | - - - - * - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
+LC65 -> - - - - - - - - - - - * - - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2
+LC72 -> - - - - - - - - - - - - * - - - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3
+LC67 -> - - - - - - - - - - * * - - - - | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
+LC69 -> - - - - - - - - - - - - - - * - | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2
+LC66 -> - - - - - - - - - - - - - - - * | - - - - * - - - | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3
+LC75 -> - - - - - - - - - - - - - * * - | - - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
 
 Pin
 83   -> - - - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
-49   -> - - - - - - * * * * * * * - - - | - * * * * * * - | <-- Reset
-LC8  -> - - - - - - * * * * * * * * * * | * * * * * * * * | <-- clkdiv
-LC55 -> - - - - - * - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:107|:63
-LC21 -> - - - - - - * * * * * * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC26 -> - - - - - - * - * * * * * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> - - - - - - * - * * * * * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC24 -> - - - - - - * - * * - * * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> - - - - - - * - * * - * * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC89 -> - - - - - - * - * * - * * - - * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-LC90 -> - - - - - - * - * * - * * - - * | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-LC99 -> - - - - - - * * * * * * - - - - | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
-LC122-> - - - - - - - - - * * * - - - - | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
-LC97 -> - - - - - - - - - - - - * - - - | * - - - * - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+49   -> - - - - - * * * * * * * * * * * | - * * * * * * - | <-- Reset
+LC96 -> * - - - - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:119|:41
+LC37 -> - - * - - - - - - - - - - - - - | - - - - * - - - | <-- |clkdiv18:119|:50
+LC5  -> - - - - - * * * * * * * * * * * | * * * * * * * * | <-- clkL
+LC81 -> - - - - - * * * * * * * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC23 -> - - - - - * * * - * * - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> - - - - - * * * - * * - * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - - - - * * * * * * - * * - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - - - - * * * * * * - * * - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC26 -> - - - - - - - - - - * - * * - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC27 -> - - - - - - - - - - * - * * - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC97 -> - - - - - - * - - - - - - - - - | - - - - * - - - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
+LC109-> - - - - - * * * * * - - - - - - | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
+LC124-> - - - - - - - * * * - - - - - - | - - - - * - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
+LC122-> - - - - - - - - - - * * * * * * | * - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+LC113-> - - - - - - - - - - - - - * * * | - - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -734,56 +736,59 @@ state2b8lv
 
 Logic Array Block 'F':
 
-                                       Logic cells placed in LAB 'F'
-        +----------------------------- LC88 |clkdiv18:107|:40
-        | +--------------------------- LC82 |clkdiv18:107|:41
-        | | +------------------------- LC83 |clkdiv18:107|:50
-        | | | +----------------------- LC85 |clkdiv18:107|:51
-        | | | | +--------------------- LC92 |clkdiv18:107|:52
-        | | | | | +------------------- LC93 |clkdiv18:107|:53
-        | | | | | | +----------------- LC94 |clkdiv18:107|:54
-        | | | | | | | +--------------- LC96 |clkdiv18:107|:55
-        | | | | | | | | +------------- LC89 |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-        | | | | | | | | | +----------- LC90 |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-        | | | | | | | | | | +--------- LC91 |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | | | | | +------- LC95 |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
-        | | | | | | | | | | | | +----- LC86 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
-        | | | | | | | | | | | | | +--- LC87 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
-        | | | | | | | | | | | | | | +- LC81 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
-        | | | | | | | | | | | | | | | 
-        | | | | | | | | | | | | | | |   Other LABs fed by signals
-        | | | | | | | | | | | | | | |   that feed LAB 'F'
-LC      | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'F':
-LC88 -> * * - - - - - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:40
-LC82 -> - * - * - - - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:41
-LC83 -> - - * - - * - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:50
-LC85 -> - - * * - - - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:51
-LC92 -> - - - - * - - * - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:52
-LC93 -> - - - - * * - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:53
-LC96 -> - - - - - - * * - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:55
-LC89 -> - - - - - - - - * - * - - - - | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-LC90 -> - - - - - - - - * - * - - - - | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-LC91 -> - - - - - - - - - - * - - - - | * - - - - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
-LC86 -> - - - - - - - - - - - - - * - | - - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
-LC87 -> - - - - - - - - - - - - - - * | - - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
-LC81 -> - - - - - - - - - - - - * * - | * - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
+                                         Logic cells placed in LAB 'F'
+        +------------------------------- LC96 |clkdiv18:119|:41
+        | +----------------------------- LC94 |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
+        | | +--------------------------- LC81 |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+        | | | +------------------------- LC87 |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+        | | | | +----------------------- LC83 |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
+        | | | | | +--------------------- LC85 |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+        | | | | | | +------------------- LC84 |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
+        | | | | | | | +----------------- LC90 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
+        | | | | | | | | +--------------- LC88 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
+        | | | | | | | | | +------------- LC92 |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | +----------- LC93 |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | | | | | | | +--------- LC86 |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+        | | | | | | | | | | | | +------- LC82 |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
+        | | | | | | | | | | | | | +----- LC89 |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | | | | | | | | | | +--- LC91 |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
+        | | | | | | | | | | | | | | | +- LC95 |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'F':
+LC94 -> - * * - - - - - - - - - - - - - | - - - - - * - - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1
+LC81 -> - * * - - - - * * * - - * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC87 -> - - - - * - - - - - - - - - - - | - - - - - * - - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2
+LC83 -> - - - * * - - - - - - - - - - - | - * - - - * - - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1
+LC85 -> - - - - - - * - - - - - - - - - | - - - - - * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2
+LC84 -> - - - - - * * - - - - - - - - - | - * - - - * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
+LC90 -> - - - - - - - - * - - - - - - - | - - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2
+LC88 -> - - - - - - - - - * - - - - - - | - - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3
+LC92 -> - - - - - - - * * - * * - - - - | - - - - - * - - | <-- |state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1
+LC93 -> - - - - - - - * * * * - - - - - | - - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
+LC86 -> - - - - - - - * * * * - - - - - | - - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+LC82 -> - - - - - - - - - - - - - * * * | - - - - - * - - | <-- |state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1
+LC89 -> - - - - - - - - - - - - * * - * | - - - - - * - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
+LC91 -> - - - - - - - - - - - - * * - * | - - - - - * - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
+LC95 -> - - - - - - - - - - - - * - - - | - - - - - * - - | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2
 
 Pin
-83   -> - - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
-49   -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- Reset
-LC8  -> - - - - - - - - * * * * * * * | * * * * * * * * | <-- clkdiv
-LC125-> * - - - - - - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:107|:38
-LC21 -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC26 -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC24 -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> - - - - - - - - - - * * * * * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC57 -> - - - - - - - - * * - - - - - | - - - * - * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1
-LC121-> - - - - - - - - - - * - - - - | * - - * - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-LC102-> - - - - - - - - - - - * - - - | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
-LC105-> - - - - - - - - - - - * * * * | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
-LC13 -> - - - - - - - - - - - - * * * | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
-LC1  -> - - - - - - - - - - - - * * * | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+83   -> - - - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
+76   -> - - - - - * * - - - - - - - - - | - - - - - * - - | <-- ds_b0
+77   -> - - - * * - - - - - - - - - - - | - - - - - * - - | <-- ds_b1
+75   -> - * - * * * * - - - - - - - - - | - - * - - * - - | <-- ds_en
+49   -> - * - * * * * * * * - - * - - - | - * * * * * * - | <-- Reset
+LC64 -> * - - - - - - - - - - - - - - - | - - - - - * - - | <-- |clkdiv18:119|:40
+LC5  -> - * * - * - * * * * * * * * * * | * * * * * * * * | <-- clkL
+LC23 -> - - - - - - - * * * - - * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> - - - - - - - * * * - - * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - - * * - - * * * - - * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - - * * - - * * * - - * - - * | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC26 -> - - - - - * * - - - - - * - - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
+LC27 -> - - - - - * * - - - - - * - - * | - * * * * * - - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
+LC106-> - - - - - - - * * * - - - - - - | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
+LC28 -> - - - - - - - - - - - - * - - - | * * - - - * * * | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -797,61 +802,57 @@ state2b8lv
 
 Logic Array Block 'G':
 
-                                       Logic cells placed in LAB 'G'
-        +----------------------------- LC107 DC4_OM0
-        | +--------------------------- LC106 |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | +------------------------- LC111 |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
-        | | | +----------------------- LC98 |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | +--------------------- LC99 |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | | +------------------- LC103 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
-        | | | | | | +----------------- LC109 |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | | | | +--------------- LC101 |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
-        | | | | | | | | +------------- LC102 |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | | | +----------- LC105 |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | | | | | | | +--------- LC110 |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
-        | | | | | | | | | | | +------- LC97 |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | | | | | | | | | +----- LC100 ~11~2
-        | | | | | | | | | | | | | +--- LC112 ~11~3
-        | | | | | | | | | | | | | | +- LC108 ~11~4
-        | | | | | | | | | | | | | | | 
-        | | | | | | | | | | | | | | |   Other LABs fed by signals
-        | | | | | | | | | | | | | | |   that feed LAB 'G'
-LC      | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'G':
-LC106-> - * - - - - - - - - - - - - - | * - * - - - * * | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
-LC98 -> - - * * - - - - - - - - * - * | * - * - - - * - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
-LC99 -> - - - - * - - - - - - - - * * | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
-LC109-> - - - - - * * - - - - - * * - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
-LC101-> - - - - - * * - - - - - * * - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
-LC102-> - - - - - - - - * * - - * - - | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
-LC105-> - - - - - - - - * * - - * * - | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
-LC110-> - - - - - - - - - - * * * * - | - - - - - - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
-LC97 -> - - - - - - - - - - * * * * * | * - - - * - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+                                 Logic cells placed in LAB 'G'
+        +----------------------- LC107 DC4_OM0
+        | +--------------------- LC97 |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3
+        | | +------------------- LC109 |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | +----------------- LC112 |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2
+        | | | | +--------------- LC98 |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3
+        | | | | | +------------- LC101 |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | | | | +----------- LC105 |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
+        | | | | | | | +--------- LC103 |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
+        | | | | | | | | +------- LC108 |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
+        | | | | | | | | | +----- LC106 |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | | | | | | | | +--- LC110 ~11~2
+        | | | | | | | | | | | +- LC102 ~11~3
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'G'
+LC      | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'G':
+LC109-> - * * - - - - - - - - - | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
+LC101-> - - - - * * - - - - * * | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1
+LC105-> - - - - * * - - - - * * | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1
+LC103-> - - - - - - - - * - - - | - - - - - - * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
+LC108-> - - - - - - - * * * * - | - - - - - - * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1
+LC106-> - - - - - - - * * * * * | - - - - - * * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1
 
 Pin
-83   -> - - - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
-5    -> - - - - - - - - - - - - * * * | * - - - - - * * | <-- DCIM_b0
-6    -> - - - - - - - - - - - - * * * | * - - - - - * * | <-- DCIM_b1
-8    -> - - - - - - - - - - - - * * * | * - - - - - * * | <-- DCIM_b2
-4    -> - - - - - - - - - - - - * * * | * - - - - - * * | <-- DCIM_en
-65   -> * - - - - - - - - - - - * * * | * - - - - - * * | <-- DCOM_b0
-67   -> * - - - - - - - - - - - * * * | * - - - - - * * | <-- DCOM_b1
-68   -> * - - - - - - - - - - - * * * | * - - - - - * * | <-- DCOM_b2
-64   -> * - - - - - - - - - - - * * * | * - - - - - * * | <-- DCOM_en
-49   -> - - * - - * - - * - * - - - - | - * * * * * * - | <-- Reset
-LC8  -> - * * * * * * * * * * * - * * | * * * * * * * * | <-- clkdiv
-LC21 -> - - * - - * - - * - * - - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
-LC26 -> - - * - - - - - * - * - - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
-LC22 -> - - * - - - - - * - * - - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
-LC24 -> - - - - - - - - * - * - - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
-LC23 -> - - - - - - - - * - * - - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
-LC89 -> - - - - - - - - - - * - - - - | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1
-LC90 -> - - - - - - - - - - * - - - - | - * - * * * * - | <-- |ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1
-LC35 -> - * - - - - - - - - - - - - - | * - * - - - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
-LC41 -> - - * * - - - - - - - - * - * | - - - - - - * - | <-- |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
-LC74 -> - - - - * - - - - - - - - * * | - - - - * - * - | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
-LC31 -> - - - - - * - - - - - - - - - | - - - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
-LC25 -> - - - - - * * * - - - - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
-LC95 -> - - - - - - - - * - - - - - - | - - - - - - * - | <-- |state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2
+83   -> - - - - - - - - - - - - | - - - - - - - - | <-- CLK
+5    -> - - - - - - - - - - * * | * - - - - - * * | <-- DCIM_b0
+6    -> - - - - - - - - - - * * | * - - - - - * * | <-- DCIM_b1
+8    -> - - - - - - - - - - * * | * - - - - - * * | <-- DCIM_b2
+4    -> - - - - - - - - - - * * | * - - - - - * * | <-- DCIM_en
+65   -> * - - - - - - - - - * * | * - - - - - * * | <-- DCOM_b0
+67   -> * - - - - - - - - - * * | * - - - - - * * | <-- DCOM_b1
+68   -> * - - - - - - - - - * * | * - - - - - * * | <-- DCOM_b2
+64   -> * - - - - - - - - - * * | * - - - - - * * | <-- DCOM_en
+49   -> - * - * * - - * * - - - | - * * * * * * - | <-- Reset
+LC5  -> - * * * * * * * * * - * | * * * * * * * * | <-- clkL
+LC81 -> - * - * * - - * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1
+LC23 -> - - - * - - - * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1
+LC24 -> - - - * - - - * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1
+LC21 -> - - - - - - - * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1
+LC22 -> - - - - - - - * * - - - | - * * * * * * - | <-- |ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1
+LC71 -> - * - - - - - - - - - - | - - - - - - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2
+LC80 -> - * * - - - - - - - - - | * - - - * - * - | <-- |state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1
+LC51 -> - - - * - - - - - - * - | - - - - - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
+LC121-> - - - * - - - - - - * - | * - - * - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+LC67 -> - - - - - - - - - - - * | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
+LC122-> - - - - - - - - - - - * | * - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+LC20 -> - - - - * - - - - - - - | - - - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2
+LC30 -> - - - - * * * - - - - - | - * - - - - * - | <-- |state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1
+LC25 -> - - - - - - - - - - * * | - * - - - - * - | <-- |state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1
+LC28 -> - - - - - - - - - - * * | * * - - - * * * | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -865,56 +866,59 @@ state2b8lv
 
 Logic Array Block 'H':
 
-                             Logic cells placed in LAB 'H'
-        +------------------- LC125 |clkdiv18:107|:38
-        | +----------------- LC115 showb0
-        | | +--------------- LC117 showb1
-        | | | +------------- LC121 |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-        | | | | +----------- LC114 |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | | +--------- LC124 |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | | | +------- LC113 |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | | | | +----- LC122 |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
-        | | | | | | | | +--- LC123 ~12~3
-        | | | | | | | | | +- LC116 ~12~4
-        | | | | | | | | | | 
-        | | | | | | | | | |   Other LABs fed by signals
-        | | | | | | | | | |   that feed LAB 'H'
-LC      | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'H':
-LC121-> - * - * - - - - - - | * - - * - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1
-LC114-> - - * - * - - - - * | - - - * - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
-LC124-> - - * - - * - - - * | - - * - - - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
-LC113-> - - * - - - * - * - | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
-LC122-> - - * - - - - * * * | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
-LC123-> - - * - - - - - - - | - - - - - - - * | <-- ~12~3
-LC116-> - - * - - - - - - - | - - - - - - - * | <-- ~12~4
+                                   Logic cells placed in LAB 'H'
+        +------------------------- LC118 |clkdiv18:119|:38
+        | +----------------------- LC115 showb0
+        | | +--------------------- LC117 showb1
+        | | | +------------------- LC123 |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | +----------------- LC124 |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | +--------------- LC121 |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | | | | +------------- LC114 |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | | | +----------- LC122 |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+        | | | | | | | | +--------- LC113 |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
+        | | | | | | | | | +------- LC120 ~11~4
+        | | | | | | | | | | +----- LC128 ~12~2
+        | | | | | | | | | | | +--- LC127 ~12~3
+        | | | | | | | | | | | | +- LC125 ~12~4
+        | | | | | | | | | | | | | 
+        | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | |   that feed LAB 'H'
+LC      | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'H':
+LC123-> - - * * - - - - - - - - * | - - * - - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1
+LC124-> - - * - * - - - - - - - * | - - - - * - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1
+LC121-> - - - - - * - - - * - - - | * - - * - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1
+LC114-> - - * - - - * - - - * * - | - - - * - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1
+LC122-> - - - - - - - * - * - - - | * - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
+LC113-> - - * - - - - - * - * * * | - - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1
+LC128-> - - * - - - - - - - - - - | - - - - - - - * | <-- ~12~2
+LC127-> - - * - - - - - - - - - - | - - - - - - - * | <-- ~12~3
+LC125-> - - * - - - - - - - - - - | - - - - - - - * | <-- ~12~4
 
 Pin
-83   -> - - - - - - - - - - | - - - - - - - - | <-- CLK
-5    -> - * * - - - - - * * | * - - - - - * * | <-- DCIM_b0
-6    -> - * * - - - - - * * | * - - - - - * * | <-- DCIM_b1
-8    -> - * * - - - - - * * | * - - - - - * * | <-- DCIM_b2
-4    -> - * * - - - - - * * | * - - - - - * * | <-- DCIM_en
-65   -> - * * - - - - - * * | * - - - - - * * | <-- DCOM_b0
-67   -> - * * - - - - - * * | * - - - - - * * | <-- DCOM_b1
-68   -> - * * - - - - - * * | * - - - - - * * | <-- DCOM_b2
-64   -> - * * - - - - - * * | * - - - - - * * | <-- DCOM_en
-LC8  -> - * * * * * * * * * | * * * * * * * * | <-- clkdiv
-LC91 -> - * - * - - - - - - | * - - - - * - * | <-- |state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1
-LC58 -> - - * - * - - - - * | - - - * - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
-LC106-> - * - - - - - - - - | * - * - - - * * | <-- |state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1
-LC43 -> - - - - - * - - - * | - - * - - - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
-LC33 -> - - - - - - * - * - | * - * - - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
-LC99 -> - * - - - - - - - - | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1
-LC66 -> - - - - - - - * * - | * - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
-LC13 -> - - - - - - - - * - | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
-LC1  -> - - - - - - - - * - | * - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
-LC70 -> - - - - - - - - * * | - - - - * - - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
-LC65 -> - - - - - - - - * * | - - - - * - - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
-LC100-> - * - - - - - - - - | - - - - - - - * | <-- ~11~2
-LC112-> - * - - - - - - - - | - - - - - - - * | <-- ~11~3
-LC108-> - * - - - - - - - - | - - - - - - - * | <-- ~11~4
-LC3  -> - * - - - - - - - - | - - - - - - - * | <-- ~11~5
-LC2  -> - - * - - - - - - - | - - - - - - - * | <-- ~12~2
+83   -> - - - - - - - - - - - - - | - - - - - - - - | <-- CLK
+5    -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCIM_b0
+6    -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCIM_b1
+8    -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCIM_b2
+4    -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCIM_en
+65   -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCOM_b0
+67   -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCOM_b1
+68   -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCOM_b2
+64   -> - - * - - - - - - * * * * | * - - - - - * * | <-- DCOM_en
+LC5  -> - - * * * * * * * * - * * | * * * * * * * * | <-- clkL
+LC2  -> - * - - - - - - - - - - - | - - - - - - - * | <-- showb0~fit~in1
+LC46 -> - - * * - - - - - - - - * | - - * - - - - * | <-- |state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1
+LC74 -> - - - - * - - - - - - - * | - - - - * - - * | <-- |state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1
+LC51 -> - - - - - * - - - * - - - | - - - - - - * * | <-- |state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1
+LC53 -> - - - - - - * - - - * * - | - - - * - - - * | <-- |state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1
+LC67 -> - - - - - - - * - * - - - | - - - - * - * * | <-- |state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1
+LC75 -> - - - - - - - - * - * * - | - - - - * - - * | <-- |state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1
+LC17 -> - - - - - - - - - - * - - | - * - - - - - * | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1
+LC32 -> - - - - - - - - - - * - - | - * - - - - - * | <-- |state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1
+LC93 -> - - - - - - - - - - * * - | - - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1
+LC86 -> - - - - - - - - - - * * - | - - - - - * - * | <-- |state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1
+LC28 -> - - - - - - - - - * - - - | * * - - - * * * | <-- |state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1
+LC89 -> - - - - - - - - - - - * * | - - - - - * - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1
+LC91 -> - - - - - - - - - - - * * | - - - - - * - * | <-- |state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -941,9 +945,13 @@ ds_b2    : INPUT;
 ds_en    : INPUT;
 Reset    : INPUT;
 
--- Node name is 'clkdiv' = '|clkdiv18:107|clk_div' 
+-- Node name is 'clkdiv' = '|clkdiv18:119|clk_div~1' 
 -- Equation name is 'clkdiv', type is output 
- clkdiv  = TFFE( VCC,  _LC075,  VCC,  VCC,  VCC);
+ clkdiv  = TFFE( VCC,  _LC049,  VCC,  VCC,  VCC);
+
+-- Node name is 'clkL' = '|clkdiv18:119|clk_div' 
+-- Equation name is 'clkL', type is output 
+ clkL    = TFFE( VCC,  _LC049,  VCC,  VCC,  VCC);
 
 -- Node name is 'DC4_OM0' 
 -- Equation name is 'DC4_OM0', location is LC107, type is output.
@@ -952,895 +960,889 @@ Reset    : INPUT;
 
 -- Node name is 'ReL' 
 -- Equation name is 'ReL', location is LC029, type is output.
- ReL     = LCELL( Reset $  GND);
+ ReL     = LCELL(!Reset $  GND);
+
+-- Node name is 'showb0~fit~in1' 
+-- Equation name is 'showb0~fit~in1', location is LC002, type is buried.
+-- synthesized logic cell 
+_LC002   = LCELL( _EQ002 $  VCC);
+  _EQ002 = !_LC102 & !_LC110 & !_LC120 &  _X001 &  _X002 &  _X003 &  _X004 & 
+              _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011;
+  _X001  = EXP(!clkL & !DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC042);
+  _X002  = EXP(!clkL & !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC028);
+  _X003  = EXP(!DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC080 & !_LC109);
+  _X004  = EXP(!clkL &  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC042);
+  _X005  = EXP(!DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC042 &  _LC062);
+  _X006  = EXP(!clkL &  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC109);
+  _X007  = EXP(!clkL & !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC109);
+  _X008  = EXP(!clkL & !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC122);
+  _X009  = EXP(!clkL & !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC121);
+  _X010  = EXP( DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC080 & !_LC109);
+  _X011  = EXP( DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC042 &  _LC062);
 
 -- Node name is 'showb0' 
 -- Equation name is 'showb0', location is LC115, type is output.
- showb0  = LCELL( _EQ002 $  VCC);
-  _EQ002 = !_LC003 & !_LC100 & !_LC108 & !_LC112 &  _X001 &  _X002 &  _X003 & 
-              _X004 &  _X005 &  _X006;
-  _X001  = EXP(!clkdiv & !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC099);
-  _X002  = EXP(!clkdiv & !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC106);
-  _X003  = EXP(!clkdiv &  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC106);
-  _X004  = EXP(!DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC091 & !_LC121);
-  _X005  = EXP(!clkdiv &  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC121);
-  _X006  = EXP(!clkdiv & !DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC121);
+ showb0  = LCELL( _LC002 $  GND);
 
 -- Node name is 'showb1' 
 -- Equation name is 'showb1', location is LC117, type is output.
  showb1  = LCELL( _EQ003 $  VCC);
-  _EQ003 = !_LC002 & !_LC116 & !_LC123 &  _X007 &  _X008 &  _X009 &  _X010 & 
-              _X011 &  _X012 &  _X013;
-  _X007  = EXP(!clkdiv & !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC113);
-  _X008  = EXP(!clkdiv & !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC122);
-  _X009  = EXP(!clkdiv & !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC124);
-  _X010  = EXP(!clkdiv &  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC124);
-  _X011  = EXP(!DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC058 & !_LC114);
-  _X012  = EXP(!clkdiv &  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC114);
-  _X013  = EXP(!clkdiv & !DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC114);
+  _EQ003 = !_LC125 & !_LC127 & !_LC128 &  _X012 &  _X013 &  _X014 &  _X015 & 
+              _X016 &  _X017 &  _X018;
+  _X012  = EXP(!clkL & !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC114);
+  _X013  = EXP(!clkL & !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC113);
+  _X014  = EXP(!clkL & !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC124);
+  _X015  = EXP(!clkL &  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC124);
+  _X016  = EXP(!DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC046 & !_LC123);
+  _X017  = EXP(!clkL &  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC123);
+  _X018  = EXP(!clkL & !DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC123);
 
--- Node name is '|clkdiv18:107|:38' 
--- Equation name is '_LC125', type is buried 
-_LC125   = TFFE( VCC, GLOBAL( CLK),  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:38' 
+-- Equation name is '_LC118', type is buried 
+_LC118   = TFFE( VCC, GLOBAL( CLK),  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:40' 
--- Equation name is '_LC088', type is buried 
-_LC088   = TFFE( VCC,  _LC125,  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:40' 
+-- Equation name is '_LC064', type is buried 
+_LC064   = TFFE( VCC,  _LC118,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:41' 
--- Equation name is '_LC082', type is buried 
-_LC082   = TFFE( VCC,  _LC088,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:50' 
--- Equation name is '_LC083', type is buried 
-_LC083   = TFFE( VCC,  _LC085,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:51' 
--- Equation name is '_LC085', type is buried 
-_LC085   = TFFE( VCC,  _LC082,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:52' 
--- Equation name is '_LC092', type is buried 
-_LC092   = TFFE( VCC,  _LC093,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:53' 
--- Equation name is '_LC093', type is buried 
-_LC093   = TFFE( VCC,  _LC083,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:54' 
--- Equation name is '_LC094', type is buried 
-_LC094   = TFFE( VCC,  _LC096,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:55' 
+-- Node name is '|clkdiv18:119|:41' 
 -- Equation name is '_LC096', type is buried 
-_LC096   = TFFE( VCC,  _LC092,  VCC,  VCC,  VCC);
+_LC096   = TFFE( VCC,  _LC064,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:57' 
--- Equation name is '_LC075', type is buried 
-_LC075   = TFFE( VCC,  _LC077,  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:50' 
+-- Equation name is '_LC037', type is buried 
+_LC037   = TFFE( VCC,  _LC079,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:58' 
--- Equation name is '_LC077', type is buried 
-_LC077   = TFFE( VCC,  _LC079,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:59' 
+-- Node name is '|clkdiv18:119|:51' 
 -- Equation name is '_LC079', type is buried 
-_LC079   = TFFE( VCC,  _LC067,  VCC,  VCC,  VCC);
+_LC079   = TFFE( VCC,  _LC096,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:60' 
--- Equation name is '_LC067', type is buried 
-_LC067   = TFFE( VCC,  _LC069,  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:52' 
+-- Equation name is '_LC077', type is buried 
+_LC077   = TFFE( VCC,  _LC070,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:61' 
--- Equation name is '_LC069', type is buried 
-_LC069   = TFFE( VCC,  _LC072,  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:53' 
+-- Equation name is '_LC070', type is buried 
+_LC070   = TFFE( VCC,  _LC037,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:62' 
--- Equation name is '_LC072', type is buried 
-_LC072   = TFFE( VCC,  _LC055,  VCC,  VCC,  VCC);
+-- Node name is '|clkdiv18:119|:54' 
+-- Equation name is '_LC073', type is buried 
+_LC073   = TFFE( VCC,  _LC068,  VCC,  VCC,  VCC);
 
--- Node name is '|clkdiv18:107|:63' 
+-- Node name is '|clkdiv18:119|:55' 
+-- Equation name is '_LC068', type is buried 
+_LC068   = TFFE( VCC,  _LC077,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:56' 
+-- Equation name is '_LC049', type is buried 
+_LC049   = TFFE( VCC,  _LC063,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:57' 
+-- Equation name is '_LC063', type is buried 
+_LC063   = TFFE( VCC,  _LC057,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:58' 
+-- Equation name is '_LC057', type is buried 
+_LC057   = TFFE( VCC,  _LC059,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:59' 
+-- Equation name is '_LC059', type is buried 
+_LC059   = TFFE( VCC,  _LC058,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:60' 
+-- Equation name is '_LC058', type is buried 
+_LC058   = TFFE( VCC,  _LC061,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:61' 
+-- Equation name is '_LC061', type is buried 
+_LC061   = TFFE( VCC,  _LC060,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:62' 
+-- Equation name is '_LC060', type is buried 
+_LC060   = TFFE( VCC,  _LC054,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:63' 
+-- Equation name is '_LC054', type is buried 
+_LC054   = TFFE( VCC,  _LC055,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:119|:64' 
 -- Equation name is '_LC055', type is buried 
-_LC055   = TFFE( VCC,  _LC051,  VCC,  VCC,  VCC);
-
--- Node name is '|clkdiv18:107|:64' 
--- Equation name is '_LC051', type is buried 
-_LC051   = TFFE( VCC,  _LC094,  VCC,  VCC,  VCC);
+_LC055   = TFFE( VCC,  _LC073,  VCC,  VCC,  VCC);
 
 -- Node name is '|ds:112|reg4b:1|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC019', type is buried 
+-- Equation name is '_LC094', type is buried 
 -- synthesized logic cell 
-_LC019   = LCELL( _EQ004 $  GND);
-  _EQ004 = !clkdiv & !ds_en &  _LC021 & !Reset
-         #  clkdiv &  _LC019
-         # !ds_en &  _LC019 &  _LC021 & !Reset;
+_LC094   = LCELL( _EQ004 $  GND);
+  _EQ004 = !clkL & !ds_en &  _LC081 &  Reset
+         #  clkL &  _LC094
+         # !ds_en &  _LC081 &  _LC094 &  Reset;
 
 -- Node name is '|ds:112|reg4b:1|reg1b:1|d_latch:17|~3~1' 
--- Equation name is '_LC021', type is buried 
+-- Equation name is '_LC081', type is buried 
 -- synthesized logic cell 
-_LC021   = LCELL( _EQ005 $  GND);
-  _EQ005 =  clkdiv &  _LC019
-         # !clkdiv &  _LC021
-         #  _LC019 &  _LC021;
+_LC081   = LCELL( _EQ005 $  GND);
+  _EQ005 =  clkL &  _LC094
+         # !clkL &  _LC081
+         #  _LC081 &  _LC094;
 
 -- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC020', type is buried 
--- synthesized logic cell 
-_LC020   = LCELL( _EQ006 $  GND);
-  _EQ006 = !ds_en & !_LC022 & !_LC026 &  _LC027 & !Reset
-         #  ds_b2 &  ds_en &  _LC027 & !Reset;
-
--- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC027', type is buried 
--- synthesized logic cell 
-_LC027   = LCELL( _EQ007 $  GND);
-  _EQ007 = !clkdiv & !ds_en & !_LC022 & !_LC026 & !Reset
-         # !clkdiv &  ds_b2 &  ds_en & !Reset
-         #  clkdiv &  _LC027
-         # !clkdiv &  ds_b2 & !_LC022 & !_LC026 & !Reset
-         #  _LC020;
-
--- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC026', type is buried 
--- synthesized logic cell 
-_LC026   = LCELL( _EQ008 $  VCC);
-  _EQ008 =  clkdiv &  _LC027
-         # !_LC022 & !_LC026;
-
--- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1' 
--- Equation name is '_LC022', type is buried 
--- synthesized logic cell 
-_LC022   = LCELL( _EQ009 $  GND);
-  _EQ009 =  clkdiv & !_LC027;
-
--- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2' 
--- Equation name is '_LC030', type is buried 
--- synthesized logic cell 
-_LC030   = LCELL( _EQ010 $  GND);
-  _EQ010 = !ds_en & !_LC023 & !_LC024 &  _LC028 & !Reset
-         #  ds_b1 &  ds_en &  _LC028 & !Reset;
-
--- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1' 
--- Equation name is '_LC028', type is buried 
--- synthesized logic cell 
-_LC028   = LCELL( _EQ011 $  GND);
-  _EQ011 = !clkdiv & !ds_en & !_LC023 & !_LC024 & !Reset
-         # !clkdiv &  ds_b1 &  ds_en & !Reset
-         #  clkdiv &  _LC028
-         # !clkdiv &  ds_b1 & !_LC023 & !_LC024 & !Reset
-         #  _LC030;
-
--- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1' 
--- Equation name is '_LC024', type is buried 
--- synthesized logic cell 
-_LC024   = LCELL( _EQ012 $  VCC);
-  _EQ012 =  clkdiv &  _LC028
-         # !_LC023 & !_LC024;
-
--- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1' 
--- Equation name is '_LC023', type is buried 
--- synthesized logic cell 
-_LC023   = LCELL( _EQ013 $  GND);
-  _EQ013 =  clkdiv & !_LC028;
-
--- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2' 
--- Equation name is '_LC052', type is buried 
--- synthesized logic cell 
-_LC052   = LCELL( _EQ014 $  GND);
-  _EQ014 = !ds_en &  _LC057 & !_LC089 & !_LC090 & !Reset
-         #  ds_b0 &  ds_en &  _LC057 & !Reset;
-
--- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1' 
--- Equation name is '_LC057', type is buried 
--- synthesized logic cell 
-_LC057   = LCELL( _EQ015 $  GND);
-  _EQ015 = !clkdiv & !ds_en & !_LC089 & !_LC090 & !Reset
-         # !clkdiv &  ds_b0 &  ds_en & !Reset
-         #  clkdiv &  _LC057
-         # !clkdiv &  ds_b0 & !_LC089 & !_LC090 & !Reset
-         #  _LC052;
-
--- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1' 
--- Equation name is '_LC089', type is buried 
--- synthesized logic cell 
-_LC089   = LCELL( _EQ016 $  VCC);
-  _EQ016 =  clkdiv &  _LC057
-         # !_LC089 & !_LC090;
-
--- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1' 
--- Equation name is '_LC090', type is buried 
--- synthesized logic cell 
-_LC090   = LCELL( _EQ017 $  GND);
-  _EQ017 =  clkdiv & !_LC057;
-
--- Node name is '|state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC091', type is buried 
--- synthesized logic cell 
-_LC091   = LCELL( _EQ018 $  _EQ019);
-  _EQ018 = !clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC089 & !_LC121 &  _X014 & 
-              _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020 &  _X021 & 
-              _X022 &  _X023
-         # !clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC089 & !_LC121 &  _X014 & 
-              _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020 &  _X021 & 
-              _X022 &  _X023
-         # !clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC089 & !_LC121 &  _X014 & 
-              _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020 &  _X021 & 
-              _X022 &  _X023
-         # !clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC089 & !_LC121 &  _X014 & 
-              _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020 &  _X021 & 
-              _X022 &  _X023;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X015  = EXP(!clkdiv & !_LC022 & !_LC026 &  _LC121);
-  _X016  = EXP(!clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC090 & !_LC121);
-  _X017  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC090 & !_LC121);
-  _X018  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC090 & !_LC121);
-  _X019  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC090 & !_LC121);
-  _X020  = EXP(!clkdiv & !_LC089 & !_LC090 &  _LC121);
-  _X021  = EXP(!clkdiv & !_LC023 & !_LC024 &  _LC121);
-  _X022  = EXP( clkdiv & !_LC091);
-  _X023  = EXP(!clkdiv &  _LC021 &  _LC121);
-  _EQ019 =  _X014 &  _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020 & 
-              _X021 &  _X022 &  _X023;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X015  = EXP(!clkdiv & !_LC022 & !_LC026 &  _LC121);
-  _X016  = EXP(!clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC090 & !_LC121);
-  _X017  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC090 & !_LC121);
-  _X018  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC090 & !_LC121);
-  _X019  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC090 & !_LC121);
-  _X020  = EXP(!clkdiv & !_LC089 & !_LC090 &  _LC121);
-  _X021  = EXP(!clkdiv & !_LC023 & !_LC024 &  _LC121);
-  _X022  = EXP( clkdiv & !_LC091);
-  _X023  = EXP(!clkdiv &  _LC021 &  _LC121);
-
--- Node name is '|state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC121', type is buried 
--- synthesized logic cell 
-_LC121   = LCELL( _EQ020 $  GND);
-  _EQ020 =  clkdiv & !_LC091
-         # !clkdiv &  _LC121
-         # !_LC091 &  _LC121;
-
--- Node name is '|state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC058', type is buried 
--- synthesized logic cell 
-_LC058   = LCELL( _EQ021 $  _EQ022);
-  _EQ021 = !clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC089 & !_LC114 & 
-             !_LC121 &  _X014 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 & 
-              _X029 &  _X030 &  _X031 &  _X032 &  _X033
-         # !clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC089 & !_LC114 & 
-             !_LC121 &  _X014 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 & 
-              _X029 &  _X030 &  _X031 &  _X032 &  _X033
-         # !clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC089 & !_LC114 & 
-             !_LC121 &  _X014 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 & 
-              _X029 &  _X030 &  _X031 &  _X032 &  _X033
-         # !clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC089 & !_LC114 & 
-             !_LC121 &  _X014 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 & 
-              _X029 &  _X030 &  _X031 &  _X032 &  _X033;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X024  = EXP(!clkdiv &  _LC021 &  _LC114);
-  _X025  = EXP(!clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X026  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X027  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X028  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X029  = EXP(!clkdiv & !_LC089 & !_LC090 &  _LC114);
-  _X030  = EXP(!clkdiv & !_LC023 & !_LC024 &  _LC114);
-  _X031  = EXP(!clkdiv & !_LC022 & !_LC026 &  _LC114);
-  _X032  = EXP( clkdiv & !_LC058);
-  _X033  = EXP(!clkdiv &  _LC114 &  _LC121);
-  _EQ022 =  _X014 &  _X024 &  _X025 &  _X026 &  _X027 &  _X028 &  _X029 & 
-              _X030 &  _X031 &  _X032 &  _X033;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X024  = EXP(!clkdiv &  _LC021 &  _LC114);
-  _X025  = EXP(!clkdiv & !_LC021 &  _LC024 &  _LC026 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X026  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC024 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X027  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC026 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X028  = EXP(!clkdiv & !_LC021 &  _LC022 &  _LC023 &  _LC090 & !_LC114 & 
-             !_LC121);
-  _X029  = EXP(!clkdiv & !_LC089 & !_LC090 &  _LC114);
-  _X030  = EXP(!clkdiv & !_LC023 & !_LC024 &  _LC114);
-  _X031  = EXP(!clkdiv & !_LC022 & !_LC026 &  _LC114);
-  _X032  = EXP( clkdiv & !_LC058);
-  _X033  = EXP(!clkdiv &  _LC114 &  _LC121);
-
--- Node name is '|state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC114', type is buried 
--- synthesized logic cell 
-_LC114   = LCELL( _EQ023 $  GND);
-  _EQ023 =  clkdiv & !_LC058
-         # !clkdiv &  _LC114
-         # !_LC058 &  _LC114;
-
--- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
 -- Equation name is '_LC034', type is buried 
 -- synthesized logic cell 
-_LC034   = LCELL( _EQ024 $  GND);
-  _EQ024 = !clkdiv & !_LC021 & !_LC022 & !_LC026 & !Reset &  _X034 &  _X035
-         # !clkdiv & !_LC021 & !_LC023 & !_LC024 & !Reset &  _X034 &  _X035
-         # !_LC021 &  _LC035 &  _LC106 & !Reset &  _X034 &  _X035
-         # !_LC022 & !_LC026 &  _LC035 & !_LC106 & !Reset
-         # !_LC023 & !_LC024 &  _LC035 & !_LC106 & !Reset;
-  _X034  = EXP(!_LC023 & !_LC024);
-  _X035  = EXP(!_LC022 & !_LC026);
+_LC034   = LCELL( _EQ006 $  GND);
+  _EQ006 = !ds_en & !_LC023 & !_LC024 &  _LC033 &  Reset
+         #  ds_b2 &  ds_en &  _LC033 &  Reset;
 
--- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3' 
--- Equation name is '_LC048', type is buried 
+-- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:16|~3~1' 
+-- Equation name is '_LC033', type is buried 
 -- synthesized logic cell 
-_LC048   = LCELL( _EQ025 $  GND);
-  _EQ025 =  _LC021 &  _LC035 & !_LC106 & !Reset
-         #  clkdiv &  _LC035
+_LC033   = LCELL( _EQ007 $  GND);
+  _EQ007 = !clkL & !ds_en & !_LC023 & !_LC024 &  Reset
+         # !clkL &  ds_b2 &  ds_en &  Reset
+         #  clkL &  _LC033
+         # !clkL &  ds_b2 & !_LC023 & !_LC024 &  Reset
          #  _LC034;
 
--- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC035', type is buried 
+-- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:17|~2~1' 
+-- Equation name is '_LC023', type is buried 
 -- synthesized logic cell 
-_LC035   = LCELL( _EQ026 $  GND);
-  _EQ026 = !clkdiv & !_LC021 &  _LC106 & !Reset &  _X034 &  _X035
-         # !clkdiv & !_LC022 & !_LC026 & !_LC106 & !Reset
-         # !clkdiv & !_LC023 & !_LC024 & !_LC106 & !Reset
-         # !clkdiv &  _LC021 & !_LC106 & !Reset
-         #  _LC048;
-  _X034  = EXP(!_LC023 & !_LC024);
-  _X035  = EXP(!_LC022 & !_LC026);
+_LC023   = LCELL( _EQ008 $  VCC);
+  _EQ008 =  clkL &  _LC033
+         # !_LC023 & !_LC024;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:2|d_latch:17|~6~1' 
+-- Equation name is '_LC024', type is buried 
+-- synthesized logic cell 
+_LC024   = LCELL( _EQ009 $  GND);
+  _EQ009 =  clkL & !_LC033;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1~2' 
+-- Equation name is '_LC087', type is buried 
+-- synthesized logic cell 
+_LC087   = LCELL( _EQ010 $  GND);
+  _EQ010 = !ds_en & !_LC021 & !_LC022 &  _LC083 &  Reset
+         #  ds_b1 &  ds_en &  _LC083 &  Reset;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:16|~3~1' 
+-- Equation name is '_LC083', type is buried 
+-- synthesized logic cell 
+_LC083   = LCELL( _EQ011 $  GND);
+  _EQ011 = !clkL & !ds_en & !_LC021 & !_LC022 &  Reset
+         # !clkL &  ds_b1 &  ds_en &  Reset
+         #  clkL &  _LC083
+         # !clkL &  ds_b1 & !_LC021 & !_LC022 &  Reset
+         #  _LC087;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:17|~2~1' 
+-- Equation name is '_LC021', type is buried 
+-- synthesized logic cell 
+_LC021   = LCELL( _EQ012 $  VCC);
+  _EQ012 =  clkL &  _LC083
+         # !_LC021 & !_LC022;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:3|d_latch:17|~6~1' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ013 $  GND);
+  _EQ013 =  clkL & !_LC083;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1~2' 
+-- Equation name is '_LC085', type is buried 
+-- synthesized logic cell 
+_LC085   = LCELL( _EQ014 $  GND);
+  _EQ014 = !ds_en & !_LC026 & !_LC027 &  _LC084 &  Reset
+         #  ds_b0 &  ds_en &  _LC084 &  Reset;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:16|~3~1' 
+-- Equation name is '_LC084', type is buried 
+-- synthesized logic cell 
+_LC084   = LCELL( _EQ015 $  GND);
+  _EQ015 = !clkL & !ds_en & !_LC026 & !_LC027 &  Reset
+         # !clkL &  ds_b0 &  ds_en &  Reset
+         #  clkL &  _LC084
+         # !clkL &  ds_b0 & !_LC026 & !_LC027 &  Reset
+         #  _LC085;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:17|~2~1' 
+-- Equation name is '_LC026', type is buried 
+-- synthesized logic cell 
+_LC026   = LCELL( _EQ016 $  VCC);
+  _EQ016 =  clkL &  _LC084
+         # !_LC026 & !_LC027;
+
+-- Node name is '|ds:112|reg4b:1|reg1b:4|d_latch:17|~6~1' 
+-- Equation name is '_LC027', type is buried 
+-- synthesized logic cell 
+_LC027   = LCELL( _EQ017 $  GND);
+  _EQ017 =  clkL & !_LC084;
+
+-- Node name is '|state2b:3|c2b:5|reg1b:1|d_latch:16|~3~1' 
+-- Equation name is '_LC062', type is buried 
+-- synthesized logic cell 
+_LC062   = LCELL( _EQ018 $  _EQ019);
+  _EQ018 = !clkL &  _LC021 &  _LC023 &  _LC026 & !_LC042 & !_LC081 &  _X019 & 
+              _X020 &  _X021 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026 & 
+              _X027 &  _X028
+         # !clkL &  _LC021 &  _LC024 &  _LC026 & !_LC042 & !_LC081 &  _X019 & 
+              _X020 &  _X021 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026 & 
+              _X027 &  _X028
+         # !clkL &  _LC022 &  _LC023 &  _LC026 & !_LC042 & !_LC081 &  _X019 & 
+              _X020 &  _X021 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026 & 
+              _X027 &  _X028
+         # !clkL &  _LC022 &  _LC024 &  _LC026 & !_LC042 & !_LC081 &  _X019 & 
+              _X020 &  _X021 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026 & 
+              _X027 &  _X028;
+  _X019  = EXP(!clkL & !Reset);
+  _X020  = EXP(!clkL & !_LC023 & !_LC024 &  _LC042);
+  _X021  = EXP(!clkL &  _LC021 &  _LC023 &  _LC027 & !_LC042 & !_LC081);
+  _X022  = EXP(!clkL &  _LC021 &  _LC024 &  _LC027 & !_LC042 & !_LC081);
+  _X023  = EXP(!clkL &  _LC022 &  _LC023 &  _LC027 & !_LC042 & !_LC081);
+  _X024  = EXP(!clkL &  _LC022 &  _LC024 &  _LC027 & !_LC042 & !_LC081);
+  _X025  = EXP(!clkL & !_LC026 & !_LC027 &  _LC042);
+  _X026  = EXP(!clkL & !_LC021 & !_LC022 &  _LC042);
+  _X027  = EXP( clkL & !_LC062);
+  _X028  = EXP(!clkL &  _LC042 &  _LC081);
+  _EQ019 =  _X019 &  _X020 &  _X021 &  _X022 &  _X023 &  _X024 &  _X025 & 
+              _X026 &  _X027 &  _X028;
+  _X019  = EXP(!clkL & !Reset);
+  _X020  = EXP(!clkL & !_LC023 & !_LC024 &  _LC042);
+  _X021  = EXP(!clkL &  _LC021 &  _LC023 &  _LC027 & !_LC042 & !_LC081);
+  _X022  = EXP(!clkL &  _LC021 &  _LC024 &  _LC027 & !_LC042 & !_LC081);
+  _X023  = EXP(!clkL &  _LC022 &  _LC023 &  _LC027 & !_LC042 & !_LC081);
+  _X024  = EXP(!clkL &  _LC022 &  _LC024 &  _LC027 & !_LC042 & !_LC081);
+  _X025  = EXP(!clkL & !_LC026 & !_LC027 &  _LC042);
+  _X026  = EXP(!clkL & !_LC021 & !_LC022 &  _LC042);
+  _X027  = EXP( clkL & !_LC062);
+  _X028  = EXP(!clkL &  _LC042 &  _LC081);
+
+-- Node name is '|state2b:3|c2b:5|reg1b:1|d_latch:17|~2~1' 
+-- Equation name is '_LC042', type is buried 
+-- synthesized logic cell 
+_LC042   = LCELL( _EQ020 $  GND);
+  _EQ020 =  clkL & !_LC062
+         # !clkL &  _LC042
+         #  _LC042 & !_LC062;
+
+-- Node name is '|state2b:3|c2b:5|reg1b:2|d_latch:16|~3~1' 
+-- Equation name is '_LC046', type is buried 
+-- synthesized logic cell 
+_LC046   = LCELL( _EQ021 $  _EQ022);
+  _EQ021 = !clkL &  _LC021 &  _LC023 &  _LC026 & !_LC042 & !_LC081 & !_LC123 & 
+              _X019 &  _X029 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 & 
+              _X035 &  _X036 &  _X037 &  _X038
+         # !clkL &  _LC021 &  _LC024 &  _LC026 & !_LC042 & !_LC081 & !_LC123 & 
+              _X019 &  _X029 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 & 
+              _X035 &  _X036 &  _X037 &  _X038
+         # !clkL &  _LC022 &  _LC023 &  _LC026 & !_LC042 & !_LC081 & !_LC123 & 
+              _X019 &  _X029 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 & 
+              _X035 &  _X036 &  _X037 &  _X038
+         # !clkL &  _LC022 &  _LC024 &  _LC026 & !_LC042 & !_LC081 & !_LC123 & 
+              _X019 &  _X029 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 & 
+              _X035 &  _X036 &  _X037 &  _X038;
+  _X019  = EXP(!clkL & !Reset);
+  _X029  = EXP(!clkL &  _LC081 &  _LC123);
+  _X030  = EXP(!clkL &  _LC021 &  _LC023 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X031  = EXP(!clkL &  _LC021 &  _LC024 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X032  = EXP(!clkL &  _LC022 &  _LC023 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X033  = EXP(!clkL &  _LC022 &  _LC024 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X034  = EXP(!clkL & !_LC026 & !_LC027 &  _LC123);
+  _X035  = EXP(!clkL & !_LC021 & !_LC022 &  _LC123);
+  _X036  = EXP(!clkL & !_LC023 & !_LC024 &  _LC123);
+  _X037  = EXP( clkL & !_LC046);
+  _X038  = EXP(!clkL &  _LC042 &  _LC123);
+  _EQ022 =  _X019 &  _X029 &  _X030 &  _X031 &  _X032 &  _X033 &  _X034 & 
+              _X035 &  _X036 &  _X037 &  _X038;
+  _X019  = EXP(!clkL & !Reset);
+  _X029  = EXP(!clkL &  _LC081 &  _LC123);
+  _X030  = EXP(!clkL &  _LC021 &  _LC023 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X031  = EXP(!clkL &  _LC021 &  _LC024 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X032  = EXP(!clkL &  _LC022 &  _LC023 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X033  = EXP(!clkL &  _LC022 &  _LC024 &  _LC027 & !_LC042 & !_LC081 & !_LC123);
+  _X034  = EXP(!clkL & !_LC026 & !_LC027 &  _LC123);
+  _X035  = EXP(!clkL & !_LC021 & !_LC022 &  _LC123);
+  _X036  = EXP(!clkL & !_LC023 & !_LC024 &  _LC123);
+  _X037  = EXP( clkL & !_LC046);
+  _X038  = EXP(!clkL &  _LC042 &  _LC123);
+
+-- Node name is '|state2b:3|c2b:5|reg1b:2|d_latch:17|~2~1' 
+-- Equation name is '_LC123', type is buried 
+-- synthesized logic cell 
+_LC123   = LCELL( _EQ023 $  GND);
+  _EQ023 =  clkL & !_LC046
+         # !clkL &  _LC123
+         # !_LC046 &  _LC123;
+
+-- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
+-- Equation name is '_LC071', type is buried 
+-- synthesized logic cell 
+_LC071   = LCELL( _EQ024 $  GND);
+  _EQ024 = !clkL & !_LC023 & !_LC024 & !_LC081 &  Reset &  _X039 &  _X040
+         # !clkL & !_LC021 & !_LC022 & !_LC081 &  Reset &  _X039 &  _X040
+         #  _LC080 & !_LC081 &  _LC109 &  Reset &  _X039 &  _X040
+         # !_LC023 & !_LC024 &  _LC080 & !_LC109 &  Reset
+         # !_LC021 & !_LC022 &  _LC080 & !_LC109 &  Reset;
+  _X039  = EXP(!_LC021 & !_LC022);
+  _X040  = EXP(!_LC023 & !_LC024);
+
+-- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1~3' 
+-- Equation name is '_LC097', type is buried 
+-- synthesized logic cell 
+_LC097   = LCELL( _EQ025 $  GND);
+  _EQ025 =  _LC080 &  _LC081 & !_LC109 &  Reset
+         #  clkL &  _LC080
+         #  _LC071;
+
+-- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:16|~3~1' 
+-- Equation name is '_LC080', type is buried 
+-- synthesized logic cell 
+_LC080   = LCELL( _EQ026 $  GND);
+  _EQ026 = !clkL & !_LC081 &  _LC109 &  Reset &  _X039 &  _X040
+         # !clkL & !_LC023 & !_LC024 & !_LC109 &  Reset
+         # !clkL & !_LC021 & !_LC022 & !_LC109 &  Reset
+         # !clkL &  _LC081 & !_LC109 &  Reset
+         #  _LC097;
+  _X039  = EXP(!_LC021 & !_LC022);
+  _X040  = EXP(!_LC023 & !_LC024);
 
 -- Node name is '|state2b:4|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC106', type is buried 
+-- Equation name is '_LC109', type is buried 
 -- synthesized logic cell 
-_LC106   = LCELL( _EQ027 $  GND);
-  _EQ027 =  clkdiv & !_LC035
-         # !clkdiv &  _LC106
-         # !_LC035 &  _LC106;
+_LC109   = LCELL( _EQ027 $  GND);
+  _EQ027 =  clkL & !_LC080
+         # !clkL &  _LC109
+         # !_LC080 &  _LC109;
 
 -- Node name is '|state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC045', type is buried 
+-- Equation name is '_LC076', type is buried 
 -- synthesized logic cell 
-_LC045   = LCELL( _EQ028 $  GND);
-  _EQ028 = !clkdiv & !_LC021 & !_LC022 & !_LC026 & !_LC106 & !Reset &  _X034 & 
-              _X035
-         # !clkdiv & !_LC021 & !_LC023 & !_LC024 & !_LC106 & !Reset &  _X034 & 
-              _X035
-         # !clkdiv & !_LC021 & !_LC106 & !Reset &  _X034 &  _X035 &  _X036
-         # !_LC021 &  _LC043 & !_LC106 &  _LC124 & !Reset &  _X034 &  _X035
-         # !_LC022 & !_LC026 &  _LC043 & !_LC124 & !Reset;
-  _X034  = EXP(!_LC023 & !_LC024);
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X036  = EXP(!_LC021 & !_LC106);
+_LC076   = LCELL( _EQ028 $  GND);
+  _EQ028 = !clkL & !_LC023 & !_LC024 & !_LC081 & !_LC109 &  Reset &  _X039 & 
+              _X040
+         # !clkL & !_LC021 & !_LC022 & !_LC081 & !_LC109 &  Reset &  _X039 & 
+              _X040
+         # !clkL & !_LC081 & !_LC109 &  Reset &  _X039 &  _X040 &  _X041
+         #  _LC074 & !_LC081 & !_LC109 &  _LC124 &  Reset &  _X039 &  _X040
+         # !_LC023 & !_LC024 &  _LC074 & !_LC124 &  Reset;
+  _X039  = EXP(!_LC021 & !_LC022);
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X041  = EXP(!_LC081 & !_LC109);
 
 -- Node name is '|state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1~3' 
--- Equation name is '_LC044', type is buried 
+-- Equation name is '_LC078', type is buried 
 -- synthesized logic cell 
-_LC044   = LCELL( _EQ029 $  GND);
-  _EQ029 = !_LC023 & !_LC024 &  _LC043 & !_LC124 & !Reset
-         #  _LC043 & !_LC124 & !Reset &  _X036
-         #  clkdiv &  _LC043
-         #  _LC045;
-  _X036  = EXP(!_LC021 & !_LC106);
+_LC078   = LCELL( _EQ029 $  GND);
+  _EQ029 = !_LC021 & !_LC022 &  _LC074 & !_LC124 &  Reset
+         #  _LC074 & !_LC124 &  Reset &  _X041
+         #  clkL &  _LC074
+         #  _LC076;
+  _X041  = EXP(!_LC081 & !_LC109);
 
 -- Node name is '|state2b:4|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC043', type is buried 
+-- Equation name is '_LC074', type is buried 
 -- synthesized logic cell 
-_LC043   = LCELL( _EQ030 $  GND);
-  _EQ030 = !clkdiv & !_LC021 & !_LC106 &  _LC124 & !Reset &  _X034 &  _X035
-         # !clkdiv & !_LC022 & !_LC026 & !_LC124 & !Reset
-         # !clkdiv & !_LC023 & !_LC024 & !_LC124 & !Reset
-         # !clkdiv & !_LC124 & !Reset &  _X036
-         #  _LC044;
-  _X034  = EXP(!_LC023 & !_LC024);
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X036  = EXP(!_LC021 & !_LC106);
+_LC074   = LCELL( _EQ030 $  GND);
+  _EQ030 = !clkL & !_LC081 & !_LC109 &  _LC124 &  Reset &  _X039 &  _X040
+         # !clkL & !_LC023 & !_LC024 & !_LC124 &  Reset
+         # !clkL & !_LC021 & !_LC022 & !_LC124 &  Reset
+         # !clkL & !_LC124 &  Reset &  _X041
+         #  _LC078;
+  _X039  = EXP(!_LC021 & !_LC022);
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X041  = EXP(!_LC081 & !_LC109);
 
 -- Node name is '|state2b:4|c2b:5|reg1b:2|d_latch:17|~2~1' 
 -- Equation name is '_LC124', type is buried 
 -- synthesized logic cell 
 _LC124   = LCELL( _EQ031 $  GND);
-  _EQ031 =  clkdiv & !_LC043
-         # !clkdiv &  _LC124
-         # !_LC043 &  _LC124;
+  _EQ031 =  clkL & !_LC074
+         # !clkL &  _LC124
+         # !_LC074 &  _LC124;
 
 -- Node name is '|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
--- Equation name is '_LC111', type is buried 
+-- Equation name is '_LC112', type is buried 
 -- synthesized logic cell 
-_LC111   = LCELL( _EQ032 $  GND);
-  _EQ032 = !_LC021 &  _LC022 &  _LC041 &  _LC098 & !Reset
-         # !_LC021 &  _LC026 &  _LC041 &  _LC098 & !Reset
-         # !_LC022 & !_LC026 &  _LC041 & !_LC098 & !Reset
-         #  _LC021 &  _LC041 & !_LC098 & !Reset
-         #  clkdiv &  _LC041;
+_LC112   = LCELL( _EQ032 $  GND);
+  _EQ032 =  _LC024 &  _LC051 & !_LC081 &  _LC121 &  Reset
+         #  _LC023 &  _LC051 & !_LC081 &  _LC121 &  Reset
+         # !_LC023 & !_LC024 &  _LC051 & !_LC121 &  Reset
+         #  _LC051 &  _LC081 & !_LC121 &  Reset
+         #  clkL &  _LC051;
 
 -- Node name is '|state2b:5|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC041', type is buried 
+-- Equation name is '_LC051', type is buried 
 -- synthesized logic cell 
-_LC041   = LCELL( _EQ033 $  GND);
-  _EQ033 = !clkdiv & !_LC021 &  _LC022 &  _LC098 & !Reset
-         # !clkdiv & !_LC021 &  _LC026 &  _LC098 & !Reset
-         # !clkdiv & !_LC022 & !_LC026 & !_LC098 & !Reset
-         # !clkdiv &  _LC021 & !_LC098 & !Reset
-         #  _LC111;
+_LC051   = LCELL( _EQ033 $  GND);
+  _EQ033 = !clkL &  _LC024 & !_LC081 &  _LC121 &  Reset
+         # !clkL &  _LC023 & !_LC081 &  _LC121 &  Reset
+         # !clkL & !_LC023 & !_LC024 & !_LC121 &  Reset
+         # !clkL &  _LC081 & !_LC121 &  Reset
+         #  _LC112;
 
 -- Node name is '|state2b:5|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC098', type is buried 
+-- Equation name is '_LC121', type is buried 
 -- synthesized logic cell 
-_LC098   = LCELL( _EQ034 $  GND);
-  _EQ034 =  clkdiv & !_LC041
-         # !clkdiv &  _LC098
-         # !_LC041 &  _LC098;
+_LC121   = LCELL( _EQ034 $  GND);
+  _EQ034 =  clkL & !_LC051
+         # !clkL &  _LC121
+         # !_LC051 &  _LC121;
 
 -- Node name is '|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC036', type is buried 
+-- Equation name is '_LC052', type is buried 
 -- synthesized logic cell 
-_LC036   = LCELL( _EQ035 $  GND);
-  _EQ035 = !_LC022 & !_LC026 &  _LC033 & !_LC113 & !Reset
-         #  _LC033 &  _LC098 & !_LC113 & !Reset
-         #  _LC021 &  _LC033 & !_LC113 & !Reset
-         #  clkdiv &  _LC033;
+_LC052   = LCELL( _EQ035 $  GND);
+  _EQ035 = !_LC023 & !_LC024 &  _LC053 & !_LC114 &  Reset
+         #  _LC053 & !_LC114 &  _LC121 &  Reset
+         #  _LC053 &  _LC081 & !_LC114 &  Reset
+         #  clkL &  _LC053;
 
 -- Node name is '|state2b:5|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC033', type is buried 
+-- Equation name is '_LC053', type is buried 
 -- synthesized logic cell 
-_LC033   = LCELL( _EQ036 $  _EQ037);
-  _EQ036 = !clkdiv & !_LC022 & !_LC026 & !_LC113 & !Reset
-         # !clkdiv &  _LC098 & !_LC113 & !Reset
-         # !clkdiv &  _LC021 & !_LC113 & !Reset
-         #  _LC036;
-  _EQ037 = !clkdiv & !_LC021 & !_LC098 &  _LC113 & !Reset &  _X035;
-  _X035  = EXP(!_LC022 & !_LC026);
+_LC053   = LCELL( _EQ036 $  _EQ037);
+  _EQ036 = !clkL & !_LC023 & !_LC024 & !_LC114 &  Reset
+         # !clkL & !_LC114 &  _LC121 &  Reset
+         # !clkL &  _LC081 & !_LC114 &  Reset
+         #  _LC052;
+  _EQ037 = !clkL & !_LC081 &  _LC114 & !_LC121 &  Reset &  _X040;
+  _X040  = EXP(!_LC023 & !_LC024);
 
 -- Node name is '|state2b:5|c2b:5|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC113', type is buried 
+-- Equation name is '_LC114', type is buried 
 -- synthesized logic cell 
-_LC113   = LCELL( _EQ038 $  GND);
-  _EQ038 =  clkdiv & !_LC033
-         # !clkdiv &  _LC113
-         # !_LC033 &  _LC113;
+_LC114   = LCELL( _EQ038 $  GND);
+  _EQ038 =  clkL & !_LC053
+         # !clkL &  _LC114
+         # !_LC053 &  _LC114;
 
 -- Node name is '|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
--- Equation name is '_LC073', type is buried 
+-- Equation name is '_LC065', type is buried 
 -- synthesized logic cell 
-_LC073   = LCELL( _EQ039 $  GND);
-  _EQ039 = !clkdiv & !_LC021 & !_LC023 & !_LC024 & !_LC089 & !_LC090 & !Reset & 
-              _X035 &  _X037
-         # !_LC023 & !_LC024 &  _LC074 & !_LC089 & !_LC090 & !_LC099 & !Reset
-         # !clkdiv & !_LC021 & !_LC022 & !_LC026 & !Reset &  _X035 &  _X037
-         # !_LC021 &  _LC074 &  _LC099 & !Reset &  _X035 &  _X037
-         # !_LC022 & !_LC026 &  _LC074 & !_LC099 & !Reset;
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X037  = EXP(!_LC023 & !_LC024 & !_LC089 & !_LC090);
+_LC065   = LCELL( _EQ039 $  GND);
+  _EQ039 = !clkL & !_LC021 & !_LC022 & !_LC026 & !_LC027 & !_LC081 &  Reset & 
+              _X040 &  _X042
+         # !_LC021 & !_LC022 & !_LC026 & !_LC027 &  _LC067 & !_LC122 &  Reset
+         # !clkL & !_LC023 & !_LC024 & !_LC081 &  Reset &  _X040 &  _X042
+         #  _LC067 & !_LC081 &  _LC122 &  Reset &  _X040 &  _X042
+         # !_LC023 & !_LC024 &  _LC067 & !_LC122 &  Reset;
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X042  = EXP(!_LC021 & !_LC022 & !_LC026 & !_LC027);
 
 -- Node name is '|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1~3' 
--- Equation name is '_LC080', type is buried 
+-- Equation name is '_LC072', type is buried 
 -- synthesized logic cell 
-_LC080   = LCELL( _EQ040 $  GND);
-  _EQ040 =  _LC021 &  _LC074 & !_LC099 & !Reset
-         #  clkdiv &  _LC074
-         #  _LC073;
+_LC072   = LCELL( _EQ040 $  GND);
+  _EQ040 =  _LC067 &  _LC081 & !_LC122 &  Reset
+         #  clkL &  _LC067
+         #  _LC065;
 
 -- Node name is '|state2b:6|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC074', type is buried 
+-- Equation name is '_LC067', type is buried 
 -- synthesized logic cell 
-_LC074   = LCELL( _EQ041 $  GND);
-  _EQ041 = !clkdiv & !_LC023 & !_LC024 & !_LC089 & !_LC090 & !_LC099 & !Reset
-         # !clkdiv & !_LC021 &  _LC099 & !Reset &  _X035 &  _X037
-         # !clkdiv & !_LC022 & !_LC026 & !_LC099 & !Reset
-         # !clkdiv &  _LC021 & !_LC099 & !Reset
-         #  _LC080;
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X037  = EXP(!_LC023 & !_LC024 & !_LC089 & !_LC090);
+_LC067   = LCELL( _EQ041 $  GND);
+  _EQ041 = !clkL & !_LC021 & !_LC022 & !_LC026 & !_LC027 & !_LC122 &  Reset
+         # !clkL & !_LC081 &  _LC122 &  Reset &  _X040 &  _X042
+         # !clkL & !_LC023 & !_LC024 & !_LC122 &  Reset
+         # !clkL &  _LC081 & !_LC122 &  Reset
+         #  _LC072;
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X042  = EXP(!_LC021 & !_LC022 & !_LC026 & !_LC027);
 
 -- Node name is '|state2b:6|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC099', type is buried 
--- synthesized logic cell 
-_LC099   = LCELL( _EQ042 $  GND);
-  _EQ042 =  clkdiv & !_LC074
-         # !clkdiv &  _LC099
-         # !_LC074 &  _LC099;
-
--- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC078', type is buried 
--- synthesized logic cell 
-_LC078   = LCELL( _EQ043 $  GND);
-  _EQ043 = !clkdiv & !_LC021 & !_LC023 & !_LC024 & !_LC089 & !_LC090 & 
-             !_LC099 & !Reset &  _X035 &  _X037
-         # !clkdiv & !_LC021 & !_LC022 & !_LC026 & !_LC099 & !Reset &  _X035 & 
-              _X037
-         # !clkdiv & !_LC021 & !_LC099 & !Reset &  _X035 &  _X037 &  _X038
-         # !_LC021 &  _LC066 & !_LC099 &  _LC122 & !Reset &  _X035 &  _X037
-         # !_LC023 & !_LC024 &  _LC066 & !_LC089 & !_LC090 & !_LC122 & !Reset;
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X037  = EXP(!_LC023 & !_LC024 & !_LC089 & !_LC090);
-  _X038  = EXP(!_LC021 & !_LC099);
-
--- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3' 
--- Equation name is '_LC076', type is buried 
--- synthesized logic cell 
-_LC076   = LCELL( _EQ044 $  GND);
-  _EQ044 = !_LC022 & !_LC026 &  _LC066 & !_LC122 & !Reset
-         #  _LC066 & !_LC122 & !Reset &  _X038
-         #  clkdiv &  _LC066
-         #  _LC078;
-  _X038  = EXP(!_LC021 & !_LC099);
-
--- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC066', type is buried 
--- synthesized logic cell 
-_LC066   = LCELL( _EQ045 $  GND);
-  _EQ045 = !clkdiv & !_LC021 & !_LC099 &  _LC122 & !Reset &  _X035 &  _X037
-         # !clkdiv & !_LC023 & !_LC024 & !_LC089 & !_LC090 & !_LC122 & !Reset
-         # !clkdiv & !_LC022 & !_LC026 & !_LC122 & !Reset
-         # !clkdiv & !_LC122 & !Reset &  _X038
-         #  _LC076;
-  _X035  = EXP(!_LC022 & !_LC026);
-  _X037  = EXP(!_LC023 & !_LC024 & !_LC089 & !_LC090);
-  _X038  = EXP(!_LC021 & !_LC099);
-
--- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1' 
 -- Equation name is '_LC122', type is buried 
 -- synthesized logic cell 
-_LC122   = LCELL( _EQ046 $  GND);
-  _EQ046 =  clkdiv & !_LC066
-         # !clkdiv &  _LC122
-         # !_LC066 &  _LC122;
+_LC122   = LCELL( _EQ042 $  GND);
+  _EQ042 =  clkL & !_LC067
+         # !clkL &  _LC122
+         # !_LC067 &  _LC122;
+
+-- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
+-- Equation name is '_LC069', type is buried 
+-- synthesized logic cell 
+_LC069   = LCELL( _EQ043 $  GND);
+  _EQ043 = !clkL & !_LC021 & !_LC022 & !_LC026 & !_LC027 & !_LC081 & !_LC122 & 
+              Reset &  _X040 &  _X042
+         # !clkL & !_LC023 & !_LC024 & !_LC081 & !_LC122 &  Reset &  _X040 & 
+              _X042
+         # !clkL & !_LC081 & !_LC122 &  Reset &  _X040 &  _X042 &  _X043
+         #  _LC075 & !_LC081 &  _LC113 & !_LC122 &  Reset &  _X040 &  _X042
+         # !_LC021 & !_LC022 & !_LC026 & !_LC027 &  _LC075 & !_LC113 &  Reset;
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X042  = EXP(!_LC021 & !_LC022 & !_LC026 & !_LC027);
+  _X043  = EXP(!_LC081 & !_LC122);
+
+-- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1~3' 
+-- Equation name is '_LC066', type is buried 
+-- synthesized logic cell 
+_LC066   = LCELL( _EQ044 $  GND);
+  _EQ044 = !_LC023 & !_LC024 &  _LC075 & !_LC113 &  Reset
+         #  _LC075 & !_LC113 &  Reset &  _X043
+         #  clkL &  _LC075
+         #  _LC069;
+  _X043  = EXP(!_LC081 & !_LC122);
+
+-- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:16|~3~1' 
+-- Equation name is '_LC075', type is buried 
+-- synthesized logic cell 
+_LC075   = LCELL( _EQ045 $  GND);
+  _EQ045 = !clkL & !_LC081 &  _LC113 & !_LC122 &  Reset &  _X040 &  _X042
+         # !clkL & !_LC021 & !_LC022 & !_LC026 & !_LC027 & !_LC113 &  Reset
+         # !clkL & !_LC023 & !_LC024 & !_LC113 &  Reset
+         # !clkL & !_LC113 &  Reset &  _X043
+         #  _LC066;
+  _X040  = EXP(!_LC023 & !_LC024);
+  _X042  = EXP(!_LC021 & !_LC022 & !_LC026 & !_LC027);
+  _X043  = EXP(!_LC081 & !_LC122);
+
+-- Node name is '|state2b:6|c2b:5|reg1b:2|d_latch:17|~2~1' 
+-- Equation name is '_LC113', type is buried 
+-- synthesized logic cell 
+_LC113   = LCELL( _EQ046 $  GND);
+  _EQ046 =  clkL & !_LC075
+         # !clkL &  _LC113
+         # !_LC075 &  _LC113;
 
 -- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
--- Equation name is '_LC031', type is buried 
+-- Equation name is '_LC020', type is buried 
 -- synthesized logic cell 
-_LC031   = LCELL( _EQ047 $  GND);
-  _EQ047 = !clkdiv & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
-             !_LC089 & !_LC090 & !_LC109 & !Reset &  _X039
-         # !clkdiv & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
-             !_LC089 & !_LC090 & !_LC101 & !Reset &  _X039
-         # !_LC022 & !_LC023 & !_LC024 &  _LC025 & !_LC026 & !_LC089 & 
-             !_LC090 & !_LC101 & !_LC109 & !Reset
-         # !_LC021 &  _LC025 &  _LC101 & !Reset &  _X039
-         # !_LC021 &  _LC025 &  _LC109 & !Reset &  _X039;
-  _X039  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & !_LC090);
+_LC020   = LCELL( _EQ047 $  GND);
+  _EQ047 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027 & 
+             !_LC081 & !_LC101 &  Reset &  _X044
+         # !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027 & 
+             !_LC081 & !_LC105 &  Reset &  _X044
+         # !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027 & 
+              _LC030 & !_LC101 & !_LC105 &  Reset
+         #  _LC030 & !_LC081 &  _LC105 &  Reset &  _X044
+         #  _LC030 & !_LC081 &  _LC101 &  Reset &  _X044;
+  _X044  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027);
 
 -- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1~3' 
--- Equation name is '_LC103', type is buried 
+-- Equation name is '_LC098', type is buried 
 -- synthesized logic cell 
-_LC103   = LCELL( _EQ048 $  GND);
-  _EQ048 =  _LC021 &  _LC025 & !_LC101 & !_LC109 & !Reset
-         #  clkdiv &  _LC025
-         #  _LC031;
+_LC098   = LCELL( _EQ048 $  GND);
+  _EQ048 =  _LC030 &  _LC081 & !_LC101 & !_LC105 &  Reset
+         #  clkL &  _LC030
+         #  _LC020;
 
 -- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC025', type is buried 
+-- Equation name is '_LC030', type is buried 
 -- synthesized logic cell 
-_LC025   = LCELL( _EQ049 $  GND);
-  _EQ049 = !clkdiv & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & 
-             !_LC090 & !_LC101 & !_LC109 & !Reset
-         # !clkdiv & !_LC021 &  _LC101 & !Reset &  _X039
-         # !clkdiv & !_LC021 &  _LC109 & !Reset &  _X039
-         # !clkdiv &  _LC021 & !_LC101 & !_LC109 & !Reset
-         #  _LC103;
-  _X039  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & !_LC090);
+_LC030   = LCELL( _EQ049 $  GND);
+  _EQ049 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027 & 
+             !_LC101 & !_LC105 &  Reset
+         # !clkL & !_LC081 &  _LC105 &  Reset &  _X044
+         # !clkL & !_LC081 &  _LC101 &  Reset &  _X044
+         # !clkL &  _LC081 & !_LC101 & !_LC105 &  Reset
+         #  _LC098;
+  _X044  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027);
 
 -- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC109', type is buried 
--- synthesized logic cell 
-_LC109   = LCELL( _EQ050 $  VCC);
-  _EQ050 =  clkdiv &  _LC025
-         # !_LC101 & !_LC109;
-
--- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1' 
 -- Equation name is '_LC101', type is buried 
 -- synthesized logic cell 
-_LC101   = LCELL( _EQ051 $  GND);
-  _EQ051 =  clkdiv & !_LC025;
+_LC101   = LCELL( _EQ050 $  VCC);
+  _EQ050 =  clkL &  _LC030
+         # !_LC101 & !_LC105;
+
+-- Node name is '|state2b:8|c2b:5|reg1b:1|d_latch:17|~6~1' 
+-- Equation name is '_LC105', type is buried 
+-- synthesized logic cell 
+_LC105   = LCELL( _EQ051 $  GND);
+  _EQ051 =  clkL & !_LC030;
 
 -- Node name is '|state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC032', type is buried 
+-- Equation name is '_LC019', type is buried 
 -- synthesized logic cell 
-_LC032   = LCELL( _EQ052 $  GND);
-  _EQ052 = !clkdiv & !_LC015 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC089 & !_LC090 & !_LC101 & !_LC109 & !Reset & 
-              _X039
-         # !clkdiv & !_LC009 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC089 & !_LC090 & !_LC101 & !_LC109 & !Reset & 
-              _X039
-         # !_LC009 & !_LC015 &  _LC017 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC089 & !_LC090 & !Reset
-         # !clkdiv & !_LC015 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039 & 
-              _X040
-         #  _LC009 &  _LC017 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039;
-  _X039  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & !_LC090);
-  _X040  = EXP(!_LC021 & !_LC101 & !_LC109);
+_LC019   = LCELL( _EQ052 $  GND);
+  _EQ052 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027 & 
+             !_LC032 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044
+         # !clkL & !_LC017 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
+             !_LC027 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044
+         # !_LC017 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
+             !_LC027 &  _LC031 & !_LC032 &  Reset
+         # !clkL & !_LC032 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044 & 
+              _X045
+         #  _LC017 &  _LC031 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044;
+  _X044  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027);
+  _X045  = EXP(!_LC081 & !_LC101 & !_LC105);
 
 -- Node name is '|state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1~3' 
 -- Equation name is '_LC018', type is buried 
 -- synthesized logic cell 
 _LC018   = LCELL( _EQ053 $  GND);
-  _EQ053 = !clkdiv & !_LC009 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039 & 
-              _X040
-         #  _LC015 &  _LC017 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039
-         # !_LC009 & !_LC015 &  _LC017 & !Reset &  _X040
-         #  clkdiv &  _LC017
-         #  _LC032;
-  _X039  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & !_LC090);
-  _X040  = EXP(!_LC021 & !_LC101 & !_LC109);
+  _EQ053 = !clkL & !_LC017 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044 & 
+              _X045
+         #  _LC031 &  _LC032 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044
+         # !_LC017 &  _LC031 & !_LC032 &  Reset &  _X045
+         #  clkL &  _LC031
+         #  _LC019;
+  _X044  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027);
+  _X045  = EXP(!_LC081 & !_LC101 & !_LC105);
 
 -- Node name is '|state2b:8|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC017', type is buried 
+-- Equation name is '_LC031', type is buried 
 -- synthesized logic cell 
-_LC017   = LCELL( _EQ054 $  GND);
-  _EQ054 = !clkdiv & !_LC009 & !_LC015 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC089 & !_LC090 & !Reset
-         # !clkdiv &  _LC009 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039
-         # !clkdiv &  _LC015 & !_LC021 & !_LC101 & !_LC109 & !Reset &  _X039
-         # !clkdiv & !_LC009 & !_LC015 & !Reset &  _X040
+_LC031   = LCELL( _EQ054 $  GND);
+  _EQ054 = !clkL & !_LC017 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
+             !_LC027 & !_LC032 &  Reset
+         # !clkL &  _LC017 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044
+         # !clkL &  _LC032 & !_LC081 & !_LC101 & !_LC105 &  Reset &  _X044
+         # !clkL & !_LC017 & !_LC032 &  Reset &  _X045
          #  _LC018;
-  _X039  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC089 & !_LC090);
-  _X040  = EXP(!_LC021 & !_LC101 & !_LC109);
+  _X044  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC027);
+  _X045  = EXP(!_LC081 & !_LC101 & !_LC105);
 
 -- Node name is '|state2b:8|c2b:5|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC009', type is buried 
+-- Equation name is '_LC017', type is buried 
 -- synthesized logic cell 
-_LC009   = LCELL( _EQ055 $  VCC);
-  _EQ055 =  clkdiv &  _LC017
-         # !_LC009 & !_LC015;
+_LC017   = LCELL( _EQ055 $  VCC);
+  _EQ055 =  clkL &  _LC031
+         # !_LC017 & !_LC032;
 
 -- Node name is '|state2b:8|c2b:5|reg1b:2|d_latch:17|~6~1' 
--- Equation name is '_LC015', type is buried 
+-- Equation name is '_LC032', type is buried 
 -- synthesized logic cell 
-_LC015   = LCELL( _EQ056 $  GND);
-  _EQ056 =  clkdiv & !_LC017;
+_LC032   = LCELL( _EQ056 $  GND);
+  _EQ056 =  clkL & !_LC031;
 
 -- Node name is '|state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1~2' 
--- Equation name is '_LC095', type is buried 
+-- Equation name is '_LC103', type is buried 
 -- synthesized logic cell 
-_LC095   = LCELL( _EQ057 $  GND);
-  _EQ057 = !clkdiv & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !Reset & 
-              _X041
-         # !_LC022 & !_LC023 & !_LC024 & !_LC026 &  _LC102 & !_LC105 & !Reset
-         # !_LC021 &  _LC102 &  _LC105 & !Reset &  _X041
-         #  _LC021 &  _LC102 & !_LC105 & !Reset;
-  _X041  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026);
+_LC103   = LCELL( _EQ057 $  GND);
+  _EQ057 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC081 &  Reset & 
+              _X046
+         # !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC106 &  _LC108 &  Reset
+         # !_LC081 &  _LC106 &  _LC108 &  Reset &  _X046
+         #  _LC081 & !_LC106 &  _LC108 &  Reset;
+  _X046  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024);
 
 -- Node name is '|state2b:9|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC102', type is buried 
+-- Equation name is '_LC108', type is buried 
 -- synthesized logic cell 
-_LC102   = LCELL( _EQ058 $  GND);
-  _EQ058 = !clkdiv & !_LC022 & !_LC023 & !_LC024 & !_LC026 & !_LC105 & !Reset
-         # !clkdiv & !_LC021 &  _LC105 & !Reset &  _X041
-         # !clkdiv &  _LC021 & !_LC105 & !Reset
-         #  clkdiv &  _LC102
-         #  _LC095;
-  _X041  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026);
+_LC108   = LCELL( _EQ058 $  GND);
+  _EQ058 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC106 &  Reset
+         # !clkL & !_LC081 &  _LC106 &  Reset &  _X046
+         # !clkL &  _LC081 & !_LC106 &  Reset
+         #  clkL &  _LC108
+         #  _LC103;
+  _X046  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024);
 
 -- Node name is '|state2b:9|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC105', type is buried 
+-- Equation name is '_LC106', type is buried 
 -- synthesized logic cell 
-_LC105   = LCELL( _EQ059 $  GND);
-  _EQ059 =  clkdiv & !_LC102
-         # !clkdiv &  _LC105
-         # !_LC102 &  _LC105;
+_LC106   = LCELL( _EQ059 $  GND);
+  _EQ059 =  clkL & !_LC108
+         # !clkL &  _LC106
+         #  _LC106 & !_LC108;
 
 -- Node name is '|state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~2' 
--- Equation name is '_LC086', type is buried 
+-- Equation name is '_LC090', type is buried 
 -- synthesized logic cell 
-_LC086   = LCELL( _EQ060 $  GND);
-  _EQ060 = !clkdiv & !_LC001 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC105 & !Reset &  _X041
-         # !clkdiv & !_LC013 & !_LC021 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !_LC105 & !Reset &  _X041
-         # !_LC001 & !_LC013 & !_LC022 & !_LC023 & !_LC024 & !_LC026 & 
-              _LC081 & !Reset
-         # !clkdiv & !_LC001 & !_LC021 & !_LC105 & !Reset &  _X041 &  _X042
-         #  _LC013 & !_LC021 &  _LC081 & !_LC105 & !Reset &  _X041;
-  _X041  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026);
-  _X042  = EXP(!_LC021 & !_LC105);
+_LC090   = LCELL( _EQ060 $  GND);
+  _EQ060 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC081 & !_LC086 & 
+             !_LC106 &  Reset &  _X046
+         # !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC081 & !_LC093 & 
+             !_LC106 &  Reset &  _X046
+         # !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC086 &  _LC092 & 
+             !_LC093 &  Reset
+         # !clkL & !_LC081 & !_LC086 & !_LC106 &  Reset &  _X046 &  _X047
+         # !_LC081 &  _LC092 &  _LC093 & !_LC106 &  Reset &  _X046;
+  _X046  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024);
+  _X047  = EXP(!_LC081 & !_LC106);
 
 -- Node name is '|state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1~3' 
--- Equation name is '_LC087', type is buried 
+-- Equation name is '_LC088', type is buried 
 -- synthesized logic cell 
-_LC087   = LCELL( _EQ061 $  GND);
-  _EQ061 = !clkdiv & !_LC013 & !_LC021 & !_LC105 & !Reset &  _X041 &  _X042
-         #  _LC001 & !_LC021 &  _LC081 & !_LC105 & !Reset &  _X041
-         # !_LC001 & !_LC013 &  _LC081 & !Reset &  _X042
-         #  clkdiv &  _LC081
-         #  _LC086;
-  _X041  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026);
-  _X042  = EXP(!_LC021 & !_LC105);
+_LC088   = LCELL( _EQ061 $  GND);
+  _EQ061 = !clkL & !_LC081 & !_LC093 & !_LC106 &  Reset &  _X046 &  _X047
+         # !_LC081 &  _LC086 &  _LC092 & !_LC106 &  Reset &  _X046
+         # !_LC086 &  _LC092 & !_LC093 &  Reset &  _X047
+         #  clkL &  _LC092
+         #  _LC090;
+  _X046  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024);
+  _X047  = EXP(!_LC081 & !_LC106);
 
 -- Node name is '|state2b:9|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC081', type is buried 
+-- Equation name is '_LC092', type is buried 
 -- synthesized logic cell 
-_LC081   = LCELL( _EQ062 $  GND);
-  _EQ062 = !clkdiv & !_LC001 & !_LC013 & !_LC022 & !_LC023 & !_LC024 & 
-             !_LC026 & !Reset
-         # !clkdiv &  _LC013 & !_LC021 & !_LC105 & !Reset &  _X041
-         # !clkdiv &  _LC001 & !_LC021 & !_LC105 & !Reset &  _X041
-         # !clkdiv & !_LC001 & !_LC013 & !Reset &  _X042
-         #  _LC087;
-  _X041  = EXP(!_LC022 & !_LC023 & !_LC024 & !_LC026);
-  _X042  = EXP(!_LC021 & !_LC105);
+_LC092   = LCELL( _EQ062 $  GND);
+  _EQ062 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 & !_LC086 & !_LC093 & 
+              Reset
+         # !clkL & !_LC081 &  _LC093 & !_LC106 &  Reset &  _X046
+         # !clkL & !_LC081 &  _LC086 & !_LC106 &  Reset &  _X046
+         # !clkL & !_LC086 & !_LC093 &  Reset &  _X047
+         #  _LC088;
+  _X046  = EXP(!_LC021 & !_LC022 & !_LC023 & !_LC024);
+  _X047  = EXP(!_LC081 & !_LC106);
 
 -- Node name is '|state2b:9|c2b:5|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC013', type is buried 
+-- Equation name is '_LC093', type is buried 
 -- synthesized logic cell 
-_LC013   = LCELL( _EQ063 $  VCC);
-  _EQ063 =  clkdiv &  _LC081
-         # !_LC001 & !_LC013;
+_LC093   = LCELL( _EQ063 $  VCC);
+  _EQ063 =  clkL &  _LC092
+         # !_LC086 & !_LC093;
 
 -- Node name is '|state2b:9|c2b:5|reg1b:2|d_latch:17|~6~1' 
--- Equation name is '_LC001', type is buried 
+-- Equation name is '_LC086', type is buried 
 -- synthesized logic cell 
-_LC001   = LCELL( _EQ064 $  GND);
-  _EQ064 =  clkdiv & !_LC081;
+_LC086   = LCELL( _EQ064 $  GND);
+  _EQ064 =  clkL & !_LC092;
 
 -- Node name is '|state2b:10|c2b:5|reg1b:1|d_latch:16|~3~1' 
--- Equation name is '_LC110', type is buried 
+-- Equation name is '_LC025', type is buried 
 -- synthesized logic cell 
-_LC110   = LCELL( _EQ065 $  _EQ066);
-  _EQ065 = !clkdiv & !_LC022 & !_LC023 & !_LC024 & !_LC026 &  _LC097 &  _X014 & 
-              _X043 &  _X044 &  _X045 &  _X046 &  _X047 &  _X048
-         # !clkdiv & !_LC022 & !_LC026 & !_LC089 & !_LC090 &  _LC097 &  _X014 & 
-              _X043 &  _X044 &  _X045 &  _X046 &  _X047 &  _X048
-         # !clkdiv & !_LC021 &  _LC024 &  _LC089 & !_LC097 &  _X014 &  _X043 & 
-              _X044 &  _X045 &  _X046 &  _X047 &  _X048
-         # !clkdiv & !_LC021 &  _LC024 &  _LC090 & !_LC097 &  _X014 &  _X043 & 
-              _X044 &  _X045 &  _X046 &  _X047 &  _X048;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X043  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC089 & !_LC097);
-  _X044  = EXP( clkdiv & !_LC110);
-  _X045  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC090 & !_LC097);
-  _X046  = EXP(!clkdiv & !_LC021 &  _LC026 & !_LC097);
-  _X047  = EXP(!clkdiv & !_LC021 &  _LC022 & !_LC097);
-  _X048  = EXP(!clkdiv &  _LC021 &  _LC097);
-  _EQ066 =  _X014 &  _X043 &  _X044 &  _X045 &  _X046 &  _X047 &  _X048;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X043  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC089 & !_LC097);
-  _X044  = EXP( clkdiv & !_LC110);
-  _X045  = EXP(!clkdiv & !_LC021 &  _LC023 &  _LC090 & !_LC097);
-  _X046  = EXP(!clkdiv & !_LC021 &  _LC026 & !_LC097);
-  _X047  = EXP(!clkdiv & !_LC021 &  _LC022 & !_LC097);
-  _X048  = EXP(!clkdiv &  _LC021 &  _LC097);
+_LC025   = LCELL( _EQ065 $  _EQ066);
+  _EQ065 = !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 &  _LC028 &  _X019 & 
+              _X048 &  _X049 &  _X050 &  _X051 &  _X052 &  _X053
+         # !clkL & !_LC023 & !_LC024 & !_LC026 & !_LC027 &  _LC028 &  _X019 & 
+              _X048 &  _X049 &  _X050 &  _X051 &  _X052 &  _X053
+         # !clkL &  _LC021 &  _LC026 & !_LC028 & !_LC081 &  _X019 &  _X048 & 
+              _X049 &  _X050 &  _X051 &  _X052 &  _X053
+         # !clkL &  _LC021 &  _LC027 & !_LC028 & !_LC081 &  _X019 &  _X048 & 
+              _X049 &  _X050 &  _X051 &  _X052 &  _X053;
+  _X019  = EXP(!clkL & !Reset);
+  _X048  = EXP(!clkL &  _LC022 &  _LC026 & !_LC028 & !_LC081);
+  _X049  = EXP(!clkL &  _LC022 &  _LC027 & !_LC028 & !_LC081);
+  _X050  = EXP(!clkL &  _LC023 & !_LC028 & !_LC081);
+  _X051  = EXP(!clkL &  _LC024 & !_LC028 & !_LC081);
+  _X052  = EXP(!clkL &  _LC028 &  _LC081);
+  _X053  = EXP( clkL & !_LC025);
+  _EQ066 =  _X019 &  _X048 &  _X049 &  _X050 &  _X051 &  _X052 &  _X053;
+  _X019  = EXP(!clkL & !Reset);
+  _X048  = EXP(!clkL &  _LC022 &  _LC026 & !_LC028 & !_LC081);
+  _X049  = EXP(!clkL &  _LC022 &  _LC027 & !_LC028 & !_LC081);
+  _X050  = EXP(!clkL &  _LC023 & !_LC028 & !_LC081);
+  _X051  = EXP(!clkL &  _LC024 & !_LC028 & !_LC081);
+  _X052  = EXP(!clkL &  _LC028 &  _LC081);
+  _X053  = EXP( clkL & !_LC025);
 
 -- Node name is '|state2b:10|c2b:5|reg1b:1|d_latch:17|~2~1' 
--- Equation name is '_LC097', type is buried 
+-- Equation name is '_LC028', type is buried 
 -- synthesized logic cell 
-_LC097   = LCELL( _EQ067 $  GND);
-  _EQ067 =  clkdiv & !_LC110
-         # !clkdiv &  _LC097
-         #  _LC097 & !_LC110;
+_LC028   = LCELL( _EQ067 $  GND);
+  _EQ067 =  clkL & !_LC025
+         # !clkL &  _LC028
+         # !_LC025 &  _LC028;
 
 -- Node name is '|state2b:10|c2b:5|reg1b:2|d_latch:16|~3~1' 
--- Equation name is '_LC071', type is buried 
+-- Equation name is '_LC082', type is buried 
 -- synthesized logic cell 
-_LC071   = LCELL( _EQ068 $  _EQ069);
-  _EQ068 = !clkdiv & !_LC021 &  _LC024 & !_LC065 & !_LC068 & !_LC070 & 
-              _LC089 & !_LC097 &  _X014 &  _X049 &  _X050 &  _X051 &  _X052 & 
-              _X053 &  _X054
-         # !clkdiv & !_LC021 &  _LC024 & !_LC065 & !_LC068 & !_LC070 & 
-              _LC090 & !_LC097 &  _X014 &  _X049 &  _X050 &  _X051 &  _X052 & 
-              _X053 &  _X054
-         # !clkdiv & !_LC021 &  _LC023 & !_LC065 & !_LC068 & !_LC070 & 
-              _LC089 & !_LC097 &  _X014 &  _X049 &  _X050 &  _X051 &  _X052 & 
-              _X053 &  _X054
-         # !clkdiv & !_LC021 &  _LC023 & !_LC065 & !_LC068 & !_LC070 & 
-              _LC090 & !_LC097 &  _X014 &  _X049 &  _X050 &  _X051 &  _X052 & 
-              _X053 &  _X054;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X049  = EXP(!clkdiv &  _LC065 &  _LC097);
-  _X050  = EXP(!clkdiv & !_LC021 &  _LC026 & !_LC065 & !_LC070 & !_LC097);
-  _X051  = EXP(!clkdiv & !_LC021 &  _LC022 & !_LC065 & !_LC070 & !_LC097);
-  _X052  = EXP(!clkdiv &  _LC021 &  _LC070);
-  _X053  = EXP(!clkdiv &  _LC070 &  _LC097);
-  _X054  = EXP(!clkdiv &  _LC021 &  _LC065);
-  _EQ069 = !_LC068 &  _X014 &  _X049 &  _X050 &  _X051 &  _X052 &  _X053 & 
-              _X054;
-  _X014  = EXP(!clkdiv &  Reset);
-  _X049  = EXP(!clkdiv &  _LC065 &  _LC097);
-  _X050  = EXP(!clkdiv & !_LC021 &  _LC026 & !_LC065 & !_LC070 & !_LC097);
-  _X051  = EXP(!clkdiv & !_LC021 &  _LC022 & !_LC065 & !_LC070 & !_LC097);
-  _X052  = EXP(!clkdiv &  _LC021 &  _LC070);
-  _X053  = EXP(!clkdiv &  _LC070 &  _LC097);
-  _X054  = EXP(!clkdiv &  _LC021 &  _LC065);
+_LC082   = LCELL( _EQ068 $  _EQ069);
+  _EQ068 = !clkL &  _LC021 &  _LC026 & !_LC028 & !_LC081 & !_LC089 & !_LC091 & 
+             !_LC095 &  _X019 &  _X054 &  _X055 &  _X056 &  _X057 &  _X058 & 
+              _X059
+         # !clkL &  _LC021 &  _LC027 & !_LC028 & !_LC081 & !_LC089 & !_LC091 & 
+             !_LC095 &  _X019 &  _X054 &  _X055 &  _X056 &  _X057 &  _X058 & 
+              _X059
+         # !clkL &  _LC022 &  _LC026 & !_LC028 & !_LC081 & !_LC089 & !_LC091 & 
+             !_LC095 &  _X019 &  _X054 &  _X055 &  _X056 &  _X057 &  _X058 & 
+              _X059
+         # !clkL &  _LC022 &  _LC027 & !_LC028 & !_LC081 & !_LC089 & !_LC091 & 
+             !_LC095 &  _X019 &  _X054 &  _X055 &  _X056 &  _X057 &  _X058 & 
+              _X059;
+  _X019  = EXP(!clkL & !Reset);
+  _X054  = EXP(!clkL &  _LC028 &  _LC091);
+  _X055  = EXP(!clkL &  _LC023 & !_LC028 & !_LC081 & !_LC089 & !_LC091);
+  _X056  = EXP(!clkL &  _LC024 & !_LC028 & !_LC081 & !_LC089 & !_LC091);
+  _X057  = EXP(!clkL &  _LC081 &  _LC089);
+  _X058  = EXP(!clkL &  _LC028 &  _LC089);
+  _X059  = EXP(!clkL &  _LC081 &  _LC091);
+  _EQ069 = !_LC095 &  _X019 &  _X054 &  _X055 &  _X056 &  _X057 &  _X058 & 
+              _X059;
+  _X019  = EXP(!clkL & !Reset);
+  _X054  = EXP(!clkL &  _LC028 &  _LC091);
+  _X055  = EXP(!clkL &  _LC023 & !_LC028 & !_LC081 & !_LC089 & !_LC091);
+  _X056  = EXP(!clkL &  _LC024 & !_LC028 & !_LC081 & !_LC089 & !_LC091);
+  _X057  = EXP(!clkL &  _LC081 &  _LC089);
+  _X058  = EXP(!clkL &  _LC028 &  _LC089);
+  _X059  = EXP(!clkL &  _LC081 &  _LC091);
 
 -- Node name is '|state2b:10|c2b:5|reg1b:2|d_latch:17|~2~1' 
--- Equation name is '_LC070', type is buried 
+-- Equation name is '_LC089', type is buried 
 -- synthesized logic cell 
-_LC070   = LCELL( _EQ070 $  VCC);
-  _EQ070 =  clkdiv &  _LC071
-         # !_LC065 & !_LC070;
+_LC089   = LCELL( _EQ070 $  VCC);
+  _EQ070 =  clkL &  _LC082
+         # !_LC089 & !_LC091;
 
 -- Node name is '|state2b:10|c2b:5|reg1b:2|d_latch:17|~6~1' 
--- Equation name is '_LC065', type is buried 
+-- Equation name is '_LC091', type is buried 
 -- synthesized logic cell 
-_LC065   = LCELL( _EQ071 $  GND);
-  _EQ071 =  clkdiv & !_LC071;
+_LC091   = LCELL( _EQ071 $  GND);
+  _EQ071 =  clkL & !_LC082;
 
 -- Node name is '|state2b:10|c2b:5|reg1b:2|d_latch:17|~6~2' 
--- Equation name is '_LC068', type is buried 
+-- Equation name is '_LC095', type is buried 
 -- synthesized logic cell 
-_LC068   = LCELL( _EQ072 $  GND);
-  _EQ072 =  clkdiv & !_LC071
-         # !clkdiv & !_LC022 & !_LC023 & !_LC024 & !_LC026 &  _LC070
-         # !clkdiv & !_LC022 & !_LC026 &  _LC070 & !_LC089 & !_LC090
-         # !clkdiv & !_LC022 & !_LC023 & !_LC024 & !_LC026 &  _LC065
-         # !clkdiv & !_LC022 & !_LC026 &  _LC065 & !_LC089 & !_LC090;
+_LC095   = LCELL( _EQ072 $  GND);
+  _EQ072 =  clkL & !_LC082
+         # !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 &  _LC089
+         # !clkL & !_LC023 & !_LC024 & !_LC026 & !_LC027 &  _LC089
+         # !clkL & !_LC021 & !_LC022 & !_LC023 & !_LC024 &  _LC091
+         # !clkL & !_LC023 & !_LC024 & !_LC026 & !_LC027 &  _LC091;
 
 -- Node name is '~11~2' 
--- Equation name is '~11~2', location is LC100, type is buried.
+-- Equation name is '~11~2', location is LC110, type is buried.
 -- synthesized logic cell 
-_LC100   = LCELL( _EQ073 $  GND);
-  _EQ073 =  DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC101 & !_LC109
-         # !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC102 & !_LC105
-         #  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en &  _LC102 & !_LC105
-         #  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC097 &  _LC110
-         #  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC041 & !_LC098;
+_LC110   = LCELL( _EQ073 $  GND);
+  _EQ073 =  DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC101 & !_LC105
+         # !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC106 &  _LC108
+         #  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC106 &  _LC108
+         #  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC025 & !_LC028
+         #  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC051 & !_LC121;
 
 -- Node name is '~11~3' 
--- Equation name is '~11~3', location is LC112, type is buried.
+-- Equation name is '~11~3', location is LC102, type is buried.
 -- synthesized logic cell 
-_LC112   = LCELL( _EQ074 $  GND);
-  _EQ074 =  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC074 & !_LC099
-         # !DCIM_b0 &  DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC101 & !_LC109
-         # !clkdiv & !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC105
-         # !clkdiv &  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC105
-         # !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC097 &  _LC110;
+_LC102   = LCELL( _EQ074 $  GND);
+  _EQ074 =  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC067 & !_LC122
+         # !DCIM_b0 &  DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC101 & !_LC105
+         # !clkL & !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC106
+         # !clkL &  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC106
+         # !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en &  _LC025 & !_LC028;
 
 -- Node name is '~11~4' 
--- Equation name is '~11~4', location is LC108, type is buried.
+-- Equation name is '~11~4', location is LC120, type is buried.
 -- synthesized logic cell 
-_LC108   = LCELL( _EQ075 $  GND);
-  _EQ075 = !clkdiv &  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC097
-         # !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC041 & !_LC098
-         # !clkdiv &  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC098
-         # !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC074 & !_LC099
-         # !clkdiv &  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC099;
-
--- Node name is '~11~5' 
--- Equation name is '~11~5', location is LC003, type is buried.
--- synthesized logic cell 
-_LC003   = LCELL( _EQ076 $  GND);
-  _EQ076 = !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC035 & !_LC106
-         #  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC035 & !_LC106
-         #  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC091 & !_LC121
-         # !clkdiv & !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC097
-         # !clkdiv & !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC098;
+_LC120   = LCELL( _EQ075 $  GND);
+  _EQ075 = !clkL &  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC028
+         # !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC051 & !_LC121
+         # !clkL &  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC121
+         # !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC067 & !_LC122
+         # !clkL &  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC122;
 
 -- Node name is '~12~2' 
--- Equation name is '~12~2', location is LC002, type is buried.
+-- Equation name is '~12~2', location is LC128, type is buried.
 -- synthesized logic cell 
-_LC002   = LCELL( _EQ077 $  GND);
-  _EQ077 =  DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC009 & !_LC015
-         #  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC033 & !_LC113
-         #  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC066 & !_LC122
-         # !DCIM_b0 &  DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC009 & !_LC015
-         # !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC001 & !_LC013;
+_LC128   = LCELL( _EQ076 $  GND);
+  _EQ076 =  DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC017 & !_LC032
+         #  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC053 & !_LC114
+         #  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC075 & !_LC113
+         # !DCIM_b0 &  DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC017 & !_LC032
+         # !DCOM_b0 &  DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC086 & !_LC093;
 
 -- Node name is '~12~3' 
--- Equation name is '~12~3', location is LC123, type is buried.
+-- Equation name is '~12~3', location is LC127, type is buried.
 -- synthesized logic cell 
-_LC123   = LCELL( _EQ078 $  GND);
-  _EQ078 =  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC001 & !_LC013
-         #  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC065 & !_LC070
-         # !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC033 & !_LC113
-         # !clkdiv &  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC113
-         # !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC066 & !_LC122;
+_LC127   = LCELL( _EQ077 $  GND);
+  _EQ077 =  DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC086 & !_LC093
+         #  DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en & !_LC089 & !_LC091
+         # !DCOM_b0 & !DCOM_b1 &  DCOM_b2 &  DCOM_en &  _LC053 & !_LC114
+         # !clkL &  DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en & !_LC114
+         # !DCIM_b0 &  DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC075 & !_LC113;
 
 -- Node name is '~12~4' 
--- Equation name is '~12~4', location is LC116, type is buried.
+-- Equation name is '~12~4', location is LC125, type is buried.
 -- synthesized logic cell 
-_LC116   = LCELL( _EQ079 $  GND);
-  _EQ079 = !clkdiv &  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC122
-         # !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC043 & !_LC124
-         #  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC043 & !_LC124
-         #  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC058 & !_LC114
-         # !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC065 & !_LC070;
+_LC125   = LCELL( _EQ078 $  GND);
+  _EQ078 = !clkL &  DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en & !_LC113
+         # !DCOM_b0 &  DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC074 & !_LC124
+         #  DCIM_b0 & !DCIM_b1 & !DCIM_b2 &  DCIM_en &  _LC074 & !_LC124
+         #  DCOM_b0 & !DCOM_b1 & !DCOM_b2 &  DCOM_en &  _LC046 & !_LC123
+         # !DCIM_b0 & !DCIM_b1 &  DCIM_b2 &  DCIM_en & !_LC089 & !_LC091;
 
 
 
 --     Shareable expanders that are duplicated in multiple LABs:
---    _X014 occurs in LABs D, E, F, G
---    _X035 occurs in LABs C, E
---    _X041 occurs in LABs F, G
+--    _X019 occurs in LABs B, C, D, F
+--    _X040 occurs in LABs D, E
+--    _X046 occurs in LABs F, G
 
 
 
@@ -1923,8 +1925,8 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
-   Fitter                                 00:00:01
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
@@ -1934,4 +1936,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,338K
+Peak memory allocated during compilation  = 4,633K

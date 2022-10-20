@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.2 07/10/2002            
--- Compiled: 10/15/2022 22:33:26      
+-- Compiled: 10/18/2022 11:43:06      
 
 -- Copyright (C) 1988-2002 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -34,13 +34,13 @@ BEGIN
     "q1"                           : OUTPUT_PIN = 76     ; -- LC120
     "q2"                           : OUTPUT_PIN = 74     ; -- LC117
     "q3"                           : OUTPUT_PIN = 73     ; -- LC115
-    "|t_ff:2|d_latch:1|~3~1"       : LOCATION   = LC123  ; -- PIN 77
-    "|t_ff:3|d_latch:1|~3~1"       : LOCATION   = LC121  ;
-    "|t_ff:3|d_latch:1|~3~1~2"     : LOCATION   = LC122  ;
-    "|t_ff:4|d_latch:1|~3~1"       : LOCATION   = LC116  ;
-    "|t_ff:4|d_latch:1|~3~1~2"     : LOCATION   = LC119  ;
-    "|t_ff:5|d_latch:1|~3~1"       : LOCATION   = LC113  ;
-    "|t_ff:5|d_latch:1|~3~1~2"     : LOCATION   = LC114  ;
+    "|t_ff:16|d_latch:1|~3~1"      : LOCATION   = LC123  ; -- PIN 77
+    "|t_ff:17|d_latch:1|~3~1"      : LOCATION   = LC121  ;
+    "|t_ff:17|d_latch:1|~3~1~2"    : LOCATION   = LC122  ;
+    "|t_ff:18|d_latch:1|~3~1"      : LOCATION   = LC116  ;
+    "|t_ff:18|d_latch:1|~3~1~2"    : LOCATION   = LC119  ;
+    "|t_ff:19|d_latch:1|~3~1"      : LOCATION   = LC113  ;
+    "|t_ff:19|d_latch:1|~3~1~2"    : LOCATION   = LC114  ;
 
 END;
 

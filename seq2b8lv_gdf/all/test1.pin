@@ -101,8 +101,8 @@ RESERVED                         : 69
 RESERVED                         : 70
 TDO                              : 71
 GND                              : 72
-Q                                : 73
-RESERVED                         : 74
+h                                : 73
+Q                                : 74
 RESERVED                         : 75
 RESERVED                         : 76
 RESERVED                         : 77

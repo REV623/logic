@@ -1,0 +1,928 @@
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 10/18/2022 13:44:24
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+test3     EPM7128SLC84-6   5        12       0      44      7           34 %
+
+User Pins:                 5        12       0  
+
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+
+** AUTO GLOBAL SIGNALS **
+
+
+
+INFO: Signal 'gclk' chosen for auto global Clock
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+
+** PIN/LOCATION/CHIP ASSIGNMENTS **
+
+                  Actual                  
+    User       Assignments                
+Assignments   (if different)     Node Name
+
+test3@33                          a
+test3@34                          b
+test3@35                          c
+test3@36                          d
+test3@37                          e
+test3@39                          f
+test3@40                          g
+test3@83                          gclk
+test3@11                          lclk
+test3@21                          l0
+test3@20                          l1
+test3@18                          l2
+test3@17                          l3
+test3@56                          on
+test3@54                          Re
+test3@55                          set0
+test3@49                          up
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+
+** FILE HIERARCHY **
+
+
+
+|clkdiv18:1|
+|mem4:2|
+|mem4:2|t_ff:39|
+|mem4:2|t_ff:39|d_latch:1|
+|mem4:2|t_ff:39|d_latch:2|
+|mem4:2|t_ff:42|
+|mem4:2|t_ff:42|d_latch:1|
+|mem4:2|t_ff:42|d_latch:2|
+|mem4:2|t_ff:41|
+|mem4:2|t_ff:41|d_latch:1|
+|mem4:2|t_ff:41|d_latch:2|
+|mem4:2|t_ff:40|
+|mem4:2|t_ff:40|d_latch:1|
+|mem4:2|t_ff:40|d_latch:2|
+|7447:10|
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+***** Logic for device 'test3' compiled without errors.
+
+
+
+
+Device: EPM7128SLC84-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    Enable JTAG Support                        = ON
+    User Code                                  = ffff
+    MultiVolt I/O                              = OFF
+
+                 R  R  R     R  R  R                    R  R  R     R  R  R  
+                 E  E  E     E  E  E                    E  E  E     E  E  E  
+                 S  S  S     S  S  S  V                 S  S  S     S  S  S  
+                 E  E  E     E  E  E  C                 E  E  E  V  E  E  E  
+              l  R  R  R     R  R  R  C           g     R  R  R  C  R  R  R  
+              c  V  V  V  G  V  V  V  I  G  G  G  c  G  V  V  V  C  V  V  V  
+              l  E  E  E  N  E  E  E  N  N  N  N  l  N  E  E  E  I  E  E  E  
+              k  D  D  D  D  D  D  D  T  D  D  D  k  D  D  D  D  O  D  D  D  
+            -----------------------------------------------------------------_ 
+          /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+RESERVED | 12                                                              74 | RESERVED 
+   VCCIO | 13                                                              73 | RESERVED 
+    #TDI | 14                                                              72 | GND 
+RESERVED | 15                                                              71 | #TDO 
+RESERVED | 16                                                              70 | RESERVED 
+      l3 | 17                                                              69 | RESERVED 
+      l2 | 18                                                              68 | RESERVED 
+     GND | 19                                                              67 | RESERVED 
+      l1 | 20                                                              66 | VCCIO 
+      l0 | 21                                                              65 | RESERVED 
+RESERVED | 22                        EPM7128SLC84-6                        64 | RESERVED 
+    #TMS | 23                                                              63 | RESERVED 
+RESERVED | 24                                                              62 | #TCK 
+RESERVED | 25                                                              61 | RESERVED 
+   VCCIO | 26                                                              60 | RESERVED 
+RESERVED | 27                                                              59 | GND 
+RESERVED | 28                                                              58 | RESERVED 
+RESERVED | 29                                                              57 | RESERVED 
+RESERVED | 30                                                              56 | on 
+RESERVED | 31                                                              55 | set0 
+     GND | 32                                                              54 | Re 
+         |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+           ------------------------------------------------------------------ 
+              a  b  c  d  e  V  f  g  R  G  V  R  R  R  G  R  u  R  R  R  V  
+                             C        E  N  C  E  E  E  N  E  p  E  E  E  C  
+                             C        S  D  C  S  S  S  D  S     S  S  S  C  
+                             I        E     I  E  E  E     E     E  E  E  I  
+                             O        R     N  R  R  R     R     R  R  R  O  
+                                      V     T  V  V  V     V     V  V  V     
+                                      E        E  E  E     E     E  E  E     
+                                      D        D  D  D     D     D  D  D     
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     1/16(  6%)   1/ 8( 12%)   0/16(  0%)   1/36(  2%) 
+B:    LC17 - LC32    16/16(100%)   5/ 8( 62%)  11/16( 68%)  19/36( 52%) 
+C:    LC33 - LC48     0/16(  0%)   1/ 8( 12%)   0/16(  0%)   0/36(  0%) 
+D:    LC49 - LC64     7/16( 43%)   7/ 8( 87%)   5/16( 31%)   7/36( 19%) 
+E:    LC65 - LC80     0/16(  0%)   1/ 8( 12%)   0/16(  0%)   0/36(  0%) 
+F:    LC81 - LC96     0/16(  0%)   4/ 8( 50%)   0/16(  0%)   0/36(  0%) 
+G:   LC97 - LC112     4/16( 25%)   1/ 8( 12%)   0/16(  0%)   4/36( 11%) 
+H:  LC113 - LC128    16/16(100%)   0/ 8(  0%)   0/16(  0%)  16/36( 44%) 
+
+
+Total dedicated input pins used:                 1/4      ( 25%)
+Total I/O pins used:                            20/64     ( 31%)
+Total logic cells used:                         44/128    ( 34%)
+Total shareable expanders used:                  7/128    (  5%)
+Total Turbo logic cells used:                   44/128    ( 34%)
+Total shareable expanders not available (n/a):   9/128    (  7%)
+Average fan-in:                                  4.54
+Total fan-in:                                   200
+
+Total input pins required:                       5
+Total fast input logic cells required:           0
+Total output pins required:                     12
+Total bidirectional pins required:               0
+Total reserved pins required                     4
+Total logic cells required:                     44
+Total flipflops required:                       19
+Total product terms required:                  123
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           6
+
+Synthesized logic cells:                        15/ 128   ( 11%)
+
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  83      -   -       INPUT  G            0      0   0    0    0    0    0  gclk
+  56   (86)  (F)      INPUT               0      0   0    0    0    0    2  on
+  54   (83)  (F)      INPUT               0      0   0    0    0    0    7  Re
+  55   (85)  (F)      INPUT               0      0   0    0    0    0    7  set0
+  49   (73)  (E)      INPUT               0      0   0    0    0    0    7  up
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  33     64    D     OUTPUT      t        2      1   0    0    7    0    0  a
+  34     61    D     OUTPUT      t        1      0   1    0    7    0    0  b
+  35     59    D     OUTPUT      t        0      0   0    0    7    0    0  c
+  36     57    D     OUTPUT      t        1      0   1    0    5    0    0  d
+  37     56    D     OUTPUT      t        0      0   0    0    5    0    0  e
+  39     53    D     OUTPUT      t        0      0   0    0    7    0    0  f
+  40     51    D     OUTPUT      t        1      0   1    0    7    0    0  g
+  11      5    A         FF      t        0      0   0    0    1    1   13  lclk (|clkdiv18:1|:65)
+  21     19    B     OUTPUT      t        0      0   0    0    2    0    0  l0
+  20     21    B     OUTPUT      t        0      0   0    0    2    0    0  l1
+  18     24    B     OUTPUT    s t        0      0   0    0    3    8    7  l2
+  17     25    B     OUTPUT      t        0      0   0    0    2    0    0  l3
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (75)   118    H       TFFE   +  t        0      0   0    0    0    0    1  |clkdiv18:1|:38
+   -    121    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:40
+   -    127    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:41
+ (74)   117    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:50
+   -    119    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:51
+ (76)   120    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:52
+   -    122    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:53
+ (77)   123    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:54
+ (81)   128    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:55
+   -    116    H       TFFE      t        0      0   0    0    1    1    0  |clkdiv18:1|:56
+   -    114    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:57
+   -    113    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:58
+ (80)   126    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:59
+   -    124    H       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:60
+ (69)   107    G       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:61
+   -    106    G       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:62
+ (67)   104    G       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:63
+   -    100    G       TFFE      t        0      0   0    0    1    0    1  |clkdiv18:1|:64
+   -     31    B      LCELL    s t        3      2   1    4    9    0    1  |mem4:2|t_ff:39|d_latch:1|~3~1~2
+ (79)   125    H      LCELL    s t        0      0   0    0    3    0    1  |mem4:2|t_ff:39|d_latch:1|~3~1~3
+   -     20    B      LCELL    s t        3      2   1    4    9    0    4  |mem4:2|t_ff:39|d_latch:1|~3~1
+ (22)    17    B      LCELL    s t        0      0   0    0    4    8    8  |mem4:2|t_ff:39|d_latch:2|~2~1
+ (73)   115    H      LCELL    s t        0      0   0    0    2    8    8  |mem4:2|t_ff:39|d_latch:2|~6~1
+   -     30    B      LCELL    s t        2      2   0    3    8    0    1  |mem4:2|t_ff:40|d_latch:1|~3~1~2
+ (14)    32    B      LCELL    s t        3      2   1    3   10    0    4  |mem4:2|t_ff:40|d_latch:1|~3~1
+   -     28    B      LCELL    s t        0      0   0    0    4    8    8  |mem4:2|t_ff:40|d_latch:2|~2~1
+   -     22    B      LCELL    s t        0      0   0    0    2    8    8  |mem4:2|t_ff:40|d_latch:2|~6~1
+   -     26    B      LCELL    s t        2      1   1    3    9    0    1  |mem4:2|t_ff:41|d_latch:1|~3~1~2
+   -     18    B      LCELL    s t        2      1   1    3   10    1    2  |mem4:2|t_ff:41|d_latch:1|~3~1
+ (15)    29    B      LCELL    s t        1      0   1    3    9    0    3  |mem4:2|t_ff:42|d_latch:1|~3~1
+   -     23    B      LCELL    s t        0      0   0    0    4    6    8  |mem4:2|t_ff:42|d_latch:2|~2~1
+ (16)    27    B      LCELL    s t        0      0   0    0    2    6    8  |mem4:2|t_ff:42|d_latch:2|~6~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+           Logic cells placed in LAB 'A'
+        +- LC5 lclk
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'A'
+LC      | | A B C D E F G H |     Logic cells that feed LAB 'A':
+
+Pin
+83   -> - | - - - - - - - - | <-- gclk
+LC116-> * | * - - - - - - - | <-- |clkdiv18:1|:56
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC19 l0
+        | +----------------------------- LC21 l1
+        | | +--------------------------- LC24 l2
+        | | | +------------------------- LC25 l3
+        | | | | +----------------------- LC31 |mem4:2|t_ff:39|d_latch:1|~3~1~2
+        | | | | | +--------------------- LC20 |mem4:2|t_ff:39|d_latch:1|~3~1
+        | | | | | | +------------------- LC17 |mem4:2|t_ff:39|d_latch:2|~2~1
+        | | | | | | | +----------------- LC30 |mem4:2|t_ff:40|d_latch:1|~3~1~2
+        | | | | | | | | +--------------- LC32 |mem4:2|t_ff:40|d_latch:1|~3~1
+        | | | | | | | | | +------------- LC28 |mem4:2|t_ff:40|d_latch:2|~2~1
+        | | | | | | | | | | +----------- LC22 |mem4:2|t_ff:40|d_latch:2|~6~1
+        | | | | | | | | | | | +--------- LC26 |mem4:2|t_ff:41|d_latch:1|~3~1~2
+        | | | | | | | | | | | | +------- LC18 |mem4:2|t_ff:41|d_latch:1|~3~1
+        | | | | | | | | | | | | | +----- LC29 |mem4:2|t_ff:42|d_latch:1|~3~1
+        | | | | | | | | | | | | | | +--- LC23 |mem4:2|t_ff:42|d_latch:2|~2~1
+        | | | | | | | | | | | | | | | +- LC27 |mem4:2|t_ff:42|d_latch:2|~6~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'B':
+LC24 -> - - * - * * - * * - - * * * - - | - * - * - - - - | <-- l2
+LC20 -> - - - - * - * - - - - - - - - - | - * - - - - - * | <-- |mem4:2|t_ff:39|d_latch:1|~3~1
+LC17 -> * - - - * * * * * - - * * * - - | - * - * - - - - | <-- |mem4:2|t_ff:39|d_latch:2|~2~1
+LC30 -> - - - - - - - - * - - - - - - - | - * - - - - - - | <-- |mem4:2|t_ff:40|d_latch:1|~3~1~2
+LC32 -> - - - - - - - * * * * - - - - - | - * - - - - - - | <-- |mem4:2|t_ff:40|d_latch:1|~3~1
+LC28 -> - * - - * * - * * * - * * * - - | - * - * - - - - | <-- |mem4:2|t_ff:40|d_latch:2|~2~1
+LC22 -> - * - - * * - * * * - * * * - - | - * - * - - - - | <-- |mem4:2|t_ff:40|d_latch:2|~6~1
+LC26 -> - - - - - - - - - - - - * - - - | - * - - - - - - | <-- |mem4:2|t_ff:41|d_latch:1|~3~1~2
+LC18 -> - - * - - - - - - - - * * - - - | - * - - - - - - | <-- |mem4:2|t_ff:41|d_latch:1|~3~1
+LC29 -> - - - - - - - - - - - - - * * * | - * - - - - - - | <-- |mem4:2|t_ff:42|d_latch:1|~3~1
+LC23 -> - - - * * * - * * - - * * * * - | - * - * - - - - | <-- |mem4:2|t_ff:42|d_latch:2|~2~1
+LC27 -> - - - * * * - * * - - * * * * - | - * - * - - - - | <-- |mem4:2|t_ff:42|d_latch:2|~6~1
+
+Pin
+83   -> - - - - - - - - - - - - - - - - | - - - - - - - - | <-- gclk
+56   -> - - - - * * - - - - - - - - - - | - * - - - - - - | <-- on
+54   -> - - - - * * - * * - - * * * - - | - * - - - - - - | <-- Re
+55   -> - - - - * * - * * - - * * * - - | - * - - - - - - | <-- set0
+49   -> - - - - * * - * * - - * * * - - | - * - - - - - - | <-- up
+LC5  -> - - * - * * * - * * * * * * * * | - * - - - - - * | <-- lclk
+LC125-> - - - - - * - - - - - - - - - - | - * - - - - - - | <-- |mem4:2|t_ff:39|d_latch:1|~3~1~3
+LC115-> * - - - * * * * * - - * * * - - | - * - * - - - - | <-- |mem4:2|t_ff:39|d_latch:2|~6~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                       Logic cells placed in LAB 'D'
+        +------------- LC64 a
+        | +----------- LC61 b
+        | | +--------- LC59 c
+        | | | +------- LC57 d
+        | | | | +----- LC56 e
+        | | | | | +--- LC53 f
+        | | | | | | +- LC51 g
+        | | | | | | | 
+        | | | | | | |   Other LABs fed by signals
+        | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'D':
+
+Pin
+83   -> - - - - - - - | - - - - - - - - | <-- gclk
+LC24 -> * * * * * * * | - * - * - - - - | <-- l2
+LC17 -> * * * * * * * | - * - * - - - - | <-- |mem4:2|t_ff:39|d_latch:2|~2~1
+LC115-> * * * * * * * | - * - * - - - - | <-- |mem4:2|t_ff:39|d_latch:2|~6~1
+LC28 -> * * * * * * * | - * - * - - - - | <-- |mem4:2|t_ff:40|d_latch:2|~2~1
+LC22 -> * * * * * * * | - * - * - - - - | <-- |mem4:2|t_ff:40|d_latch:2|~6~1
+LC23 -> * * * - - * * | - * - * - - - - | <-- |mem4:2|t_ff:42|d_latch:2|~2~1
+LC27 -> * * * - - * * | - * - * - - - - | <-- |mem4:2|t_ff:42|d_latch:2|~6~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'G':
+
+                 Logic cells placed in LAB 'G'
+        +------- LC107 |clkdiv18:1|:61
+        | +----- LC106 |clkdiv18:1|:62
+        | | +--- LC104 |clkdiv18:1|:63
+        | | | +- LC100 |clkdiv18:1|:64
+        | | | | 
+        | | | |   Other LABs fed by signals
+        | | | |   that feed LAB 'G'
+LC      | | | | | A B C D E F G H |     Logic cells that feed LAB 'G':
+LC106-> * * - - | - - - - - - * - | <-- |clkdiv18:1|:62
+LC104-> - * * - | - - - - - - * - | <-- |clkdiv18:1|:63
+LC100-> - - * * | - - - - - - * - | <-- |clkdiv18:1|:64
+
+Pin
+83   -> - - - - | - - - - - - - - | <-- gclk
+LC123-> - - - * | - - - - - - * - | <-- |clkdiv18:1|:54
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'H':
+
+                                         Logic cells placed in LAB 'H'
+        +------------------------------- LC118 |clkdiv18:1|:38
+        | +----------------------------- LC121 |clkdiv18:1|:40
+        | | +--------------------------- LC127 |clkdiv18:1|:41
+        | | | +------------------------- LC117 |clkdiv18:1|:50
+        | | | | +----------------------- LC119 |clkdiv18:1|:51
+        | | | | | +--------------------- LC120 |clkdiv18:1|:52
+        | | | | | | +------------------- LC122 |clkdiv18:1|:53
+        | | | | | | | +----------------- LC123 |clkdiv18:1|:54
+        | | | | | | | | +--------------- LC128 |clkdiv18:1|:55
+        | | | | | | | | | +------------- LC116 |clkdiv18:1|:56
+        | | | | | | | | | | +----------- LC114 |clkdiv18:1|:57
+        | | | | | | | | | | | +--------- LC113 |clkdiv18:1|:58
+        | | | | | | | | | | | | +------- LC126 |clkdiv18:1|:59
+        | | | | | | | | | | | | | +----- LC124 |clkdiv18:1|:60
+        | | | | | | | | | | | | | | +--- LC125 |mem4:2|t_ff:39|d_latch:1|~3~1~3
+        | | | | | | | | | | | | | | | +- LC115 |mem4:2|t_ff:39|d_latch:2|~6~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'H'
+LC      | | | | | | | | | | | | | | | | | A B C D E F G H |     Logic cells that feed LAB 'H':
+LC118-> * * - - - - - - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:38
+LC121-> - * * - - - - - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:40
+LC127-> - - * - * - - - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:41
+LC117-> - - - * - - * - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:50
+LC119-> - - - * * - - - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:51
+LC120-> - - - - - * - - * - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:52
+LC122-> - - - - - * * - - - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:53
+LC128-> - - - - - - - * * - - - - - - - | - - - - - - - * | <-- |clkdiv18:1|:55
+LC114-> - - - - - - - - - * * - - - - - | - - - - - - - * | <-- |clkdiv18:1|:57
+LC113-> - - - - - - - - - - * * - - - - | - - - - - - - * | <-- |clkdiv18:1|:58
+LC126-> - - - - - - - - - - - * * - - - | - - - - - - - * | <-- |clkdiv18:1|:59
+LC124-> - - - - - - - - - - - - * * - - | - - - - - - - * | <-- |clkdiv18:1|:60
+
+Pin
+83   -> - - - - - - - - - - - - - - - - | - - - - - - - - | <-- gclk
+LC107-> - - - - - - - - - - - - - * - - | - - - - - - - * | <-- |clkdiv18:1|:61
+LC5  -> - - - - - - - - - - - - - - * * | - * - - - - - * | <-- lclk
+LC31 -> - - - - - - - - - - - - - - * - | - - - - - - - * | <-- |mem4:2|t_ff:39|d_latch:1|~3~1~2
+LC20 -> - - - - - - - - - - - - - - * * | - * - - - - - * | <-- |mem4:2|t_ff:39|d_latch:1|~3~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+test3
+
+** EQUATIONS **
+
+gclk     : INPUT;
+on       : INPUT;
+Re       : INPUT;
+set0     : INPUT;
+up       : INPUT;
+
+-- Node name is 'a' 
+-- Equation name is 'a', location is LC064, type is output.
+ a       = LCELL( _EQ001 $  GND);
+  _EQ001 = !_LC017 &  _LC022 & !_LC115 & !l2 &  _X001
+         # !_LC017 &  _LC028 & !_LC115 & !l2 &  _X001
+         # !_LC022 & !_LC023 & !_LC027 & !_LC028
+         #  l2 &  _X002;
+  _X001  = EXP(!_LC023 & !_LC027);
+  _X002  = EXP(!_LC017 & !_LC115);
+
+-- Node name is 'b' 
+-- Equation name is 'b', location is LC061, type is output.
+ b       = LCELL( _EQ002 $  GND);
+  _EQ002 = !_LC022 & !_LC028 &  _LC115 &  l2
+         #  _LC017 & !_LC022 & !_LC028 &  l2
+         # !_LC017 &  _LC022 & !_LC115 &  l2
+         # !_LC017 &  _LC028 & !_LC115 &  l2
+         # !_LC022 & !_LC023 & !_LC027 & !_LC028;
+
+-- Node name is 'c' 
+-- Equation name is 'c', location is LC059, type is output.
+ c       = LCELL( _EQ003 $  GND);
+  _EQ003 =  _LC017 & !_LC022 & !_LC028 & !l2
+         # !_LC022 & !_LC028 &  _LC115 & !l2
+         # !_LC023 & !_LC027 &  l2;
+
+-- Node name is 'd' 
+-- Equation name is 'd', location is LC057, type is output.
+ d       = LCELL( _EQ004 $  l2);
+  _EQ004 =  _LC017 & !_LC022 & !_LC028 &  l2
+         # !_LC022 & !_LC028 &  _LC115 &  l2
+         # !_LC017 &  _LC028 & !_LC115
+         # !_LC017 &  _LC022 & !_LC115;
+
+-- Node name is 'e' 
+-- Equation name is 'e', location is LC056, type is output.
+ e       = LCELL( _EQ005 $  GND);
+  _EQ005 =  _LC022 &  l2
+         #  _LC028 &  l2
+         # !_LC017 & !_LC115;
+
+-- Node name is 'f' 
+-- Equation name is 'f', location is LC053, type is output.
+ f       = LCELL( _EQ006 $  GND);
+  _EQ006 = !_LC017 &  _LC027 & !_LC115 & !l2
+         # !_LC017 &  _LC023 & !_LC115 & !l2
+         # !_LC017 & !_LC022 & !_LC028 & !_LC115
+         # !_LC022 & !_LC028 & !l2;
+
+-- Node name is 'g' 
+-- Equation name is 'g', location is LC051, type is output.
+ g       = LCELL( _EQ007 $ !l2);
+  _EQ007 = !_LC017 & !_LC022 & !_LC028 & !_LC115 &  l2
+         #  _LC022 & !_LC023 & !_LC027 & !l2
+         # !_LC023 & !_LC027 &  _LC028 & !l2
+         # !_LC022 & !_LC028 & !l2;
+
+-- Node name is 'lclk' = '|clkdiv18:1|clk_div' 
+-- Equation name is 'lclk', type is output 
+ lclk    = TFFE( VCC,  _LC116,  VCC,  VCC,  VCC);
+
+-- Node name is 'l0' 
+-- Equation name is 'l0', location is LC019, type is output.
+ l0      = LCELL( _EQ008 $  GND);
+  _EQ008 = !_LC017 & !_LC115;
+
+-- Node name is 'l1' 
+-- Equation name is 'l1', location is LC021, type is output.
+ l1      = LCELL( _EQ009 $  GND);
+  _EQ009 = !_LC022 & !_LC028;
+
+-- Node name is 'l2' = '|mem4:2|t_ff:41|d_latch:2|~3~1' 
+-- Equation name is 'l2', type is output 
+ l2      = LCELL( _EQ010 $  GND);
+  _EQ010 =  lclk &  _LC018
+         # !lclk &  l2
+         #  _LC018 &  l2;
+
+-- Node name is 'l3' 
+-- Equation name is 'l3', location is LC025, type is output.
+ l3      = LCELL( _EQ011 $  GND);
+  _EQ011 = !_LC023 & !_LC027;
+
+-- Node name is '|clkdiv18:1|:38' 
+-- Equation name is '_LC118', type is buried 
+_LC118   = TFFE( VCC, GLOBAL( gclk),  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:40' 
+-- Equation name is '_LC121', type is buried 
+_LC121   = TFFE( VCC,  _LC118,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:41' 
+-- Equation name is '_LC127', type is buried 
+_LC127   = TFFE( VCC,  _LC121,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:50' 
+-- Equation name is '_LC117', type is buried 
+_LC117   = TFFE( VCC,  _LC119,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:51' 
+-- Equation name is '_LC119', type is buried 
+_LC119   = TFFE( VCC,  _LC127,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:52' 
+-- Equation name is '_LC120', type is buried 
+_LC120   = TFFE( VCC,  _LC122,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:53' 
+-- Equation name is '_LC122', type is buried 
+_LC122   = TFFE( VCC,  _LC117,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:54' 
+-- Equation name is '_LC123', type is buried 
+_LC123   = TFFE( VCC,  _LC128,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:55' 
+-- Equation name is '_LC128', type is buried 
+_LC128   = TFFE( VCC,  _LC120,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:56' 
+-- Equation name is '_LC116', type is buried 
+_LC116   = TFFE( VCC,  _LC114,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:57' 
+-- Equation name is '_LC114', type is buried 
+_LC114   = TFFE( VCC,  _LC113,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:58' 
+-- Equation name is '_LC113', type is buried 
+_LC113   = TFFE( VCC,  _LC126,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:59' 
+-- Equation name is '_LC126', type is buried 
+_LC126   = TFFE( VCC,  _LC124,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:60' 
+-- Equation name is '_LC124', type is buried 
+_LC124   = TFFE( VCC,  _LC107,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:61' 
+-- Equation name is '_LC107', type is buried 
+_LC107   = TFFE( VCC,  _LC106,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:62' 
+-- Equation name is '_LC106', type is buried 
+_LC106   = TFFE( VCC,  _LC104,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:63' 
+-- Equation name is '_LC104', type is buried 
+_LC104   = TFFE( VCC,  _LC100,  VCC,  VCC,  VCC);
+
+-- Node name is '|clkdiv18:1|:64' 
+-- Equation name is '_LC100', type is buried 
+_LC100   = TFFE( VCC,  _LC123,  VCC,  VCC,  VCC);
+
+-- Node name is '|mem4:2|t_ff:39|d_latch:1|~3~1~2' 
+-- Equation name is '_LC031', type is buried 
+-- synthesized logic cell 
+_LC031   = LCELL( _EQ012 $  GND);
+  _EQ012 = !lclk & !_LC017 & !_LC022 & !_LC023 & !_LC027 & !_LC028 & !_LC115 & 
+              l2 & !on & !set0
+         #  _LC020 & !_LC022 & !_LC023 & !_LC027 & !_LC028 &  l2 & !on & 
+             !set0 & !up
+         # !_LC017 &  _LC020 & !_LC115 & !on & !set0 &  up
+         #  _LC020 & !on &  Re & !set0
+         #  _LC020 & !set0 &  _X002 &  _X003;
+  _X002  = EXP(!_LC017 & !_LC115);
+  _X003  = EXP(!on &  up);
+
+-- Node name is '|mem4:2|t_ff:39|d_latch:1|~3~1~3' 
+-- Equation name is '_LC125', type is buried 
+-- synthesized logic cell 
+_LC125   = LCELL( _EQ013 $  GND);
+  _EQ013 =  lclk &  _LC020
+         #  _LC031;
+
+-- Node name is '|mem4:2|t_ff:39|d_latch:1|~3~1' 
+-- Equation name is '_LC020', type is buried 
+-- synthesized logic cell 
+_LC020   = LCELL( _EQ014 $  GND);
+  _EQ014 = !lclk & !_LC022 & !_LC023 & !_LC027 & !_LC028 &  l2 & !on & !set0 & 
+             !up
+         # !lclk & !_LC017 & !_LC115 & !on & !set0 &  up
+         # !lclk & !on &  Re & !set0
+         # !lclk & !set0 &  _X002 &  _X003
+         #  _LC125;
+  _X002  = EXP(!_LC017 & !_LC115);
+  _X003  = EXP(!on &  up);
+
+-- Node name is '|mem4:2|t_ff:39|d_latch:2|~2~1' 
+-- Equation name is '_LC017', type is buried 
+-- synthesized logic cell 
+_LC017   = LCELL( _EQ015 $  VCC);
+  _EQ015 =  lclk &  _LC020
+         # !_LC017 & !_LC115;
+
+-- Node name is '|mem4:2|t_ff:39|d_latch:2|~6~1' 
+-- Equation name is '_LC115', type is buried 
+-- synthesized logic cell 
+_LC115   = LCELL( _EQ016 $  GND);
+  _EQ016 =  lclk & !_LC020;
+
+-- Node name is '|mem4:2|t_ff:40|d_latch:1|~3~1~2' 
+-- Equation name is '_LC030', type is buried 
+-- synthesized logic cell 
+_LC030   = LCELL( _EQ017 $  GND);
+  _EQ017 = !_LC022 & !_LC023 & !_LC027 & !_LC028 &  _LC032 &  l2 & !Re & 
+             !set0
+         # !_LC017 &  _LC032 & !_LC115 & !Re & !set0 & !up &  _X004
+         # !_LC022 & !_LC028 &  _LC032 & !Re & !set0 &  _X005;
+  _X004  = EXP(!_LC022 & !_LC028);
+  _X005  = EXP(!_LC017 & !_LC115 & !up);
+
+-- Node name is '|mem4:2|t_ff:40|d_latch:1|~3~1' 
+-- Equation name is '_LC032', type is buried 
+-- synthesized logic cell 
+_LC032   = LCELL( _EQ018 $  GND);
+  _EQ018 = !lclk & !_LC022 & !_LC023 & !_LC027 & !_LC028 &  l2 & !Re & !set0
+         # !lclk & !_LC017 & !_LC115 & !Re & !set0 & !up &  _X004
+         # !lclk & !_LC022 & !_LC028 & !Re & !set0 &  _X005
+         #  lclk &  _LC032
+         #  _LC030;
+  _X004  = EXP(!_LC022 & !_LC028);
+  _X005  = EXP(!_LC017 & !_LC115 & !up);
+
+-- Node name is '|mem4:2|t_ff:40|d_latch:2|~2~1' 
+-- Equation name is '_LC028', type is buried 
+-- synthesized logic cell 
+_LC028   = LCELL( _EQ019 $  VCC);
+  _EQ019 =  lclk &  _LC032
+         # !_LC022 & !_LC028;
+
+-- Node name is '|mem4:2|t_ff:40|d_latch:2|~6~1' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ020 $  GND);
+  _EQ020 =  lclk & !_LC032;
+
+-- Node name is '|mem4:2|t_ff:41|d_latch:1|~3~1~2' 
+-- Equation name is '_LC026', type is buried 
+-- synthesized logic cell 
+_LC026   = LCELL( _EQ021 $  GND);
+  _EQ021 = !lclk & !_LC017 & !_LC022 & !_LC023 & !_LC027 & !_LC028 & !_LC115 & 
+             !Re & !set0 & !up
+         # !lclk & !_LC017 & !_LC022 & !_LC028 & !_LC115 & !Re & !set0 & !up & 
+              _X006
+         # !_LC017 &  _LC018 & !_LC022 & !_LC028 & !_LC115 & !l2 & !Re & 
+             !set0 & !up
+         #  _LC018 & !_LC023 & !_LC027 &  l2 & !Re & !set0
+         #  _LC018 &  l2 & !Re & !set0 &  _X006;
+  _X006  = EXP(!_LC017 & !_LC022 & !_LC028 & !_LC115 & !up);
+
+-- Node name is '|mem4:2|t_ff:41|d_latch:1|~3~1' 
+-- Equation name is '_LC018', type is buried 
+-- synthesized logic cell 
+_LC018   = LCELL( _EQ022 $  GND);
+  _EQ022 = !lclk & !_LC017 & !_LC022 & !_LC028 & !_LC115 & !l2 & !Re & !set0 & 
+             !up
+         # !lclk & !_LC023 & !_LC027 &  l2 & !Re & !set0
+         # !lclk &  l2 & !Re & !set0 &  _X006
+         #  lclk &  _LC018
+         #  _LC026;
+  _X006  = EXP(!_LC017 & !_LC022 & !_LC028 & !_LC115 & !up);
+
+-- Node name is '|mem4:2|t_ff:42|d_latch:1|~3~1' 
+-- Equation name is '_LC029', type is buried 
+-- synthesized logic cell 
+_LC029   = LCELL( _EQ023 $  GND);
+  _EQ023 = !lclk & !_LC017 & !_LC022 & !_LC028 & !_LC115 &  l2 & !Re & !set0 & 
+             !up
+         # !lclk & !_LC023 & !_LC027 & !Re & !set0
+         #  lclk &  _LC029
+         # !_LC017 & !_LC022 & !_LC028 &  _LC029 & !_LC115 &  l2 & !Re & 
+             !set0 & !up
+         # !_LC023 & !_LC027 &  _LC029 & !Re & !set0;
+
+-- Node name is '|mem4:2|t_ff:42|d_latch:2|~2~1' 
+-- Equation name is '_LC023', type is buried 
+-- synthesized logic cell 
+_LC023   = LCELL( _EQ024 $  VCC);
+  _EQ024 =  lclk &  _LC029
+         # !_LC023 & !_LC027;
+
+-- Node name is '|mem4:2|t_ff:42|d_latch:2|~6~1' 
+-- Equation name is '_LC027', type is buried 
+-- synthesized logic cell 
+_LC027   = LCELL( _EQ025 $  GND);
+  _EQ025 =  lclk & !_LC029;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X002 occurs in LABs B, D
+
+
+
+
+Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\all\test3.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000S' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:00
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,037K

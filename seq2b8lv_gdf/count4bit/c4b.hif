@@ -26,40 +26,49 @@ FILES
 {
 	t_ff.gdf
 	{
-		t_ff [] [];
+		t_ff [] []
+		{
+			1 [] [];
+		}
 	}
 	d_latch.gdf
 	{
-		d_latch [] [];
+		d_latch [] []
+		{
+			2 [] [];
+		}
 	}
 	c4b.gdf
 	{
-		c4b [] [];
+		c4b [] []
+		{
+			0 [] [];
+		}
 	}
 }
 TREE
 {
 	c4b::(0,0):(0): c4b.gdf
 	{
-		t_ff::(0,0):(2): t_ff.gdf
+		t_ff::(0,0):(19): t_ff.gdf
 		{
-			d_latch::(0,0):(2): d_latch.gdf;
-			d_latch::(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(2): d_latch.gdf;
 		}
-		t_ff::(0,0):(3): t_ff.gdf
+		t_ff::(0,0):(18): t_ff.gdf
 		{
-			d_latch::(0,0):(2): d_latch.gdf;
-			d_latch::(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(2): d_latch.gdf;
 		}
-		t_ff::(0,0):(4): t_ff.gdf
+		t_ff::(0,0):(17): t_ff.gdf
 		{
-			d_latch::(0,0):(2): d_latch.gdf;
-			d_latch::(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(2): d_latch.gdf;
 		}
-		t_ff::(0,0):(5): t_ff.gdf
+		t_ff::(0,0):(16): t_ff.gdf
 		{
-			d_latch::(0,0):(2): d_latch.gdf;
-			d_latch::(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(1): d_latch.gdf;
+			d_latch:2:(0,0):(2): d_latch.gdf;
 		}
 	}
 }

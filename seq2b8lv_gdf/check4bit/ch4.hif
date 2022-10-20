@@ -26,9 +26,7 @@ FILES
 {
 	ch4.gdf
 	{
-		ch4 [] []
-		{
-		}
+		ch4 [] [];
 	}
 }
 TREE

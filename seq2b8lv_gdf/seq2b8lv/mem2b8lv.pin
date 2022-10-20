@@ -45,11 +45,11 @@ VCCIO                            : 13
 TDI                              : 14
 ReL                              : 15
 StL                              : 16
-L3                               : 17
-L2                               : 18
+L0                               : 17
+L1                               : 18
 GND                              : 19
-L1                               : 20
-L0                               : 21
+L2                               : 20
+L3                               : 21
 RESERVED                         : 22
 TMS                              : 23
 RESERVED                         : 24
@@ -85,7 +85,7 @@ VCCIO                            : 53
 start                            : 54
 Reset                            : 55
 set0                             : 56
-RESERVED                         : 57
+on                               : 57
 RESERVED                         : 58
 GND                              : 59
 RESERVED                         : 60

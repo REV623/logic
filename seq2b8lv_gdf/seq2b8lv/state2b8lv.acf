@@ -21,6 +21,7 @@
 --
 CHIP state2b8lv
 BEGIN
+	|clkL :	OUTPUT_PIN = 11;
 	|ReL :	OUTPUT_PIN = 15;
 	|Reset :	INPUT_PIN = 49;
 	|ds_b2 :	INPUT_PIN = 79;

@@ -2,7 +2,7 @@ Project Informationc:\users\hp bang\onedrive\desktop\logic\logic\seq2b8lv_gdf\al
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 10/17/2022 15:23:38
+Compiled: 10/20/2022 02:00:55
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -497,12 +497,12 @@ Compilation Times
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
-   Assembler                              00:00:00
+   Assembler                              00:00:01
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,510K
+Peak memory allocated during compilation  = 3,298K
